@@ -4,12 +4,15 @@ version: '3.1'
 services:
 
   db:
-    image: postgres-pif:latest
+    image: pif-db:latest
     restart: always
     environment:
       POSTGRES_PASSWORD: raspberry
 
   app:
-     image: pif:latest
+     image: pif-app:latest
      restart: always
-     
+     environment:
+      - OPENAI_API_KEY=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
+
+    

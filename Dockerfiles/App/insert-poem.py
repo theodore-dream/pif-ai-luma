@@ -1,5 +1,3 @@
-#!/bin/sh
-
 import os
 import openai
 import psycopg2
@@ -11,8 +9,7 @@ from datetime import datetime, timezone
 psycopg2.extras.register_uuid()
 dt = datetime.now(timezone.utc)
 
-
-openai.api_key = "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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def generate_completion(model, prompt, temperature, max_tokens):
     response = openai.Completion.create(
@@ -37,21 +34,25 @@ print(generated_text)
 #print("printed the response above, below is the completion")
 #print(response.choices[0].text)
 
-
-
 # Connect to your postgres DB
-conn = psycopg2.connect("dbname=poems user=postgres host=localhost port=5432 password=raspberry")
+conn = psycopg2.connect("dbname=poems user=postgres host=db port=5432 password=raspberry")
 
 def new_poem(generated_text):
     # Open a cursor to perform database operations
     cur = conn.cursor()
-    # set the current time
+
+    # Set the current time
     dt = datetime.now(timezone.utc)
-    # perfom an insert transaction
-    insert = "INSERT INTO poetry values(uuid_generate_v4(),dt,generated_text)";
-    # execute the insert on the cursor and commit it to the DB
-    cur.execute(insert);
-    conn.commit();
+
+    # Perform an insert transaction
+    poem_contents = generated_text
+    insert = "INSERT INTO poetry (poem_id, tstz, poem_contents) VALUES (uuid_generate_v4(), %s, %s)"
+    values = (dt, poem_contents)
+
+    # Execute the insert on the cursor and commit it to the DB
+    cur.execute(insert, values)
+    conn.commit()
+
 
 
 # Execute a select query
