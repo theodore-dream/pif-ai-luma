@@ -12,7 +12,6 @@ services:
   app:
      image: pif-app:latest
      restart: always
-     environment:
-      - OPENAI_API_KEY=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
-
+     env_file:
+      - ./env.list
     

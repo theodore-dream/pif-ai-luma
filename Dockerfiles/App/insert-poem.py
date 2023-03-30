@@ -54,11 +54,10 @@ def new_poem(generated_text):
     conn.commit()
 
 
-
 # Execute a select query
 #cur.execute("SELECT * FROM poem")
 
-# execute the insert using the new_poem function
+#execute the insert using the new_poem function
 print("now inserting the poem")
 new_poem(generated_text);
 print("insert successful")  
