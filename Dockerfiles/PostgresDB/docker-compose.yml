@@ -6,12 +6,33 @@ services:
   db:
     image: pif-db:latest
     restart: always
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 5s
+      retries: 10
+    ports:
+      - 5432:5432
     environment:
       POSTGRES_PASSWORD: raspberry
 
+      
   app:
      image: pif-app:latest
      restart: always
+     ports:
+       - "5000:5000"
      env_file:
-      - ./env.list
-    
+       - ./env.list
+     depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+      image: pif-web:latest
+      restart: always
+      ports:
+        - "3000:3000"
+      depends_on:
+        - app
+      env_file:
+        - ./env.list

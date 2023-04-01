@@ -1,66 +1,73 @@
 import os
 import openai
 import psycopg2
-import psycopg2.extras
-import uuid
-import datetime
-from datetime import datetime, timezone 
+from psycopg2 import Error
+from flask import Flask, request, jsonify
 
-psycopg2.extras.register_uuid()
-dt = datetime.now(timezone.utc)
-
+# Load OpenAI API key from the environment variables
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
-def generate_completion(model, prompt, temperature, max_tokens):
+def test_db_connection():
+    conn = None
+    try:
+        conn = psycopg2.connect("dbname=poems user=postgres host=db port=5432 password=raspberry")
+        print("Database connection successful!")
+    except psycopg2.Error as e:
+        print(f"Database connection failed: {e}")
+    finally:
+        if conn:
+            conn.close()
+
+# Initialize the Flask app
+app = Flask(__name__)
+
+# sets up the api endpoint for the front end to call
+@app.route("/api/submit-text", methods=["POST"])
+def generate_poem():
+    if not request.is_json:
+        return "Invalid request, data must be in JSON format.", 400
+
+    input_text = request.json.get("input_text")
+  #  if not input_text:
+  #      return "Missing input_text field", 400
+
+    # Call the OpenAI API to generate a poem based on the user input
     response = openai.Completion.create(
-        model=model,
-        prompt=prompt,
-        temperature=temperature,
-        max_tokens=max_tokens
+        engine="davinci",
+        prompt=f"Write a short poem based on the following text: {input_text}",
+        max_tokens=200,
+        n=1,
+        stop=None,
+        temperature=0.5,
     )
-    return response.choices[0].text
 
-generated_text = generate_completion(
-    model="text-davinci-003",
-    prompt="You are a highly creative poet. Make a 3 line poem",
-    temperature=0.7,
-    max_tokens=100
-)
+    # Save the poem to the database
+    try:
+        connection = psycopg2.connect(
+            dbname="poems",
+            host="db",
+            user="postgres",
+            password="raspberry",
+            port="5432",
+            connect_timeout=3,
+        )
+        cursor = connection.cursor()
+        cursor.execute(
+            "INSERT INTO poetry (poem_contents) VALUES (%s)", (response.choices[0].text,)
+        )
+        connection.commit()
+        cursor.close()
+        connection.close()
+    except (Exception, Error) as error:
+        print("Error while saving poem to PostgreSQL", error)
 
-print("The generated poem is:")
-print(generated_text)
-
-#print(response)
-#print("printed the response above, below is the completion")
-#print(response.choices[0].text)
-
-# Connect to your postgres DB
-conn = psycopg2.connect("dbname=poems user=postgres host=db port=5432 password=raspberry")
-
-def new_poem(generated_text):
-    # Open a cursor to perform database operations
-    cur = conn.cursor()
-
-    # Set the current time
-    dt = datetime.now(timezone.utc)
-
-    # Perform an insert transaction
-    poem_contents = generated_text
-    insert = "INSERT INTO poetry (poem_id, tstz, poem_contents) VALUES (uuid_generate_v4(), %s, %s)"
-    values = (dt, poem_contents)
-
-    # Execute the insert on the cursor and commit it to the DB
-    cur.execute(insert, values)
-    conn.commit()
+    # Return the generated poem in the HTTP response
+    return jsonify({"poem": response.choices[0].text})
 
 
-# Execute a select query
-#cur.execute("SELECT * FROM poem")
+print("Testing the database connection...")
+test_db_connection()
 
-#execute the insert using the new_poem function
-print("now inserting the poem")
-new_poem(generated_text);
-print("insert successful")  
-
-# close the connection
-conn.close();
+if __name__ == "__main__":
+    print("Running the app...")
+    app.run(host="app", port=5000, debug=True)

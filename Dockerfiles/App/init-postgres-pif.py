@@ -12,10 +12,13 @@ try:
                               password="raspberry",
                               port = "5432",
                               connect_timeout=3)
-    
+
     connection.autocommit = True
+
+    # Debugging information
+    print("Connected to the Postgres database successfully")
+
     # Create a new database called "Poems" if it doesn't already exist
-    #connection.autocommit = True
     cur = connection.cursor()
     cur.execute("SELECT 1 FROM pg_database WHERE datname='poems'")
     exists = cur.fetchone()
@@ -25,12 +28,12 @@ try:
     else:
         cur.execute("CREATE DATABASE poems;")
         print("Database created successfully")
-        
+
     # Close the cursor and connection to "postgres"
     cur.close()
     connection.close()
 
-   # Connect to the new "Poems" database
+    # Connect to the new "Poems" database
     connection = psycopg2.connect(dbname="poems",
                               host="db",
                               user="postgres",
@@ -38,8 +41,13 @@ try:
                               port = "5432",
                               connect_timeout=3)
 
+    connection.autocommit = True
+
+    # Debugging information
+    print("Connected to the Poems database successfully")
+
     cursor = connection.cursor()
-    # this line is to ensure UUID support is in place 
+    # this line is to ensure UUID support is in place
     cursor.execute("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";")
 
     # check if the table exists
@@ -60,11 +68,10 @@ try:
         print("Table created successfully in PostgreSQL")
 
 except OperationalError as e:
-    print("Error:", e)
+    print("Operational Error:", e)
 
 except (Exception, Error) as error:
     print("Error while connecting to PostgreSQL", error)
-
 
 finally:
     # Close the cursor and connection
@@ -72,4 +79,6 @@ finally:
         cursor.close()
     if 'connection' in locals():
         connection.close()
+
+    # Debugging information
     print("PostgreSQL connection is closed")

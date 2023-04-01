@@ -7,8 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 #install postgresql
 RUN apt update && apt install -y python3 && rm -rf /var/lib/apt/lists/*
 RUN apt update && apt install -y pip && rm -rf /var/lib/apt/lists/*
-
-EXPOSE 5432
+RUN apt update && apt install -y net-tools && rm -rf /var/lib/apt/lists/*
 
 ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=raspberry
