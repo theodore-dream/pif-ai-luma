@@ -36,3 +36,13 @@ services:
         - app
       env_file:
         - ./env.list
+
+  lyrics-api:
+      image: lyrics-api:latest
+      restart: always
+      ports:
+        - "3200:3200"
+      #depends_on:
+      #  - app
+      env_file:
+        - ./env.list
