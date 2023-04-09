@@ -15,7 +15,7 @@ services:
     environment:
       POSTGRES_PASSWORD: raspberry
 
-      
+
   app:
      image: pif-app:latest
      restart: always

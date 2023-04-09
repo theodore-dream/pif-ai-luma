@@ -7,8 +7,17 @@ from flask import Flask, request, jsonify
 # Load OpenAI API key from the environment variables
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
+# Define the creative prompt variable
+creative_prompt = (
+    "Imagine you are a poetical alchemist, weaving together the essence of the input text with the rich tapestry of emotions, imagery, and "
+    "experiences that make up the human experience. Allow the text to inspire and guide you, but do not be limited by its boundaries. Embrace "
+    "the unique rhythms and patterns that emerge as you transmute the raw material into a poetic masterpiece. Let your artistic spirit soar, "
+    "and create a poem that reflects the beauty, complexity, and depth of life's ever-changing landscape. "
+    "Using the following text as as inspiration, write a poem that is at least 10 lines long"
+)
+
 def test_db_connection():
-    conn = None
+    conn = None 
     try:
         conn = psycopg2.connect("dbname=poems user=postgres host=db port=5432 password=raspberry")
         print("Database connection successful!")
@@ -33,9 +42,9 @@ def generate_poem():
 
     # Call the OpenAI API to generate a poem based on the user input
     response = openai.Completion.create(
-        engine="davinci",
-        prompt=f"Write a short poem based on the following text: {input_text}",
-        max_tokens=200,
+        engine="text-davinci-003",
+        prompt=f"{creative_prompt}: {input_text}",
+        max_tokens=500,
         n=1,
         stop=None,
         temperature=0.5,

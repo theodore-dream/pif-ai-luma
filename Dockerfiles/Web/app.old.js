@@ -10,11 +10,6 @@ app.get('/', (req, res) => {
     <html>
       <head>
         <title>Node.js Docker Example</title>
-        <style>
-          body {
-            font-family: 'Courier New', monospace;
-          }
-        </style>
       </head>
       <body>
         <h1>Enter some text:</h1>
@@ -36,27 +31,13 @@ app.post('/submit', async (req, res) => {
       { input_text: input_text },
       { headers: { 'Content-Type': 'application/json' } }
     );
-    const formattedText = response.data.poem.replace(/\n/g, '<br>');
-    res.send(`
-      <html>
-        <head>
-          <title>Formatted Output</title>
-          <style>
-            body {
-              font-family: 'Courier New', monospace;
-            }
-          </style>
-        </head>
-        <body>
-          ${formattedText}
-        </body>
-      </html>
-    `);
+    res.send(response.data);
   } catch (error) {
     console.error(error);
     res.status(500).send('Something went wrong!');
   }
 });
+
 
 app.listen(3000, () => {
   console.log('Server running on port 3000');
