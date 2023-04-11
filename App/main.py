@@ -1,5 +1,6 @@
 from modules.logger import setup_logger
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import openai
 from modules import openai_api_service, db_service, config
 import datetime
@@ -12,6 +13,7 @@ openai.api_key = config.openai_api_key
 
 # Initialize the Flask app
 app = Flask(__name__)
+CORS(app, resources={r"/api/*": {"origins": "http://web:8080"}}) 
 
 # sets up the api endpoint for the front end to call
 @app.route("/api/submit-text", methods=["POST"])

@@ -28,10 +28,10 @@ services:
         condition: service_healthy
 
   web:
-      image: pif-remix:latest
+      image: pif-vue:latest
       restart: always
       ports:
-        - "3000:3000"
+        - "8080:8080"
       depends_on:
         - app
       env_file:
