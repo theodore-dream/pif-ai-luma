@@ -1,6 +1,10 @@
+from modules.logger import setup_logger
 from flask import Flask, request, jsonify
 import openai
 from modules import openai_api_service, db_service, config
+
+#using python built in logger to setup logging
+logger = setup_logger("app")
 
 # Load OpenAI API key
 openai.api_key = config.openai_api_key
