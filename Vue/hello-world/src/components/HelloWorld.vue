@@ -25,7 +25,7 @@ export default {
   methods: {
     async submitText() {
       try {
-        const response = await axios.post('http://app:5000/api/submit-text', { input_text: this.inputText });
+        const response = await axios.post('http://app:5000/api/submit-text', { input_text: this.inputText }, { withCredentials: true });
         this.displayText = response.data.poem;
       } catch (error) {
         console.error('Error submitting text:', error);
@@ -47,8 +47,8 @@ export default {
 
 .display-box {
   width: 300px;
-  height: 100px;
-  border: 1px solid #000;
+  height: 500px;
+  border: 3px solid #000;
   padding: 10px;
   margin-top: 20px;
 }

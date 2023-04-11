@@ -20,7 +20,7 @@ def generate_poem_prompt(input_text, creative_prompt):
     )
 
     # Extracting information
-    generated_poem = response.choices[0].message['content']
+    generated_poem = response['choices'][0]['message']['content'].strip()
     model = response.model
     role = response.choices[0].message['role']
     finish_reason = response.choices[0].finish_reason
