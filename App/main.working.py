@@ -24,11 +24,6 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Credentials', 'true')
     return response
 
-def get_creative_prompt(prompt_id):
-    prompts = config.prompts
-    prompt_dict = {p['id']: p['description'] for p in prompts}
-    return prompt_dict.get(prompt_id, prompt_dict[1])
-
 # sets up the api endpoint for the front end to call
 @app.route("/api/submit-text", methods=["POST"])
 def generate_poem():
@@ -36,11 +31,24 @@ def generate_poem():
         return "Invalid request, data must be in JSON format.", 400
 
     input_text = request.json.get("input_text")
-    prompt_id = int(request.json.get("prompt_id", 1))
 
-    creative_prompt = get_creative_prompt(prompt_id)
-    generated_poem = openai_api_service.generate_poem_prompt(input_text, creative_prompt)
+    # Get the prompt ID from the request
+    prompt_id = request.json.get("prompt_id")
+    prompt = next((p for p in config.prompts if p["id"] == prompt_id), config.prompts[0])
 
+    # Call the OpenAI API to generate a poem based on the user input and the selected prompt
+    response = openai_api_service.generate_poem_prompt(input_text, prompt["description"])
+
+    # Extracting information
+    generated_poem = response
+    #model = response.model
+    #role = response.choices[0].message['role']
+    #finish_reason = response.choices[0].finish_reason
+
+    # Save the poem to the database
+#    db_service.save_poem_to_database(generated_poem)
+
+    # Return the generated poem in the HTTP response
     return jsonify({"poem": generated_poem})
 
 #print("Testing the database connection...")
