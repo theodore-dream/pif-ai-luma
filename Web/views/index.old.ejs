@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Node.js Docker Example</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold mb-6">Enter some text:</h1>
+    <form action="/submit" method="POST" class="space-y-4">
+      <div>
+        <label for="input_text" class="block mb-1">Text:</label>
+        <input type="text" name="input_text" id="input_text" class="border border-gray-300 p-2 rounded w-full" />
+      </div>
+      <div>
+        <label for="prompt" class="block mb-1">Choose a prompt:</label>
+        <select name="prompt_id" id="prompt" class="border border-gray-300 p-2 rounded w-full">
+          <option value="1">Poetical Alchemist</option>
+          <option value="2">Talia</option>
+          <option value="3">Prompt 3</option>
+        </select>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Submit</button>
+    </form>
+    <div class="bg-white border-4 border-rose-200/75 p-5 m-8 whitespace-pre-wrap break-words" id="output"><%- poem %></div>
+  </div>
+  <script>
+    document.querySelector('form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const input_text = document.querySelector('input[name="input_text"]').value;
+      const prompt_id = document.querySelector('select[name="prompt_id"]').value;
+      try {
+        const response = await fetch('/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ input_text: input_text, prompt_id: prompt_id }),
+        });
+        const data = await response.text();
+        document.getElementById('output').textContent = data;
+      } catch (error) {
+        console.error(error);
+        document.getElementById('output').textContent = 'Something went wrong!';
+      }
+    });
+  </script>
+</body>
+</html>
