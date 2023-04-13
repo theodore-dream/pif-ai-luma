@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Node.js Docker Example</title>
+  <title>PIF PIF PIF</title>
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body class="bg-yellow-100">
@@ -12,10 +12,10 @@
       <hr class="border-black h-1 w-full mb-6">
     </div>
     <div class="w-full max-w-xs mx-auto">
-      <h1 class="text-lg text-pink-300 font-bold mb-6">Enter text. Return poetry:</h1>
+      <h1 class="text-lg text-violet-900 font-bold mb-6 text-center">Enter text. Return poetry</h1>
       <form id="submit-form" action="/submit" method="POST" class="space-y-4">
         <div>
-          <label for="input_text" class="block mb-1">Text:</label>
+          <label for="input_text" class="block mb-1 text-sm">Text:</label>
           <input type="text" name="input_text" id="input_text" class="border border-gray-300 p-2 rounded w-full" />
         </div>
         <div>
@@ -28,8 +28,8 @@
           </div>          
         </div>
       </form>
-      <div class="bg-white border-rose-300/75 p-5 m-8 whitespace-pre-wrap break-words" id="output"><%- poem %></div>
-    </div>
+      </div>
+      <div class="bg-white border-rose-600/75 border-8 w-2/5 p-6 m-6 mx-auto p-8 whitespace-pre-wrap break-words" id="output"><%- poem %></div>    
     <script>
         const promptButtons = document.querySelectorAll('.prompt-btn');
         promptButtons.forEach((button) => {
