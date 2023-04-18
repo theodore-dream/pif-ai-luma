@@ -46,3 +46,11 @@ services:
       #  - app
       env_file:
         - ./env.list
+
+  image-gen:
+       image: image-gen:latest
+       restart: always
+       ports:
+        - "3300:3300"
+       env_file:
+        - ./env.list
