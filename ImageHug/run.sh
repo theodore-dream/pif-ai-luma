@@ -4,6 +4,6 @@
 #python /app/getmodels.py
 
 
-echo "Starting create-image.py script at $(date +"%Y-%m-%d %H:%M:%S")"
-python /app/create-image.py
+echo "Starting pipeline.py script at $(date +"%Y-%m-%d %H:%M:%S")"
+python /app/pipeline.py
 echo "run.sh complete"

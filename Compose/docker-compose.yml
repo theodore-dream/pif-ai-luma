@@ -39,7 +39,7 @@ services:
 
   lyrics-api:
       image: lyrics-api:latest
-      restart: always
+      restart: no
       ports:
         - "3200:3200"
       #depends_on:
@@ -48,7 +48,7 @@ services:
         - ./env.list
 
   image-gen:
-       image: image-gen:latest
+       image: image-hug:latest
        restart: always
        ports:
         - "3300:3300"

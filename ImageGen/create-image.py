@@ -1,65 +1,36 @@
 import requests
 import os
-from huggingface_hub.inference_api import InferenceApi
 
+stable_diffusion_api_key = os.environ["stable_diffusion_api_key"]
+print("API key is " + stable_diffusion_api_key)
 
+# Define the request body with the necessary parameters
+request_body = {
+    "key": stable_diffusion_api_key,
+    "prompt": "ultra realistic close up portrait ((beautiful pale cyberpunk female with heavy black eyeliner)), blue eyes, shaved side haircut, hyper detail, cinematic lighting, magic neon, dark red city, Canon EOS R3, nikon, f/1.4, ISO 200, 1/160s, 8K, RAW, unedited, symmetrical balance, in-frame, 8K",
+    "negative_prompt": "((out of frame)), ((extra fingers)), mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), (((tiling))), ((naked)), ((tile)), ((fleshpile)), ((ugly)), (((abstract))), blurry, ((bad anatomy)), ((bad proportions)), ((extra limbs)), cloned face, (((skinny))), glitchy, ((extra breasts)), ((double torso)), ((extra arms)), ((extra hands)), ((mangled fingers)), ((missing breasts)), (missing lips), ((ugly face)), ((fat)), ((extra legs)), anime",
+    "model_id": "midjourney",  # Replace with a valid model ID
+    "samples": 1,
+    "negative_prompt": "",
+    "width": 512,
+    "height": 512,
+    "prompt_strength": 1.0,
+    "num_inference_steps": 20,
+    "guidance_scale": 7.5,
+    "safety_checker": "no",
+    "enhance_prompt": "yes",
+    "upscale": "no",
+    "webhook": None,
+    "seed": None,
+    "track_id": None
+}
 
-#setup the hugging face api token 
-api_token = os.environ["hugging_face_api_key"]
-print("API key is " + api_token)
+# Send a POST request to the 'text2img' API endpoint. Alt: dreambooth
+url_dreambooth = 'https://stablediffusionapi.com/api/v3/text2img'
+headers = {"Content-Type": "application/json"}
+response_dreambooth = requests.post(url_dreambooth, headers=headers, json=request_body)
 
-import requests
-
-def query(payload, model_id, api_token):
-    headers = {"Authorization": f"Bearer {api_token}"}
-    API_URL = f"https://api-inference.huggingface.co/models/{model_id}"
-    response = requests.post(API_URL, headers=headers, json=payload)
-    return response.json()
-
-def main():
-    # Set the model ID to the one you want to use
-    model_id = "PublicPrompts/All-In-One-Pixel-Model"
-
-    # Define your prompt
-    prompt = "Create a pixel art of a cat"
-
-    # Construct the payload
-    payload = {
-        "inputs": {
-            "prompt": prompt,
-            "max_tokens": 50
-        }
-    }
-
-    # Call the query function
-    response = query(payload, model_id, api_token)
-
-    # Print the result
-    print(response)
-
-if __name__ == "__main__":
-    main()
-
-from huggingface_hub.inference_api import InferenceApi
-
-def main():
-    # Replace YOUR_API_TOKEN with your actual Hugging Face API token
-    api_token = "YOUR_API_TOKEN"
-
-    # Set the model ID to the one you want to use
-    model_id = "PublicPrompts/All-In-One-Pixel-Model"
-
-    # Define your prompt
-    prompt = "Create a pixel art of a cat"
-
-    # Create an instance of the InferenceApi
-    inference = InferenceApi(repo_id=model_id, token=api_token)
-
-    # Call the InferenceApi with your inputs
-    response = inference(inputs=prompt)
-
-    # Print the result
-    print(response)
-
-if __name__ == "__main__":
-    main()
+# Print the response from the 'dreambooth' endpoint
+print("Response from 'dreambooth' endpoint:")
+print(response_dreambooth.text)
+print("Script complete")
