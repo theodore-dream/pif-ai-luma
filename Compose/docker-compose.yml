@@ -37,20 +37,20 @@ services:
       env_file:
         - ./env.list
 
-  lyrics-api:
-      image: lyrics-api:latest
-      restart: no
-      ports:
-        - "3200:3200"
-      #depends_on:
-      #  - app
-      env_file:
-        - ./env.list
+  #lyrics-api:
+  #    image: lyrics-api:latest
+  #    restart: no
+  #    ports:
+  #      - "3200:3200"
+  #    #depends_on:
+  #    #  - app
+  #    env_file:
+  #     - ./env.list
 
-  image-gen:
-       image: image-hug:latest
-       restart: always
-       ports:
-        - "3300:3300"
-       env_file:
-        - ./env.list
+  #image-gen:
+  #     image: image-hug:latest
+  #     restart: always
+  #     ports:
+  #      - "3300:3300"
+  #     env_file:
+  #      - ./env.list
