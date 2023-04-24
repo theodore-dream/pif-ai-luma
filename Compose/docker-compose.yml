@@ -9,7 +9,7 @@ services:
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "postgres"]
       interval: 2s
-      retries: 10
+      retries: 3
     ports:
       - 5432:5432
     environment:
@@ -17,7 +17,7 @@ services:
 
 
   app:
-     image: pif-app:latest
+     image: pif-app-game:latest
      restart: always
      ports:
        - "5000:5000"
@@ -28,7 +28,7 @@ services:
         condition: service_healthy
 
   web:
-      image: pif-web:latest
+      image: pif-web-game:latest
       restart: always
       ports:
         - "3000:3000"

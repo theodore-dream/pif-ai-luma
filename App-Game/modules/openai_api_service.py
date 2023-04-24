@@ -6,11 +6,11 @@ from modules.logger import setup_logger
 logger = setup_logger("openai_api_service")
 
 
-def generate_poem_prompt(input_text, creative_prompt):
+def openai_api_call(input_text, creative_prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that generates poems."},
+            {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": f"{creative_prompt}: {input_text}"}
         ],
         max_tokens=500,

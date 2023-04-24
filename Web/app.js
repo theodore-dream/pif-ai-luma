@@ -28,7 +28,7 @@ app.post('/submit', async (req, res) => {
       { headers: { 'Content-Type': 'application/json' } }
     );
     console.log('Received response from Flask API');
-    res.send(response.data.poem);
+    res.send(response.data.api_response);
   } catch (error) {
     console.error('Error occurred while sending request to Flask API:', error);
     res.status(500).send('Something went wrong.');

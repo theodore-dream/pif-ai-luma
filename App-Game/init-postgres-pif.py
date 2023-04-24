@@ -1,9 +1,9 @@
 import psycopg2
 from uuid import uuid4
 import time
-
 from psycopg2 import Error
 from psycopg2 import OperationalError
+
 
 try:
     connection = psycopg2.connect(dbname="postgres",
@@ -58,12 +58,14 @@ try:
         print("game already exists in PostgreSQL")
     else:
         # SQL query to create a new table
-        create_table_query = '''CREATE TABLE game (poem_id uuid DEFAULT uuid_generate_v4 (),
+        create_table_query = '''CREATE TABLE game (session_id uuid DEFAULT uuid_generate_v4 (),
                               tstz timestamp DEFAULT current_timestamp,
                               prompt VARCHAR,
                               gametext VARCHAR,
-                              player-optiona VARCHAR,
-                              player-optionb VARCHAR,
+                              player_optiona VARCHAR,
+                              player_optionb VARCHAR,
+                              danger NUMERIC(3, 0),
+                              level NUMERIC(3, 0),
                               PRIMARY KEY (session_id));'''
         # Execute a command: this creates a new table
         cursor.execute(create_table_query)
