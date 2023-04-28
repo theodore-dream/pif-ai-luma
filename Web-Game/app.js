@@ -19,12 +19,13 @@ app.get('/', async (req, res) => {
       { choice: 'Start' },
       { headers: { 'Content-Type': 'application/json' } }
     );
-    res.render('index', { game_text: response.data.game_text });
+    res.render('index', { gametext: response.data.gametext, session_id: response.data.session_id });
   } catch (error) {
     console.error('Error occurred while sending request to Flask API:', error);
     res.status(500).send('Something went wrong.');
   }
 });
+
 
 app.post('/api/game', async (req, res) => {
   console.log('Received request to /api/game');

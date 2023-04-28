@@ -1,18 +1,10 @@
 import psycopg2
 from psycopg2 import Error
+from modules.logger import setup_logger
 
-def test_db_connection():
-    conn = None
-    try:
-        conn = psycopg2.connect("dbname=game user=postgres host=db port=5432 password=raspberry")
-        print("Database connection successful!")
-    except psycopg2.Error as e:
-        print(f"Database connection failed: {e}")
-    finally:
-        if conn:
-            conn.close()
+logger = setup_logger("db_service")
 
-def write_to_database(session_id, level, danger, column, value):
+def write_to_database(session_id, level, danger):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -23,16 +15,18 @@ def write_to_database(session_id, level, danger, column, value):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        cursor.execute(
-            f"UPDATE game SET {column} = %s WHERE session_id = %s", (value, session_id)
-        )
+        query = f"INSERT INTO game (session_id, level, danger) VALUES (%s, %s, %s)"
+        logger.debug(f"Executing insert: {query} on session: {session_id}")
+        cursor.execute(query, (session_id, level, danger))
         connection.commit()
+        logger.debug("Query executed successfully")
         cursor.close()
         connection.close()
     except (Exception, Error) as error:
-        print("Error while updating column in PostgreSQL", error)
+        logger.error("Error while updating column in PostgreSQL", error)
 
-def read_from_database(session_id, level, danger, column):
+
+def read_from_database(session_id):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -43,16 +37,19 @@ def read_from_database(session_id, level, danger, column):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        cursor.execute(
-            f"SELECT {column} FROM game WHERE session_id = %s", (session_id,)
-        )
+        query = f"SELECT session_id, level, danger FROM game WHERE session_id = %s"
+        logger.debug(f"Executing query: {query} on session: {session_id}")
+        cursor.execute(query, (session_id,))
         result = cursor.fetchone()
+        logger.debug(f"Query executed successfully, result: {result}")
         cursor.close()
         connection.close()
-        return result
+
+        return result[0], result[1], result[2]
     except (Exception, Error) as error:
-        print("Error while reading column from PostgreSQL", error)
+        logger.error("Error while reading column from PostgreSQL", error)
         return None
+
 
 # Example usage:
 # write_to_database(session_id, 'prompt', 'your_prompt_here')

@@ -62,8 +62,6 @@ try:
                               tstz timestamp DEFAULT current_timestamp,
                               prompt VARCHAR,
                               gametext VARCHAR,
-                              player_optiona VARCHAR,
-                              player_optionb VARCHAR,
                               danger NUMERIC(3, 0),
                               level NUMERIC(3, 0),
                               PRIMARY KEY (session_id));'''
