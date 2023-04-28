@@ -31,7 +31,7 @@ def after_request(response):
 
 def level1_handle_level():
     logger.debug("starting Level 1")
-    opening_text = "Welcome to the text-based adventure game! Would you like to start?\n"
+    opening_text = " Welcome to the text-based adventure game! Would you like to start?\n"
     creative_prompt = "Welcome the player to the game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt)
     gametext = api_response + opening_text
@@ -60,14 +60,16 @@ def handle_option_a(danger):
     # Decrease danger by 2, not going below 0
     danger = max(0, danger - 2)
     # Return a result (e.g., a string containing game text)
-    return f"Option A chosen. Danger decreased by 2. Current danger level: {danger}"
+    return danger
+    #return f"Option A chosen. Danger decreased by 2. Current danger level: {danger}"
 
 def handle_option_b(danger):
     # Implement game logic for Option B
     # Increase danger by 2, not going above 10
     danger = min(10, danger + 2)
     # Return a result (e.g., a string containing game text)
-    return f"Option B chosen. Danger increased by 2. Current danger level: {danger}"
+    return danger
+    #return f"Option B chosen. Danger increased by 2. Current danger level: {danger}"
 
 # sets up the api endpoint for the front end to call
 # Add this new route to handle the game start and user choices
@@ -88,17 +90,18 @@ def handle_game():
     # this section is for initial game setup, or in active game, collect the game state
     
     # Read the game state data from the database
-    if session_id is not None:
+    if session_id != "":
         session_id, level, danger = db_service.read_from_database(session_id)
-        logger.debug(f"checking session ID... is there a game state existing?: {session_id}")
+        logger.debug(f"checking session ID... found existing session: {session_id}")
 
-    if session_id is None:
+    if session_id is "":
         session_id = str(uuid.uuid4())
 
     # If level and danger are not None, it means a game session was found in the database
     if level is not None and danger is not None:
         logger.debug(f"identified existing session_id: {session_id}")
 
+    # If level is None, it means a game session was not found, lets create one and save it
     if level is None:
         level = 1
         danger = random.randint(1, 10)
@@ -107,20 +110,22 @@ def handle_game():
     logger.debug(f"Session after checking game_state: {session_id}")
     logger.debug(f"game_state: level, danger: {level, danger}")
     
-    if choice is None:
-        # this is a do nothing option, just wait for the user to make a choice A or B" 
-        sleep(1)
-        print("waiting for user to make a choice...")
-        logger.info("logger reporting, waiting for user to make a choice...")
+    #if choice is None:
+    #    # this is a do nothing option, just wait for the user to make a choice A or B" 
+    #    sleep(1)
+    #    print("waiting for user to make a choice...")
+    #    logger.info("logger reporting, waiting for user to make a choice...")
 
     # Run the function corresponding to the current level
     if level == 1:
         gametext = level1_handle_level()
+        logger.debug(f"now running level 1...")
         
     elif level == 2:
         gametext = level2_handle_level(level, danger)
+        logger.debug(f"now running level 2...")
 
-    elif choice == "Option A":
+    if choice == "Option A":
         handle_option_a(danger)
         level += 1
     
@@ -128,11 +133,13 @@ def handle_game():
         handle_option_a(danger)
         level += 1
 
-        # Save the updated game state to the database
-        db_service.write_to_database(session_id, level, danger)
+    # Save the updated game state to the database
+    db_service.save_game(session_id, level, danger)
+    logger.debug(f"saving updated game state, state is currently session, level, danger: {session_id, level, danger}")
 
     # Return the updated game text data to the frontend to display it
     return jsonify({"gametext": gametext, "session_id": session_id})
+    logger.debug("sent to frontend")
         
     #else:
     #    # This should not happen unless a condition occurs to end the game 

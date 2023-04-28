@@ -4,6 +4,13 @@ const axios = require('axios');
 const ejs = require('ejs');
 const path = require('path');
 
+const util = require('util');
+console.log = function () {
+  process.stdout.write(`${new Date().toISOString()} - `);
+  process.stdout.write(util.format.apply(null, arguments) + '\n');
+};
+
+
 const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -14,9 +21,11 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', async (req, res) => {
   try {
+    const choice = 'start'; 
+    const session_id = ''; 
     const response = await axios.post(
       'http://app:5000/api/game',
-      { choice: 'Start' },
+      { choice: choice, session_id: session_id },
       { headers: { 'Content-Type': 'application/json' } }
     );
     res.render('index', { gametext: response.data.gametext, session_id: response.data.session_id });
@@ -30,12 +39,12 @@ app.get('/', async (req, res) => {
 app.post('/api/game', async (req, res) => {
   console.log('Received request to /api/game');
   console.log(req.body);
-  const { choice } = req.body;
+  const { choice, session_id } = req.body; // Add session_id here
   try {
     console.log('Sending request to Flask API');
     const response = await axios.post(
       'http://app:5000/api/game',
-      { choice: choice },
+      { choice: choice, session_id: session_id }, // Update this line
       { headers: { 'Content-Type': 'application/json' } }
     );
     console.log('Received response from Flask API');
@@ -45,6 +54,7 @@ app.post('/api/game', async (req, res) => {
     res.status(500).send('Something went wrong.');
   }
 });
+
 
 const server = http.createServer(app);
 const port = process.env.PORT || 3000;

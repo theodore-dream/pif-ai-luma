@@ -25,6 +25,26 @@ def write_to_database(session_id, level, danger):
     except (Exception, Error) as error:
         logger.error("Error while updating column in PostgreSQL", error)
 
+def save_game(session_id, level, danger):
+    try:
+        connection = psycopg2.connect(
+            dbname="game",
+            host="db",
+            user="postgres",
+            password="raspberry",
+            port="5432",
+            connect_timeout=3,
+        )
+        cursor = connection.cursor()
+        query = "UPDATE game SET level = %s, danger = %s WHERE session_id = %s"
+        logger.debug(f"Executing update: {query} on session: {session_id}")
+        cursor.execute(query, (level, danger, session_id))
+        connection.commit()
+        logger.debug("Query executed successfully")
+        cursor.close()
+        connection.close()
+    except (Exception, Error) as error:
+        logger.error("Error while updating column in PostgreSQL", error)
 
 def read_from_database(session_id):
     try:
