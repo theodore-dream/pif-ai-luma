@@ -29,47 +29,48 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Credentials', 'true')
     return response
 
-def level1_handle_level():
-    logger.debug("starting Level 1")
-    opening_text = " Welcome to the text-based adventure game! Would you like to start?\n"
-    creative_prompt = "Welcome the player to the game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
-    api_response = openai_api_service.openai_api_call("", creative_prompt)
+def poetry_game_intro(entropy):
+    logger.debug("starting introduction")
+    opening_text = " Welcome to the poetry game! Would you like to start?\n"
+    creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
+    api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     gametext = api_response + opening_text
     return gametext
 
-def level2_handle_level(level, danger):
-    logger.debug("starting Level 2")
+def poetry_gen_apollo(level, entropy):
+    logger.debug("starting peom generation")
     # should already have current game state from python because we just read it from the database
-    # check current danger level
-    if danger > 0:
-        creative_prompt = "Describe a swarm of tiny creatures approaching, like a colony of ants or a flock of birds."
-    if danger > 3:
-        creative_prompt = "Describe a group of small creatures approaching, like a pack of wolves or a school of piranhas."
-    if danger > 5:
-        creative_prompt = "Describe a herd of large creatures approaching, like a stampede of elephants or a pod of whales."
-    if danger > 8:
-        creative_prompt = "Describe a massive creature approaching, like a giant dragon or a towering Godzilla-like monster."
+    # check current entropy level
+    if entropy > 0:
+        creative_prompt = "make a poem."
+    if entropy > .3:
+        creative_prompt = "make an interesting poem"
+    if entropy > .5:
+        creative_prompt = "make a strange poem."
+    if entropy > .7:
+        creative_prompt = "make a really really weird and random poem."
 
-    api_response = openai_api_service.openai_api_call("", creative_prompt)
-    level_text = "You are a guard stationed in a remote outpost. You see a " + api_response + "rapidly approaching. They're headed to the city. You need to arrive to the castle and warn the king. What do you do?"
+    logger.debug(f"runing poetry_gen_apollo, current entropy is: {entropy}")
+    api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
+    level_text = "Your poem is " + api_response + "--end poem--"
     gametext = level_text
     return gametext
 
-def handle_option_a(danger):
+def handle_option_a(entropy):
     # Implement game logic for Option A
-    # Decrease danger by 2, not going below 0
-    danger = max(0, danger - 2)
+    # Decrease entropy by .1, not going below 0
+    entropy = max(0, entropy - .1)
     # Return a result (e.g., a string containing game text)
-    return danger
-    #return f"Option A chosen. Danger decreased by 2. Current danger level: {danger}"
+    return entropy
+    #return f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}"
 
-def handle_option_b(danger):
+def handle_option_b(entropy):
     # Implement game logic for Option B
-    # Increase danger by 2, not going above 10
-    danger = min(10, danger + 2)
+    # Increase entropy by 1, not going above 1
+    entropy = min(1, entropy + .1)
     # Return a result (e.g., a string containing game text)
-    return danger
-    #return f"Option B chosen. Danger increased by 2. Current danger level: {danger}"
+    return entropy
+    #return f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}"
 
 # sets up the api endpoint for the front end to call
 # Add this new route to handle the game start and user choices
@@ -83,32 +84,32 @@ def handle_game():
     choice = request.json.get("choice")
     session_id = request.json.get("session_id")
 
-    # Initialize level and danger variables
+    # Initialize level and entropy variables
     level = None
-    danger = None
+    entropy = None
 
     # this section is for initial game setup, or in active game, collect the game state
     
     # Read the game state data from the database
     if session_id != "":
-        session_id, level, danger = db_service.read_from_database(session_id)
+        session_id, level, entropy = db_service.read_from_database(session_id)
         logger.debug(f"checking session ID... found existing session: {session_id}")
 
     if session_id is "":
         session_id = str(uuid.uuid4())
 
-    # If level and danger are not None, it means a game session was found in the database
-    if level is not None and danger is not None:
+    # If level and entropy are not None, it means a game session was found in the database
+    if level is not None and entropy is not None:
         logger.debug(f"identified existing session_id: {session_id}")
 
     # If level is None, it means a game session was not found, lets create one and save it
     if level is None:
         level = 1
-        danger = random.randint(1, 10)
-        db_service.write_to_database(session_id, level, danger)
+        entropy = random.uniform(.1, .9)
+        db_service.write_to_database(session_id, level, entropy)
 
     logger.debug(f"Session after checking game_state: {session_id}")
-    logger.debug(f"game_state: level, danger: {level, danger}")
+    logger.debug(f"game_state: level, entropy: {level, entropy}")
     
     #if choice is None:
     #    # this is a do nothing option, just wait for the user to make a choice A or B" 
@@ -118,24 +119,24 @@ def handle_game():
 
     # Run the function corresponding to the current level
     if level == 1:
-        gametext = level1_handle_level()
-        logger.debug(f"now running level 1...")
+        gametext = poetry_game_intro(entropy)
+        logger.debug(f"poetry game intro starting now...")
         
-    elif level == 2:
-        gametext = level2_handle_level(level, danger)
+    elif level >= 2:
+        gametext = poetry_gen_apollo(level, entropy)
         logger.debug(f"now running level 2...")
 
     if choice == "Option A":
-        handle_option_a(danger)
+        handle_option_a(entropy)
         level += 1
     
     elif choice == "Option B":
-        handle_option_a(danger)
+        handle_option_a(entropy)
         level += 1
 
     # Save the updated game state to the database
-    db_service.save_game(session_id, level, danger)
-    logger.debug(f"saving updated game state, state is currently session, level, danger: {session_id, level, danger}")
+    db_service.save_game(session_id, level, entropy)
+    logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to the frontend to display it
     return jsonify({"gametext": gametext, "session_id": session_id})

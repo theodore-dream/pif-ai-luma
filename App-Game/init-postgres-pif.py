@@ -62,7 +62,7 @@ try:
                               tstz timestamp DEFAULT current_timestamp,
                               prompt VARCHAR,
                               gametext VARCHAR,
-                              danger NUMERIC(3, 0),
+                              entropy DECIMAL(2, 1),
                               level NUMERIC(3, 0),
                               PRIMARY KEY (session_id));'''
         # Execute a command: this creates a new table

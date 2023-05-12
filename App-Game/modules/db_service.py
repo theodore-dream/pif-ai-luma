@@ -4,7 +4,7 @@ from modules.logger import setup_logger
 
 logger = setup_logger("db_service")
 
-def write_to_database(session_id, level, danger):
+def write_to_database(session_id, level, entropy):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -15,9 +15,9 @@ def write_to_database(session_id, level, danger):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"INSERT INTO game (session_id, level, danger) VALUES (%s, %s, %s)"
+        query = f"INSERT INTO game (session_id, level, entropy) VALUES (%s, %s, %s)"
         logger.debug(f"Executing insert: {query} on session: {session_id}")
-        cursor.execute(query, (session_id, level, danger))
+        cursor.execute(query, (session_id, level, entropy))
         connection.commit()
         logger.debug("Query executed successfully")
         cursor.close()
@@ -25,7 +25,7 @@ def write_to_database(session_id, level, danger):
     except (Exception, Error) as error:
         logger.error("Error while updating column in PostgreSQL", error)
 
-def save_game(session_id, level, danger):
+def save_game(session_id, level, entropy):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -36,9 +36,9 @@ def save_game(session_id, level, danger):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = "UPDATE game SET level = %s, danger = %s WHERE session_id = %s"
+        query = "UPDATE game SET level = %s, entropy = %s WHERE session_id = %s"
         logger.debug(f"Executing update: {query} on session: {session_id}")
-        cursor.execute(query, (level, danger, session_id))
+        cursor.execute(query, (level, entropy, session_id))
         connection.commit()
         logger.debug("Query executed successfully")
         cursor.close()
@@ -57,7 +57,7 @@ def read_from_database(session_id):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"SELECT session_id, level, danger FROM game WHERE session_id = %s"
+        query = f"SELECT session_id, level, entropy FROM game WHERE session_id = %s"
         logger.debug(f"Executing query: {query} on session: {session_id}")
         cursor.execute(query, (session_id,))
         result = cursor.fetchone()
@@ -75,9 +75,9 @@ def read_from_database(session_id):
 # write_to_database(session_id, 'prompt', 'your_prompt_here')
 # write_to_database(session_id, 'player-optiona', 'option_a_here')
 # write_to_database(session_id, 'player-optionb', 'option_b_here')
-# write_to_database(session_id, 'danger', 42.0)
+# write_to_database(session_id, 'entropy', 42.0)
 #
 # prompt = read_from_database(session_id, 'prompt')
 # player_optiona = read_from_database(session_id, 'player-optiona')
 # player_optionb = read_from_database(session_id, 'player-optionb')
-# danger = read_from_database(session_id, 'danger')
+# entropy = read_from_database(session_id, 'entropy')

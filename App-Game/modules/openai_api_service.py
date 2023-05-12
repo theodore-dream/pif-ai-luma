@@ -6,17 +6,17 @@ from modules.logger import setup_logger
 logger = setup_logger("openai_api_service")
 
 
-def openai_api_call(input_text, creative_prompt):
+def openai_api_call(input_text, creative_prompt, entropy):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are a poet."},
             {"role": "user", "content": f"{creative_prompt}: {input_text}"}
         ],
         max_tokens=500,
         n=1,
         stop=None,
-        temperature=0.5,
+        temperature=float(entropy),
     )
 
     # Extracting information
