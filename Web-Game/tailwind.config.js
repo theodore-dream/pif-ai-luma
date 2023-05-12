@@ -5,7 +5,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Courier New"', 'Courier', 'monospace'],
+    },
   },
   plugins: [],
+}
 }
