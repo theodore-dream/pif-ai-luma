@@ -5,6 +5,7 @@ import openai
 from modules import openai_api_service, db_service, config
 import datetime
 import random
+from decimal import Decimal
 from time import sleep
 import uuid
 
@@ -56,18 +57,20 @@ def poetry_gen_apollo(level, entropy):
     gametext = level_text
     return gametext
 
+from decimal import Decimal
+
 def handle_option_a(entropy):
     # Implement game logic for Option A
     # Decrease entropy by .1, not going below 0
-    entropy = max(0, entropy - .1)
+    entropy = max(Decimal('0.0'), entropy - Decimal('0.1'))
     # Return a result (e.g., a string containing game text)
     return entropy
     #return f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}"
 
 def handle_option_b(entropy):
     # Implement game logic for Option B
-    # Increase entropy by 1, not going above 1
-    entropy = min(1, entropy + .1)
+    # Increase entropy by .1, not going above 1
+    entropy = min(Decimal('1.0'), entropy + Decimal('0.1'))
     # Return a result (e.g., a string containing game text)
     return entropy
     #return f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}"
@@ -127,11 +130,11 @@ def handle_game():
         logger.debug(f"now running level 2...")
 
     if choice == "Option A":
-        handle_option_a(entropy)
+        entropy = handle_option_a(entropy)
         level += 1
     
     elif choice == "Option B":
-        handle_option_a(entropy)
+        entropy = handle_option_a(entropy)
         level += 1
 
     # Save the updated game state to the database
