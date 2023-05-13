@@ -65,7 +65,7 @@ def handle_option_a(entropy):
     entropy = max(Decimal('0.0'), entropy - Decimal('0.1'))
     # Return a result (e.g., a string containing game text)
     return entropy
-    #return f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}"
+    
 
 def handle_option_b(entropy):
     # Implement game logic for Option B
@@ -73,7 +73,7 @@ def handle_option_b(entropy):
     entropy = min(Decimal('1.0'), entropy + Decimal('0.1'))
     # Return a result (e.g., a string containing game text)
     return entropy
-    #return f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}"
+    
 
 # sets up the api endpoint for the front end to call
 # Add this new route to handle the game start and user choices
@@ -132,10 +132,12 @@ def handle_game():
     if choice == "Option A":
         entropy = handle_option_a(entropy)
         level += 1
+        logger.debug(f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}")
     
     elif choice == "Option B":
-        entropy = handle_option_a(entropy)
+        entropy = handle_option_b(entropy)
         level += 1
+        logger.debug(f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}")
 
     # Save the updated game state to the database
     db_service.save_game(session_id, level, entropy)
