@@ -4,7 +4,7 @@ version: '3.1'
 services:
 
   db:
-    image: pif-db:latest
+    image: pif-db-poem:latest
     restart: always
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "postgres"]
@@ -17,18 +17,18 @@ services:
 
 
   app:
-     image: pif-app-game:latest
+     image: pif-app-poem:latest
      restart: always
      ports:
        - "5000:5000"
      env_file:
        - ./env.list
-     depends_on:
-      db:
-        condition: service_healthy
+ #    depends_on:
+ #     db:
+ #       condition: service_healthy
 
   web:
-      image: pif-web-game:latest
+      image: pif-web-poem:latest
       restart: always
       ports:
         - "3000:3000"
