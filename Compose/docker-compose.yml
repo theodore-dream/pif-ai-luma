@@ -2,7 +2,6 @@
 version: '3.1'
 
 services:
-
   db:
     image: pif-db-poem:latest
     restart: always
@@ -14,8 +13,6 @@ services:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: raspberry
-
-
   app:
      image: pif-app-poem:latest
      restart: always
@@ -26,17 +23,17 @@ services:
  #    depends_on:
  #     db:
  #       condition: service_healthy
-
-  web:
-      image: pif-web-poem:latest
-      restart: always
-      ports:
-        - "3000:3000"
-      depends_on:
-        - app
-      env_file:
-        - ./env.list
-
+ #
+ # web:
+ #     image: pif-web-poem:latest
+ #     restart: always
+ #     ports:
+ #       - "3000:3000"
+ #     depends_on:
+ #       - app
+ #     env_file:
+ #       - ./env.list
+ #
   #lyrics-api:
   #    image: lyrics-api:latest
   #    restart: no
@@ -46,7 +43,7 @@ services:
   #    #  - app
   #    env_file:
   #     - ./env.list
-
+  #
   #image-gen:
   #     image: image-hug:latest
   #     restart: always

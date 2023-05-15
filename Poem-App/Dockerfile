@@ -1,9 +1,9 @@
 FROM python:latest
 
 ## helps avoid apt errors 
-#ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt update && apt install -y pip && rm -rf /var/lib/apt/lists/*
+RUN apt update --allow-unauthenticated && apt install --allow-unauthenticated -y pip && rm -rf /var/lib/apt/lists/*
 RUN apt update && apt install -y libpq-dev && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /app/requirements.txt 

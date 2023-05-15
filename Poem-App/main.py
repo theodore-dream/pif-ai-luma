@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, config
+from modules import openai_api_service, db_service, config, luma_write
 import datetime
 import random
 from decimal import Decimal
@@ -76,15 +76,8 @@ def handle_option_b(entropy):
     
 
 # no flask endpoint, simply a function that writes to the oled using luma
-@app.route("/api/game", methods=["POST"])
 def handle_game():
     logger.debug("starting game session....")
-    if not request.is_json:
-        return "Invalid request, data must be in JSON format.", 400
-
-    # pass the choice and active session_id from frontend to backend 
-    choice = request.json.get("choice")
-    session_id = request.json.get("session_id")
 
     # Initialize level and entropy variables
     level = None
@@ -142,9 +135,10 @@ def handle_game():
     db_service.save_game(session_id, level, entropy)
     logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
-    # Return the updated game text data to the frontend to display it
-    return jsonify({"gametext": gametext, "session_id": session_id})
-    logger.debug("sent to frontend")
+    # Return the updated game text data to luma to display on the screen
+    luma_write(gametext)
+  
+    logger.debug("sent to luma")
         
     #else:
     #    # This should not happen unless a condition occurs to end the game 

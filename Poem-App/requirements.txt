@@ -2,3 +2,6 @@ psycopg2-binary
 flask
 flask-cors
 openai
+luma.core
+luma.oled 
+luma.lcd

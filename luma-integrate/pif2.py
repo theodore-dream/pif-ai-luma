@@ -10,8 +10,6 @@ from luma.core.virtual import viewport
 
 from PIL import ImageFont, ImageDraw
 
-
-
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info  
 
 # importing a text file (raw poem) and then splitting into a line with 3 words each line:
