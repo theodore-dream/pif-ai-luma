@@ -1,3 +1,0 @@
-name: All-In-One Pixel Model
-model_path: /app/Public-Prompts-Pixel-Model.ckpt
-tokenizer_path: /app/tokenizer_config.json
