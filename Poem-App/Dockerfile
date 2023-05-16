@@ -1,4 +1,4 @@
-FROM python:latest
+FROM  --platform=linux/arm/v6 python:latest
 
 ## helps avoid apt errors 
 ENV DEBIAN_FRONTEND=noninteractive

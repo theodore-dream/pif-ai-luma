@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:latest
+FROM --platform=linux/arm/v6 python:latest
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive

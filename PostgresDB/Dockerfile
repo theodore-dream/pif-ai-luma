@@ -1,5 +1,4 @@
-FROM postgres:latest
-
+FROM --platform=linux/arm/v6 postgres:latest
 
 ## helps avoid apt errors 
 ENV DEBIAN_FRONTEND=noninteractive
