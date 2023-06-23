@@ -1,4 +1,3 @@
-import openai
 import datetime
 import random
 from decimal import Decimal
@@ -6,21 +5,25 @@ from time import sleep
 import uuid
 import tiktoken
 
-import openai
 import logging
 import datetime
+import os
+import openai
+
+logging.basicConfig(level=logging.INFO)
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def openai_api_call(creative_prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-{"role": "system", "content": "brief words"},
+            {"role": "user", "content": creative_prompt},
+            #{"role": "system", "content": "a dull story of a burlseque dancer"},
 #{"role": "user", "content": "Create dull disjointed fragments of a story that has elements of symmetry and repitition."},
 #{"role": "system", "content": "As you generate the poem, create a mix of prose and poetry. Use single sentences alone and paragraphs."},
-{"role": "user", "content": "short lines"},
-{"role": "user", "content": "big feels"},
-{"role": "user", "content": "blue bottle"},
-{"role": "user", "content": "I see"},
+            #{"role": "user", "content": "short lines"},
+            #{"role": "user", "content": "big feels"},
+            #{"role": "user", "content": "I see"},
 
 
 #{"role": "user", "content": "metaphorical expressions can't explain."},
@@ -45,26 +48,32 @@ def openai_api_call(creative_prompt):
     # Get current timestamp
     current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # Logging details
-    print("Generated Text:")
-    print(api_response)
-    print("\nDetails:")
-    print(f"Model: {model}")
-    print(f"Role: {role}")
-    print(f"Finish Reason: {finish_reason}")
-    print(f"Timestamp: {current_timestamp}")
-
     return api_response
 
 def promptgen():
-    creative_prompt = "Respond\n\n Do you know \n\n"
+    creative_prompt = "tiny paces"
     return creative_prompt
 
 def poetry_gen_rosemary(creative_prompt):
     print("log: starting peom generation")
-    print(f"runing poetry_gen_rosemary with prompt: {creative_prompt}")
+    print(f"running poetry_gen_rosemary with prompt: {creative_prompt}")
     api_response = openai_api_call(creative_prompt)
     return api_response
+
+def apitest():
+    promptgen()
+    api_response = poetry_gen_rosemary(promptgen())
+    if api_response['role'] == "assistant":  # only considering assistant's messages
+        api_response_content = api_response['content'].strip()
+    else:
+        api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
+    print("-" * 30)
+#    print(f"api_response: {api_response}")
+    print("-" * 30)
+    num_tokens = num_tokens_from_messages([api_response])
+    print(f"Number of tokens: {num_tokens}")
+    print("-" * 30)
+    print(api_response_content)
 
 def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
   """Returns the number of tokens used by a list of messages."""
@@ -85,21 +94,6 @@ def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
   else:
       raise NotImplementedError(f"""num_tokens_from_messages() is not presently implemented for model {model}.
   See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.""")
-
-def apitest():
-    promptgen()
-    api_response = poetry_gen_rosemary(promptgen)
-    if api_response['role'] == "assistant":  # only considering assistant's messages
-        api_response_content = api_response['content'].strip()
-    else:
-        api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
-    print("-" * 30)
-#    print(f"api_response: {api_response}")
-    print("-" * 30)
-    num_tokens = num_tokens_from_messages([api_response])
-    print(f"Number of tokens: {num_tokens}")
-    print("-" * 30)
-    print(api_response_content)
 
 
 if __name__ == "__main__":
