@@ -10,6 +10,9 @@ from luma.core.render import canvas
 from luma.oled.device import ssd1351
 from luma.core.virtual import viewport
 
+# setup logger
+logger = setup_logger('luma_log')
+
 serial = spi(device=0, port=0)
 device = ssd1351(serial)
 
@@ -22,15 +25,18 @@ from PIL import ImageFont, ImageDraw
 # how to split with specifying a number of words / strings https://www.w3schools.com/python/ref_string_split.asp
 
 def luma_write(gametext):
+    logger.info("Starting luma_write function")
 
     virtual = viewport(device, width=device.width, height=768)
+    font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/luma-integrate/fonts/pixelmix.ttf',9)
 
     for _ in range(1):
         with canvas(device) as draw:
-            font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/luma-integrate/fonts/pixelmix.ttf',9)
             for i, line in enumerate(gametext.split("\n")):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
-            time.sleep(4.0)
+            logger.info("write to device complete")
+            time.sleep(3)
+            logger.info("clearing device")
             device.clear()
-            time.sleep(0.1)
+            logger.info("device cleared, luma_write function completed successfully")

@@ -13,23 +13,6 @@ import uuid
 logger = setup_logger(__name__)
 logger.info("Logger is set up and running.")
 
-# Load OpenAI API key
-openai.api_key = config.openai_api_key
-
-# Initialize the Flask app
-app = Flask(__name__)
-app.secret_key = "secret_key_phrase"
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:8080"}})
-
-# Set up CORS headers
-@app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    response.headers.add('Access-Control-Allow-Credentials', 'true')
-    return response
-
 def poetry_game_intro(entropy):
     logger.debug("starting introduction")
     opening_text = " Welcome to the poetry game! Would you like to start?\n"
@@ -139,27 +122,7 @@ def handle_game():
     luma_write(gametext)
   
     logger.debug("sent to luma")
-        
-    #else:
-    #    # This should not happen unless a condition occurs to end the game 
-    #return jsonify({"gametext": "An error has occurred in backend!", "choices": []})
-    
-# This start_game function allows for the Flask API route to return session_id and player-option (a or b)
-# this is currently doing nothing 
-@app.route("/api/player-data", methods=["POST"])
-def start_game():
-    if not request.is_json:
-        return "Invalid request, data must be in JSON format.", 400
-
-    input_text = request.json.get("player-option")
-    session_id = request.json.get("session_id")
-
-    session_id = str(uuid.uuid4())
-    return jsonify({"game_text": config.initial_game_text, "choices": config.initial_choices, "session_id": session_id})
-
-#print("Testing the database connection...")
-#db_service.test_db_connection()
+   
 
 if __name__ == "__main__":
-    print("Running the app...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    handle_game()
