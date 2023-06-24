@@ -18,11 +18,11 @@ def openai_api_call(creative_prompt):
         model="gpt-3.5-turbo",
         messages=[
             #{"role": "user", "content": creative_prompt},
-            {"role": "user", "content": "Step 1: Produce three different versions of a poem about" + creative_prompt + " Explain the changes made for each iteration."},
+            {"role": "user", "content": "Step 1: Produce three different versions of a poem about" + creative_prompt + " Explain the changes made for each iteration before printing the result for each step."},
             {"role": "user", "content": "Step 2: Iterate over each version, revising and modifying to reduce consistency and increase entropy while maintaining a human-like feel."},
-            {"role": "user", "content": "Step 3: Select one of the following themes: divinity, grundge, or beauty. Afterwards, evaluate the revisions and determine which most closely fits the theme."},
-            {"role": "user", "content": "Step 4: Rework the poem to further incorporate the chosen theme."},
-            {"role": "user", "content": "Step 5: Iterate over the selected poem to randomly select up to three lines and modify them to have more unexpected elements."},
+            {"role": "user", "content": "Step 3: First, select one of the following themes: divinity, grundge, or beauty. Afterwards, evaluate the revisions and determine which most closely fits the theme."},
+            {"role": "user", "content": "Step 4: Rework the poem to incorporate the chosen theme."},
+            {"role": "user", "content": "Step 5: Randomly modify lines to increase entropy and human-like feel"},
         ],
         max_tokens=1000,
         n=1,
@@ -42,7 +42,7 @@ def openai_api_call(creative_prompt):
     return api_response
 
 def promptgen():
-    creative_prompt = "fleshy melons"
+    creative_prompt = "the little soldier"
     return creative_prompt
 
 def poetry_gen_rosemary(creative_prompt):
