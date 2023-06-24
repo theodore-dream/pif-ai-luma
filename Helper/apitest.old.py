@@ -31,11 +31,11 @@ def openai_api_call(creative_prompt):
         model="gpt-3.5-turbo",
         messages=[
             #{"role": "user", "content": creative_prompt},
-            {"role": "user", "content": "Step 1: Produce three different versions of a poem that about " + creative_prompt + ". Each poem can be three or four lines long" + "Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
+            {"role": "user", "content": "Step 1: Produce three different versions of a poem about " + creative_prompt + ". Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
             {"role": "user", "content": "Step 2: Iterate over each version, revising and modifying to reduce consistency and increase entropy while building a human-like feel. Alter the tone and mood of each version."},
             {"role": "user", "content": "Step 3: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
-            {"role": "user", "content": "Step 4: Design only the selected poem to incorporate the chosen abstract concept. Create a new poem that is two to four lines long."},
-            {"role": "user", "content": "Step 5: Randomly modify lines to increase entropy and human-like feel. Create a new poem that is two to four lines long."},
+            {"role": "user", "content": "Step 4: Design only the selected poem to incorporate the chosen abstract concept."},
+            {"role": "user", "content": "Step 5: Randomly modify lines to increase entropy and human-like feel"},
         ],
         max_tokens=1000,
         n=1,
@@ -56,7 +56,7 @@ def openai_api_call(creative_prompt):
     return api_response
 
 def promptgen():
-    creative_prompt = "the stillness of your hand when you begin"
+    creative_prompt = "Nicki Minaj"
     return creative_prompt
 
 def poetry_gen_rosemary(creative_prompt):
