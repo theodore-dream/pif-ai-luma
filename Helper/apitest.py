@@ -17,27 +17,18 @@ def openai_api_call(creative_prompt):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "user", "content": creative_prompt},
-            #{"role": "system", "content": "a dull story of a burlseque dancer"},
-#{"role": "user", "content": "Create dull disjointed fragments of a story that has elements of symmetry and repitition."},
-#{"role": "system", "content": "As you generate the poem, create a mix of prose and poetry. Use single sentences alone and paragraphs."},
-            #{"role": "user", "content": "short lines"},
-            #{"role": "user", "content": "big feels"},
-            #{"role": "user", "content": "I see"},
-
-
-#{"role": "user", "content": "metaphorical expressions can't explain."},
-#{"role": "user", "content": "life."},
-#{"role": "user", "content": "Inject occassional emotionally charged powerful imagery."},
-#{"role": "user", "content": "Occasionally revert to more standard English to maintain some level of comprehension"},
+            #{"role": "user", "content": creative_prompt},
+            {"role": "user", "content": "Step 1: Produce three different versions of a poem about" + creative_prompt + " Explain the changes made for each iteration."},
+            {"role": "user", "content": "Step 2: Iterate over each version, revising and modifying to reduce consistency and increase entropy while maintaining a human-like feel."},
+            {"role": "user", "content": "Step 3: Select one of the following themes: divinity, grundge, or beauty. Afterwards, evaluate the revisions and determine which most closely fits the theme."},
+            {"role": "user", "content": "Step 4: Rework the poem to further incorporate the chosen theme."},
+            {"role": "user", "content": "Step 5: Iterate over the selected poem to randomly select up to three lines and modify them to have more unexpected elements."},
         ],
         max_tokens=1000,
         n=1,
         stop=None,
         temperature=1.0,
     )
-
-
     # Extracting information
     api_response = response['choices'][0]['message']
     model = response.model
@@ -51,7 +42,7 @@ def openai_api_call(creative_prompt):
     return api_response
 
 def promptgen():
-    creative_prompt = "tiny paces"
+    creative_prompt = "fleshy melons"
     return creative_prompt
 
 def poetry_gen_rosemary(creative_prompt):
@@ -63,7 +54,7 @@ def poetry_gen_rosemary(creative_prompt):
 def apitest():
     promptgen()
     api_response = poetry_gen_rosemary(promptgen())
-    if api_response['role'] == "assistant":  # only considering assistant's messages
+    if api_response['role'] == "assistant":  # only passing on assistant's messages
         api_response_content = api_response['content'].strip()
     else:
         api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
@@ -95,8 +86,5 @@ def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
       raise NotImplementedError(f"""num_tokens_from_messages() is not presently implemented for model {model}.
   See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.""")
 
-
 if __name__ == "__main__":
-    apitest()
-    print("run 2")
     apitest()
