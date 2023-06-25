@@ -12,6 +12,9 @@ import openai
 import nltk
 from modules import create_vars
 
+nltk.download('wordnet')
+from nltk.corpus import wordnet as wn
+
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -45,7 +48,7 @@ def openai_api_call(creative_prompt, persona, lang_device, abstract_concept):
     return response
 
 def parse_response():
-    creative_prompt = create_vars.get_random_noun()
+    creative_prompt = create_vars.get_random_words()
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
