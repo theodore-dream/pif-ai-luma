@@ -52,36 +52,22 @@ def openai_api_call(creative_prompt):
         max_tokens=5000,
         n=1,
         stop=None,
-        temperature=1.1,
+        temperature=0.3,
     )
-    # Extracting information
     
-    #api_response = response['choices'][0]['message']
-    #model = response.model
-    #role = api_response['role']
-    #finish_reason = response.choices[0].finish_reason
-    #print(f"finish_reason: {finish_reason}")
-
+    # print information
     print(f"abstract_concept: {abstract_concept}")
     print(f"creative_prompt: {creative_prompt}")
-
-    # Get current timestamp
-    current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
     return response
 
 def promptgen():
     creative_prompt = "the gleaming meadow"
     return creative_prompt
 
-def poetry_gen_rosemary(creative_prompt):
-    print(f"running poetry_gen_rosemary with prompt: {creative_prompt}")
+def parse_response():
+    creative_prompt = promptgen()
+    print(f"running pif_poetry_generator with prompt: {creative_prompt}")
     api_response = openai_api_call(creative_prompt)
-    return api_response
-
-def apitest():
-    promptgen()
-    api_response = poetry_gen_rosemary(promptgen())
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
@@ -95,25 +81,5 @@ def apitest():
     print("-" * 30)
     print(api_response_content)
 
-def num_tokens_from_messages(messages, model="gpt-3.5-turbo"):
-  """Returns the number of tokens used by a list of messages."""
-  try:
-      encoding = tiktoken.encoding_for_model(model)
-  except KeyError:
-      encoding = tiktoken.get_encoding("cl100k_base")
-  if model == "gpt-3.5-turbo":  # note: future models may deviate from this
-      num_tokens = 0
-      for message in messages:
-          num_tokens += 4  # every message follows <im_start>{role/name}\n{content}<im_end>\n
-          for key, value in message.items():
-              num_tokens += len(encoding.encode(value))
-              if key == "name":  # if there's a name, the role is omitted
-                  num_tokens += -1  # role is always required and always 1 token
-      num_tokens += 2  # every reply is primed with <im_start>assistant
-      return num_tokens
-  else:
-      raise NotImplementedError(f"""num_tokens_from_messages() is not presently implemented for model {model}.
-  See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.""")
-
 if __name__ == "__main__":
-    apitest()
+    parse_response()
