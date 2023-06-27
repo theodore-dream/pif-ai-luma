@@ -189,3 +189,12 @@
 2023-06-26 23:00:09,529 - poem_gen - INFO - Completion tokens: 41
 2023-06-26 23:00:09,529 - poem_gen - INFO - Total tokens: 187
 2023-06-26 23:00:09,529 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:12:01,128 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:12:06,086 - poem_gen - DEBUG - running pif_poetry_generator with prompt: She owned the scene once again, but the far-off bang made her feel unattainably distant and kept her up overnight.
+2023-06-26 23:12:06,087 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona'}
+2023-06-26 23:12:06,087 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: She owned the scene once again, but the far-off bang made her feel unattainably distant and kept her up overnight.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:12:06,087 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:12:07,494 - poem_gen - INFO - Prompt tokens: 144
+2023-06-26 23:12:07,495 - poem_gen - INFO - Completion tokens: 29
+2023-06-26 23:12:07,495 - poem_gen - INFO - Total tokens: 173
+2023-06-26 23:12:07,495 - poem_gen - DEBUG - poem_gen completed successfully

@@ -39,3 +39,6 @@
 2023-06-26 23:00:00,120 - create_vars - DEBUG - webtext words are: prof professional well my and
 2023-06-26 23:00:02,842 - create_vars - DEBUG - wordnet words are: foursquare short most onerously
 2023-06-26 23:00:02,842 - create_vars - DEBUG - combined words are: prof professional well my and foursquare short most onerously
+2023-06-26 23:12:01,757 - create_vars - DEBUG - webtext words are: Scene own again she But
+2023-06-26 23:12:04,495 - create_vars - DEBUG - wordnet words are: far bang overnight unattainably
+2023-06-26 23:12:04,495 - create_vars - DEBUG - combined words are: Scene own again she But far bang overnight unattainably
