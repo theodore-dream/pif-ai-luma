@@ -245,5 +245,7 @@ def build_persona():
 }
 }
     # Pick a random persona
-    selected_persona = random.choice(list(personas["poets"].keys()))
-    return selected_persona
+    selected_persona_key = random.choice(list(personas["poets"].keys()))
+    selected_persona_content = personas["poets"][selected_persona_key]
+    
+    return selected_persona_content

@@ -198,3 +198,144 @@
 2023-06-26 23:12:07,495 - poem_gen - INFO - Completion tokens: 29
 2023-06-26 23:12:07,495 - poem_gen - INFO - Total tokens: 173
 2023-06-26 23:12:07,495 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:23:52,126 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:23:58,706 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The wholesale store's fashionably designed documentation was able to close itself, but its accuracy was low.
+2023-06-26 23:23:58,706 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'you create poetry'}
+2023-06-26 23:23:58,707 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Next Step: Produce three different versions of a poem inspired by the following: The wholesale store's fashionably designed documentation was able to close itself, but its accuracy was low.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 23:23:58,707 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:24:01,877 - poem_gen - INFO - Prompt tokens: 139
+2023-06-26 23:24:01,877 - poem_gen - INFO - Completion tokens: 69
+2023-06-26 23:24:01,877 - poem_gen - INFO - Total tokens: 208
+2023-06-26 23:24:01,877 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:24:06,364 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:24:11,407 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Sedately, she played the piano with pianissimo touch, pure and sheer, as if years had not set them apart.
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'you create poetry'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Sedately, she played the piano with pianissimo touch, pure and sheer, as if years had not set them apart.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: The chosen abstract concept is: sparkle. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: caesura. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:24:11,408 - poem_gen - DEBUG - Step 7: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:24:14,778 - poem_gen - INFO - Prompt tokens: 315
+2023-06-26 23:24:14,778 - poem_gen - INFO - Completion tokens: 84
+2023-06-26 23:24:14,778 - poem_gen - INFO - Total tokens: 399
+2023-06-26 23:24:14,779 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:24:34,488 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Realistically, he still weighs enough pounds to top his brotherly love for him.
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 1: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Realistically, he still weighs enough pounds to top his brotherly love for him.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: The chosen abstract concept is: redemption. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: personification. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:24:42,329 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:24:43,866 - poem_gen - INFO - Prompt tokens: 297
+2023-06-26 23:24:43,866 - poem_gen - INFO - Completion tokens: 30
+2023-06-26 23:24:43,866 - poem_gen - INFO - Total tokens: 327
+2023-06-26 23:24:43,866 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:25:18,505 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:25:23,824 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Stealthily, the second thief approached the broadside of the building, hoping to avoid any random encounters.
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 1: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Stealthily, the second thief approached the broadside of the building, hoping to avoid any random encounters.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: The chosen abstract concept is: cheerfulness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: synecdoche. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:25:23,825 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:25:25,843 - poem_gen - INFO - Prompt tokens: 304
+2023-06-26 23:25:25,843 - poem_gen - INFO - Completion tokens: 43
+2023-06-26 23:25:25,843 - poem_gen - INFO - Total tokens: 347
+2023-06-26 23:25:25,843 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:25:39,917 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:25:46,121 - poem_gen - DEBUG - running pif_poetry_generator with prompt: By and large, we need to approach the XML action differently in order to avoid sheer chaos.
+2023-06-26 23:25:46,121 - poem_gen - DEBUG - Step 1: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: By and large, we need to approach the XML action differently in order to avoid sheer chaos.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:25:46,121 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: wit. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:25:46,121 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:25:46,122 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:25:46,122 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: synecdoche. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:25:46,122 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:25:53,288 - poem_gen - INFO - Prompt tokens: 303
+2023-06-26 23:25:53,288 - poem_gen - INFO - Completion tokens: 190
+2023-06-26 23:25:53,288 - poem_gen - INFO - Total tokens: 493
+2023-06-26 23:25:53,289 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:26:31,895 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Please keep it down, the attractive guy is interviewing me privately for a full-time position.
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You will follow every step and stop and complete the requested command before proceeding to the next step'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Please keep it down, the attractive guy is interviewing me privately for a full-time position.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: transience. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: allegory. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:26:36,103 - poem_gen - DEBUG - Step 7: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:26:38,242 - poem_gen - INFO - Prompt tokens: 324
+2023-06-26 23:26:38,242 - poem_gen - INFO - Completion tokens: 44
+2023-06-26 23:26:38,242 - poem_gen - INFO - Total tokens: 368
+2023-06-26 23:26:38,243 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:27:09,202 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:27:13,673 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Yonder, the theatre stood tall, offering up my favorite a la carte entertainment lengthways.
+2023-06-26 23:27:13,674 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You will follow every step and stop and complete the requested command before proceeding to the next step'}
+2023-06-26 23:27:13,674 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Yonder, the theatre stood tall, offering up my favorite a la carte entertainment lengthways.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:27:13,674 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: liveliness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:27:13,674 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:27:13,675 - poem_gen - DEBUG - Step 5: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique.'}
+2023-06-26 23:27:13,675 - poem_gen - DEBUG - Step 6: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: consonance. Revise the poem to incorporate the linguistic device'}
+2023-06-26 23:27:13,675 - poem_gen - DEBUG - Step 7: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:28:06,731 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:28:11,013 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I can't understand what you're saying, but I appreciate your honesty.
+2023-06-26 23:28:11,013 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are a poet'}
+2023-06-26 23:28:11,013 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: I can't understand what you're saying, but I appreciate your honesty.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 23:28:11,013 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: mischief. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:28:11,013 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:28:13,143 - poem_gen - INFO - Prompt tokens: 179
+2023-06-26 23:28:13,143 - poem_gen - INFO - Completion tokens: 42
+2023-06-26 23:28:13,143 - poem_gen - INFO - Total tokens: 221
+2023-06-26 23:28:13,143 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:28:20,921 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:28:25,871 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Well-traveled female left her home behind and consequently found herself sic.
+2023-06-26 23:28:25,871 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are a poet'}
+2023-06-26 23:28:25,872 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Well-traveled female left her home behind and consequently found herself sic.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:28:25,872 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: playfulness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:28:25,872 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:28:28,431 - poem_gen - INFO - Prompt tokens: 179
+2023-06-26 23:28:28,432 - poem_gen - INFO - Completion tokens: 59
+2023-06-26 23:28:28,432 - poem_gen - INFO - Total tokens: 238
+2023-06-26 23:28:28,432 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:29:04,987 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:29:09,190 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Above all, the European woman weirdly excelled sevenfold, not you.
+2023-06-26 23:29:09,190 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are a poet'}
+2023-06-26 23:29:09,190 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Above all, the European woman weirdly excelled sevenfold, not you.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:29:09,190 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: knowledge. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:29:09,191 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:29:15,330 - poem_gen - INFO - Prompt tokens: 180
+2023-06-26 23:29:15,330 - poem_gen - INFO - Completion tokens: 167
+2023-06-26 23:29:15,330 - poem_gen - INFO - Total tokens: 347
+2023-06-26 23:29:15,330 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:29:51,132 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:29:55,881 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The first thing I noticed was the window around us, but the ad firm's a cappella jingle kept me snugly entertained.
+2023-06-26 23:29:55,882 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are a poet'}
+2023-06-26 23:29:55,882 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: The first thing I noticed was the window around us, but the ad firm's a cappella jingle kept me snugly entertained.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 23:29:55,882 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: passion. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:29:55,882 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:29:57,927 - poem_gen - INFO - Prompt tokens: 192
+2023-06-26 23:29:57,928 - poem_gen - INFO - Completion tokens: 31
+2023-06-26 23:29:57,928 - poem_gen - INFO - Total tokens: 223
+2023-06-26 23:29:57,928 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:30:10,194 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:30:15,616 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Heartlessly zigzagging on horseback to get to the things and wine there, plus the thrill of the ride.
+2023-06-26 23:30:15,616 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward'}
+2023-06-26 23:30:15,616 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Heartlessly zigzagging on horseback to get to the things and wine there, plus the thrill of the ride.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:30:15,616 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: frolic. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:30:15,616 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:30:24,127 - poem_gen - INFO - Prompt tokens: 186
+2023-06-26 23:30:24,127 - poem_gen - INFO - Completion tokens: 221
+2023-06-26 23:30:24,127 - poem_gen - INFO - Total tokens: 407
+2023-06-26 23:30:24,128 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:33:41,307 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:34:16,644 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:34:23,252 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Hereinafter, I'll avoid installing a new theme as my last one was a flop.
+2023-06-26 23:34:23,252 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-26 23:34:23,252 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: Hereinafter, I'll avoid installing a new theme as my last one was a flop.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 23:34:23,252 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: mundanity. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:34:23,252 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:34:25,705 - poem_gen - INFO - Prompt tokens: 214
+2023-06-26 23:34:25,705 - poem_gen - INFO - Completion tokens: 50
+2023-06-26 23:34:25,705 - poem_gen - INFO - Total tokens: 264
+2023-06-26 23:34:25,705 - poem_gen - DEBUG - poem_gen completed successfully
