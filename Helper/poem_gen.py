@@ -11,6 +11,11 @@ import os
 import openai
 import nltk
 from modules import create_vars
+from modules.logger import setup_logger
+
+#start logger
+logger = setup_logger("poem_gen")
+logger.info("Logger is set up and running.")
 
 nltk.download('wordnet')
 from nltk.corpus import wordnet as wn
