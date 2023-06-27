@@ -11,6 +11,7 @@ import os
 import openai
 import nltk
 from modules import create_vars
+from nltk.probability import FreqDist
 
 from modules.logger import setup_logger
 
@@ -58,7 +59,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
     return response
 
 def parse_response():
-    creative_prompt = create_vars.get_random_words()
+    creative_prompt = create_vars.gen_creative_prompt(create_vars.get_random_words())
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
@@ -70,12 +71,13 @@ def parse_response():
         api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
     print("-" * 30)
 
-    print(f"Prompt tokens: {api_response['usage']['prompt_tokens']}")
-    print(f"Completion tokens: {api_response['usage']['completion_tokens']}")
-    print(f"Total tokens: {api_response['usage']['total_tokens']}")
+    logger.info(f"Prompt tokens: {api_response['usage']['prompt_tokens']}")
+    logger.info(f"Completion tokens: {api_response['usage']['completion_tokens']}")
+    logger.info(f"Total tokens: {api_response['usage']['total_tokens']}")
 
     print("-" * 30)
     print(api_response_content)
+    logger.debug("poem_gen completed successfully")
 
 if __name__ == "__main__":
     parse_response()

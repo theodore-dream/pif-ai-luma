@@ -73,3 +73,41 @@
 2023-06-26 22:17:10,935 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: hand_to_hand. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
 2023-06-26 22:17:10,935 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
 2023-06-26 22:17:10,935 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: alliteration. Revise the poem to incorporate the linguistic device'}
+2023-06-26 22:25:14,449 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:25:42,316 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:26:31,038 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:26:47,753 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:26:59,581 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:27:41,724 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:28:00,492 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:28:22,312 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:28:25,374 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:28:25,374 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: country honest not me but first_class tiptoe point-blank conservatively. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:28:25,374 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 22:28:25,374 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: personification. Revise the poem to incorporate the linguistic device'}
+2023-06-26 22:31:20,270 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:31:25,334 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:31:25,334 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: modifiers next more your nor down down later once. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:31:25,335 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 22:31:25,335 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: simile. Revise the poem to incorporate the linguistic device'}
+2023-06-26 22:34:32,400 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:34:53,794 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:39:46,263 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:42:37,867 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:43:25,668 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:43:29,906 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:43:29,906 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: They effusively cheered as they scorched uphill and downfield.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:43:29,906 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 22:43:29,906 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: anachronism. Revise the poem to incorporate the linguistic device'}
+2023-06-26 22:43:34,318 - poem_gen - INFO - Prompt tokens: 174
+2023-06-26 22:43:34,318 - poem_gen - INFO - Completion tokens: 78
+2023-06-26 22:43:34,318 - poem_gen - INFO - Total tokens: 252
+2023-06-26 22:46:20,997 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:46:25,612 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:46:25,612 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Most of them laughed at the silly chord, but behind the shore, the sound traveled further onshore isotropically.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:46:25,612 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 22:46:25,612 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: enjambment. Revise the poem to incorporate the linguistic device'}
+2023-06-26 22:46:30,015 - poem_gen - INFO - Prompt tokens: 184
+2023-06-26 22:46:30,016 - poem_gen - INFO - Completion tokens: 109
+2023-06-26 22:46:30,016 - poem_gen - INFO - Total tokens: 293
+2023-06-26 22:46:30,016 - poem_gen - DEBUG - poem_gen completed successfully
