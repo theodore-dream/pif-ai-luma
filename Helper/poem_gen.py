@@ -11,6 +11,7 @@ import os
 import openai
 import nltk
 from modules import create_vars
+
 from modules.logger import setup_logger
 
 #start logger
@@ -26,7 +27,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept):
 
     all_steps = {
-        1: {"role": "system", "content": persona },
+        0: {"role": "system", "content": persona },
         1: {"role": "user", "content": "Next Step: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
         2: {"role": "user", "content": "Next Step: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
         3: {"role": "user", "content": "Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
@@ -36,6 +37,9 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
     }
 
     steps_for_api = [all_steps[step] for step in steps_to_execute]
+    #logger.debug(steps_for_api)
+    for i, step in enumerate(steps_for_api):
+        logger.debug("Step %d: %s", i+1, step)
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -59,7 +63,7 @@ def parse_response():
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
     print(f"running pif_poetry_generator with prompt: {creative_prompt}")
-    api_response = api_create_poem([1, 3, 5],creative_prompt, persona, lang_device, abstract_concept)
+    api_response = api_create_poem([0, 1, 3, 5],creative_prompt, persona, lang_device, abstract_concept)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
