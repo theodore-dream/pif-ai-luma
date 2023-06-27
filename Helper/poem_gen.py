@@ -18,28 +18,29 @@ from nltk.corpus import wordnet as wn
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def openai_api_call(creative_prompt, persona, lang_device, abstract_concept):
+def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept):
 
-# API call
+    all_steps = {
+        1: {"role": "system", "content": persona },
+        1: {"role": "user", "content": "Next Step: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
+        2: {"role": "user", "content": "Next Step: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
+        3: {"role": "user", "content": "Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
+        4: {"role": "user", "content": "Next Step: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique."},
+        5: {"role": "user", "content": "Next Step: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
+        6: {"role": "user", "content": "Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+    }
+
+    steps_for_api = [all_steps[step] for step in steps_to_execute]
+
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
-        messages=[
-            #{"role": "user", "content": creative_prompt},
-            {"role": "system", "content": persona },
-            {"role": "user", "content": "Step 1: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long" + "Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
-            {"role": "user", "content": "Step 2: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
-            {"role": "user", "content": "Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
-            {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to more closely match your own personality and writing technique."},
-            {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
-            {"role": "user", "content": "Step 6: Create a single new poem that is two to four lines long with the following parameters: Apply the concept further. "},
-             
-             # Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
-        ],
+        messages=steps_for_api,
         max_tokens=2000,
         n=1,
         stop=None,
         temperature=1.0,
     )
+
     
     # print information about api call
     print(f"persona: {persona}")
@@ -53,7 +54,7 @@ def parse_response():
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
     print(f"running pif_poetry_generator with prompt: {creative_prompt}")
-    api_response = openai_api_call(creative_prompt, persona, lang_device, abstract_concept)
+    api_response = api_create_poem([1, 3, 5],creative_prompt, persona, lang_device, abstract_concept)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
