@@ -104,7 +104,7 @@ def get_lang_device():
     selected_lang_device = random.choice(list(language_devices.keys()))
     return selected_lang_device
 
-def get_random_words():
+def gen_random_words(randomness_factor=1):
 
     # Get the list of file IDs in the web text corpus.
     fileids = nltk.corpus.webtext.fileids()
@@ -137,11 +137,11 @@ def get_random_words():
     fdist_conjunctions = FreqDist(conjunctions)
 
     # Filter to get only the common words.
-    common_nouns = [word for word in set(nouns) if fdist_nouns[word] > 3]
-    common_adj = [word for word in set(adjectives) if fdist_adj[word] > 3]
-    common_adv = [word for word in set(adverbs) if fdist_adv[word] > 3]
-    common_pronouns = [word for word in set(pronouns) if fdist_pronouns[word] > 3]
-    common_conjunctions = [word for word in set(conjunctions) if fdist_conjunctions[word] > 3]
+    common_nouns = [word for word in set(nouns) if fdist_nouns[word] > 0]
+    common_adj = [word for word in set(adjectives) if fdist_adj[word] > 0]
+    common_adv = [word for word in set(adverbs) if fdist_adv[word] > 0]
+    common_pronouns = [word for word in set(pronouns) if fdist_pronouns[word] > 0]
+    common_conjunctions = [word for word in set(conjunctions) if fdist_conjunctions[word] > 0]
 
     # Select a random word from each category.
     random_noun = random.choice(common_nouns)
@@ -150,12 +150,29 @@ def get_random_words():
     random_pronoun = random.choice(common_pronouns)
     random_conjunction = random.choice(common_conjunctions)
 
-    webtext_words = f'{random_noun} {random_adj} {random_adv} {random_pronoun} {random_conjunction}'
+  # Combine all categories into a single list.
+    all_words = [random_noun, random_adj, random_adv, random_pronoun, random_conjunction]
+
+    # Control the total number of words selected based on the randomness_factor
+    num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
+
+    # Select random words from the entire list, the number of words specificed by randomness_factor
+    random_webtext_words = random.choices(all_words, k=num_words)
+
+    # Combine the words into a single string.
+    webtext_words = ' '.join(random_webtext_words)
     logger.debug(f"webtext words are: {webtext_words}")
+
+    #webtext_words = f'{random_noun} {random_adj} {random_adv} {random_pronoun} {random_conjunction}'
+    #logger.debug(f"webtext words are: {webtext_words}")
+
+    # This section pulls words from wordnet
+    #word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
+    wordnet_words = []
 
     # This section pulls words from wordnet
     word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
-    wordnet_words = []
+    #wordnet_words = []
 
     for word_type in word_types:
         # Select a subset of synsets
@@ -171,27 +188,31 @@ def get_random_words():
     # Remove duplicates
     wordnet_words = list(set(wordnet_words))
 
-    # Convert list to a Counter object to get word frequency
-    wordnet_word_freq = Counter(wordnet_words)
-
-    # Filter out common words that occur more than 3 times
-    common_wordnet_words = [word for word, freq in wordnet_word_freq.items() if freq > 0]
-
     # Select a random word from each word type from the common words.
-    random_noun = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.NOUN)])
-    random_verb = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.VERB)])
-    random_adj = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.ADJ)])
-    random_adv = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.ADV)])
+    random_noun = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
+    random_verb = random.choice([word for word in wordnet_words if wn.synsets(word, wn.VERB)])
+    random_adj = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADJ)])
+    random_adv = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADV)])
+    random_noun2 = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
 
-    wordnet_words_string = f'{random_noun} {random_verb} {random_adj} {random_adv}'
-    logger.debug(f"wordnet words are: {wordnet_words_string}")
+    wordnet_words_string = [random_noun, random_adj, random_adv, random_pronoun, random_conjunction]
+
+    # Control the total number of words selected based on the randomness_factor
+    num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
+
+    # Select random words from the entire list, the number of words specificed by randomness_factor
+    random_wordnet_string = random.choices(wordnet_words_string, k=num_words)
+
+    # Combine the words into a single string.
+    random_wordnet_string = ' '.join(random_wordnet_string)
+    logger.debug(f"wordnet words are: {random_wordnet_string}")
 
     # combine both webtext and wordnet words
-    combined_string = webtext_words + " " + wordnet_words_string
+    combined_string = webtext_words + " " + random_wordnet_string
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
-def gen_creative_prompt(text):
+def gen_creative_prompt(text, randomness_factor):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
@@ -205,7 +226,7 @@ def gen_creative_prompt(text):
             }
         ],
         max_tokens=50,
-        temperature=0.5,
+        temperature=2 * randomness_factor,
         top_p=1,
     )
     

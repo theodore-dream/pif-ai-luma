@@ -422,3 +422,493 @@
 2023-06-27 00:18:57,940 - poem_gen - INFO - Completion tokens: 114
 2023-06-27 00:18:57,940 - poem_gen - INFO - Total tokens: 347
 2023-06-27 00:18:57,940 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:36:04,669 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:36:09,014 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Only he could hear the small, palpably roaring sound.
+2023-06-27 00:36:09,015 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Reginald, an eccentric oil tycoon of immeasurable wealth, indulges in a style that is luxuriant and opulent, echoing his extravagance. His prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.'}
+2023-06-27 00:36:09,015 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Only he could hear the small, palpably roaring sound.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:36:09,015 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: frolic. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:36:09,015 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:36:14,591 - poem_gen - INFO - Prompt tokens: 236
+2023-06-27 00:36:14,592 - poem_gen - INFO - Completion tokens: 154
+2023-06-27 00:36:14,592 - poem_gen - INFO - Total tokens: 390
+2023-06-27 00:36:14,592 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:40:38,017 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:40:44,985 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I need to decide quickly whether to get my certificates locally or not, but I'm hesitant because I prefer face-to-face interactions and the online option may be incompletely fulfilling.
+2023-06-27 00:40:44,985 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Daisy, a passionate high school student deeply interested in science and astronomy, creates poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.'}
+2023-06-27 00:40:44,985 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: I need to decide quickly whether to get my certificates locally or not, but I'm hesitant because I prefer face-to-face interactions and the online option may be incompletely fulfilling.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 00:40:44,985 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: lightheartedness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:40:44,986 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:40:47,338 - poem_gen - INFO - Prompt tokens: 233
+2023-06-27 00:40:47,339 - poem_gen - INFO - Completion tokens: 34
+2023-06-27 00:40:47,339 - poem_gen - INFO - Total tokens: 267
+2023-06-27 00:40:47,339 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:42:03,588 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:42:07,987 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Midweek always brings a good bang, and here at Express we whop it up!
+2023-06-27 00:42:07,987 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Mortimer, an eccentric scientist, presents his writings in a structured, albeit unpredictable manner. His prose, rich with the motifs of innovation and chaos, embodies his passion for scientific discovery as well as his nonchalance towards the disorder left in his wake. His writings often culminate in a profound sense of detachment, a testament to his aloof and peculiar character.'}
+2023-06-27 00:42:07,987 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Midweek always brings a good bang, and here at Express we whop it up!. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:42:07,988 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: merriment. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:42:07,988 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:42:10,734 - poem_gen - INFO - Prompt tokens: 255
+2023-06-27 00:42:10,735 - poem_gen - INFO - Completion tokens: 57
+2023-06-27 00:42:10,735 - poem_gen - INFO - Total tokens: 312
+2023-06-27 00:42:10,735 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:42:27,754 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:42:34,446 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I am at a loss as to how to pop my collar in the north, given the mode and context of being at home.
+2023-06-27 00:42:34,447 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 00:42:34,447 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I am at a loss as to how to pop my collar in the north, given the mode and context of being at home.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:42:34,447 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: mirth. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:42:34,447 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:42:43,866 - poem_gen - INFO - Prompt tokens: 244
+2023-06-27 00:42:43,866 - poem_gen - INFO - Completion tokens: 76
+2023-06-27 00:42:43,867 - poem_gen - INFO - Total tokens: 320
+2023-06-27 00:42:43,867 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:43:08,764 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:43:16,543 - poem_gen - DEBUG - running pif_poetry_generator with prompt: At least we can avoid traveling coastwise southwestward, where dishonorable acts may occur.
+2023-06-27 00:43:16,543 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 00:43:16,543 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: At least we can avoid traveling coastwise southwestward, where dishonorable acts may occur.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:43:16,544 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: merriment. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:43:16,544 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:43:23,307 - poem_gen - INFO - Prompt tokens: 238
+2023-06-27 00:43:23,307 - poem_gen - INFO - Completion tokens: 161
+2023-06-27 00:43:23,307 - poem_gen - INFO - Total tokens: 399
+2023-06-27 00:43:23,308 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:43:33,224 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:43:38,492 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I need an extra second to conclusively figure out what's going on out there.
+2023-06-27 00:43:38,492 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-06-27 00:43:38,492 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: I need an extra second to conclusively figure out what's going on out there.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 00:43:38,492 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: pep. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:43:38,492 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:43:44,693 - poem_gen - INFO - Prompt tokens: 220
+2023-06-27 00:43:44,693 - poem_gen - INFO - Completion tokens: 143
+2023-06-27 00:43:44,693 - poem_gen - INFO - Total tokens: 363
+2023-06-27 00:43:44,694 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:44:02,764 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:44:32,082 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:44:36,771 - poem_gen - DEBUG - running pif_poetry_generator with prompt: They decked out the aerial with really firm and fluent maneuvers, yet here we are with the worst case of lento flu.
+2023-06-27 00:44:36,771 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Daisy, a passionate high school student deeply interested in science and astronomy, creates poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.'}
+2023-06-27 00:44:36,772 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: They decked out the aerial with really firm and fluent maneuvers, yet here we are with the worst case of lento flu.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:44:36,772 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: chaos. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:44:36,772 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:44:43,060 - poem_gen - INFO - Prompt tokens: 219
+2023-06-27 00:44:43,062 - poem_gen - INFO - Completion tokens: 149
+2023-06-27 00:44:43,062 - poem_gen - INFO - Total tokens: 368
+2023-06-27 00:44:43,062 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:45:15,708 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:45:20,339 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Yesterday, the guest was upwind and rebukingly commented on the nice weather heading southwest.
+2023-06-27 00:45:20,339 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 00:45:20,339 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Yesterday, the guest was upwind and rebukingly commented on the nice weather heading southwest.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:45:20,339 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: sprightliness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:45:20,339 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:45:27,319 - poem_gen - INFO - Prompt tokens: 232
+2023-06-27 00:45:27,320 - poem_gen - INFO - Completion tokens: 171
+2023-06-27 00:45:27,320 - poem_gen - INFO - Total tokens: 403
+2023-06-27 00:45:27,320 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:46:26,183 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:47:17,997 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Our little object flopped seaward, speculatively longing to stay together.
+2023-06-27 00:47:17,997 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Daisy, a passionate high school student deeply interested in science and astronomy, creates poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.'}
+2023-06-27 00:47:17,997 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Our little object flopped seaward, speculatively longing to stay together.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:47:17,997 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: serenity. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:47:17,997 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:47:23,410 - poem_gen - INFO - Prompt tokens: 210
+2023-06-27 00:47:23,411 - poem_gen - INFO - Completion tokens: 143
+2023-06-27 00:47:23,411 - poem_gen - INFO - Total tokens: 353
+2023-06-27 00:47:23,411 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:48:43,422 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:48:47,492 - poem_gen - DEBUG - running pif_poetry_generator with prompt: She walks alone, feeling lonely without her male companion.
+2023-06-27 00:48:47,493 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-27 00:48:47,493 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: She walks alone, feeling lonely without her male companion.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:48:47,493 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: spirituality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:48:47,493 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:48:56,414 - poem_gen - INFO - Prompt tokens: 206
+2023-06-27 00:48:56,414 - poem_gen - INFO - Completion tokens: 191
+2023-06-27 00:48:56,414 - poem_gen - INFO - Total tokens: 397
+2023-06-27 00:48:56,415 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:50:28,752 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:50:36,112 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Henor looks nicely packed for lunch.
+2023-06-27 00:50:36,113 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 00:50:36,113 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Henor looks nicely packed for lunch.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:50:36,113 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: charm. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:50:36,113 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:50:41,769 - poem_gen - INFO - Prompt tokens: 219
+2023-06-27 00:50:41,769 - poem_gen - INFO - Completion tokens: 144
+2023-06-27 00:50:41,769 - poem_gen - INFO - Total tokens: 363
+2023-06-27 00:50:41,769 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:51:00,806 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:51:05,629 - poem_gen - DEBUG - running pif_poetry_generator with prompt: My views on life are solid and wildly unconventional.
+2023-06-27 00:51:05,629 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 00:51:05,630 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: My views on life are solid and wildly unconventional.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:51:05,630 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: transience. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:51:05,630 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:51:12,894 - poem_gen - INFO - Prompt tokens: 323
+2023-06-27 00:51:12,895 - poem_gen - INFO - Completion tokens: 196
+2023-06-27 00:51:12,895 - poem_gen - INFO - Total tokens: 519
+2023-06-27 00:51:12,895 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:51:19,382 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:51:26,715 - poem_gen - DEBUG - running pif_poetry_generator with prompt: You should never underestimate the importance of properly treating minimum wood.
+2023-06-27 00:51:26,716 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 00:51:26,716 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: You should never underestimate the importance of properly treating minimum wood.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:51:26,716 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: spirituality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:51:26,716 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:51:34,495 - poem_gen - INFO - Prompt tokens: 223
+2023-06-27 00:51:34,495 - poem_gen - INFO - Completion tokens: 205
+2023-06-27 00:51:34,495 - poem_gen - INFO - Total tokens: 428
+2023-06-27 00:51:34,496 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:51:55,135 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:51:59,175 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I am always responsible, even on the wildest of nights.
+2023-06-27 00:51:59,175 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 00:51:59,175 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I am always responsible, even on the wildest of nights.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:51:59,175 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: dreams. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:51:59,176 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:52:04,988 - poem_gen - INFO - Prompt tokens: 325
+2023-06-27 00:52:04,988 - poem_gen - INFO - Completion tokens: 150
+2023-06-27 00:52:04,988 - poem_gen - INFO - Total tokens: 475
+2023-06-27 00:52:04,988 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:52:18,439 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:52:38,870 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:53:20,732 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:53:26,753 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I can't find the third button, it's extremely frustrating.
+2023-06-27 00:53:26,753 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 00:53:26,753 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: I can't find the third button, it's extremely frustrating.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 00:53:26,753 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: silliness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:53:26,753 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:53:32,470 - poem_gen - INFO - Prompt tokens: 326
+2023-06-27 00:53:32,470 - poem_gen - INFO - Completion tokens: 154
+2023-06-27 00:53:32,470 - poem_gen - INFO - Total tokens: 480
+2023-06-27 00:53:32,470 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:53:56,766 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:54:00,842 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Our oral force is unmatched.
+2023-06-27 00:54:00,842 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-06-27 00:54:00,842 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Our oral force is unmatched.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:54:00,842 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: enlightenment. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:54:00,842 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:54:09,127 - poem_gen - INFO - Prompt tokens: 209
+2023-06-27 00:54:09,128 - poem_gen - INFO - Completion tokens: 222
+2023-06-27 00:54:09,128 - poem_gen - INFO - Total tokens: 431
+2023-06-27 00:54:09,128 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:55:52,267 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:55:56,284 - poem_gen - DEBUG - running pif_poetry_generator with prompt: You may be temporary, but your impact can be permanent.
+2023-06-27 00:55:56,284 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-06-27 00:55:56,284 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: You may be temporary, but your impact can be permanent.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:55:56,285 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: frolic. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:55:56,285 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:56:02,646 - poem_gen - INFO - Prompt tokens: 216
+2023-06-27 00:56:02,646 - poem_gen - INFO - Completion tokens: 166
+2023-06-27 00:56:02,647 - poem_gen - INFO - Total tokens: 382
+2023-06-27 00:56:02,647 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:56:25,698 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:56:30,040 - poem_gen - DEBUG - running pif_poetry_generator with prompt: He rowed the longboats with him.
+2023-06-27 00:56:30,040 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Mortimer, an eccentric scientist, presents his writings in a structured, albeit unpredictable manner. His prose, rich with the motifs of innovation and chaos, embodies his passion for scientific discovery as well as his nonchalance towards the disorder left in his wake. His writings often culminate in a profound sense of detachment, a testament to his aloof and peculiar character.'}
+2023-06-27 00:56:30,040 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: He rowed the longboats with him.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:56:30,040 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: morality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:56:30,040 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:56:37,880 - poem_gen - INFO - Prompt tokens: 244
+2023-06-27 00:56:37,881 - poem_gen - INFO - Completion tokens: 202
+2023-06-27 00:56:37,881 - poem_gen - INFO - Total tokens: 446
+2023-06-27 00:56:37,882 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:56:39,712 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:56:43,550 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I am always with me.
+2023-06-27 00:56:43,550 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 00:56:43,550 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I am always with me.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:56:43,550 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: memory. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:56:43,550 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:56:48,959 - poem_gen - INFO - Prompt tokens: 318
+2023-06-27 00:56:48,959 - poem_gen - INFO - Completion tokens: 144
+2023-06-27 00:56:48,959 - poem_gen - INFO - Total tokens: 462
+2023-06-27 00:56:48,959 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:57:51,228 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:57:57,164 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I do not like coffee, nor do I like tea.
+2023-06-27 00:57:57,164 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-06-27 00:57:57,164 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I do not like coffee, nor do I like tea.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:57:57,164 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: mirth. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:57:57,164 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:58:04,342 - poem_gen - INFO - Prompt tokens: 204
+2023-06-27 00:58:04,343 - poem_gen - INFO - Completion tokens: 188
+2023-06-27 00:58:04,343 - poem_gen - INFO - Total tokens: 392
+2023-06-27 00:58:04,343 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:58:21,812 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:58:29,708 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I am really excited for the weekend.
+2023-06-27 00:58:29,709 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 00:58:29,709 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I am really excited for the weekend.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:58:29,709 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: courage. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:58:29,709 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:58:38,815 - poem_gen - INFO - Prompt tokens: 225
+2023-06-27 00:58:38,815 - poem_gen - INFO - Completion tokens: 219
+2023-06-27 00:58:38,815 - poem_gen - INFO - Total tokens: 444
+2023-06-27 00:58:38,815 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:58:52,001 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:58:55,547 - poem_gen - DEBUG - running pif_poetry_generator with prompt: need
+2023-06-27 00:58:55,547 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-06-27 00:58:55,547 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: need. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:58:55,548 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: wit. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:58:55,548 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:59:03,932 - poem_gen - INFO - Prompt tokens: 205
+2023-06-27 00:59:03,933 - poem_gen - INFO - Completion tokens: 216
+2023-06-27 00:59:03,934 - poem_gen - INFO - Total tokens: 421
+2023-06-27 00:59:03,934 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:59:24,634 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:59:29,352 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Either you run the day, or the day runs you.
+2023-06-27 00:59:29,353 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 00:59:29,353 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Either you run the day, or the day runs you.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:59:29,353 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: silliness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:59:29,353 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:59:36,421 - poem_gen - INFO - Prompt tokens: 224
+2023-06-27 00:59:36,421 - poem_gen - INFO - Completion tokens: 179
+2023-06-27 00:59:36,421 - poem_gen - INFO - Total tokens: 403
+2023-06-27 00:59:36,421 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:59:52,279 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:59:57,222 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The fast cannonade echoed through the valley, leaving nothing but destruction in its wake.
+2023-06-27 00:59:57,223 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-27 00:59:57,223 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: The fast cannonade echoed through the valley, leaving nothing but destruction in its wake.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:59:57,223 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: amusement. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:59:57,223 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:00:02,880 - poem_gen - INFO - Prompt tokens: 212
+2023-06-27 01:00:02,880 - poem_gen - INFO - Completion tokens: 149
+2023-06-27 01:00:02,881 - poem_gen - INFO - Total tokens: 361
+2023-06-27 01:00:02,881 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:00:23,332 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:00:27,498 - poem_gen - DEBUG - running pif_poetry_generator with prompt: A single male enjoyed the outdoors with his male friend.
+2023-06-27 01:00:27,498 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 01:00:27,498 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: A single male enjoyed the outdoors with his male friend.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:00:27,498 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: zest. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:00:27,498 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:00:29,505 - poem_gen - INFO - Prompt tokens: 222
+2023-06-27 01:00:29,505 - poem_gen - INFO - Completion tokens: 53
+2023-06-27 01:00:29,505 - poem_gen - INFO - Total tokens: 275
+2023-06-27 01:00:29,505 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:00:51,481 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:00:55,961 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Neither the wound nor the pain was mortally severe.
+2023-06-27 01:00:55,961 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Mortimer, an eccentric scientist, presents his writings in a structured, albeit unpredictable manner. His prose, rich with the motifs of innovation and chaos, embodies his passion for scientific discovery as well as his nonchalance towards the disorder left in his wake. His writings often culminate in a profound sense of detachment, a testament to his aloof and peculiar character.'}
+2023-06-27 01:00:55,961 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Neither the wound nor the pain was mortally severe.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:00:55,961 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: dreams. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:00:55,961 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:01:04,409 - poem_gen - INFO - Prompt tokens: 246
+2023-06-27 01:01:04,410 - poem_gen - INFO - Completion tokens: 213
+2023-06-27 01:01:04,410 - poem_gen - INFO - Total tokens: 459
+2023-06-27 01:01:04,410 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:02:43,530 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:02:48,062 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I will always push my genuine self forward, like a motor driving me towards my goals.
+2023-06-27 01:02:48,062 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 01:02:48,062 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I will always push my genuine self forward, like a motor driving me towards my goals.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:02:48,062 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: jollity. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:02:48,062 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:02:58,888 - poem_gen - INFO - Prompt tokens: 332
+2023-06-27 01:02:58,888 - poem_gen - INFO - Completion tokens: 237
+2023-06-27 01:02:58,889 - poem_gen - INFO - Total tokens: 569
+2023-06-27 01:02:58,889 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:03:33,889 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:03:38,215 - poem_gen - DEBUG - running pif_poetry_generator with prompt: His present is all he has now, and he will make the most of it.
+2023-06-27 01:03:38,215 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 01:03:38,216 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: His present is all he has now, and he will make the most of it.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:03:38,216 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: glee. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:03:38,216 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:03:40,567 - poem_gen - INFO - Prompt tokens: 235
+2023-06-27 01:03:40,567 - poem_gen - INFO - Completion tokens: 45
+2023-06-27 01:03:40,567 - poem_gen - INFO - Total tokens: 280
+2023-06-27 01:03:40,567 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:04:28,693 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:04:32,694 - poem_gen - DEBUG - running pif_poetry_generator with prompt: They speak enough, no need for more.
+2023-06-27 01:04:32,694 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Reginald, an eccentric oil tycoon of immeasurable wealth, indulges in a style that is luxuriant and opulent, echoing his extravagance. His prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.'}
+2023-06-27 01:04:32,694 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: They speak enough, no need for more.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:04:32,694 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: courage. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:04:32,695 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:04:40,881 - poem_gen - INFO - Prompt tokens: 232
+2023-06-27 01:04:40,882 - poem_gen - INFO - Completion tokens: 209
+2023-06-27 01:04:40,882 - poem_gen - INFO - Total tokens: 441
+2023-06-27 01:04:40,882 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:08:55,289 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:09:03,226 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Either he will score or he won't.
+2023-06-27 01:09:03,227 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-27 01:09:03,227 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: Either he will score or he won't.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 01:09:03,227 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: delight. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:09:03,227 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:09:10,392 - poem_gen - INFO - Prompt tokens: 204
+2023-06-27 01:09:10,392 - poem_gen - INFO - Completion tokens: 191
+2023-06-27 01:09:10,393 - poem_gen - INFO - Total tokens: 395
+2023-06-27 01:09:10,393 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:10:21,116 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:11:05,911 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:11:10,715 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Sorry, it seems like the words are not clear or complete. Can you please provide a different set of words or complete the sentence?
+2023-06-27 01:11:10,716 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-06-27 01:11:10,716 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Sorry, it seems like the words are not clear or complete. Can you please provide a different set of words or complete the sentence?. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:11:10,716 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: knowledge. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:11:10,716 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:11:20,950 - poem_gen - INFO - Prompt tokens: 218
+2023-06-27 01:11:20,950 - poem_gen - INFO - Completion tokens: 268
+2023-06-27 01:11:20,950 - poem_gen - INFO - Total tokens: 486
+2023-06-27 01:11:20,951 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:12:45,596 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:12:50,233 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I wouldn't recommend having badger stew, whether you're using a round-arm or cooking it promiscuously.
+2023-06-27 01:12:50,233 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Daisy, a passionate high school student deeply interested in science and astronomy, creates poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.'}
+2023-06-27 01:12:50,234 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: I wouldn't recommend having badger stew, whether you're using a round-arm or cooking it promiscuously.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 01:12:50,234 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: joviality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:12:50,234 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:12:58,830 - poem_gen - INFO - Prompt tokens: 218
+2023-06-27 01:12:58,831 - poem_gen - INFO - Completion tokens: 215
+2023-06-27 01:12:58,831 - poem_gen - INFO - Total tokens: 433
+2023-06-27 01:12:58,831 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:13:29,950 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:13:34,465 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Amidst the mud, the hope for clarity was vanishingly small.
+2023-06-27 01:13:34,466 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 01:13:34,466 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Amidst the mud, the hope for clarity was vanishingly small.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:13:34,466 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: chaos. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:13:34,466 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:13:41,646 - poem_gen - INFO - Prompt tokens: 232
+2023-06-27 01:13:41,647 - poem_gen - INFO - Completion tokens: 193
+2023-06-27 01:13:41,647 - poem_gen - INFO - Total tokens: 425
+2023-06-27 01:13:41,647 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:14:27,293 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:14:31,621 - poem_gen - DEBUG - running pif_poetry_generator with prompt: My face-to-face meeting with the plumber felt like a long time.
+2023-06-27 01:14:31,621 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 01:14:31,621 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: My face-to-face meeting with the plumber felt like a long time.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:14:31,622 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: ecstasy. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:14:31,622 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:14:38,168 - poem_gen - INFO - Prompt tokens: 231
+2023-06-27 01:14:38,169 - poem_gen - INFO - Completion tokens: 167
+2023-06-27 01:14:38,169 - poem_gen - INFO - Total tokens: 398
+2023-06-27 01:14:38,169 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:15:07,126 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:15:11,156 - poem_gen - DEBUG - running pif_poetry_generator with prompt: stood frozen, taking in the chaotic scene before them.
+2023-06-27 01:15:11,156 - poem_gen - DEBUG - randomness factor is: 0.23160197132866045
+2023-06-27 01:15:11,156 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-27 01:15:11,156 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: stood frozen, taking in the chaotic scene before them.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:15:11,156 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: destiny. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:15:11,157 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:15:17,999 - poem_gen - INFO - Prompt tokens: 206
+2023-06-27 01:15:17,999 - poem_gen - INFO - Completion tokens: 178
+2023-06-27 01:15:17,999 - poem_gen - INFO - Total tokens: 384
+2023-06-27 01:15:18,000 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:16:43,446 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:18:48,981 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:19:11,681 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:19:15,662 - poem_gen - DEBUG - running pif_poetry_generator with prompt: You are so kind.
+2023-06-27 01:19:15,663 - poem_gen - DEBUG - randomness factor is: 0.35925300848242814
+2023-06-27 01:19:15,663 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': "Bob weaves complex metaphors into his poetry, often reflecting on his past experiences with a melancholic but hopeful tone. His mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of his verses. As he sits in his study, surrounded by weathered books and faded photographs, Bob's gaze drifts into the distance, his eyes shining with the flicker of inspiration. He contemplates the world through a lens tinted with nostalgia, the memories of his youth mingling with the dreams of what is yet to come. The weight of time rests upon his weary shoulders, but it does not deter his fervor for introspection."}
+2023-06-27 01:19:15,663 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: You are so kind.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:19:15,663 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: merriment. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:19:15,663 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:19:22,792 - poem_gen - INFO - Prompt tokens: 319
+2023-06-27 01:19:22,792 - poem_gen - INFO - Completion tokens: 189
+2023-06-27 01:19:22,792 - poem_gen - INFO - Total tokens: 508
+2023-06-27 01:19:22,793 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:20:24,612 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:20:32,163 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Yo, let's grab some pizza!
+2023-06-27 01:20:32,164 - poem_gen - DEBUG - randomness factor is: 0.02793486211812335
+2023-06-27 01:20:32,164 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Mortimer, an eccentric scientist, presents his writings in a structured, albeit unpredictable manner. His prose, rich with the motifs of innovation and chaos, embodies his passion for scientific discovery as well as his nonchalance towards the disorder left in his wake. His writings often culminate in a profound sense of detachment, a testament to his aloof and peculiar character.'}
+2023-06-27 01:20:32,164 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: Yo, let's grab some pizza!. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-27 01:20:32,164 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: memory. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:20:32,164 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:20:38,511 - poem_gen - INFO - Prompt tokens: 243
+2023-06-27 01:20:38,511 - poem_gen - INFO - Completion tokens: 174
+2023-06-27 01:20:38,511 - poem_gen - INFO - Total tokens: 417
+2023-06-27 01:20:38,511 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:20:53,777 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:20:59,728 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The caps helper was ill and cold-bloodedly abandoned his duties momentarily.
+2023-06-27 01:20:59,729 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:20:59,729 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 01:20:59,729 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: The caps helper was ill and cold-bloodedly abandoned his duties momentarily.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:20:59,729 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: time. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:20:59,729 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:21:06,412 - poem_gen - INFO - Prompt tokens: 225
+2023-06-27 01:21:06,412 - poem_gen - INFO - Completion tokens: 166
+2023-06-27 01:21:06,412 - poem_gen - INFO - Total tokens: 391
+2023-06-27 01:21:06,412 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:23:46,348 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:23:53,507 - poem_gen - DEBUG - running pif_poetry_generator with prompt: My consistent night routine: present includes opening a brain-friendly webpage and productively following along new sections; this seamlessly separates as commonplace through ease-yough portal , followed hand its constant piggyback vehicle with easy stop call tow-hour swoosh hand.
+
+(Note
+2023-06-27 01:23:53,507 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:23:53,507 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona, a tech entrepreneur with a love for the great outdoors, writes concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.'}
+2023-06-27 01:23:53,508 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: My consistent night routine: present includes opening a brain-friendly webpage and productively following along new sections; this seamlessly separates as commonplace through ease-yough portal , followed hand its constant piggyback vehicle with easy stop call tow-hour swoosh hand.\n\n(Note. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:23:53,508 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: despair. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:23:53,508 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:23:58,092 - poem_gen - INFO - Prompt tokens: 246
+2023-06-27 01:23:58,093 - poem_gen - INFO - Completion tokens: 116
+2023-06-27 01:23:58,093 - poem_gen - INFO - Total tokens: 362
+2023-06-27 01:23:58,093 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:25:58,084 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:26:02,899 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Crisscrossing usage of words in conversation can lead to confusion in communication, uh.....um ones too.
+2023-06-27 01:26:02,899 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:26:02,899 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.'}
+2023-06-27 01:26:02,899 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Crisscrossing usage of words in conversation can lead to confusion in communication, uh.....um ones too.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:26:02,900 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: mortality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:26:02,900 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:27:16,404 - poem_gen - INFO - Prompt tokens: 233
+2023-06-27 01:27:16,405 - poem_gen - INFO - Completion tokens: 1940
+2023-06-27 01:27:16,406 - poem_gen - INFO - Total tokens: 2173
+2023-06-27 01:27:16,407 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:27:47,704 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I discovered dismally a moral conundrum was all but afoot when I stumbled upon a bicycle convoy carrying just a moral egg-shaped balloon.
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I discovered dismally a moral conundrum was all but afoot when I stumbled upon a bicycle convoy carrying just a moral egg-shaped balloon.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: beauty. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:27:52,785 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:27:55,176 - poem_gen - INFO - Prompt tokens: 247
+2023-06-27 01:27:55,177 - poem_gen - INFO - Completion tokens: 52
+2023-06-27 01:27:55,178 - poem_gen - INFO - Total tokens: 299
+2023-06-27 01:27:55,178 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:28:16,635 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:28:28,000 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Male figures hiding underneath an overhead hat and feeling compelled to embrace their busty selves in the moments ahead.
+2023-06-27 01:28:28,001 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:28:28,001 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Mortimer, an eccentric scientist, presents his writings in a structured, albeit unpredictable manner. His prose, rich with the motifs of innovation and chaos, embodies his passion for scientific discovery as well as his nonchalance towards the disorder left in his wake. His writings often culminate in a profound sense of detachment, a testament to his aloof and peculiar character.'}
+2023-06-27 01:28:28,001 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Male figures hiding underneath an overhead hat and feeling compelled to embrace their busty selves in the moments ahead.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:28:28,001 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: eternity. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 01:28:28,001 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 01:28:38,812 - poem_gen - INFO - Prompt tokens: 255
+2023-06-27 01:28:38,812 - poem_gen - INFO - Completion tokens: 287
+2023-06-27 01:28:38,812 - poem_gen - INFO - Total tokens: 542
+2023-06-27 01:28:38,813 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:28:42,950 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:28:50,146 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The site unsuccessfully attempted to replace the outdated assert repeating the mixed message twice-in with two different images in the sprawling phalloic digital setup towering the crimson threads producing oscillatory dialogues as true servers to find or explicate preference ruleta fibonacci fallback car
+2023-06-27 01:28:50,146 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:28:50,146 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 01:28:50,146 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: The site unsuccessfully attempted to replace the outdated assert repeating the mixed message twice-in with two different images in the sprawling phalloic digital setup towering the crimson threads producing oscillatory dialogues as true servers to find or explicate preference ruleta fibonacci fallback car. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:29:21,177 - poem_gen - INFO - Prompt tokens: 182
+2023-06-27 01:29:21,177 - poem_gen - INFO - Completion tokens: 786
+2023-06-27 01:29:21,177 - poem_gen - INFO - Total tokens: 968
+2023-06-27 01:29:21,179 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:30:14,475 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:30:22,004 - poem_gen - DEBUG - running pif_poetry_generator with prompt: BIRD electric scooter thrills me, my southeastward ride!
+2023-06-27 01:30:22,005 - poem_gen - DEBUG - randomness factor is: 1
+2023-06-27 01:30:22,005 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-06-27 01:30:22,005 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: BIRD electric scooter thrills me, my southeastward ride!. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:30:45,631 - poem_gen - INFO - Prompt tokens: 118
+2023-06-27 01:30:45,632 - poem_gen - INFO - Completion tokens: 594
+2023-06-27 01:30:45,633 - poem_gen - INFO - Total tokens: 712
+2023-06-27 01:30:45,633 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:30:51,245 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:30:58,081 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I set up my camera on the tripod and took a photo of the beautiful landscape visible from the top of the Foursquare tower.
+2023-06-27 01:30:58,081 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-06-27 01:30:58,081 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-06-27 01:30:58,081 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I set up my camera on the tripod and took a photo of the beautiful landscape visible\xa0from the top of the Foursquare tower.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:31:08,263 - poem_gen - INFO - Prompt tokens: 133
+2023-06-27 01:31:08,263 - poem_gen - INFO - Completion tokens: 269
+2023-06-27 01:31:08,263 - poem_gen - INFO - Total tokens: 402
+2023-06-27 01:31:08,263 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:31:52,067 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:31:57,337 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Yours is the only praise I desire, even when I feel naked and lesser, for they will never know what it feels like to achieve cum laude.
+2023-06-27 01:31:57,338 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-06-27 01:31:57,338 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-06-27 01:31:57,338 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Yours is the only praise I desire, even when I feel naked and lesser, for they will never know what it feels like to achieve cum laude.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:32:07,610 - poem_gen - INFO - Prompt tokens: 148
+2023-06-27 01:32:07,610 - poem_gen - INFO - Completion tokens: 269
+2023-06-27 01:32:07,611 - poem_gen - INFO - Total tokens: 417
+2023-06-27 01:32:07,611 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:33:33,391 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:33:38,244 - poem_gen - DEBUG - running pif_poetry_generator with prompt: I will check the clear item on the right, but theirs might be right too.
+2023-06-27 01:33:38,244 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-06-27 01:33:38,244 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-06-27 01:33:38,244 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: I will check the clear item on the right, but theirs might be right too.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:33:48,854 - poem_gen - INFO - Prompt tokens: 122
+2023-06-27 01:33:48,854 - poem_gen - INFO - Completion tokens: 292
+2023-06-27 01:33:48,854 - poem_gen - INFO - Total tokens: 414
+2023-06-27 01:33:48,855 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 01:33:58,983 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 01:34:03,544 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Despite the challenges they faced, they persevered with tremendous courage and dedication.
+2023-06-27 01:34:03,545 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-06-27 01:34:03,545 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Reginald, an eccentric oil tycoon of immeasurable wealth, indulges in a style that is luxuriant and opulent, echoing his extravagance. His prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.'}
+2023-06-27 01:34:03,545 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Despite the challenges they faced, they persevered with tremendous courage and dedication.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 01:34:22,952 - poem_gen - INFO - Prompt tokens: 152
+2023-06-27 01:34:22,952 - poem_gen - INFO - Completion tokens: 509
+2023-06-27 01:34:22,953 - poem_gen - INFO - Total tokens: 661
+2023-06-27 01:34:22,953 - poem_gen - DEBUG - poem_gen completed successfully

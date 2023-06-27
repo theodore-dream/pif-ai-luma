@@ -25,7 +25,7 @@ from nltk.corpus import wordnet as wn
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept):
+def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 
     all_steps = {
         0: {"role": "system", "content": persona },
@@ -38,6 +38,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
     }
 
     steps_for_api = [all_steps[step] for step in steps_to_execute]
+    i = 0
     for i, step in enumerate(steps_for_api):
         logger.debug("Step %d: %s", i+1, step)
 
@@ -47,7 +48,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         max_tokens=2000,
         n=1,
         stop=None,
-        temperature=1.0,
+        temperature=(2 * randomness_factor),
     )
 
     
@@ -58,14 +59,18 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
     return response
 
 def parse_response():
-    creative_prompt = create_vars.gen_creative_prompt(create_vars.get_random_words())
+    # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
+    randomness_factor = 0.8
+    creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
     logger.debug(f"running pif_poetry_generator with prompt: {creative_prompt}")
+    logger.debug(f"randomness factor is: {randomness_factor}")
+
 
     # set the number of steps you want here
-    api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept)
+    api_response = api_create_poem([0, 1],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
