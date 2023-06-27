@@ -88,3 +88,5 @@ if __name__ == "__main__":
     ## get_random_words - OK, creates too many words, needs to be fewer words, create an entropy variable from 0-1 and use that to determine how many words to create
     ## get_abstract_concept - good, needs more work, the words are showing up too much in the poetry, use nltk to find synonyms and use those instead
     ## get_lang_device - seems good but needs more testing
+    ## ?incorporate the lyrics api into the poetry generator? prob save for a stage 2 
+    ## poetic_goal ? - set up a new variable that defines a poetic goal

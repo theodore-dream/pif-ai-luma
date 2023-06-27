@@ -389,3 +389,36 @@
 2023-06-26 23:39:02,490 - poem_gen - INFO - Completion tokens: 252
 2023-06-26 23:39:02,490 - poem_gen - INFO - Total tokens: 459
 2023-06-26 23:39:02,490 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 23:59:10,680 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:59:20,653 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Tonight, even though it's quite loose, it's ripe and there through it all.
+2023-06-26 23:59:20,653 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Reginald, an eccentric oil tycoon of immeasurable wealth, indulges in a style that is luxuriant and opulent, echoing his extravagance. His prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.'}
+2023-06-26 23:59:20,653 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Step 1: Produce three different versions of a poem inspired by the following: Tonight, even though it's quite loose, it's ripe and there through it all.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 23:59:20,653 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: dreams. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-26 23:59:20,654 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-26 23:59:29,454 - poem_gen - INFO - Prompt tokens: 241
+2023-06-26 23:59:29,454 - poem_gen - INFO - Completion tokens: 225
+2023-06-26 23:59:29,455 - poem_gen - INFO - Total tokens: 466
+2023-06-26 23:59:29,455 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:02:22,081 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:02:27,683 - poem_gen - DEBUG - running pif_poetry_generator with prompt: My small mouse squeaks carelessly as it crisscrosses the room, now dancing to an adagio beat.
+2023-06-27 00:02:27,684 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 00:02:27,684 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: My small mouse squeaks carelessly as it crisscrosses the room, now dancing to an adagio beat.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:02:27,684 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: lightheartedness. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:02:27,684 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:02:29,883 - poem_gen - INFO - Prompt tokens: 247
+2023-06-27 00:02:29,883 - poem_gen - INFO - Completion tokens: 54
+2023-06-27 00:02:29,884 - poem_gen - INFO - Total tokens: 301
+2023-06-27 00:02:29,884 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-27 00:14:52,156 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:18:22,790 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:18:34,902 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:18:46,803 - poem_gen - INFO - Logger is set up and running.
+2023-06-27 00:18:53,436 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Please join me upstairs cozily, for a special friendship financially and downstage.
+2023-06-27 00:18:53,437 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice, an anxious heiress shadowed by an unshakeable paranoia, crafts her writings with a sense of urgency and uncertainty. The underlying theme in her stories is the existential dread of imagined threats, using suspense as a tool to articulate her constant state of anxiety and fear.'}
+2023-06-27 00:18:53,437 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Please join me upstairs cozily, for a special friendship financially and downstage.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-27 00:18:53,437 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: faith. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-06-27 00:18:53,437 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-06-27 00:18:57,939 - poem_gen - INFO - Prompt tokens: 233
+2023-06-27 00:18:57,940 - poem_gen - INFO - Completion tokens: 114
+2023-06-27 00:18:57,940 - poem_gen - INFO - Total tokens: 347
+2023-06-27 00:18:57,940 - poem_gen - DEBUG - poem_gen completed successfully

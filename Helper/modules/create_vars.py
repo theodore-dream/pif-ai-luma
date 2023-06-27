@@ -4,6 +4,8 @@ from nltk.corpus import wordnet as wn
 import openai
 import os
 from nltk.probability import FreqDist
+from collections import Counter
+
 
 # setup logger
 from modules.logger import setup_logger
@@ -169,11 +171,17 @@ def get_random_words():
     # Remove duplicates
     wordnet_words = list(set(wordnet_words))
 
-    # Select a random word from each word type.
-    random_noun = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
-    random_verb = random.choice([word for word in wordnet_words if wn.synsets(word, wn.VERB)])
-    random_adj = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADJ)])
-    random_adv = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADV)])
+    # Convert list to a Counter object to get word frequency
+    wordnet_word_freq = Counter(wordnet_words)
+
+    # Filter out common words that occur more than 3 times
+    common_wordnet_words = [word for word, freq in wordnet_word_freq.items() if freq > 0]
+
+    # Select a random word from each word type from the common words.
+    random_noun = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.NOUN)])
+    random_verb = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.VERB)])
+    random_adj = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.ADJ)])
+    random_adv = random.choice([word for word in common_wordnet_words if wn.synsets(word, wn.ADV)])
 
     wordnet_words_string = f'{random_noun} {random_verb} {random_adj} {random_adv}'
     logger.debug(f"wordnet words are: {wordnet_words_string}")
@@ -247,5 +255,5 @@ def build_persona():
     # Pick a random persona
     selected_persona_key = random.choice(list(personas["poets"].keys()))
     selected_persona_content = personas["poets"][selected_persona_key]
-    
+
     return selected_persona_content
