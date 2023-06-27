@@ -53,9 +53,9 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
 
     
     # print information about api call
-    print(f"persona: {persona}")
-    print(f"abstract_concept: {abstract_concept}")
-    print(f"creative_prompt: {creative_prompt}")
+    logging.debug(f"persona: {persona}")
+    logging.debug(f"abstract_concept: {abstract_concept}")
+    logging.debug(f"creative_prompt: {creative_prompt}")
     return response
 
 def parse_response():
@@ -63,8 +63,8 @@ def parse_response():
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
-    print(f"running pif_poetry_generator with prompt: {creative_prompt}")
-    api_response = api_create_poem([0, 1, 3, 5],creative_prompt, persona, lang_device, abstract_concept)
+    logger.debug(f"running pif_poetry_generator with prompt: {creative_prompt}")
+    api_response = api_create_poem([0, 1, 6],creative_prompt, persona, lang_device, abstract_concept)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:

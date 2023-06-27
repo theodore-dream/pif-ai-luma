@@ -111,3 +111,81 @@
 2023-06-26 22:46:30,016 - poem_gen - INFO - Completion tokens: 109
 2023-06-26 22:46:30,016 - poem_gen - INFO - Total tokens: 293
 2023-06-26 22:46:30,016 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:47:37,991 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:47:54,788 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:48:01,050 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:48:01,050 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Unexpectedly, the horseback rider found itself unable to bar the lascivious gaze of the person behind them.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:48:01,050 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:48:03,343 - poem_gen - INFO - Prompt tokens: 141
+2023-06-26 22:48:03,343 - poem_gen - INFO - Completion tokens: 39
+2023-06-26 22:48:03,344 - poem_gen - INFO - Total tokens: 180
+2023-06-26 22:48:03,344 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:49:04,170 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:49:43,932 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:49:49,953 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:49:49,954 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: We may be far out, but together we can web something short for others.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:49:49,954 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:49:51,741 - poem_gen - INFO - Prompt tokens: 134
+2023-06-26 22:49:51,741 - poem_gen - INFO - Completion tokens: 29
+2023-06-26 22:49:51,741 - poem_gen - INFO - Total tokens: 163
+2023-06-26 22:49:51,742 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:53:41,531 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:53:46,445 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:53:46,445 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Half-and-half, we paddled with one oar more up and the other down, piggybacking through the topographically diverse waters.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:53:46,445 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:53:49,516 - poem_gen - INFO - Prompt tokens: 147
+2023-06-26 22:53:49,516 - poem_gen - INFO - Completion tokens: 36
+2023-06-26 22:53:49,516 - poem_gen - INFO - Total tokens: 183
+2023-06-26 22:53:49,516 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:54:39,786 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:54:45,036 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:54:45,036 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Next Step: Produce three different versions of a poem inspired by the following: De novo, I'll brew a hot blackcurrant tea soon, for it's rather chilly and I don't want to be damned for much longer.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 22:54:45,036 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:54:46,450 - poem_gen - INFO - Prompt tokens: 149
+2023-06-26 22:54:46,450 - poem_gen - INFO - Completion tokens: 28
+2023-06-26 22:54:46,451 - poem_gen - INFO - Total tokens: 177
+2023-06-26 22:54:46,451 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:55:24,216 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:55:30,692 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:55:30,692 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': "Next Step: Produce three different versions of a poem inspired by the following: My description of the new perfume is that it's fresh and totally pop, but so outwardly sexual.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."}
+2023-06-26 22:55:30,692 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:55:34,651 - poem_gen - INFO - Prompt tokens: 139
+2023-06-26 22:55:34,652 - poem_gen - INFO - Completion tokens: 108
+2023-06-26 22:55:34,652 - poem_gen - INFO - Total tokens: 247
+2023-06-26 22:55:34,652 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:56:19,207 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:56:23,427 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Already ill, he fanatically chocked someone apart.
+2023-06-26 22:56:23,427 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:56:23,427 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Already ill, he fanatically chocked someone apart.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:56:23,427 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:56:25,573 - poem_gen - INFO - Prompt tokens: 129
+2023-06-26 22:56:25,574 - poem_gen - INFO - Completion tokens: 47
+2023-06-26 22:56:25,574 - poem_gen - INFO - Total tokens: 176
+2023-06-26 22:56:25,574 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:57:01,132 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:57:07,128 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Will you use the tool to put the pieces together, or is there another way?
+2023-06-26 22:57:07,128 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'poets'}
+2023-06-26 22:57:07,129 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: Will you use the tool to put the pieces together, or is there another way?. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:57:07,129 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:57:09,138 - poem_gen - INFO - Prompt tokens: 135
+2023-06-26 22:57:09,139 - poem_gen - INFO - Completion tokens: 36
+2023-06-26 22:57:09,139 - poem_gen - INFO - Total tokens: 171
+2023-06-26 22:57:09,139 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:58:39,197 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 22:58:44,035 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The young man played his best on the piano, with a sincere and rebellious expression, countering the prestissimo tempo.
+2023-06-26 22:58:44,035 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Beatrice'}
+2023-06-26 22:58:44,035 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: The young man played his best on the piano, with a sincere and rebellious expression, countering the prestissimo tempo.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 22:58:44,035 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 22:58:45,898 - poem_gen - INFO - Prompt tokens: 144
+2023-06-26 22:58:45,898 - poem_gen - INFO - Completion tokens: 29
+2023-06-26 22:58:45,899 - poem_gen - INFO - Total tokens: 173
+2023-06-26 22:58:45,899 - poem_gen - DEBUG - poem_gen completed successfully
+2023-06-26 22:59:59,858 - poem_gen - INFO - Logger is set up and running.
+2023-06-26 23:00:04,482 - poem_gen - DEBUG - running pif_poetry_generator with prompt: As a professional, I am well-versed in using Foursquare to make the most of my short breaks, albeit onerously.
+2023-06-26 23:00:04,482 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Fiona'}
+2023-06-26 23:00:04,483 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Next Step: Produce three different versions of a poem inspired by the following: As a professional, I am well-versed in using Foursquare to make the most of my short breaks, albeit onerously.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-06-26 23:00:04,483 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Next Step: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure.'}
+2023-06-26 23:00:09,529 - poem_gen - INFO - Prompt tokens: 146
+2023-06-26 23:00:09,529 - poem_gen - INFO - Completion tokens: 41
+2023-06-26 23:00:09,529 - poem_gen - INFO - Total tokens: 187
+2023-06-26 23:00:09,529 - poem_gen - DEBUG - poem_gen completed successfully

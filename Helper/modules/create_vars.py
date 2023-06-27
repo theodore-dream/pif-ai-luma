@@ -180,6 +180,7 @@ def get_random_words():
 
     # combine both webtext and wordnet words
     combined_string = webtext_words + " " + wordnet_words_string
+    logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
 def gen_creative_prompt(text):
@@ -200,7 +201,6 @@ def gen_creative_prompt(text):
         top_p=1,
     )
     
-    print(response)
     creative_prompt = response['choices'][0]['message']['content']
     return creative_prompt
 
@@ -245,5 +245,5 @@ def build_persona():
 }
 }
     # Pick a random persona
-    selected_persona = random.choice(list(personas.keys()))
+    selected_persona = random.choice(list(personas["poets"].keys()))
     return selected_persona
