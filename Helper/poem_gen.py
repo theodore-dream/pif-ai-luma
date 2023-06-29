@@ -61,7 +61,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
 
 def parse_response():
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = 0.6
+    randomness_factor = 0.7
     creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()

@@ -14,70 +14,152 @@ logger = setup_logger('create_vars')
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def get_abstract_concept():
-    abstract_concepts = [
-        "amusement",
-        "beauty",
-        "bliss",
-        "charm",
-        "chaos",
-        "cheerfulness",
-        "courage",
-        "delight",
-        "despair",
-        "destiny",
-        "dreams",
-        "ecstasy",
-        "enlightenment",
-        "eternity",
-        "faith",
-        "freedom",
-        "frolic",
-        "gaiety",
-        "giddiness",
-        "glee",
-        "gleefulness",
-        "grace",
-        "hope",
-        "humor",
-        "ingenuity",
-        "innocence",
-        "jollity",
-        "joviality",
-        "justice",
-        "knowledge",
-        "lightheartedness",
-        "liveliness",
-        "memory",
-        "merriment",
-        "mirth",
-        "mischief",
-        "morality",
-        "mortality",
-        "mundanity",
-        "passion",
-        "pep",
-        "playfulness",
-        "quaintness",
-        "radiance",
-        "redemption",
-        "sensuality",
-        "serenity",
-        "silliness",
-        "solitude",
-        "sparkle",
-        "spirituality",
-        "time",
-        "transcendence",
-        "transience",
-        "truth",
-        "vivacity",
-        "whimsy",
-        "wisdom",
-        "wit",
-        "zest"
-    ]
+    abstract_concepts = {
+        "adventure": "positive",
+        "affection": "positive",
+        "ambition": "positive",
+        "amusement": "positive",
+        "anguish": "negative",
+        "anxiety": "negative",
+        "apathy": "negative",
+        "awe": "positive",
+        "balance": "positive",
+        "beauty": "positive",
+        "belonging": "positive",
+        "bitterness": "negative",
+        "bliss": "positive",
+        "bravery": "positive",
+        "camaraderie": "positive",
+        "chaos": "negative",
+        "charm": "positive",
+        "cheerfulness": "positive",
+        "compassion": "positive",
+        "contentment": "positive",
+        "courage": "positive",
+        "curiosity": "positive",
+        "delight": "positive",
+        "desolation": "negative",
+        "despair": "negative",
+        "destiny": "neutral",
+        "determination": "positive",
+        "dignity": "positive",
+        "discipline": "positive",
+        "discontent": "negative",
+        "dishonesty": "negative",
+        "divinity": "positive",
+        "doubt": "negative",
+        "dreams": "positive",
+        "ecstasy": "positive",
+        "elegance": "positive",
+        "embarrassment": "negative",
+        "empathy": "positive",
+        "empowerment": "positive",
+        "endurance": "positive",
+        "enlightenment": "positive",
+        "envy": "negative",
+        "equality": "positive",
+        "eternity": "neutral",
+        "euphoria": "positive",
+        "faith": "positive",
+        "fear": "negative",
+        "forgiveness": "positive",
+        "freedom": "positive",
+        "frolic": "positive",
+        "frustration": "negative",
+        "gaiety": "positive",
+        "giddiness": "positive",
+        "glee": "positive",
+        "gleefulness": "positive",
+        "grace": "positive",
+        "gratitude": "positive",
+        "grief": "negative",
+        "guilt": "negative",
+        "harmony": "positive",
+        "hate": "negative",
+        "hope": "positive",
+        "honor": "positive",
+        "humiliation": "negative",
+        "humor": "positive",
+        "ignorance": "negative",
+        "imagination": "positive",
+        "ingenuity": "positive",
+        "innocence": "positive",
+        "integrity": "positive",
+        "injustice": "negative",
+        "jealousy": "negative",
+        "jollity": "positive",
+        "joviality": "positive",
+        "joy": "positive",
+        "justice": "positive",
+        "knowledge": "positive",
+        "liberty": "positive",
+        "lightheartedness": "positive",
+        "loneliness": "negative",
+        "liveliness": "positive",
+        "love": "positive",
+        "loyalty": "positive",
+        "malice": "negative",
+        "memory": "neutral",
+        "merriment": "positive",
+        "mirth": "positive",
+        "mischief": "neutral",
+        "misery": "negative",
+        "morality": "positive",
+        "mortality": "negative",
+        "mundanity": "neutral",
+        "mystery": "neutral",
+        "nobility": "positive",
+        "optimism": "positive",
+        "pain": "negative",
+        "passion": "positive",
+        "patience": "positive",
+        "pep": "positive",
+        "perseverance": "positive",
+        "playfulness": "positive",
+        "pleasure": "positive",
+        "prejudice": "negative",
+        "pride": "positive",
+        "prosperity": "positive",
+        "quaintness": "positive",
+        "radiance": "positive",
+        "redemption": "positive",
+        "regret": "negative",
+        "resentment": "negative",
+        "respect": "positive",
+        "reverence": "positive",
+        "romance": "positive",
+        "sadness": "negative",
+        "satisfaction": "positive",
+        "sensuality": "positive",
+        "serenity": "positive",
+        "shame": "negative",
+        "silliness": "neutral",
+        "solitude": "neutral",
+        "sorrow": "negative",
+        "sparkle": "positive",
+        "spirituality": "positive",
+        "sympathy": "positive",
+        "tenacity": "positive",
+        "time": "neutral",
+        "torment": "negative",
+        "tranquility": "positive",
+        "transcendence": "positive",
+        "transience": "neutral",
+        "truth": "positive",
+        "unity": "positive",
+        "valor": "positive",
+        "vigor": "positive",
+        "vivacity": "positive",
+        "whimsy": "positive",
+        "wisdom": "positive",
+        "wonder": "positive",
+        "worthlessness": "negative",
+        "wit": "positive",
+        "yearning": "neutral",
+        "zest": "positive"
+    }
     # Pick a random abstract_concept
-    selected_abstract_concept = random.choice(abstract_concepts)
+    selected_abstract_concept = random.choice(list(abstract_concepts.keys()))
 
     # Get synonyms and include the original concept in the list
     words = [selected_abstract_concept]
@@ -137,39 +219,27 @@ def gen_random_words(randomness_factor=1):
     pronouns = [word for word, pos in tagged if pos in ['PRP', 'PRP$'] and word.isalpha()]
     conjunctions = [word for word, pos in tagged if pos == 'CC' and word.isalpha()]
 
-    # Get the frequency distribution of the words.
-    fdist_nouns = FreqDist(nouns)
-    fdist_adj = FreqDist(adjectives)
-    fdist_adv = FreqDist(adverbs)
-    fdist_pronouns = FreqDist(pronouns)
-    fdist_conjunctions = FreqDist(conjunctions)
-
-    # Filter to get only the common words.
-    common_nouns = [word for word in set(nouns) if fdist_nouns[word] > 0]
-    common_adj = [word for word in set(adjectives) if fdist_adj[word] > 0]
-    common_adv = [word for word in set(adverbs) if fdist_adv[word] > 0]
-    common_pronouns = [word for word in set(pronouns) if fdist_pronouns[word] > 0]
-    common_conjunctions = [word for word in set(conjunctions) if fdist_conjunctions[word] > 0]
-
     # Select a random word from each category.
-    random_noun = random.choice(common_nouns)
-    random_adj = random.choice(common_adj)
-    random_adv = random.choice(common_adv)
-    random_pronoun = random.choice(common_pronouns)
-    random_conjunction = random.choice(common_conjunctions)
+    random_noun = random.choice(nouns)
+    random_adj = random.choice(adjectives)
+    random_adv = random.choice(adverbs)
+    random_pronoun = random.choice(pronouns)
+    random_conjunction = random.choice(conjunctions)
 
   # Combine all categories into a single list.
     all_words = [random_noun, random_adj, random_adv, random_pronoun, random_conjunction]
 
     # Control the total number of words selected based on the randomness_factor
-    num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
+    #num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
 
     # Select random words from the entire list, the number of words specificed by randomness_factor
-    random_webtext_words = random.choices(all_words, k=num_words)
+    #random_webtext_words = random.choices(all_words, k=num_words)
 
     # Combine the words into a single string.
-    webtext_words = ' '.join(random_webtext_words)
-    logger.debug(f"webtext words are: {webtext_words}")
+    #webtext_words = ' '.join(random_webtext_words)
+    #logger.debug(f"webtext words are: {webtext_words}")
+
+    webtext_words = ' '.join(all_words)
 
     # This section pulls words from wordnet
     wordnet_words = []
@@ -221,9 +291,8 @@ def gen_creative_prompt(text, randomness_factor):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You evaluate the commonness of words, rating how commonplace or rare a word is. You also generate sentences. You do this in a two step process. Return only the sentence."},
-            {"role": "user", "content": "Step 1: Review the following words and provide a rating on each word from 1 to 5, with 1 being the most common words and 5 being the most rare words."},
-            {"role": "user", "content": "Step 2: Using only words that are a 3 or below, create a sentence."}
+            {"role": "system", "content": "You generate new sentences."},
+            {"role": "user", "content": "Generate a sentence inspired by the following words, using new words." + text},
         ],
         max_tokens=500,
         temperature=(2 * randomness_factor),
