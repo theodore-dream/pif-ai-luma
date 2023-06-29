@@ -265,3 +265,221 @@
 2023-06-27 01:33:59,562 - create_vars - DEBUG - webtext words are: tremendous tremendous nonetheless tremendous
 2023-06-27 01:34:02,268 - create_vars - DEBUG - wordnet words are: leeward But But them
 2023-06-27 01:34:02,268 - create_vars - DEBUG - combined words are: tremendous tremendous nonetheless tremendous leeward But But them
+2023-06-27 23:14:48,644 - create_vars - DEBUG - webtext words are: back back breakfast We
+2023-06-27 23:14:51,400 - create_vars - DEBUG - wordnet words are: large large We overnight
+2023-06-27 23:14:51,400 - create_vars - DEBUG - combined words are: back back breakfast We large large We overnight
+2023-06-27 23:15:39,768 - create_vars - DEBUG - webtext words are: You You similar You
+2023-06-27 23:15:42,483 - create_vars - DEBUG - wordnet words are: forcibly Man forcibly overseas
+2023-06-27 23:15:42,483 - create_vars - DEBUG - combined words are: You You similar You forcibly Man forcibly overseas
+2023-06-27 23:16:16,514 - create_vars - DEBUG - webtext words are: Its special BUSINESSMAN BUSINESSMAN
+2023-06-27 23:16:19,239 - create_vars - DEBUG - wordnet words are: Its adagio Its irregularly
+2023-06-27 23:16:19,239 - create_vars - DEBUG - combined words are: Its special BUSINESSMAN BUSINESSMAN Its adagio Its irregularly
+2023-06-27 23:17:41,317 - create_vars - DEBUG - webtext words are: she foot tropical or
+2023-06-27 23:17:44,056 - create_vars - DEBUG - wordnet words are: vitally she right or
+2023-06-27 23:17:44,056 - create_vars - DEBUG - combined words are: she foot tropical or vitally she right or
+2023-06-27 23:18:08,133 - create_vars - DEBUG - webtext words are: delivers Joyfully you Needs
+2023-06-27 23:18:10,844 - create_vars - DEBUG - wordnet words are: now dictatorially you still
+2023-06-27 23:18:10,844 - create_vars - DEBUG - combined words are: delivers Joyfully you Needs now dictatorially you still
+2023-06-27 23:18:48,307 - create_vars - DEBUG - webtext words are: dashes silly Daily Sometimes
+2023-06-27 23:18:51,043 - create_vars - DEBUG - wordnet words are: pruriently Sometimes deadly Your
+2023-06-27 23:18:51,043 - create_vars - DEBUG - combined words are: dashes silly Daily Sometimes pruriently Sometimes deadly Your
+2023-06-28 17:16:22,040 - create_vars - DEBUG - webtext words are: share share assertive AND
+2023-06-28 17:16:24,855 - create_vars - DEBUG - wordnet words are: Its Its Its midweek
+2023-06-28 17:16:24,855 - create_vars - DEBUG - combined words are: share share assertive AND Its Its Its midweek
+2023-06-28 17:16:39,248 - create_vars - DEBUG - webtext words are: their intuitive intuitive viciously
+2023-06-28 17:16:41,955 - create_vars - DEBUG - wordnet words are: there Neither their chromatically
+2023-06-28 17:16:41,955 - create_vars - DEBUG - combined words are: their intuitive intuitive viciously there Neither their chromatically
+2023-06-28 19:02:11,988 - create_vars - DEBUG - webtext words are: y him him him
+2023-06-28 19:02:14,842 - create_vars - DEBUG - wordnet words are: y y lastingly lastingly
+2023-06-28 19:02:14,842 - create_vars - DEBUG - combined words are: y him him him y y lastingly lastingly
+2023-06-28 19:28:41,279 - create_vars - DEBUG - webtext words are: honeyed And honeyed carefully
+2023-06-28 19:28:44,047 - create_vars - DEBUG - wordnet words are: hyperbolically nowadays And nowadays
+2023-06-28 19:28:44,047 - create_vars - DEBUG - combined words are: honeyed And honeyed carefully hyperbolically nowadays And nowadays
+2023-06-28 19:33:17,311 - create_vars - DEBUG - webtext words are: bastard bastard bastard whop
+2023-06-28 19:33:20,138 - create_vars - DEBUG - wordnet words are: But lastingly it lastingly
+2023-06-28 19:33:20,138 - create_vars - DEBUG - combined words are: bastard bastard bastard whop But lastingly it lastingly
+2023-06-28 19:33:48,910 - create_vars - DEBUG - webtext words are: WIFE young WIFE young
+2023-06-28 19:33:51,673 - create_vars - DEBUG - wordnet words are: piggyback piggyback piggyback They
+2023-06-28 19:33:51,673 - create_vars - DEBUG - combined words are: WIFE young WIFE young piggyback piggyback piggyback They
+2023-06-28 19:34:37,443 - create_vars - DEBUG - webtext words are: But ooh yet ooh
+2023-06-28 19:34:40,249 - create_vars - DEBUG - wordnet words are: last then synonymously synonymously
+2023-06-28 19:34:40,249 - create_vars - DEBUG - combined words are: But ooh yet ooh last then synonymously synonymously
+2023-06-28 19:36:49,257 - create_vars - DEBUG - webtext words are: straight due planets
+2023-06-28 19:36:52,071 - create_vars - DEBUG - wordnet words are: hisself in_vitro hisself
+2023-06-28 19:36:52,071 - create_vars - DEBUG - combined words are: straight due planets hisself in_vitro hisself
+2023-06-28 19:38:06,755 - create_vars - DEBUG - webtext words are: pretty farfetched Oh
+2023-06-28 19:38:09,601 - create_vars - DEBUG - wordnet words are: inward ourselves ourselves
+2023-06-28 19:38:09,601 - create_vars - DEBUG - combined words are: pretty farfetched Oh inward ourselves ourselves
+2023-06-28 19:38:38,186 - create_vars - DEBUG - webtext words are: moveable strangely strangely
+2023-06-28 19:38:40,890 - create_vars - DEBUG - wordnet words are: better nor nor
+2023-06-28 19:38:40,890 - create_vars - DEBUG - combined words are: moveable strangely strangely better nor nor
+2023-06-28 19:43:08,382 - create_vars - DEBUG - webtext words are: our our our
+2023-06-28 19:43:11,105 - create_vars - DEBUG - wordnet words are: short chronically chronically
+2023-06-28 19:43:11,106 - create_vars - DEBUG - combined words are: our our our short chronically chronically
+2023-06-28 21:04:23,811 - create_vars - DEBUG - webtext words are: Beckett decent I
+2023-06-28 21:04:26,663 - create_vars - DEBUG - wordnet words are: well or well
+2023-06-28 21:04:26,663 - create_vars - DEBUG - combined words are: Beckett decent I well or well
+2023-06-28 21:10:02,218 - create_vars - DEBUG - webtext words are: me me beaches
+2023-06-28 21:10:04,950 - create_vars - DEBUG - wordnet words are: calculatingly most yea
+2023-06-28 21:10:04,950 - create_vars - DEBUG - combined words are: me me beaches calculatingly most yea
+2023-06-28 21:12:35,352 - create_vars - DEBUG - webtext words are: we nor larger
+2023-06-28 21:12:38,107 - create_vars - DEBUG - wordnet words are: neck_and_neck westerly westerly
+2023-06-28 21:12:38,107 - create_vars - DEBUG - combined words are: we nor larger neck_and_neck westerly westerly
+2023-06-28 21:13:29,500 - create_vars - DEBUG - webtext words are: ready petition neither
+2023-06-28 21:13:32,308 - create_vars - DEBUG - wordnet words are: in_unison in_unison even
+2023-06-28 21:13:32,308 - create_vars - DEBUG - combined words are: ready petition neither in_unison in_unison even
+2023-06-28 21:14:56,698 - create_vars - DEBUG - webtext words are: enough cupped So
+2023-06-28 21:14:59,584 - create_vars - DEBUG - wordnet words are: slower slower So
+2023-06-28 21:14:59,584 - create_vars - DEBUG - combined words are: enough cupped So slower slower So
+2023-06-28 21:16:33,190 - create_vars - DEBUG - webtext words are: occurs lsquo lsquo
+2023-06-28 21:16:36,000 - create_vars - DEBUG - wordnet words are: impossibly heavenward right
+2023-06-28 21:16:36,000 - create_vars - DEBUG - combined words are: occurs lsquo lsquo impossibly heavenward right
+2023-06-28 21:16:38,269 - create_vars - DEBUG - selected_abstract_concept: gleefulness
+2023-06-28 21:17:20,456 - create_vars - DEBUG - webtext words are: Firstly open Firstly
+2023-06-28 21:17:23,358 - create_vars - DEBUG - wordnet words are: yonder large large
+2023-06-28 21:17:23,359 - create_vars - DEBUG - combined words are: Firstly open Firstly yonder large large
+2023-06-28 21:19:30,128 - create_vars - DEBUG - webtext words are: mum mum me
+2023-06-28 21:19:32,880 - create_vars - DEBUG - wordnet words are: close me sexually
+2023-06-28 21:19:32,880 - create_vars - DEBUG - combined words are: mum mum me close me sexually
+2023-06-28 21:20:46,965 - create_vars - DEBUG - webtext words are: onMouseOver tooltip prefernces
+2023-06-28 21:20:49,710 - create_vars - DEBUG - wordnet words are: underground Ok tooltip
+2023-06-28 21:20:49,710 - create_vars - DEBUG - combined words are: onMouseOver tooltip prefernces underground Ok tooltip
+2023-06-28 21:20:51,101 - create_vars - DEBUG - selected_abstract_concept: amusement
+2023-06-28 21:24:01,171 - create_vars - DEBUG - webtext words are: Or never our
+2023-06-28 21:24:03,935 - create_vars - DEBUG - wordnet words are: north our gratis
+2023-06-28 21:24:03,935 - create_vars - DEBUG - combined words are: Or never our north our gratis
+2023-06-28 21:25:59,017 - create_vars - DEBUG - webtext words are: Both underfoot They
+2023-06-28 21:26:01,756 - create_vars - DEBUG - wordnet words are: insofar second-best They
+2023-06-28 21:26:01,756 - create_vars - DEBUG - combined words are: Both underfoot They insofar second-best They
+2023-06-28 21:26:45,149 - create_vars - DEBUG - webtext words are: much Our more
+2023-06-28 21:26:47,910 - create_vars - DEBUG - wordnet words are: okay expressively okay
+2023-06-28 21:26:47,911 - create_vars - DEBUG - combined words are: much Our more okay expressively okay
+2023-06-28 21:32:43,213 - create_vars - DEBUG - webtext words are: femininish Either bones
+2023-06-28 21:32:46,040 - create_vars - DEBUG - wordnet words are: Either It east
+2023-06-28 21:32:46,040 - create_vars - DEBUG - combined words are: femininish Either bones Either It east
+2023-06-28 21:33:29,427 - create_vars - DEBUG - webtext words are: them flesh flesh
+2023-06-28 21:33:32,161 - create_vars - DEBUG - wordnet words are: outright singly outright
+2023-06-28 21:33:32,161 - create_vars - DEBUG - combined words are: them flesh flesh outright singly outright
+2023-06-28 21:42:44,068 - create_vars - DEBUG - webtext words are: them anonymous OK
+2023-06-28 21:42:46,837 - create_vars - DEBUG - wordnet words are: palingenesis popularly vote
+2023-06-28 21:42:46,837 - create_vars - DEBUG - combined words are: them anonymous OK palingenesis popularly vote
+2023-06-28 21:43:36,387 - create_vars - DEBUG - webtext words are: LAUNCELOT it it
+2023-06-28 21:43:39,123 - create_vars - DEBUG - wordnet words are: carpenter's_mallet carpenter's_mallet haunting
+2023-06-28 21:43:39,123 - create_vars - DEBUG - combined words are: LAUNCELOT it it carpenter's_mallet carpenter's_mallet haunting
+2023-06-28 21:45:05,956 - create_vars - DEBUG - webtext words are: deceptively and one
+2023-06-28 21:45:08,830 - create_vars - DEBUG - wordnet words are: parol_evidence_rule off-the-shoulder curl_up
+2023-06-28 21:45:08,830 - create_vars - DEBUG - combined words are: deceptively and one parol_evidence_rule off-the-shoulder curl_up
+2023-06-28 21:45:37,067 - create_vars - DEBUG - webtext words are: mutual We So
+2023-06-28 21:45:39,831 - create_vars - DEBUG - wordnet words are: flush flush klieg_light
+2023-06-28 21:45:39,831 - create_vars - DEBUG - combined words are: mutual We So flush flush klieg_light
+2023-06-28 21:46:18,177 - create_vars - DEBUG - webtext words are: Yet axe her
+2023-06-28 21:46:20,935 - create_vars - DEBUG - wordnet words are: guggle internationally internationally
+2023-06-28 21:46:20,935 - create_vars - DEBUG - combined words are: Yet axe her guggle internationally internationally
+2023-06-28 21:47:03,010 - create_vars - DEBUG - webtext words are: Order cause proudly
+2023-06-28 21:47:05,913 - create_vars - DEBUG - wordnet words are: rhythmical cut silviculture
+2023-06-28 21:47:05,913 - create_vars - DEBUG - combined words are: Order cause proudly rhythmical cut silviculture
+2023-06-28 21:50:00,218 - create_vars - DEBUG - webtext words are: slower telekenesis telekenesis
+2023-06-28 21:50:03,000 - create_vars - DEBUG - wordnet words are: fast grabber fast
+2023-06-28 21:50:03,000 - create_vars - DEBUG - combined words are: slower telekenesis telekenesis fast grabber fast
+2023-06-28 21:50:32,297 - create_vars - DEBUG - webtext words are: onunload tooltip often
+2023-06-28 21:50:35,039 - create_vars - DEBUG - wordnet words are: valvule gallop wrongfully
+2023-06-28 21:50:35,039 - create_vars - DEBUG - combined words are: onunload tooltip often valvule gallop wrongfully
+2023-06-28 21:51:01,504 - create_vars - DEBUG - webtext words are: havin SCENE stew
+2023-06-28 21:51:04,246 - create_vars - DEBUG - wordnet words are: segue onshore invite
+2023-06-28 21:51:04,246 - create_vars - DEBUG - combined words are: havin SCENE stew segue onshore invite
+2023-06-28 21:57:39,573 - create_vars - DEBUG - webtext words are: sometimes pixel pixel
+2023-06-28 21:57:42,323 - create_vars - DEBUG - wordnet words are: horn away horn
+2023-06-28 21:57:42,323 - create_vars - DEBUG - combined words are: sometimes pixel pixel horn away horn
+2023-06-28 21:58:17,218 - create_vars - DEBUG - webtext words are: our ye
+2023-06-28 21:58:19,949 - create_vars - DEBUG - wordnet words are: emergent dismissal
+2023-06-28 21:58:19,949 - create_vars - DEBUG - combined words are: our ye emergent dismissal
+2023-06-28 22:00:40,752 - create_vars - DEBUG - webtext words are: ill ye
+2023-06-28 22:00:43,473 - create_vars - DEBUG - wordnet words are: intimate eolithic
+2023-06-28 22:00:43,473 - create_vars - DEBUG - combined words are: ill ye intimate eolithic
+2023-06-28 22:01:06,868 - create_vars - DEBUG - webtext words are: We We
+2023-06-28 22:01:09,626 - create_vars - DEBUG - wordnet words are: alto_saxophonist ophthalmic_artery
+2023-06-28 22:01:09,626 - create_vars - DEBUG - combined words are: We We alto_saxophonist ophthalmic_artery
+2023-06-28 22:03:16,396 - create_vars - DEBUG - webtext words are: Preacher kosher
+2023-06-28 22:03:19,197 - create_vars - DEBUG - wordnet words are: carposporic antagonistically
+2023-06-28 22:03:19,197 - create_vars - DEBUG - combined words are: Preacher kosher carposporic antagonistically
+2023-06-29 14:34:57,298 - create_vars - DEBUG - webtext words are: nor nor
+2023-06-29 14:35:00,055 - create_vars - DEBUG - wordnet words are: dung bumptiously
+2023-06-29 14:35:00,056 - create_vars - DEBUG - combined words are: nor nor dung bumptiously
+2023-06-29 14:35:37,676 - create_vars - DEBUG - webtext words are: Her Her
+2023-06-29 14:35:40,477 - create_vars - DEBUG - wordnet words are: levitate martial
+2023-06-29 14:35:40,478 - create_vars - DEBUG - combined words are: Her Her levitate martial
+2023-06-29 14:36:30,598 - create_vars - DEBUG - webtext words are: yourself yourself
+2023-06-29 14:36:33,352 - create_vars - DEBUG - wordnet words are: marsh_bellflower pull
+2023-06-29 14:36:33,352 - create_vars - DEBUG - combined words are: yourself yourself marsh_bellflower pull
+2023-06-29 14:37:39,618 - create_vars - DEBUG - webtext words are: away classy
+2023-06-29 14:37:42,383 - create_vars - DEBUG - wordnet words are: single stoppered
+2023-06-29 14:37:42,384 - create_vars - DEBUG - combined words are: away classy single stoppered
+2023-06-29 14:38:14,257 - create_vars - DEBUG - webtext words are: Otherwise our
+2023-06-29 14:38:17,031 - create_vars - DEBUG - wordnet words are: catenate chordamesoderm
+2023-06-29 14:38:17,031 - create_vars - DEBUG - combined words are: Otherwise our catenate chordamesoderm
+2023-06-29 14:39:06,727 - create_vars - DEBUG - webtext words are: It XUL
+2023-06-29 14:39:09,472 - create_vars - DEBUG - wordnet words are: reverberant at_all_costs
+2023-06-29 14:39:09,472 - create_vars - DEBUG - combined words are: It XUL reverberant at_all_costs
+2023-06-29 14:39:58,965 - create_vars - DEBUG - webtext words are: university university
+2023-06-29 14:40:01,786 - create_vars - DEBUG - wordnet words are: blaze itch
+2023-06-29 14:40:01,786 - create_vars - DEBUG - combined words are: university university blaze itch
+2023-06-29 14:42:08,666 - create_vars - DEBUG - webtext words are: her gym
+2023-06-29 14:42:11,446 - create_vars - DEBUG - wordnet words are: jog die
+2023-06-29 14:42:11,446 - create_vars - DEBUG - combined words are: her gym jog die
+2023-06-29 14:42:39,934 - create_vars - DEBUG - webtext words are: lobotomy lobotomy Girl
+2023-06-29 14:42:42,773 - create_vars - DEBUG - wordnet words are: easternmost stoically stoically
+2023-06-29 14:42:42,773 - create_vars - DEBUG - combined words are: lobotomy lobotomy Girl easternmost stoically stoically
+2023-06-29 14:43:30,902 - create_vars - DEBUG - webtext words are: firebird username address
+2023-06-29 14:43:33,650 - create_vars - DEBUG - wordnet words are: glow together bawdily
+2023-06-29 14:43:33,650 - create_vars - DEBUG - combined words are: firebird username address glow together bawdily
+2023-06-29 16:50:51,016 - create_vars - DEBUG - webtext words are: And prawns prawns
+2023-06-29 16:50:53,854 - create_vars - DEBUG - wordnet words are: seventy-three capped fall
+2023-06-29 16:50:53,854 - create_vars - DEBUG - combined words are: And prawns prawns seventy-three capped fall
+2023-06-29 16:55:30,924 - create_vars - DEBUG - webtext words are: he he he
+2023-06-29 16:55:33,853 - create_vars - DEBUG - wordnet words are: steadily steadily pull
+2023-06-29 16:55:33,853 - create_vars - DEBUG - combined words are: he he he steadily steadily pull
+2023-06-29 16:59:09,484 - create_vars - DEBUG - webtext words are: His coffin dearly
+2023-06-29 16:59:12,211 - create_vars - DEBUG - wordnet words are: line_printer disclaim centrally
+2023-06-29 16:59:12,211 - create_vars - DEBUG - combined words are: His coffin dearly line_printer disclaim centrally
+2023-06-29 16:59:36,280 - create_vars - DEBUG - webtext words are: single theatre nor
+2023-06-29 16:59:39,043 - create_vars - DEBUG - wordnet words are: spur speciously family
+2023-06-29 16:59:39,043 - create_vars - DEBUG - combined words are: single theatre nor spur speciously family
+2023-06-29 17:01:24,589 - create_vars - DEBUG - webtext words are: Actually handfuls wrecked
+2023-06-29 17:01:27,323 - create_vars - DEBUG - wordnet words are: head head alien
+2023-06-29 17:01:27,324 - create_vars - DEBUG - combined words are: Actually handfuls wrecked head head alien
+2023-06-29 17:02:28,351 - create_vars - DEBUG - webtext words are: They pleasing particular
+2023-06-29 17:02:31,102 - create_vars - DEBUG - wordnet words are: visit oleophobic brandish
+2023-06-29 17:02:31,102 - create_vars - DEBUG - combined words are: They pleasing particular visit oleophobic brandish
+2023-06-29 17:06:00,665 - create_vars - DEBUG - webtext words are: Word herself Esther
+2023-06-29 17:06:03,581 - create_vars - DEBUG - wordnet words are: reenact expansive reenact
+2023-06-29 17:06:03,581 - create_vars - DEBUG - combined words are: Word herself Esther reenact expansive reenact
+2023-06-29 17:09:20,024 - create_vars - DEBUG - webtext words are: normal there You
+2023-06-29 17:09:22,783 - create_vars - DEBUG - wordnet words are: short short radiological
+2023-06-29 17:09:22,783 - create_vars - DEBUG - combined words are: normal there You short short radiological
+2023-06-29 17:09:53,164 - create_vars - DEBUG - webtext words are: his slides silent
+2023-06-29 17:09:56,071 - create_vars - DEBUG - wordnet words are: gulp inimitably compartmentalization
+2023-06-29 17:09:56,071 - create_vars - DEBUG - combined words are: his slides silent gulp inimitably compartmentalization
+2023-06-29 17:10:21,990 - create_vars - DEBUG - webtext words are: AND preprocessor Close
+2023-06-29 17:10:24,706 - create_vars - DEBUG - wordnet words are: space
+2023-06-29 17:10:24,706 - create_vars - DEBUG - combined words are: AND preprocessor Close space
+2023-06-29 17:10:52,319 - create_vars - DEBUG - webtext words are: one More one one
+2023-06-29 17:10:55,113 - create_vars - DEBUG - wordnet words are: master best
+2023-06-29 17:10:55,114 - create_vars - DEBUG - combined words are: one More one one master best
+2023-06-29 17:12:03,354 - create_vars - DEBUG - webtext words are: Ayeee My or or
+2023-06-29 17:12:06,089 - create_vars - DEBUG - wordnet words are: neem_cake enjoyer neem_cake enjoyer
+2023-06-29 17:12:06,089 - create_vars - DEBUG - combined words are: Ayeee My or or neem_cake enjoyer neem_cake enjoyer
+2023-06-29 17:12:43,351 - create_vars - DEBUG - webtext words are: spongey technically spongey technically
+2023-06-29 17:12:46,248 - create_vars - DEBUG - wordnet words are: lateran_council breaker pop quincentennial
+2023-06-29 17:12:46,248 - create_vars - DEBUG - combined words are: spongey technically spongey technically lateran_council breaker pop quincentennial
+2023-06-29 17:17:50,115 - create_vars - DEBUG - webtext words are: icon larger icon larger
+2023-06-29 17:17:52,844 - create_vars - DEBUG - wordnet words are: absolutist web_log
+2023-06-29 17:17:52,845 - create_vars - DEBUG - combined words are: icon larger icon larger absolutist web_log
+2023-06-29 17:19:50,319 - create_vars - DEBUG - webtext words are: best best pageup open
+2023-06-29 17:19:53,142 - create_vars - DEBUG - wordnet words are: yak livid
+2023-06-29 17:19:53,142 - create_vars - DEBUG - combined words are: best best pageup open yak livid
+2023-06-29 17:21:13,154 - create_vars - DEBUG - webtext words are: horseback wide forward It
+2023-06-29 17:21:15,945 - create_vars - DEBUG - wordnet words are: copy weakly
+2023-06-29 17:21:15,946 - create_vars - DEBUG - combined words are: horseback wide forward It copy weakly
+2023-06-29 17:21:46,786 - create_vars - DEBUG - webtext words are: my exact Hardly Hardly
+2023-06-29 17:21:49,546 - create_vars - DEBUG - wordnet words are: calvados ground
+2023-06-29 17:21:49,546 - create_vars - DEBUG - combined words are: my exact Hardly Hardly calvados ground

@@ -66,7 +66,6 @@ def get_abstract_concept():
         "solitude",
         "sparkle",
         "spirituality",
-        "sprightliness",
         "time",
         "transcendence",
         "transience",
@@ -79,7 +78,16 @@ def get_abstract_concept():
     ]
     # Pick a random abstract_concept
     selected_abstract_concept = random.choice(abstract_concepts)
-    return selected_abstract_concept
+
+    # Get synonyms and include the original concept in the list
+    words = [selected_abstract_concept]
+    for syn in wn.synsets(selected_abstract_concept):
+        for lemma in syn.lemmas():
+            words.append(lemma.name())
+
+    # Choose randomly from the list of original word + synonyms
+    chosen_word = random.choice(words)
+    return chosen_word
 
 def get_lang_device():
     language_devices = {
@@ -163,16 +171,9 @@ def gen_random_words(randomness_factor=1):
     webtext_words = ' '.join(random_webtext_words)
     logger.debug(f"webtext words are: {webtext_words}")
 
-    #webtext_words = f'{random_noun} {random_adj} {random_adv} {random_pronoun} {random_conjunction}'
-    #logger.debug(f"webtext words are: {webtext_words}")
-
     # This section pulls words from wordnet
-    #word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
     wordnet_words = []
-
-    # This section pulls words from wordnet
     word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
-    #wordnet_words = []
 
     for word_type in word_types:
         # Select a subset of synsets
@@ -180,10 +181,10 @@ def gen_random_words(randomness_factor=1):
         sample_size = max(200, min(500, len(all_synsets)))
         selected_synsets = random.sample(all_synsets, sample_size)
 
-    # sample_size will be between 200 and 500 inclusive, unless all_synsets has fewer than 200 elements, in which case sample_size will be the size of all_synsets.
-    for synset in selected_synsets:
-        word = synset.name().split('.')[0]
-        wordnet_words.append(word)
+        # sample_size will be between 200 and 500 inclusive, unless all_synsets has fewer than 200 elements, in which case sample_size will be the size of all_synsets.
+        for synset in selected_synsets:
+            word = synset.name().split('.')[0]
+            wordnet_words.append(word)
 
     # Remove duplicates
     wordnet_words = list(set(wordnet_words))
@@ -195,13 +196,17 @@ def gen_random_words(randomness_factor=1):
     random_adv = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADV)])
     random_noun2 = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
 
-    wordnet_words_string = [random_noun, random_adj, random_adv, random_pronoun, random_conjunction]
+    wordnet_words_string = [random_noun, random_verb, random_adj, random_adv, random_noun2]
 
     # Control the total number of words selected based on the randomness_factor
     num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
 
     # Select random words from the entire list, the number of words specificed by randomness_factor
     random_wordnet_string = random.choices(wordnet_words_string, k=num_words)
+
+    # Half the time, let's cut the number of words in half
+    if random.random() < 0.5: # 50% of the time
+        random_wordnet_string = random_wordnet_string[:len(random_wordnet_string) // 2]
 
     # Combine the words into a single string.
     random_wordnet_string = ' '.join(random_wordnet_string)
@@ -216,17 +221,12 @@ def gen_creative_prompt(text, randomness_factor):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {
-                "role": "system",
-                "content": "Create a short sentence inspired by the following words: "
-            },
-            {
-                "role": "user",
-                "content": text
-            }
+            {"role": "system", "content": "You evaluate the commonness of words, rating how commonplace or rare a word is. You also generate sentences. You do this in a two step process. Return only the sentence."},
+            {"role": "user", "content": "Step 1: Review the following words and provide a rating on each word from 1 to 5, with 1 being the most common words and 5 being the most rare words."},
+            {"role": "user", "content": "Step 2: Using only words that are a 3 or below, create a sentence."}
         ],
-        max_tokens=50,
-        temperature=2 * randomness_factor,
+        max_tokens=500,
+        temperature=(2 * randomness_factor),
         top_p=1,
     )
     
