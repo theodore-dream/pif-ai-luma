@@ -237,9 +237,9 @@ def gen_random_words(randomness_factor=1):
 
     # Combine the words into a single string.
     #webtext_words = ' '.join(random_webtext_words)
-    #logger.debug(f"webtext words are: {webtext_words}")
-
     webtext_words = ' '.join(all_words)
+    logger.debug(f"webtext words are: {webtext_words}")
+
 
     # This section pulls words from wordnet
     wordnet_words = []
@@ -275,8 +275,8 @@ def gen_random_words(randomness_factor=1):
     random_wordnet_string = random.choices(wordnet_words_string, k=num_words)
 
     # Half the time, let's cut the number of words in half
-    if random.random() < 0.5: # 50% of the time
-        random_wordnet_string = random_wordnet_string[:len(random_wordnet_string) // 2]
+    #if random.random() < 0.5: # 50% of the time
+    #    random_wordnet_string = random_wordnet_string[:len(random_wordnet_string) // 2]
 
     # Combine the words into a single string.
     random_wordnet_string = ' '.join(random_wordnet_string)
@@ -292,7 +292,7 @@ def gen_creative_prompt(text, randomness_factor):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You generate new sentences."},
-            {"role": "user", "content": "Generate a sentence inspired by the following words, using new words." + text},
+            {"role": "user", "content": "Create a very short sentence. Here are some random words:" + text},
         ],
         max_tokens=500,
         temperature=(2 * randomness_factor),
