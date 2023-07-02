@@ -95,6 +95,9 @@ def parse_response():
 if __name__ == "__main__":
     parse_response()
 
+    ## goal - LESS WORDS output from randomizer. I need less highly random words. Let the prompts do their job.  
+    ## maybe I can pull more words from webtext by pulling more pages or whatever and less from wordnet
+
     ## variables overview - goals
     ## build_persona - bad, needs more work / further testing, only seems to perhaps be effective with very few steps, 1-2 steps tops 
     ## get_random_words - OK, creates too many words, needs to be fewer words, create an entropy variable from 0-1 and use that to determine how many words to create
