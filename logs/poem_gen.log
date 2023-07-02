@@ -4444,3 +4444,96 @@ True love hiding behind sacred doors,
 From kitchen to heart, a deeper pursuit,
 Flavors of connection blended, revealing the absolute.
 2023-07-02 19:50:33,418 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-02 19:52:13,359 - poem_gen - INFO - Logger is set up and running.
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - abstract_concept is: guilt_trip
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - ==========================
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Good always contributes.
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.'}
+2023-07-02 19:52:18,147 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Good always contributes.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-07-02 19:52:18,148 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: guilt_trip. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-07-02 19:52:18,148 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-07-02 19:52:27,193 - poem_gen - INFO - Prompt tokens: 192
+2023-07-02 19:52:27,193 - poem_gen - INFO - Completion tokens: 244
+2023-07-02 19:52:27,194 - poem_gen - INFO - Total tokens: 436
+2023-07-02 19:52:27,194 - poem_gen - INFO - api_response_content: Version 1:
+
+Good always contributes,
+Bringing joy and happiness.
+Its impact lingers on,
+Enriching our lives from dusk till dawn.
+
+Version 2:
+
+Good is an open door, for all to explore,
+Without rhymes or structures, it asks for no more,
+In each free verse line, its story unfolds,
+Inward it swells, buried deep within our souls.
+
+Version 3:
+
+Of good, I sing in sonnet lines,
+A melody that dances and enshrines.
+It touches hearts and sets them free,
+Exuding love and purest glee.
+
+Version 4:
+
+Good, in haiku, serene poise,
+A flickering light that never destroys.
+In seventeen syllables it brings,
+Beauty and compassion, oh how it clings.
+
+Evaluation:
+
+After evaluating the different versions of the poem inspired by "Good always contributes," version 1, with rhyme, seems to convey the uplifting and cheery essence best. Now, for the abstract concept of "guilt_trip," I will subtly infuse it into the selected poem.
+
+Revision:
+
+Good always contributes,
+Till guilt trips spin their tales.
+Its impact lingers on,
+Feeding remorse as daylight pales.
+2023-07-02 19:52:27,194 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-02 19:53:55,184 - poem_gen - INFO - Logger is set up and running.
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - abstract_concept is: verity
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - ==========================
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Peep and view.
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.'}
+2023-07-02 19:53:59,318 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Peep and view.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step.'}
+2023-07-02 19:53:59,319 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: verity. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-07-02 19:53:59,319 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-07-02 19:54:10,199 - poem_gen - INFO - Prompt tokens: 205
+2023-07-02 19:54:10,200 - poem_gen - INFO - Completion tokens: 297
+2023-07-02 19:54:10,200 - poem_gen - INFO - Total tokens: 502
+2023-07-02 19:54:10,200 - poem_gen - INFO - api_response_content: Step 1: Here are three different versions of a poem inspired by "Peep and view" with varying structures:
+
+Version 1 (Rhyme):
+Peep through the keyhole, a world unseen,
+View through a window, discover what has been,
+Secrets unfurled as reality's preview,
+Oh, the wonders we find when we peep and view!
+
+Version 2 (Free Verse):
+Peep into the depths of the unknown,
+View the mysteries that lie hidden, grown.
+Through each crack and crevice, behold and find,
+A glimpse into the tapestry of humankind.
+
+Version 3 (Haiku):
+Peep mihi tells tales,
+Lost artifacts through precious view,
+Histories unroofed.
+
+Step 2: After evaluating the revisions, the version that has a deep connection to the concept of "verity" is Version 1. The use of rhyme and the lines "Secrets unfurled as reality's preview, Oh, the wonders we find when we peep and view!" emphasize the idea that by peeping and viewing, we have the potential to discover truths and unveil hidden wonders.
+
+Step 3: Here's a revised version of the selected poem that subtly weaves in the concept of "verity":
+
+Peep through the keyhole, the verity obscured,
+View through a window, where truth once demurred.
+Secrets revealed lead seekers to quests anew,
+Oh, the veracious wonders when we peep and view!
+2023-07-02 19:54:10,200 - poem_gen - DEBUG - poem_gen completed successfully

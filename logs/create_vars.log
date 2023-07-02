@@ -614,3 +614,9 @@
 2023-07-02 19:50:20,593 - create_vars - DEBUG - webtext words are: proxies new normally I and
 2023-07-02 19:50:23,350 - create_vars - DEBUG - wordnet words are: rig_up apart venerator
 2023-07-02 19:50:23,350 - create_vars - DEBUG - combined words are: proxies new normally I and rig_up apart venerator
+2023-07-02 19:52:14,219 - create_vars - DEBUG - webtext words are: contributor Good always it and
+2023-07-02 19:52:17,001 - create_vars - DEBUG - wordnet words are: spurt tag there
+2023-07-02 19:52:17,001 - create_vars - DEBUG - combined words are: contributor Good always it and spurt tag there
+2023-07-02 19:53:55,458 - create_vars - DEBUG - webtext words are: view firm cuddly you and
+2023-07-02 19:53:58,257 - create_vars - DEBUG - wordnet words are: cozily join peep
+2023-07-02 19:53:58,257 - create_vars - DEBUG - combined words are: view firm cuddly you and cozily join peep

@@ -95,16 +95,18 @@ def parse_response():
 if __name__ == "__main__":
     parse_response()
 
-    ## goal - LESS WORDS output from randomizer. I need less highly random words. Let the prompts do their job.  
-    ## maybe I can pull more words from webtext by pulling more pages or whatever and less from wordnet
+    # current issue is that there are 6 steps, 7 including the persona, and its too much complexity for the api to handle all of it
+    # on the other hand the results are really good it seesm to only be going to step 3, maybe at this point I need to focus on
+    # either I just want to output the final poem directly from the api but that could get dicey at different temperatures
+    # alternatively I could use logic to modify the output from the api to get the final poem only. Will need to experiment on diff temps. 
 
     ## variables overview - goals
     ## build_persona - bad, needs more work / further testing, only seems to perhaps be effective with very few steps, 1-2 steps tops 
-    ## get_random_words - OK, creates too many words, needs to be fewer words, create an entropy variable from 0-1 and use that to determine how many words to create
-    ## get_abstract_concept - good, needs more work, the words are showing up too much in the poetry, use nltk to find synonyms and use those instead
-    ## get_lang_device - seems good but needs more testing
-    ## ?incorporate the lyrics api into the poetry generator? prob save for a stage 2 
-    ## poetic_goal ? - set up a new variable that defines a poetic goal
+    ## get_random_words - happy with number of words because I modifed the api call to generate shorter sentence 
+    ## get_abstract_concept - good, using a list and nltk to find synonyms
+    ## delayed - poetic_goal ? - experimenting with this, seems like its stopping at step 3 and its step 4 now
+    ## delayed - get_lang_device - seems good but needs more testing, might need to push this off for now, might be unnecesary, too much logic in a single prompt 
+    ## delayed - ?incorporate the lyrics api into the poetry generator? prob save for a stage 2 
 
     ## other assorted ideas
     ## ====================
