@@ -27,6 +27,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 
+    # first we setup the steps for the api call, but now these need to be broken up into functions that can each be called as seperate api calls" 
     all_steps = {
         0: {"role": "system", "content": persona + " You write poems. Explicity state what step you are on and explain the changes made for each step before proceeding to the next step."},
         1: {"role": "user", "content": "Step 1: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc."},
@@ -39,10 +40,13 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         
     }
 
+
+    # steps need to be broken up anyways so will likely completely remove this logic 
     steps_for_api = [all_steps[step] for step in steps_to_execute]
     i = 0
     for i, step in enumerate(steps_for_api):
         logger.debug("Step %i: %s", i+1, step)
+
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -50,7 +54,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         max_tokens=3600,
         n=1,
         stop=None,
-        temperature=(1.2),
+        temperature=(2 * randomness_factor),
     )
 
     
