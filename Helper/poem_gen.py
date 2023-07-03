@@ -28,15 +28,15 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 
     all_steps = {
-        0: {"role": "system", "content": persona },
-        #0: {"role": "system", "content": "you create poetry." },
-        1: {"role": "user", "content": "Step 1: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc. Explain the changes made for each iteration before printing the result for each step."},
+        0: {"role": "system", "content": persona + " You write poems. Explicity state what step you are on and explain the changes made for each step before proceeding to the next step."},
+        1: {"role": "user", "content": "Step 1: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc."},
         2: {"role": "user", "content": "Step 2: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
         3: {"role": "user", "content": "Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
-        4: {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to achieve a poetic goal of expressing vivid imagery or evoking a specific emotion."},
-        5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
-        6: {"role": "user", "content": "Step 6: Print five equals signs."},
-        7: {"role": "user", "content": "Step 7: Create a new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+        #4: {"role": "user", "content": "Step 4: Print five equals signs."},
+        #5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+        #4: {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to achieve a poetic goal of expressing vivid imagery or evoking a specific emotion."},
+        #5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
+        
     }
 
     steps_for_api = [all_steps[step] for step in steps_to_execute]
@@ -50,7 +50,7 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         max_tokens=3600,
         n=1,
         stop=None,
-        temperature=(1.4),
+        temperature=(1.2),
     )
 
     
@@ -76,7 +76,7 @@ def parse_response():
 
 
     # set the number of steps you want here
-    api_response = api_create_poem([0, 1, 2, 3, 4, 5, 6, 7],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
+    api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
