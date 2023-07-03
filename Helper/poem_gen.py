@@ -35,13 +35,14 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         3: {"role": "user", "content": "Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
         4: {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to achieve a poetic goal of expressing vivid imagery or evoking a specific emotion."},
         5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
-        6: {"role": "user", "content": "Step 6: Create a single new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+        6: {"role": "user", "content": "Step 6: Print five equals signs."},
+        7: {"role": "user", "content": "Step 7: Create a new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
     }
 
     steps_for_api = [all_steps[step] for step in steps_to_execute]
     i = 0
     for i, step in enumerate(steps_for_api):
-        logger.debug("Step %d: %s", i+1, step)
+        logger.debug("Step %i: %s", i+1, step)
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -75,7 +76,7 @@ def parse_response():
 
 
     # set the number of steps you want here
-    api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
+    api_response = api_create_poem([0, 1, 2, 3, 4, 5, 6, 7],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
     if api_response['choices'][0]['message']['role'] == "assistant":
         api_response_content = api_response['choices'][0]['message']['content'].strip()
     else:
