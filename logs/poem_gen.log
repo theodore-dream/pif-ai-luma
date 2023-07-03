@@ -7601,3 +7601,126 @@ Man left, not we and
 Reflexive fall apart, extremely
 Words loosely based on
 2023-07-03 18:37:29,280 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:37:56,036 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:38:00,917 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-03 18:38:00,917 - poem_gen - DEBUG - abstract_concept is: yearn
+2023-07-03 18:38:00,917 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:38:00,917 - poem_gen - DEBUG - ==========================
+2023-07-03 18:38:00,917 - poem_gen - DEBUG - creative_starting_prompt: A series of words loosely based on:
+2023-07-03 18:38:08,669 - poem_gen - DEBUG - explanation: This haiku is inspired by the words 'a series of words loosely based on.' The poem captures the essence of mysterious connections and hidden meanings conveyed through words. It portrays the idea of the silent power of language to transcend time and reveal profound secrets. The start of the poem uses words like 'whispers' and 'weave' to create a sense of something intangible and ethereal. 'Eyes of darkness born to shine' suggests the radiant beauty that emerges from delving into the depths of meaning. 'Silent secrets unbind' implies the liberation of knowledge concealed within the web of words. Overall, this haiku aims to provoke reflection on the enigmatic nature of language and the unseen layers of meaning beneath its surface.
+2023-07-03 18:38:08,669 - poem_gen - DEBUG - poem result:
+Whispers weave through time,
+Eyes of darkness born to shine,
+Silent secrets unbind.
+2023-07-03 18:38:08,669 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:38:15,083 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:38:21,869 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 18:38:21,869 - poem_gen - DEBUG - abstract_concept is: sadness
+2023-07-03 18:38:21,869 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:38:21,869 - poem_gen - DEBUG - ==========================
+2023-07-03 18:38:21,869 - poem_gen - DEBUG - creative_starting_prompt: A series of words loosely based on:enable airport laser infrared drones camera invade access security restrict autonomy freedom
+2023-07-03 18:38:27,599 - poem_gen - DEBUG - explanation: In this haiku, I aimed to capture the tension between desire and restriction. The image of a boundless desire soaring reflects the pursuit of autonomy and freedom. The line 'Laser vision pierces through' speaks to the invasive nature of technologies like drones and infrared cameras, symbolizing the limits imposed by security and the constraints on our freedom. The final line, 'Freedom meets confines,' encapsulates the bittersweet meeting of the desire for boundless autonomy and the tangible boundaries we face in the modern world.
+2023-07-03 18:38:27,600 - poem_gen - DEBUG - poem result:
+Boundless desire soars,
+Laser vision pierces through,
+Freedom meets confines.
+2023-07-03 18:38:27,600 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:40:25,430 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:40:30,484 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-03 18:40:30,484 - poem_gen - DEBUG - abstract_concept is: quaintness
+2023-07-03 18:40:30,484 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:40:30,484 - poem_gen - DEBUG - ==========================
+2023-07-03 18:40:30,484 - poem_gen - DEBUG - creative_starting_prompt: A series of words loosely based on:men general Fortunately We and smatter smatter smatter
+2023-07-03 18:40:38,326 - poem_gen - DEBUG - explanation: This haiku is inspired by the words provided: 'men', 'general', 'fortunately', and 'smatter'. The essence of the haiku lies in the contrast and collision between different elements. The word 'men general' represents the concept of a general or collective group, but introduces a sense of being lost or disoriented. Dramatically shifting to a more hopeful note, 'fortunately' brings an unexpected twist. The repeated word 'smatter' conveys the scattering and splattering of various words as they mingle together. The poem captures the chaotic yet intriguing nature of ideas colliding, bringing about both confusion and unexpected moments of clarity.
+2023-07-03 18:40:38,326 - poem_gen - DEBUG - poem result:
+Men general yet lost,
+Fortunately, we smatter,
+Words collide, scatter.
+2023-07-03 18:40:38,326 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:43:38,061 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:43:43,278 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 18:43:43,279 - poem_gen - DEBUG - abstract_concept is: belong
+2023-07-03 18:43:43,279 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:43:43,279 - poem_gen - DEBUG - ==========================
+2023-07-03 18:43:43,279 - poem_gen - DEBUG - creative_starting_prompt: A series of words loosely based on​calculations, empty, safely, I, pain-free and breezily.
+2023-07-03 18:43:49,473 - poem_gen - DEBUG - explanation: I created this haiku to capture the juxtaposition between the structured world of calculations and the freeing nature of emptiness. The idea of computations purely taking place in our minds allows for a sense of safety, devoid of the challenges and struggles associated with navigation through physical spaces. The words 'pain-free' and 'breezily' further enhance this notion of ease and tranquility. Overall, this haiku aims to explore the harmonious yet liberating aspect of mental calculations and the utter absence of constraints.
+2023-07-03 18:43:49,474 - poem_gen - DEBUG - poem result:
+Calculations dance,
+Empty minds, safely guided,
+Pain-free, breezily.
+2023-07-03 18:43:49,474 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:52:56,493 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:53:00,900 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 18:53:00,900 - poem_gen - DEBUG - abstract_concept is: innocence
+2023-07-03 18:53:00,901 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:53:00,901 - poem_gen - DEBUG - ==========================
+2023-07-03 18:53:00,901 - poem_gen - DEBUG - creative_starting_prompt: A series of words loosely based...
+2023-07-03 18:53:06,508 - poem_gen - DEBUG - explanation: I created this haiku to capture the essence of the anxiety and uncertainty associated with a series of words that are loosely based. The poem reflects the feeling of words losing their meaning and significance, as they drift away and hang in the air, leaving us to question their purpose.
+The phrase 'series of words loosely based' serves as a metaphor for a vague and shaky foundation in communication or understanding. The image of the words dangling in the wind implies a lack of stability, hinting at the potentiality of threats lurking in the uncertainty.
+2023-07-03 18:53:06,508 - poem_gen - DEBUG - poem result:
+A series of words
+Lose their meaning, drift away
+Dangling in the wind
+2023-07-03 18:53:06,508 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:53:30,038 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:53:35,656 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 18:53:35,656 - poem_gen - DEBUG - abstract_concept is: remembering
+2023-07-03 18:53:35,657 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:53:35,657 - poem_gen - DEBUG - ==========================
+2023-07-03 18:53:35,657 - poem_gen - DEBUG - creative_starting_prompt: unfold dream atop silent hills beneath vibrant sky
+2023-07-03 18:53:41,524 - poem_gen - DEBUG - explanation: In this haiku, I sought to capture the imagery of nature and evoke a sense of wonder. The words 'unfold' and 'dream' suggest the untangling and blossoming of something hidden or dormant, symbolizing the unfolding of life's potential. 'Silent hills' evoke a sense of serenity and solitude, while 'beneath vibrant sky' denotes a vivid and vibrant atmosphere. Ultimately, this poem alludes to the moment when dreams take flight, releasing beauty and relentless optimism into the world.
+2023-07-03 18:53:41,525 - poem_gen - DEBUG - poem result:
+Patterns unfold, dreams rise,
+Silent hills embrace the night,
+Vibrant skies ignite.
+2023-07-03 18:53:41,525 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:53:55,507 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:54:03,404 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:54:08,147 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 18:54:08,147 - poem_gen - DEBUG - abstract_concept is: energy
+2023-07-03 18:54:08,147 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:54:08,147 - poem_gen - DEBUG - ==========================
+2023-07-03 18:54:08,147 - poem_gen - DEBUG - creative_starting_prompt: Top rather you but sheet welcome puppyish
+2023-07-03 18:54:22,691 - poem_gen - DEBUG - explanation: I created this haiku by selecting words that provide a rich tapestry of desires and opulence. 'Top' evokes a sense of being at the pinnacle of achievement and power, a desired position. 'Rather you but' hints at the passion and obsession for the one desired. 'Sheet' represents the beginning of a luxurious journey, inviting the reader into a world of indulgence. 'Welcome' signifies an embrace of unknown pleasures, while 'puppyish' adds an element of pure glee and enchantment. Finally, 'exquisite delight' captures the timeless beauty of an amorous encounter, overflowing with euphoria. Together, these elements form a poetry conveys the insatiable hunger for boundless experiences and the delightful anticipation of an exquisitely lavish encounter.
+2023-07-03 18:54:22,691 - poem_gen - DEBUG - poem result:
+Top rather you but
+Sheet welcome puppyish dreams
+Exquisite delight
+2023-07-03 18:54:22,691 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:54:27,255 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:54:32,114 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-03 18:54:32,114 - poem_gen - DEBUG - abstract_concept is: dubiousness
+2023-07-03 18:54:32,114 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:54:32,114 - poem_gen - DEBUG - ==========================
+2023-07-03 18:54:32,114 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by:line glad Maybe his And imply restively restively
+2023-07-03 18:54:37,392 - poem_gen - DEBUG - explanation: This haiku captures the essence of an enigmatic sentence. Gladness and poise build the foundation, exemplified by the delicate dance of words. The phrase 'Maybe his' introduces a sense of mystery, leaving interpretation open-ended. The repetition of 'restively' seeks both a literal and figurative claim to rest, suggesting a restless search for tranquility.
+2023-07-03 18:54:37,393 - poem_gen - DEBUG - poem result:
+Glad sentence so poised,
+Maybe his words, dances imply,
+Restively,take rest.
+2023-07-03 18:54:37,393 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:55:14,976 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:55:23,259 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:55:28,234 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 18:55:28,234 - poem_gen - DEBUG - abstract_concept is: liberty
+2023-07-03 18:55:28,234 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:55:28,234 - poem_gen - DEBUG - ==========================
+2023-07-03 18:55:28,235 - poem_gen - DEBUG - creative_starting_prompt: Make a sentence integrating the words: background, underwater, akimbo, wish, and cookie-sized.
+2023-07-03 18:55:34,289 - poem_gen - DEBUG - explanation: This haiku was created to capture the sense of intrigue and wonder found beneath the surface of the sea. The juxtaposition of 'underwater caves' with 'kaleidoscope background' evokes a surreal aquatic environment abundant with vibrant colors and mysterious depths. The line 'wishes akimbo' adds a touch of whimsy, suggesting that even in this ethereal setting, desires remain present. The haiku's brevity reflects the concise and delicate nature of the form, while also leaving space for interpretation and individual reflection on the significance of each element.
+2023-07-03 18:55:34,290 - poem_gen - DEBUG - poem result:
+In underwater caves,
+kaleidoscope background thrives,
+wishes akimbo.
+2023-07-03 18:55:34,290 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 18:55:38,964 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 18:55:44,109 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 18:55:44,109 - poem_gen - DEBUG - abstract_concept is: prejudice
+2023-07-03 18:55:44,109 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 18:55:44,109 - poem_gen - DEBUG - ==========================
+2023-07-03 18:55:44,109 - poem_gen - DEBUG - creative_starting_prompt: SHRIMP highlights the unforeseeable; it sets a stage where lacework becomes the motivation for an off-broadway show.
+2023-07-03 18:55:50,555 - poem_gen - DEBUG - explanation: This haiku captures the essence of the unexpected and the lustrous. The word 'shrimp' represents the unpredictable and elusive nature of desires and experiences that ignite passion and fascination. The juxtaposition of 'shrimp' and 'lacework' signifies an intriguing interplay between sensuality and artistry, where the delicate and intricate beauty of lace intertwines with the aesthetic stimulation of a mesmerizing performance, creating a unique motivation for an extravagant off-Broadway show. The alternative syntax format aligns with the haiku tradition, urging the reader to pause and reflect on the evocative images presented.
+2023-07-03 18:55:50,556 - poem_gen - DEBUG - poem result:
+Unforeseeable
+Shrimp marks the edible waltz
+Lacework claims the stage
+2023-07-03 18:55:50,556 - poem_gen - DEBUG - poem_gen completed successfully
