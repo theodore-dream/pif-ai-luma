@@ -1,9 +1,11 @@
 import os
 import openai
+import json
+
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# Define the function
+
 def create_poem_1():
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -35,10 +37,11 @@ def create_poem_1():
         temperature=1.2,
     )
     message = completion.choices[0].message
-    print(message.function_call.arguments)
-    return message.function_call.arguments
+    arguments = json.loads(message.function_call.arguments)
+    return arguments['poem']
 
-create_poem_1()
+poem = create_poem_1()
+print(poem)
 
 
 #def test_create_poem():
