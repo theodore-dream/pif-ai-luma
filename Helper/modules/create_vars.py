@@ -5,6 +5,7 @@ import openai
 import os
 from nltk.probability import FreqDist
 from collections import Counter
+import json
 
 
 # setup logger
@@ -287,6 +288,7 @@ def gen_random_words(randomness_factor=1):
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
+# defining function as a function call to return structured json output 
 def gen_creative_prompt(text, randomness_factor):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -294,13 +296,36 @@ def gen_creative_prompt(text, randomness_factor):
             {"role": "system", "content": "You generate new sentences."},
             {"role": "user", "content": "Create a very short sentence. Here are some random words:" + text},
         ],
+        functions=[
+            {
+                "name": "create_poem",
+                "description": "generated poetry",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "poem": {
+                            "type": "string",
+                            "description": "a poem"
+                        },
+                    },
+                    "required": ["poem"]
+                }
+            }
+        ],
+        function_call={
+            "name": "create_poem",
+            "arguments": {
+                "poem": "" 
+            }
+        },
         max_tokens=500,
         temperature=(2 * randomness_factor),
         top_p=1,
     )
     
-    creative_prompt = response['choices'][0]['message']['content']
-    return creative_prompt
+    unfurl_response = json.loads(response['choices'][0]['message']['function_call']['arguments'])
+    response_poem = unfurl_response['poem']
+    return response_poem
 
 def build_persona():
     personas = {
@@ -347,3 +372,4 @@ def build_persona():
     selected_persona_content = personas["poets"][selected_persona_key]
 
     return selected_persona_content
+

@@ -136,7 +136,17 @@ abstract_concepts_sentiment = {
     "regret": "negative",
     "resentment": "negative",
     "sadness": "negative",
-    "sorrow": "negative"
+    "sorrow": "negative",
+    "disappointment": "negative",
+    "embarrassment": "negative",
+    "fear": "negative",
+    "humiliation": "negative",
+    "ignorance": "negative",
+    "misery": "negative",
+    "prejudice": "negative",
+    "shame": "negative",
+    "torment": "negative",
+    "worthlessness": "negative"
 }
 
 positive_sentiments = len([sentiment for sentiment in abstract_concepts_sentiment.values() if sentiment == "positive"])

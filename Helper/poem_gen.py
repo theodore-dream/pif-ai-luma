@@ -73,21 +73,22 @@ def parse_response():
     logger.debug(f"==========================")
     logger.debug(f"running pif_poetry_generator with prompt: {creative_prompt}")
 
+    print("creative prompt: " + str(creative_prompt))
 
 
     # set the number of steps you want here
-    api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
-    if api_response['choices'][0]['message']['role'] == "assistant":
-        api_response_content = api_response['choices'][0]['message']['content'].strip()
-    else:
-        api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
-    print("-" * 30)
+    #api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
+    #if api_response['choices'][0]['message']['role'] == "assistant":
+    #    api_response_content = api_response['choices'][0]['message']['content'].strip()
+    #else:
+    #    api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
+    #print("-" * 30)
 
-    logger.info(f"Prompt tokens: {api_response['usage']['prompt_tokens']}")
-    logger.info(f"Completion tokens: {api_response['usage']['completion_tokens']}")
-    logger.info(f"Total tokens: {api_response['usage']['total_tokens']}")
+    #logger.info(f"Prompt tokens: {api_response['usage']['prompt_tokens']}")
+    #logger.info(f"Completion tokens: {api_response['usage']['completion_tokens']}")
+    #logger.info(f"Total tokens: {api_response['usage']['total_tokens']}")
 
-    logger.info(f"api_response_content: {api_response_content}")
+    #logger.info(f"api_response_content: {api_response_content}")
 
     print("-" * 30)
     logger.debug("poem_gen completed successfully")

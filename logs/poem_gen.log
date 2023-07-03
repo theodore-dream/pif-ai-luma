@@ -6296,3 +6296,220 @@ Sailor and sea become one.
 
 In this revision, I maintain the structure and essence of the haiku while incorporating the concept of rapture. I enhance the intensity and desire through the word "rapturous," signifying an even deeper level of connection and euphoria between the sailor and the sea. The idea of becoming one emphasizes the boundless joy and fulfillment experienced in moments of true rapture.
 2023-07-03 10:24:00,636 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 11:33:07,950 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:33:14,288 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - abstract_concept is: conviviality
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - ==========================
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Dialog.
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist. You write poems. Explicity state what step you are on and explain the changes made for each step before proceeding to the next step.'}
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Dialog.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc.'}
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: conviviality. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-07-03 11:33:14,289 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-07-03 11:33:16,382 - poem_gen - INFO - Prompt tokens: 203
+2023-07-03 11:33:16,383 - poem_gen - INFO - Completion tokens: 30
+2023-07-03 11:33:16,383 - poem_gen - INFO - Total tokens: 233
+2023-07-03 11:33:16,383 - poem_gen - INFO - api_response_content: Step 4: Take the new poem and experiment with different line breaks and punctuation to create different tones and rhythms. Decide on the most effective arrangement.
+2023-07-03 11:33:16,383 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 11:33:47,186 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:33:51,972 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - abstract_concept is: elegance
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - ==========================
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Back off, jerk.
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - Step 1: {'role': 'system', 'content': 'Daisy, a passionate high school student deeply interested in science and astronomy, creates poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes. You write poems. Explicity state what step you are on and explain the changes made for each step before proceeding to the next step.'}
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - Step 2: {'role': 'user', 'content': 'Step 1: Produce three different versions of a poem inspired by the following: Back off, jerk.. Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc.'}
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - Step 3: {'role': 'user', 'content': 'Step 2: The chosen abstract concept is: elegance. Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept.'}
+2023-07-03 11:33:51,973 - poem_gen - DEBUG - Step 4: {'role': 'user', 'content': 'Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept.'}
+2023-07-03 11:33:53,301 - poem_gen - INFO - Prompt tokens: 206
+2023-07-03 11:33:53,301 - poem_gen - INFO - Completion tokens: 21
+2023-07-03 11:33:53,301 - poem_gen - INFO - Total tokens: 227
+2023-07-03 11:33:53,302 - poem_gen - INFO - api_response_content: Back off, jerk,
+Let elegance guide our work.
+Celestial grace,
+In every atom's place.
+2023-07-03 11:33:53,302 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 11:53:01,299 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:54:06,138 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:54:50,758 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:55:27,439 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 11:58:47,675 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:01:24,391 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:04:40,873 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:06:41,784 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:06:47,084 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 12:06:47,084 - poem_gen - DEBUG - abstract_concept is: rag
+2023-07-03 12:06:47,084 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:06:47,084 - poem_gen - DEBUG - ==========================
+2023-07-03 12:06:47,084 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:08:03,459 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:08:11,119 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 12:08:11,119 - poem_gen - DEBUG - abstract_concept is: grief
+2023-07-03 12:08:11,119 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:08:11,119 - poem_gen - DEBUG - ==========================
+2023-07-03 12:08:11,120 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:08:11,120 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:08:20,592 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:08:25,055 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 12:08:25,055 - poem_gen - DEBUG - abstract_concept is: patience
+2023-07-03 12:08:25,055 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:08:25,055 - poem_gen - DEBUG - ==========================
+2023-07-03 12:08:25,056 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:08:25,056 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:09:23,683 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - abstract_concept is: faith
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - ==========================
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:09:29,079 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:09:58,098 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:10:03,061 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 12:10:03,062 - poem_gen - DEBUG - abstract_concept is: tang
+2023-07-03 12:10:03,062 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:10:03,062 - poem_gen - DEBUG - ==========================
+2023-07-03 12:10:03,062 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:10:03,062 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:10:35,504 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - abstract_concept is: defeat
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - ==========================
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:10:39,977 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:10:42,407 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:10:47,176 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 12:10:47,176 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-03 12:10:47,176 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:10:47,176 - poem_gen - DEBUG - ==========================
+2023-07-03 12:10:47,177 - poem_gen - DEBUG - running pif_poetry_generator with prompt: {
+  "content": null,
+  "function_call": {
+    "arguments": "{\n  \"poem\": \"A literate businessman back on the path unveiled an honest enough relationship.\"\n}",
+    "name": "create_poem"
+  },
+  "role": "assistant"
+}
+2023-07-03 12:10:47,177 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:11:30,165 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:11:53,316 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:11:59,529 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 12:11:59,530 - poem_gen - DEBUG - abstract_concept is: courage
+2023-07-03 12:11:59,530 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:11:59,530 - poem_gen - DEBUG - ==========================
+2023-07-03 12:11:59,530 - poem_gen - DEBUG - running pif_poetry_generator with prompt: {
+  "poem": "User normal, away I pump ineptly."
+}
+2023-07-03 12:11:59,530 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:16:15,522 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:16:19,688 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 12:16:19,688 - poem_gen - DEBUG - abstract_concept is: belong
+2023-07-03 12:16:19,688 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:16:19,688 - poem_gen - DEBUG - ==========================
+2023-07-03 12:16:19,689 - poem_gen - DEBUG - running pif_poetry_generator with prompt: {
+  "poem": "Fun young and well, my Swazi top top."
+}
+2023-07-03 12:16:19,689 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:18:17,698 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:19:29,349 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:20:21,801 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - abstract_concept is: harmony
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - ==========================
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:20:29,004 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:20:43,198 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:20:51,026 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 12:20:51,026 - poem_gen - DEBUG - abstract_concept is: enviousness
+2023-07-03 12:20:51,027 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:20:51,027 - poem_gen - DEBUG - ==========================
+2023-07-03 12:20:51,027 - poem_gen - DEBUG - running pif_poetry_generator with prompt: {
+  "poem": "Um, same ease;
+ Reef just mittelschmerz and you."
+}
+2023-07-03 12:20:51,027 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:21:25,529 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:21:29,938 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 12:21:29,939 - poem_gen - DEBUG - abstract_concept is: empowerment
+2023-07-03 12:21:29,939 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:21:29,939 - poem_gen - DEBUG - ==========================
+2023-07-03 12:21:29,939 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:21:29,939 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:21:46,509 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - abstract_concept is: condition
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - ==========================
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:21:51,539 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:23:59,054 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:24:15,949 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:25:11,139 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:27:01,228 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:27:07,750 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 12:27:07,750 - poem_gen - DEBUG - abstract_concept is: transport
+2023-07-03 12:27:07,750 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:27:07,751 - poem_gen - DEBUG - ==========================
+2023-07-03 12:27:07,751 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:27:07,751 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:27:20,194 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:27:24,948 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 12:27:24,948 - poem_gen - DEBUG - abstract_concept is: satisfaction
+2023-07-03 12:27:24,949 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:27:24,949 - poem_gen - DEBUG - ==========================
+2023-07-03 12:27:24,949 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:27:24,949 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:27:52,442 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:27:56,759 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 12:27:56,759 - poem_gen - DEBUG - abstract_concept is: Sojourner_Truth
+2023-07-03 12:27:56,760 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:27:56,760 - poem_gen - DEBUG - ==========================
+2023-07-03 12:27:56,760 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:27:56,760 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:28:29,768 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:28:35,195 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 12:28:35,195 - poem_gen - DEBUG - abstract_concept is: philia
+2023-07-03 12:28:35,195 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:28:35,195 - poem_gen - DEBUG - ==========================
+2023-07-03 12:28:35,195 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 12:28:35,196 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:29:16,613 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - abstract_concept is: heartache
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - ==========================
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Father dappy away you
+Morphologic picket squarely
+2023-07-03 12:29:21,270 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:29:47,840 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - abstract_concept is: amusement
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - ==========================
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - running pif_poetry_generator with prompt: The browser lingered, new and longer, but its dot-com laws remained unenforced in the realm of fauna.
+2023-07-03 12:29:54,555 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:30:05,364 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:30:13,804 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 12:30:13,804 - poem_gen - DEBUG - abstract_concept is: joviality
+2023-07-03 12:30:13,804 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:30:13,805 - poem_gen - DEBUG - ==========================
+2023-07-03 12:30:13,805 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Tennis, late here, him. But serial killer, bean sprout.
+2023-07-03 12:30:13,805 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:32:45,724 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:32:50,372 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 12:32:50,373 - poem_gen - DEBUG - abstract_concept is: Enlightenment
+2023-07-03 12:32:50,373 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:32:50,373 - poem_gen - DEBUG - ==========================
+2023-07-03 12:32:50,373 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Eh! On the previous occasion, she boldly went out bravely.
+2023-07-03 12:32:50,373 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 12:33:26,579 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:34:25,692 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:34:55,567 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:35:18,944 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - abstract_concept is: church_property
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - ==========================
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Love shines bright, her perform great.
+2023-07-03 12:35:23,479 - poem_gen - DEBUG - poem_gen completed successfully
