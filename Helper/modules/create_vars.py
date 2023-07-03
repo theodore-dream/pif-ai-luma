@@ -298,18 +298,18 @@ def gen_creative_prompt(text, randomness_factor):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You create a short sentence."},
-            {"role": "assistant", "content": "A short poem inspired by:" + text},
+            {"role": "assistant", "content": "A series of words loosely based on:" + text},
         ],
         functions=[
             {
                 "name": "new_sentence",
-                "description": "a short poem",
+                "description": "creates a new sentence",
                 "parameters": {
                     "type": "object",
                     "properties": {
                         "creative_prompt": {
                             "type": "string",
-                            "description": "a short poem."
+                            "description": "creates a short sentence."
                         }
                     },
                     "required": ["creative_prompt"]
@@ -326,7 +326,8 @@ def gen_creative_prompt(text, randomness_factor):
     
     reply_content = completion.choices[0].message
     funcs = reply_content.to_dict()['function_call']['arguments']
-    funcs = json.loads(funcs)
+    funcs = json.loads(funcs)  # parse 'funcs' to a dictionary if it's a string
+    #funcs = json.loads(funcs.strip())
     words = funcs['creative_prompt']
     return words
 

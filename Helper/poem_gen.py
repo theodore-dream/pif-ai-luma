@@ -36,7 +36,7 @@ def api_create_poem_1(creative_prompt, persona, randomness_factor):
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": persona + " You write poems."},
+            {"role": "system", "content": persona + " You write a poem."},
             {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
             {"role": "user", "content": "Explain why you created the poem the way you did."},
         ], 
@@ -61,15 +61,15 @@ def api_create_poem_1(creative_prompt, persona, randomness_factor):
             }
         ],
         function_call="auto",
-        temperature=(randomness_factor * 2)
+        temperature=(randomness_factor * 2),
+        max_tokens=1000,
     )
     reply_content = completion.choices[0].message
     funcs = reply_content.to_dict()['function_call']['arguments']
     funcs = json.loads(funcs)
-    base_poem = (funcs['poem'])
-    explanation = (funcs['explanation'])
-    logging.debug(f"explanation: {explanation}")
-    logging.debug(f"explanation: {explanation}")
+    base_poem = funcs['poem']
+    explanation = funcs['explanation']
+    logger.debug(f"explanation: {explanation}")
     return base_poem
 
     
