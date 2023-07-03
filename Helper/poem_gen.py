@@ -12,6 +12,7 @@ import openai
 import nltk
 from modules import create_vars
 from nltk.probability import FreqDist
+import json
 
 from modules.logger import setup_logger
 
@@ -24,6 +25,54 @@ from nltk.corpus import wordnet as wn
 
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def api_poem_pipeline(creative_prompt, persona, randomness_factor):
+    logging.debug(f"creative_prompt: {creative_prompt}")
+    base_poem = api_create_poem_1(creative_prompt, persona, randomness_factor)
+    return base_poem
+
+# removing steps to execute
+def api_create_poem_1(creative_prompt, persona, randomness_factor):
+    completion = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": persona + " You write poems."},
+            {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
+            {"role": "user", "content": "Explain why you created the poem the way you did."},
+        ], 
+        functions=[
+            {
+                "name": "create_poem",
+                "description": "generate poetry and explain why it was created",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "poem": {
+                            "type": "string",
+                            "description": "a poem",
+                        },
+                        "explanation": {
+                            "type": "string",
+                            "description": "explanation of the poem"
+                        }
+                    },
+                    "required": ["poem", "explanation"],
+                }
+            }
+        ],
+        function_call="auto",
+        temperature=(randomness_factor * 2)
+    )
+    reply_content = completion.choices[0].message
+    funcs = reply_content.to_dict()['function_call']['arguments']
+    funcs = json.loads(funcs)
+    base_poem = (funcs['poem'])
+    explanation = (funcs['explanation'])
+    logging.debug(f"explanation: {explanation}")
+    logging.debug(f"explanation: {explanation}")
+    return base_poem
+
+    
 
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 
@@ -64,20 +113,25 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
     logging.debug(f"creative_prompt: {creative_prompt}")
     return response
 
+
+
 def parse_response():
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = 0.7
+    randomness_factor = 0.6
     creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
+
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"randomness factor is: {randomness_factor}")
-    logger.debug(f"==========================")
-    logger.debug(f"running pif_poetry_generator with prompt: {creative_prompt}")
 
-    print("creative prompt: " + str(creative_prompt))
+    logger.debug(f"==========================")
+    logger.debug(f"creative_starting_prompt: {creative_prompt}")
+
+    poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor)
+    logger.debug(f"poem result:\n{poem_result}")
 
 
     # set the number of steps you want here

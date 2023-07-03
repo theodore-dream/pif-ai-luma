@@ -6,6 +6,8 @@ import os
 from nltk.probability import FreqDist
 from collections import Counter
 import json
+import unicodedata
+
 
 
 # setup logger
@@ -285,47 +287,48 @@ def gen_random_words(randomness_factor=1):
 
     # combine both webtext and wordnet words
     combined_string = webtext_words + " " + random_wordnet_string
+    combined_string = "".join(c for c in combined_string if c.isascii())
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
 # defining function as a function call to return structured json output 
 def gen_creative_prompt(text, randomness_factor):
-    response = openai.ChatCompletion.create(
+    completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You generate new sentences."},
-            {"role": "user", "content": "Create a very short sentence. Here are some random words:" + text},
+            {"role": "system", "content": "You generate sentences."},
+            {"role": "user", "content": "Using the following words to inspire you, create a very short but logically coherent short sentence:" + text},
         ],
         functions=[
             {
-                "name": "create_poem",
-                "description": "generated poetry",
+                "name": "new_sentence",
+                "description": "very short sentence",
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "poem": {
+                        "words": {
                             "type": "string",
-                            "description": "a poem"
-                        },
+                            "description": "new sentence"
+                        }
                     },
-                    "required": ["poem"]
+                    "required": ["new_sentence"]
                 }
             }
         ],
         function_call={
-            "name": "create_poem",
-            "arguments": {
-                "poem": "" 
-            }
+            "name": "new_sentence"
         },
         max_tokens=500,
-        temperature=(2 * randomness_factor),
-        top_p=1,
+        temperature=(2 * randomness_factor)
     )
     
-    unfurl_response = json.loads(response['choices'][0]['message']['function_call']['arguments'])
-    response_poem = unfurl_response['poem']
-    return response_poem
+    reply_content = completion.choices[0].message
+    funcs = reply_content.to_dict()['function_call']['arguments']
+    funcs = json.loads(funcs)
+    words = funcs['words']
+    logger.debug(f"words are: {words}")
+    print(completion)
+    return words
 
 def build_persona():
     personas = {

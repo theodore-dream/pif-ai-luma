@@ -6513,3 +6513,372 @@ Morphologic picket squarely
 2023-07-03 12:35:23,479 - poem_gen - DEBUG - ==========================
 2023-07-03 12:35:23,479 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Love shines bright, her perform great.
 2023-07-03 12:35:23,479 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:13:40,332 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - abstract_concept is: transcendence
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - ==========================
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - running pif_poetry_generator with prompt: Features available, not I or polyvalent bleriot.
+2023-07-03 16:13:47,169 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:20:56,097 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:21:01,132 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 16:21:01,133 - poem_gen - DEBUG - abstract_concept is: bravery
+2023-07-03 16:21:01,133 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:21:01,133 - poem_gen - DEBUG - ==========================
+2023-07-03 16:21:01,133 - poem_gen - DEBUG - running pif_poetry_generator with prompt: None
+2023-07-03 16:21:01,133 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:21:54,672 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:22:19,475 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:22:24,612 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 16:22:24,613 - poem_gen - DEBUG - abstract_concept is: gleefulness
+2023-07-03 16:22:24,613 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:22:24,613 - poem_gen - DEBUG - ==========================
+2023-07-03 16:22:24,613 - poem_gen - DEBUG - running pif_poetry_generator with prompt: drinking fine lovely I and race anyhow anyhow
+2023-07-03 16:22:24,613 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:28:20,582 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:28:25,031 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 16:28:25,031 - poem_gen - DEBUG - abstract_concept is: mirthfulness
+2023-07-03 16:28:25,032 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:28:25,032 - poem_gen - DEBUG - ==========================
+2023-07-03 16:28:25,032 - poem_gen - DEBUG - running pif_poetry_generator with prompt: classy European up me or overhead overhead lividness
+2023-07-03 16:29:32,006 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:29:37,031 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 16:29:37,031 - poem_gen - DEBUG - abstract_concept is: vigor
+2023-07-03 16:29:37,031 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:29:37,031 - poem_gen - DEBUG - ==========================
+2023-07-03 16:29:37,031 - poem_gen - DEBUG - running pif_poetry_generator with prompt: wine many maybe I and lubricate chloramine lubricate
+2023-07-03 16:30:17,543 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:30:22,717 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 16:30:22,717 - poem_gen - DEBUG - abstract_concept is: freedom
+2023-07-03 16:30:22,717 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:30:22,717 - poem_gen - DEBUG - ==========================
+2023-07-03 16:30:22,717 - poem_gen - DEBUG - running pif_poetry_generator with prompt: decency smaller not we and regenerate weizmann collimate
+2023-07-03 16:31:18,248 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:31:23,235 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 16:31:23,235 - poem_gen - DEBUG - abstract_concept is: lightheartedness
+2023-07-03 16:31:23,235 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:31:23,235 - poem_gen - DEBUG - ==========================
+2023-07-03 16:31:23,235 - poem_gen - DEBUG - running pif_poetry_generator with prompt: chest numerous down your but glioblastoma division anon
+2023-07-03 16:35:17,325 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:35:22,647 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 16:35:22,647 - poem_gen - DEBUG - abstract_concept is: dedication
+2023-07-03 16:35:22,647 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:35:22,647 - poem_gen - DEBUG - ==========================
+2023-07-03 16:35:22,647 - poem_gen - DEBUG - running pif_poetry_generator with prompt: wheel afraid actually you but somber somber stingily
+2023-07-03 16:37:01,783 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:37:09,217 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 16:37:09,217 - poem_gen - DEBUG - abstract_concept is: valorousness
+2023-07-03 16:37:09,217 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:37:09,217 - poem_gen - DEBUG - ==========================
+2023-07-03 16:37:09,217 - poem_gen - DEBUG - running pif_poetry_generator with prompt: man better never them But explosively ground franking_machine
+2023-07-03 16:37:14,361 - poem_gen - DEBUG - poem result: 0
+2023-07-03 16:37:14,361 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:37:36,997 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:37:42,014 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 16:37:42,015 - poem_gen - DEBUG - abstract_concept is: fatuity
+2023-07-03 16:37:42,015 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:37:42,015 - poem_gen - DEBUG - ==========================
+2023-07-03 16:37:42,015 - poem_gen - DEBUG - running pif_poetry_generator with prompt: bit rustic just I and count short count
+2023-07-03 16:37:47,334 - poem_gen - DEBUG - poem result: 0
+2023-07-03 16:37:47,335 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:40:47,280 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:40:52,236 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 16:40:52,236 - poem_gen - DEBUG - abstract_concept is: ignorance
+2023-07-03 16:40:52,236 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:40:52,236 - poem_gen - DEBUG - ==========================
+2023-07-03 16:40:52,236 - poem_gen - DEBUG - running pif_poetry_generator with prompt: nights social lonely you and brunhild brunhild break_with
+2023-07-03 16:40:58,224 - poem_gen - DEBUG - poem result: 0
+2023-07-03 16:40:58,224 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:41:16,049 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:41:20,746 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 16:41:20,747 - poem_gen - DEBUG - abstract_concept is: passion
+2023-07-03 16:41:20,747 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:41:20,747 - poem_gen - DEBUG - ==========================
+2023-07-03 16:41:20,747 - poem_gen - DEBUG - running pif_poetry_generator with prompt: wise Quiet n it and ovule bahraini bahraini
+2023-07-03 16:41:25,957 - poem_gen - DEBUG - poem result: In wise silence speaks,
+Within the quiet hides the truth,
+The ovule of knowledge, Bahraini inheritance.
+2023-07-03 16:41:25,957 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:41:44,868 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:41:49,927 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 16:41:49,927 - poem_gen - DEBUG - abstract_concept is: prejudice
+2023-07-03 16:41:49,927 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:41:49,927 - poem_gen - DEBUG - ==========================
+2023-07-03 16:41:49,927 - poem_gen - DEBUG - running pif_poetry_generator with prompt: eyes uh too she or st_patrick's_day biauricular st_patrick's_day
+2023-07-03 16:41:58,453 - poem_gen - DEBUG - poem result: Eyes, uh too she or St. Patrick's Day
+Biauricular St. Patrick's Day
+Chaos and innovation blend
+Creating structures hard to comprehend
+2023-07-03 16:41:58,454 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:42:17,340 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:42:22,088 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 16:42:22,088 - poem_gen - DEBUG - abstract_concept is: bias
+2023-07-03 16:42:22,088 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:42:22,088 - poem_gen - DEBUG - ==========================
+2023-07-03 16:42:22,088 - poem_gen - DEBUG - creative_starting_prompt: finish rustic now it and hearing texan hearing
+2023-07-03 16:42:27,914 - poem_gen - DEBUG - poem result: Finish rustic now,
+it whispered, a hushed plea
+Texan voices pierce.
+2023-07-03 16:42:27,915 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:43:13,571 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:43:21,586 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 16:43:21,586 - poem_gen - DEBUG - abstract_concept is: gracility
+2023-07-03 16:43:21,586 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:43:21,586 - poem_gen - DEBUG - ==========================
+2023-07-03 16:43:21,586 - poem_gen - DEBUG - creative_starting_prompt: Herpes minimum still she or roach roach cleverly
+2023-07-03 16:43:26,998 - poem_gen - DEBUG - poem result:
+Herpes seeking warmth
+In vast, dark depths she hunts
+Clever roaches glide.
+2023-07-03 16:43:26,998 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:43:51,034 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:43:56,269 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 16:43:56,269 - poem_gen - DEBUG - abstract_concept is: aristocracy
+2023-07-03 16:43:56,269 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:43:56,269 - poem_gen - DEBUG - ==========================
+2023-07-03 16:43:56,269 - poem_gen - DEBUG - creative_starting_prompt: chest silly Now his and penuriously penuriously penuriously
+2023-07-03 16:44:27,457 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:44:32,327 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 16:44:32,327 - poem_gen - DEBUG - abstract_concept is: satisfaction
+2023-07-03 16:44:32,327 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:44:32,327 - poem_gen - DEBUG - ==========================
+2023-07-03 16:44:32,327 - poem_gen - DEBUG - creative_starting_prompt: acidity, vibrant, kindly, I, and disinterestedly, palatial
+2023-07-03 16:44:38,559 - poem_gen - INFO - explanation: This poem takes on a rhyming structure to create a sense of rhythm and harmony. The repeated use of similar sounds in the end words of each line, like 'acidity' and 'awaken me,' and 'disinterestedly' and 'epicure's spree,' highlights the connection between the flavors of the markets and the pleasures of an epicure's journey.
+2023-07-03 16:44:38,560 - poem_gen - DEBUG - poem result:
+I wander through markets of vibrant acidity,
+In search of flavors that kindly awaken me.
+With senses engaged, disinterestedly,
+For palatial pleasures, an epicure's spree.
+2023-07-03 16:44:38,560 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:45:16,472 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:45:24,745 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 16:45:24,745 - poem_gen - DEBUG - abstract_concept is: persistence
+2023-07-03 16:45:24,745 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:45:24,745 - poem_gen - DEBUG - ==========================
+2023-07-03 16:45:24,745 - poem_gen - DEBUG - creative_starting_prompt: injects bored here it and boogie norwegian characterless
+2023-07-03 16:45:31,185 - poem_gen - DEBUG - poem result:
+Injects bored here
+It can't boogie norwegian! 
+Characterless impression coerced.
+
+2023-07-03 16:45:31,185 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:47:05,686 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:47:18,307 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 16:47:18,307 - poem_gen - DEBUG - abstract_concept is: reverence
+2023-07-03 16:47:18,308 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:47:18,308 - poem_gen - DEBUG - ==========================
+2023-07-03 16:47:18,308 - poem_gen - DEBUG - creative_starting_prompt: Guy least na I and benight humorously humorously
+2023-07-03 16:47:40,450 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:47:48,658 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 16:47:48,658 - poem_gen - DEBUG - abstract_concept is: uncertainty
+2023-07-03 16:47:48,658 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:47:48,658 - poem_gen - DEBUG - ==========================
+2023-07-03 16:47:48,659 - poem_gen - DEBUG - creative_starting_prompt: Bookseller Lady then You And ulcerate source source
+2023-07-03 16:47:54,040 - poem_gen - DEBUG - poem result:
+Bookseller Lady,
+A universe hidden in your shelves
+Infinite stories waiting to be told
+Each book a portal to places unknown.
+2023-07-03 16:47:54,040 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:48:56,781 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:49:02,034 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 16:49:02,034 - poem_gen - DEBUG - abstract_concept is: noesis
+2023-07-03 16:49:02,034 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:49:02,034 - poem_gen - DEBUG - ==========================
+2023-07-03 16:49:02,034 - poem_gen - DEBUG - creative_starting_prompt: master better apart He but builder encore muddy
+2023-07-03 16:49:18,673 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:49:23,436 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 16:49:23,436 - poem_gen - DEBUG - abstract_concept is: worrying
+2023-07-03 16:49:23,436 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:49:23,436 - poem_gen - DEBUG - ==========================
+2023-07-03 16:49:23,436 - poem_gen - DEBUG - creative_starting_prompt: defeator, late, not, you, and
+2023-07-03 16:49:43,060 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:49:50,598 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 16:49:50,598 - poem_gen - DEBUG - abstract_concept is: compassion
+2023-07-03 16:49:50,598 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:49:50,598 - poem_gen - DEBUG - ==========================
+2023-07-03 16:49:50,598 - poem_gen - DEBUG - creative_starting_prompt: Guy little first I or bracer ungrammatically canadian
+2023-07-03 16:49:58,635 - poem_gen - DEBUG - poem result:
+A little guy floats,
+First among the brightest stars,
+Infrared bracer.
+2023-07-03 16:49:58,635 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:50:03,940 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:50:08,420 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 16:50:08,420 - poem_gen - DEBUG - abstract_concept is: store
+2023-07-03 16:50:08,420 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:50:08,420 - poem_gen - DEBUG - ==========================
+2023-07-03 16:50:08,420 - poem_gen - DEBUG - creative_starting_prompt: palate concentrated Really it and jerk optical optical
+2023-07-03 16:50:18,159 - poem_gen - DEBUG - poem result:
+Palate concentrated,
+Really, it's a jerk—optical,
+A liar in sight.
+2023-07-03 16:50:18,160 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:50:21,894 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:50:26,617 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 16:50:26,617 - poem_gen - DEBUG - abstract_concept is: humor
+2023-07-03 16:50:26,618 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:50:26,618 - poem_gen - DEBUG - ==========================
+2023-07-03 16:50:26,618 - poem_gen - DEBUG - creative_starting_prompt: wine dense often It but fink urbanely urbanely
+2023-07-03 16:50:31,118 - poem_gen - DEBUG - poem result:
+Wine flows freely, dense
+2023-07-03 16:50:31,118 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:51:13,759 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:51:20,071 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 16:51:20,071 - poem_gen - DEBUG - abstract_concept is: forgiveness
+2023-07-03 16:51:20,071 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:51:20,071 - poem_gen - DEBUG - ==========================
+2023-07-03 16:51:20,072 - poem_gen - DEBUG - creative_starting_prompt: site new back I or upstairs double dongle
+2023-07-03 16:52:10,372 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:52:14,957 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 16:52:14,957 - poem_gen - DEBUG - abstract_concept is: go
+2023-07-03 16:52:14,957 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:52:14,957 - poem_gen - DEBUG - ==========================
+2023-07-03 16:52:14,957 - poem_gen - DEBUG - creative_starting_prompt: fugitives second suddenly it and totalitarian lenticel disquietingly
+2023-07-03 16:53:31,688 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:53:53,399 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:53:58,201 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 16:53:58,201 - poem_gen - DEBUG - abstract_concept is: satisfaction
+2023-07-03 16:53:58,201 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:53:58,201 - poem_gen - DEBUG - ==========================
+2023-07-03 16:53:58,201 - poem_gen - DEBUG - creative_starting_prompt: boom sure not you But message pontificate up_and_down
+2023-07-03 16:54:03,089 - poem_gen - DEBUG - poem result:
+Boom! Sure, not you But message pontificate Up and down.
+2023-07-03 16:54:03,089 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:54:07,581 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:54:15,006 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 16:54:15,006 - poem_gen - DEBUG - abstract_concept is: harmoniousness
+2023-07-03 16:54:15,006 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:54:15,006 - poem_gen - DEBUG - ==========================
+2023-07-03 16:54:15,006 - poem_gen - DEBUG - creative_starting_prompt: Guy first So him or true covertly true
+2023-07-03 16:54:23,565 - poem_gen - DEBUG - poem result:
+Guy first, so him or true
+Covertly true, words are veiled
+Nature reflects two
+2023-07-03 16:54:23,566 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:55:49,757 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:55:54,896 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 16:55:54,896 - poem_gen - DEBUG - abstract_concept is: acerbity
+2023-07-03 16:55:54,896 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 16:55:54,896 - poem_gen - DEBUG - ==========================
+2023-07-03 16:55:54,897 - poem_gen - DEBUG - creative_starting_prompt: savoury best yet I or browning jumble beat
+2023-07-03 16:55:58,899 - poem_gen - DEBUG - poem result:
+savoury, the best yet
+2023-07-03 16:55:58,899 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:56:20,621 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:56:25,631 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 16:56:25,631 - poem_gen - DEBUG - abstract_concept is: adventure
+2023-07-03 16:56:25,631 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 16:56:25,631 - poem_gen - DEBUG - ==========================
+2023-07-03 16:56:25,631 - poem_gen - DEBUG - creative_starting_prompt: wine Good still I and german-speaking german-speaking exposed
+2023-07-03 16:56:32,641 - poem_gen - DEBUG - poem result:
+Wine tastes bittersweet,
+Good stillness within my soul,
+German whispers flow.
+2023-07-03 16:56:32,642 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:56:43,989 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:56:48,463 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 16:56:48,463 - poem_gen - DEBUG - abstract_concept is: pleasure
+2023-07-03 16:56:48,463 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 16:56:48,463 - poem_gen - DEBUG - ==========================
+2023-07-03 16:56:48,463 - poem_gen - DEBUG - creative_starting_prompt: arcs little willingly We but stagehand heartily protective
+2023-07-03 16:58:59,779 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:59:04,450 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 16:59:04,451 - poem_gen - DEBUG - abstract_concept is: timeless_existence
+2023-07-03 16:59:04,451 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 16:59:04,451 - poem_gen - DEBUG - ==========================
+2023-07-03 16:59:04,451 - poem_gen - DEBUG - creative_starting_prompt: guard justMy there me and beyond superscribe attendant
+2023-07-03 16:59:11,039 - poem_gen - DEBUG - poem result:
+Guard justMy there,
+Me and beyond superscribe,
+Attendant whispers.
+2023-07-03 16:59:11,039 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 16:59:20,969 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 16:59:27,222 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 16:59:27,222 - poem_gen - DEBUG - abstract_concept is: enviousness
+2023-07-03 16:59:27,222 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 16:59:27,222 - poem_gen - DEBUG - ==========================
+2023-07-03 16:59:27,222 - poem_gen - DEBUG - creative_starting_prompt: extension top back my but early yamani by_hook_or_by_crook
+2023-07-03 16:59:36,438 - poem_gen - DEBUG - poem result:
+Extension of time,
+Atop the mountain I sit,
+Back to what was lost.
+2023-07-03 16:59:36,439 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 17:00:07,325 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:00:12,034 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 17:00:12,034 - poem_gen - DEBUG - abstract_concept is: jollity
+2023-07-03 17:00:12,034 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:00:12,034 - poem_gen - DEBUG - ==========================
+2023-07-03 17:00:12,034 - poem_gen - DEBUG - creative_starting_prompt: Yes good nearly I and just_so unwrapped ceibo
+2023-07-03 17:00:17,632 - poem_gen - DEBUG - poem result:
+Celestial dance plays
+Unwrapping layers of time
+Yes, good nearly I
+2023-07-03 17:00:17,632 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 17:00:30,489 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:00:35,167 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 17:00:35,167 - poem_gen - DEBUG - abstract_concept is: life
+2023-07-03 17:00:35,167 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:00:35,168 - poem_gen - DEBUG - ==========================
+2023-07-03 17:00:35,168 - poem_gen - DEBUG - creative_starting_prompt: daft heh else you and colloidally lemuroidea lemuroidea
+2023-07-03 17:00:50,929 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:00:58,606 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:01:09,410 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:01:16,849 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 17:01:16,850 - poem_gen - DEBUG - abstract_concept is: gravitas
+2023-07-03 17:01:16,850 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:01:16,850 - poem_gen - DEBUG - ==========================
+2023-07-03 17:01:16,850 - poem_gen - DEBUG - creative_starting_prompt: drug bad then I and constituent scalp constituent
+2023-07-03 17:01:31,365 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:01:36,455 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 17:01:36,455 - poem_gen - DEBUG - abstract_concept is: jollity
+2023-07-03 17:01:36,455 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:01:36,455 - poem_gen - DEBUG - ==========================
+2023-07-03 17:01:36,455 - poem_gen - DEBUG - creative_starting_prompt: finish the not my and ostentatious ostentatious crick
+2023-07-03 17:01:53,834 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:02:00,370 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 17:02:00,370 - poem_gen - DEBUG - abstract_concept is: divinity
+2023-07-03 17:02:00,370 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:02:00,370 - poem_gen - DEBUG - ==========================
+2023-07-03 17:02:00,371 - poem_gen - DEBUG - creative_starting_prompt: http dropdown not s and landlocked_salmon synchronized clumsily
+2023-07-03 17:02:09,279 - poem_gen - DEBUG - poem result:
+HTTP drops down
+Synchronized clumsily
+Landlocked salmon.
+2023-07-03 17:02:09,281 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 17:03:02,773 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:03:53,678 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:04:09,116 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:04:13,602 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 17:04:13,602 - poem_gen - DEBUG - abstract_concept is: contentment
+2023-07-03 17:04:13,602 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:04:13,602 - poem_gen - DEBUG - ==========================
+2023-07-03 17:04:13,602 - poem_gen - DEBUG - creative_starting_prompt: neck pleased there his and opener opener quadruple
+2023-07-03 17:04:22,499 - poem_gen - DEBUG - poem result:
+Quadruple neck pleased,
+Opener opens, there his love,
+A symphony of pleasure.
+2023-07-03 17:04:22,499 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 17:05:17,720 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:05:23,020 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 17:05:23,020 - poem_gen - DEBUG - abstract_concept is: serenity
+2023-07-03 17:05:23,020 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:05:23,020 - poem_gen - DEBUG - ==========================
+2023-07-03 17:05:23,020 - poem_gen - DEBUG - creative_starting_prompt: haum wise you and South Korean plum South Korean
+2023-07-03 17:05:39,692 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:05:47,387 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 17:05:47,388 - poem_gen - DEBUG - abstract_concept is: unfairness
+2023-07-03 17:05:47,388 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:05:47,388 - poem_gen - DEBUG - ==========================
+2023-07-03 17:05:47,388 - poem_gen - DEBUG - creative_starting_prompt: meneleven Not They and diet indentation mirror
+2023-07-03 17:07:47,478 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 17:07:52,108 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 17:07:52,108 - poem_gen - DEBUG - abstract_concept is: patience
+2023-07-03 17:07:52,108 - poem_gen - DEBUG - randomness factor is: 0.6
+2023-07-03 17:07:52,108 - poem_gen - DEBUG - ==========================
+2023-07-03 17:07:52,108 - poem_gen - DEBUG - creative_starting_prompt: attention good burly you and causeway suggestively
+2023-07-03 17:07:59,051 - poem_gen - DEBUG - poem result:
+Attention's allure,
+A good burly causeway danced,
+Suggestively bright.
+2023-07-03 17:07:59,052 - poem_gen - DEBUG - poem_gen completed successfully
