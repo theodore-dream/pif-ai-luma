@@ -291,27 +291,28 @@ def gen_random_words(randomness_factor=1):
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
-# defining function as a function call to return structured json output 
+# create the first input to create the base poem
+# this only seems to work with temperature > 0.6
 def gen_creative_prompt(text, randomness_factor):
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You generate sentences."},
-            {"role": "user", "content": "Using the following words to inspire you, create a very short but logically coherent short sentence:" + text},
+            {"role": "system", "content": "You create a short sentence."},
+            {"role": "assistant", "content": "A short poem inspired by:" + text},
         ],
         functions=[
             {
                 "name": "new_sentence",
-                "description": "very short sentence",
+                "description": "a short poem",
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "words": {
+                        "creative_prompt": {
                             "type": "string",
-                            "description": "new sentence"
+                            "description": "a short poem."
                         }
                     },
-                    "required": ["new_sentence"]
+                    "required": ["creative_prompt"]
                 }
             }
         ],
@@ -319,15 +320,14 @@ def gen_creative_prompt(text, randomness_factor):
             "name": "new_sentence"
         },
         max_tokens=500,
-        temperature=(2 * randomness_factor)
+        # temp is set to go between 1.2 and 2, this linear function maps randomness_factor to temp 
+        temperature=1.4 + (randomness_factor * (2 - 1.4))
     )
     
     reply_content = completion.choices[0].message
     funcs = reply_content.to_dict()['function_call']['arguments']
     funcs = json.loads(funcs)
-    words = funcs['words']
-    logger.debug(f"words are: {words}")
-    print(completion)
+    words = funcs['creative_prompt']
     return words
 
 def build_persona():
