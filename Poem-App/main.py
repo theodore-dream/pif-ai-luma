@@ -10,7 +10,7 @@ from time import sleep
 import uuid
 
 #start logger
-logger = setup_logger(__name__)
+logger = setup_logger("main.py")
 logger.info("Logger is set up and running.")
 
 def poetry_game_intro(entropy):
@@ -65,9 +65,9 @@ def handle_game():
 
     if level is None:
         level = 2
-        entropy = random.uniform(.1, .9)
+        #entropy = random.uniform(.1, .9)
+        entropy = 0.5
         entropy = Decimal(entropy)
-        print(type(entropy))
 
     logger.debug(f"game_state: level, entropy: {level, entropy}")
     
