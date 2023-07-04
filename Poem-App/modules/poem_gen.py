@@ -7,13 +7,12 @@ import logging
 import os
 import openai
 import nltk
-from modules import create_vars
+import create_vars
 from nltk.probability import FreqDist
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
-
-from modules.logger import setup_logger
+from logger import setup_logger
 
 #start logger
 logger = setup_logger("poem_gen")

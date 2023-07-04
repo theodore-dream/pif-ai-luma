@@ -11,7 +11,7 @@ import unicodedata
 
 
 # setup logger
-from modules.logger import setup_logger
+from logger import setup_logger
 logger = setup_logger('create_vars')
 
 openai.api_key = os.environ["OPENAI_API_KEY"]

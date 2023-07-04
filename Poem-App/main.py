@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, config, luma_write
+from modules import openai_api_service, db_service, config, poem_gen, create_vars #luma_write
 import datetime
 import random
 from decimal import Decimal
@@ -23,24 +23,13 @@ def poetry_game_intro(entropy):
 
 def poetry_gen_apollo(level, entropy):
     logger.debug("starting peom generation")
-    # should already have current game state from python because we just read it from the database
     # check current entropy level
-    if entropy > 0:
-        creative_prompt = "make a poem."
-    if entropy > .3:
-        creative_prompt = "make an interesting poem"
-    if entropy > .5:
-        creative_prompt = "make a strange poem."
-    if entropy > .7:
-        creative_prompt = "make a really really weird and random poem."
-
     logger.debug(f"runing poetry_gen_apollo, current entropy is: {entropy}")
-    api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
-    level_text = "Your poem is " + api_response + "--end poem--"
-    gametext = level_text
+    #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
+    #level_text = "Your poem is " + api_response + "--end poem--"
+    gametext = poem_gen.parse_response(entropy)
     return gametext
 
-from decimal import Decimal
 
 def handle_option_a(entropy):
     # Implement game logic for Option A
@@ -69,24 +58,15 @@ def handle_game():
     # this section is for initial game setup, or in active game, collect the game state
     
     # Read the game state data from the database
-    if session_id != "":
-        session_id, level, entropy = db_service.read_from_database(session_id)
-        logger.debug(f"checking session ID... found existing session: {session_id}")
+    # could use this to somehow persist settings? or perhaps read from a config file as a short term solution? 
+    #if session_id != "":
+    #    session_id, level, entropy = db_service.read_from_database(session_id)
+    #    logger.debug(f"checking session ID... found existing session: {session_id}")
 
-    if session_id is "":
-        session_id = str(uuid.uuid4())
-
-    # If level and entropy are not None, it means a game session was found in the database
-    if level is not None and entropy is not None:
-        logger.debug(f"identified existing session_id: {session_id}")
-
-    # If level is None, it means a game session was not found, lets create one and save it
     if level is None:
         level = 1
         entropy = random.uniform(.1, .9)
-        db_service.write_to_database(session_id, level, entropy)
 
-    logger.debug(f"Session after checking game_state: {session_id}")
     logger.debug(f"game_state: level, entropy: {level, entropy}")
     
     #if choice is None:
@@ -115,12 +95,12 @@ def handle_game():
         logger.debug(f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}")
 
     # Save the updated game state to the database
-    db_service.save_game(session_id, level, entropy)
-    logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
+    #db_service.save_game(session_id, level, entropy)
+    #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    luma_write(gametext)
-  
+    #luma_write(gametext)
+    print(gametext)
     logger.debug("sent to luma")
    
 
@@ -132,3 +112,5 @@ if __name__ == "__main__":
 # levels logic could still be helpful for game initiaitlization 
 # in between showing the poems, display the current randomness or entropy level, and current persona, other basic data about the game state
 # main interaction is just left and right button increasing and decreasing entropy 
+
+# removing db service for now 
