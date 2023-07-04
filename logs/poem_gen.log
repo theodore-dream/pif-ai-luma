@@ -9949,3 +9949,73 @@ Powder blue secrets entwined with gold,
 Unfettered soul, from anchors' grip, behold.
 2023-07-04 00:04:59,134 - poem_gen - DEBUG - poem_gen completed successfully
 2023-07-04 00:04:59,134 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 00:07:00,342 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 00:07:00,345 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 00:07:00,345 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 00:07:00,636 - poem_gen - DEBUG - webtext words are: tall employed not me and
+2023-07-04 00:07:00,636 - poem_gen - DEBUG - webtext words are: tall employed not me and
+2023-07-04 00:07:03,438 - poem_gen - DEBUG - wordnet words are: dwell tangerine penicillin-resistant
+2023-07-04 00:07:03,438 - poem_gen - DEBUG - wordnet words are: dwell tangerine penicillin-resistant
+2023-07-04 00:07:03,438 - poem_gen - DEBUG - combined words are: tall employed not me and dwell tangerine penicillin-resistant
+2023-07-04 00:07:03,438 - poem_gen - DEBUG - combined words are: tall employed not me and dwell tangerine penicillin-resistant
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - lang_device is: personification
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - lang_device is: personification
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - abstract_concept is: ace
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - abstract_concept is: ace
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - ==========================
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - ==========================
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - creative_starting_prompt: Tall employed people do not dwell on tangerine penicillin-resistant issues.
+2023-07-04 00:07:04,286 - poem_gen - DEBUG - creative_starting_prompt: Tall employed people do not dwell on tangerine penicillin-resistant issues.
+2023-07-04 00:07:04,287 - poem_gen - DEBUG - creative_prompt: Tall employed people do not dwell on tangerine penicillin-resistant issues.
+2023-07-04 00:07:04,287 - poem_gen - DEBUG - creative_prompt: Tall employed people do not dwell on tangerine penicillin-resistant issues.
+2023-07-04 00:07:07,148 - poem_gen - DEBUG - poem result:
+In the depths of the twisted maze,
+Darkness dances in a mystic haze,
+Whispers guide, a game profound,
+Unveiling truths where lost souls are found.
+2023-07-04 00:07:07,148 - poem_gen - DEBUG - poem result:
+In the depths of the twisted maze,
+Darkness dances in a mystic haze,
+Whispers guide, a game profound,
+Unveiling truths where lost souls are found.
+2023-07-04 00:07:07,148 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 00:07:07,148 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 01:29:58,698 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 01:29:58,701 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 01:29:58,701 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 01:29:59,273 - poem_gen - DEBUG - webtext words are: children good not me and
+2023-07-04 01:29:59,273 - poem_gen - DEBUG - webtext words are: children good not me and
+2023-07-04 01:30:02,152 - poem_gen - DEBUG - wordnet words are: unscrupulously unscrupulously field
+2023-07-04 01:30:02,152 - poem_gen - DEBUG - wordnet words are: unscrupulously unscrupulously field
+2023-07-04 01:30:02,152 - poem_gen - DEBUG - combined words are: children good not me and unscrupulously unscrupulously field
+2023-07-04 01:30:02,152 - poem_gen - DEBUG - combined words are: children good not me and unscrupulously unscrupulously field
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - abstract_concept is: sensualism
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - abstract_concept is: sensualism
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - ==========================
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - ==========================
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - creative_starting_prompt: Children are not good.
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - creative_starting_prompt: Children are not good.
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - creative_prompt: Children are not good.
+2023-07-04 01:30:02,939 - poem_gen - DEBUG - creative_prompt: Children are not good.
+2023-07-04 01:30:07,754 - poem_gen - DEBUG - poem result:
+Oh, the longing within their youthful days,
+As passion's flame paints their mischievous ways,
+In their souls, desire dances with glee,
+A wild hunger, boundless, forever free.
+2023-07-04 01:30:07,754 - poem_gen - DEBUG - poem result:
+Oh, the longing within their youthful days,
+As passion's flame paints their mischievous ways,
+In their souls, desire dances with glee,
+A wild hunger, boundless, forever free.
+2023-07-04 01:30:07,755 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 01:30:07,755 - poem_gen - DEBUG - poem_gen completed successfully
