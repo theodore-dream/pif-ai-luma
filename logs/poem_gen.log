@@ -9344,3 +9344,169 @@ Unruly chaos gives birth to innovation untold.
 Wild nature stirs, a primal rhythm undisputed,
 As harmony emerges, where logic once our hearts diluted.
 2023-07-03 23:24:53,256 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:47:30,907 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:47:46,228 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:48:00,628 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:48:14,674 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:49:05,316 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:50:40,685 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:50:49,775 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:50:57,904 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:51:27,832 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:51:27,835 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:51:27,835 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:51:31,493 - poem_gen - DEBUG - webtext words are: guy hard just I But
+2023-07-03 23:51:31,493 - poem_gen - DEBUG - webtext words are: guy hard just I But
+2023-07-03 23:51:34,399 - poem_gen - DEBUG - wordnet words are: pessimistically osaka
+2023-07-03 23:51:34,399 - poem_gen - DEBUG - wordnet words are: pessimistically osaka
+2023-07-03 23:51:34,399 - poem_gen - DEBUG - combined words are: guy hard just I But pessimistically osaka
+2023-07-03 23:51:34,399 - poem_gen - DEBUG - combined words are: guy hard just I But pessimistically osaka
+2023-07-03 23:52:55,111 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:52:55,114 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:52:55,114 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:52:55,949 - poem_gen - DEBUG - webtext words are: effects unfashionable long it and
+2023-07-03 23:52:55,949 - poem_gen - DEBUG - webtext words are: effects unfashionable long it and
+2023-07-03 23:52:58,725 - poem_gen - DEBUG - wordnet words are: fret puritanism seasonal
+2023-07-03 23:52:58,725 - poem_gen - DEBUG - wordnet words are: fret puritanism seasonal
+2023-07-03 23:52:58,725 - poem_gen - DEBUG - combined words are: effects unfashionable long it and fret puritanism seasonal
+2023-07-03 23:52:58,725 - poem_gen - DEBUG - combined words are: effects unfashionable long it and fret puritanism seasonal
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - abstract_concept is: joviality
+2023-07-03 23:52:59,996 - poem_gen - DEBUG - abstract_concept is: joviality
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - randomness factor is: 0.572676588933744
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - randomness factor is: 0.572676588933744
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - ==========================
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - ==========================
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - creative_starting_prompt: "Fretting long over unfashionable effects, puritanism becomes seasonal."
+2023-07-03 23:52:59,997 - poem_gen - DEBUG - creative_starting_prompt: "Fretting long over unfashionable effects, puritanism becomes seasonal."
+2023-07-03 23:53:18,383 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:53:18,385 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:53:18,385 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:53:18,964 - poem_gen - DEBUG - webtext words are: flung rocky there you And
+2023-07-03 23:53:18,964 - poem_gen - DEBUG - webtext words are: flung rocky there you And
+2023-07-03 23:53:21,766 - poem_gen - DEBUG - wordnet words are: clear
+2023-07-03 23:53:21,766 - poem_gen - DEBUG - wordnet words are: clear
+2023-07-03 23:53:21,766 - poem_gen - DEBUG - combined words are: flung rocky there you And clear
+2023-07-03 23:53:21,766 - poem_gen - DEBUG - combined words are: flung rocky there you And clear
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - abstract_concept is: sorrow
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - abstract_concept is: sorrow
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - randomness factor is: 0.11273605722303728
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - randomness factor is: 0.11273605722303728
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - ==========================
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - ==========================
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - creative_starting_prompt: You flung rocks there, and it is clear.
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - creative_starting_prompt: You flung rocks there, and it is clear.
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - creative_prompt: You flung rocks there, and it is clear.
+2023-07-03 23:53:22,588 - poem_gen - DEBUG - creative_prompt: You flung rocks there, and it is clear.
+2023-07-03 23:53:27,738 - poem_gen - DEBUG - poem result:
+In the simmering kitchen's fiery embrace,
+Sorrow's spices mingle, leaving a trace,
+A bittersweet symphony, flavors interlace.
+
+Amidst the heat, sorrow's dance takes flight,
+Flavors collide, igniting the night,
+Culinary sorrows, a poetic delight.
+
+In the kitchen's heat, sorrow's melody plays,
+Flavors dance, a symphony of bittersweet haze,
+Culinary poetry, a taste that never strays.
+2023-07-03 23:53:27,738 - poem_gen - DEBUG - poem result:
+In the simmering kitchen's fiery embrace,
+Sorrow's spices mingle, leaving a trace,
+A bittersweet symphony, flavors interlace.
+
+Amidst the heat, sorrow's dance takes flight,
+Flavors collide, igniting the night,
+Culinary sorrows, a poetic delight.
+
+In the kitchen's heat, sorrow's melody plays,
+Flavors dance, a symphony of bittersweet haze,
+Culinary poetry, a taste that never strays.
+2023-07-03 23:53:27,739 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:53:27,739 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:54:47,660 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:54:47,663 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:54:47,663 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:54:47,941 - poem_gen - DEBUG - webtext words are: build attractive there I and
+2023-07-03 23:54:47,941 - poem_gen - DEBUG - webtext words are: build attractive there I and
+2023-07-03 23:54:50,742 - poem_gen - DEBUG - wordnet words are: iranian_dinar storied storied
+2023-07-03 23:54:50,742 - poem_gen - DEBUG - wordnet words are: iranian_dinar storied storied
+2023-07-03 23:54:50,743 - poem_gen - DEBUG - combined words are: build attractive there I and iranian_dinar storied storied
+2023-07-03 23:54:50,743 - poem_gen - DEBUG - combined words are: build attractive there I and iranian_dinar storied storied
+2023-07-03 23:55:59,531 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:55:59,534 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:55:59,534 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:56:03,344 - poem_gen - DEBUG - webtext words are: Ew old Well I and
+2023-07-03 23:56:03,344 - poem_gen - DEBUG - webtext words are: Ew old Well I and
+2023-07-03 23:56:06,224 - poem_gen - DEBUG - wordnet words are: craft bitter_principle
+2023-07-03 23:56:06,224 - poem_gen - DEBUG - wordnet words are: craft bitter_principle
+2023-07-03 23:56:06,225 - poem_gen - DEBUG - combined words are: Ew old Well I and craft bitter_principle
+2023-07-03 23:56:06,225 - poem_gen - DEBUG - combined words are: Ew old Well I and craft bitter_principle
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - abstract_concept is: hope
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - abstract_concept is: hope
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - randomness factor is: 0.41447044718687676
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - randomness factor is: 0.41447044718687676
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - ==========================
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - ==========================
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - creative_starting_prompt: Crafting a bitter principle is an old and well-known technique.
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - creative_starting_prompt: Crafting a bitter principle is an old and well-known technique.
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - creative_prompt: Crafting a bitter principle is an old and well-known technique.
+2023-07-03 23:56:07,195 - poem_gen - DEBUG - creative_prompt: Crafting a bitter principle is an old and well-known technique.
+2023-07-03 23:56:11,480 - poem_gen - DEBUG - poem result:
+With trembling hands, the quill writes its fears,
+Ink drips like tears, staining the years.
+But amidst the darkness, hope's flame ignites,
+A beacon of resilience, forever it fights.
+2023-07-03 23:56:11,480 - poem_gen - DEBUG - poem result:
+With trembling hands, the quill writes its fears,
+Ink drips like tears, staining the years.
+But amidst the darkness, hope's flame ignites,
+A beacon of resilience, forever it fights.
+2023-07-03 23:56:11,480 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:56:11,480 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:56:15,109 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:56:15,112 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:56:15,112 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 23:56:17,233 - poem_gen - DEBUG - webtext words are: jumps mycroft not it lsquo
+2023-07-03 23:56:17,233 - poem_gen - DEBUG - webtext words are: jumps mycroft not it lsquo
+2023-07-03 23:56:20,009 - poem_gen - DEBUG - wordnet words are: as_needed rumba scramble
+2023-07-03 23:56:20,009 - poem_gen - DEBUG - wordnet words are: as_needed rumba scramble
+2023-07-03 23:56:20,009 - poem_gen - DEBUG - combined words are: jumps mycroft not it lsquo as_needed rumba scramble
+2023-07-03 23:56:20,009 - poem_gen - DEBUG - combined words are: jumps mycroft not it lsquo as_needed rumba scramble
+2023-07-03 23:56:20,699 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-03 23:56:20,699 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - randomness factor is: 0.6076951886465553
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - randomness factor is: 0.6076951886465553
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - ==========================
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - ==========================
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - creative_starting_prompt: Mycroft does not jump, it scrambles as needed.
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - creative_starting_prompt: Mycroft does not jump, it scrambles as needed.
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - creative_prompt: Mycroft does not jump, it scrambles as needed.
+2023-07-03 23:56:20,700 - poem_gen - DEBUG - creative_prompt: Mycroft does not jump, it scrambles as needed.
+2023-07-03 23:56:24,176 - poem_gen - DEBUG - poem result:
+In enchanted isolation lies,
+Whispering grandeur, tranquil and wise,
+Burning cravings, seeking unveil,
+Yearning for ecstasy, release, prevail.
+2023-07-03 23:56:24,176 - poem_gen - DEBUG - poem result:
+In enchanted isolation lies,
+Whispering grandeur, tranquil and wise,
+Burning cravings, seeking unveil,
+Yearning for ecstasy, release, prevail.
+2023-07-03 23:56:24,178 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 23:56:24,178 - poem_gen - DEBUG - poem_gen completed successfully

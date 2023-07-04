@@ -3,16 +3,16 @@ import random
 from decimal import Decimal
 from time import sleep
 
-import logging
 import os
 import openai
 import nltk
-import create_vars
+from modules import create_vars
 from nltk.probability import FreqDist
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
-from logger import setup_logger
+from modules import logger
+from modules.logger import setup_logger
 
 #start logger
 logger = setup_logger("poem_gen")
@@ -21,7 +21,6 @@ logger.info("Logger is set up and running.")
 nltk.download('wordnet')
 from nltk.corpus import wordnet as wn
 
-logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -95,7 +94,7 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
             return step_3_poem
 
 def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
-    logging.debug(f"creative_prompt: {creative_prompt}")
+    logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
     #logger.debug (f"step_1_poem: {step_1_poem}")
     step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
@@ -104,9 +103,9 @@ def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_conc
     #logger.debug (f"step_3_poem: {step_3_poem}")
     return step_3_poem
 
-def parse_response():
+def parse_response(entropy):
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = 0.6
+    randomness_factor = entropy
     creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()

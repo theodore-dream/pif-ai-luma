@@ -8,7 +8,7 @@ logger = setup_logger("openai_api_service")
 
 def openai_api_call(input_text, creative_prompt, entropy):
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a poet."},
             {"role": "user", "content": f"{creative_prompt}: {input_text}"}

@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, config, poem_gen, create_vars #luma_write
+from modules import openai_api_service, db_service, config, poem_gen #create_vars #luma_write
 import datetime
 import random
 from decimal import Decimal
@@ -64,8 +64,10 @@ def handle_game():
     #    logger.debug(f"checking session ID... found existing session: {session_id}")
 
     if level is None:
-        level = 1
+        level = 2
         entropy = random.uniform(.1, .9)
+        entropy = Decimal(entropy)
+        print(type(entropy))
 
     logger.debug(f"game_state: level, entropy: {level, entropy}")
     
@@ -81,8 +83,10 @@ def handle_game():
         logger.debug(f"poetry game intro starting now...")
         
     elif level >= 2:
-        gametext = poetry_gen_apollo(level, entropy)
+        gametext = poetry_gen_apollo(level, float(entropy))
         logger.debug(f"now running level 2...")
+
+    choice = "Option B"
 
     if choice == "Option A":
         entropy = handle_option_a(entropy)
