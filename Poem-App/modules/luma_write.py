@@ -11,6 +11,9 @@ from luma.oled.device import ssd1351
 from luma.core.virtual import viewport
 
 # setup logger
+from modules import logger
+from modules.logger import setup_logger
+
 logger = setup_logger('luma_log')
 
 serial = spi(device=0, port=0)
@@ -36,7 +39,7 @@ def luma_write(gametext):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
             logger.info("write to device complete")
-            time.sleep(3)
+            time.sleep(15)
             logger.info("clearing device")
             device.clear()
             logger.info("device cleared, luma_write function completed successfully")

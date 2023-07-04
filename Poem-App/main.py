@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, config, poem_gen #create_vars #luma_write
+from modules import openai_api_service, db_service, config, poem_gen, luma_write
 import datetime
 import random
 from decimal import Decimal
@@ -27,7 +27,8 @@ def poetry_gen_apollo(level, entropy):
     logger.debug(f"runing poetry_gen_apollo, current entropy is: {entropy}")
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
-    gametext = poem_gen.parse_response(entropy)
+    #gametext = poem_gen.parse_response(entropy)
+    gametext = "In pearls"
     print("gametext = " + gametext)
     return gametext
 
@@ -104,7 +105,7 @@ def handle_game():
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    luma_write(gametext)
+    luma_write.luma_write(gametext)
     print(gametext)
     logger.debug("sent to luma")
    

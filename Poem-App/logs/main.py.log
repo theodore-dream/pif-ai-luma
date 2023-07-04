@@ -48,3 +48,69 @@
 2023-07-04 02:55:04,134 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
 2023-07-04 02:59:40,865 - main.py - DEBUG - now running level 2...
 2023-07-04 02:59:40,890 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:14:14,471 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:14:14,474 - main.py - DEBUG - starting game session....
+2023-07-04 03:14:14,477 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:14:14,479 - main.py - DEBUG - starting peom generation
+2023-07-04 03:14:14,480 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:15:59,282 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:15:59,285 - main.py - DEBUG - starting game session....
+2023-07-04 03:15:59,287 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:15:59,289 - main.py - DEBUG - starting peom generation
+2023-07-04 03:15:59,290 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:17:54,297 - main.py - DEBUG - now running level 2...
+2023-07-04 03:17:54,299 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:20:23,916 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:20:23,919 - main.py - DEBUG - starting game session....
+2023-07-04 03:20:23,921 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:20:23,923 - main.py - DEBUG - starting peom generation
+2023-07-04 03:20:23,924 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:21:30,857 - main.py - DEBUG - now running level 2...
+2023-07-04 03:21:30,862 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:21:34,086 - main.py - DEBUG - sent to luma
+2023-07-04 03:23:39,258 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:23:39,261 - main.py - DEBUG - starting game session....
+2023-07-04 03:23:39,263 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:23:39,264 - main.py - DEBUG - starting peom generation
+2023-07-04 03:23:39,266 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:27:13,773 - main.py - DEBUG - now running level 2...
+2023-07-04 03:27:13,775 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:27:29,019 - main.py - DEBUG - sent to luma
+2023-07-04 03:31:17,878 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:31:17,881 - main.py - DEBUG - starting game session....
+2023-07-04 03:31:17,882 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:31:17,884 - main.py - DEBUG - starting peom generation
+2023-07-04 03:31:17,886 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:31:17,889 - main.py - DEBUG - now running level 2...
+2023-07-04 03:31:17,890 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:31:33,023 - main.py - DEBUG - sent to luma
+2023-07-04 03:32:16,655 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:32:16,665 - main.py - DEBUG - starting game session....
+2023-07-04 03:32:16,668 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:32:16,670 - main.py - DEBUG - starting peom generation
+2023-07-04 03:32:16,671 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:32:16,674 - main.py - DEBUG - now running level 2...
+2023-07-04 03:32:16,675 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:32:31,776 - main.py - DEBUG - sent to luma
+2023-07-04 03:34:02,189 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:34:02,192 - main.py - DEBUG - starting game session....
+2023-07-04 03:34:02,194 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:34:02,195 - main.py - DEBUG - starting peom generation
+2023-07-04 03:34:02,197 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:34:02,200 - main.py - DEBUG - now running level 2...
+2023-07-04 03:34:02,201 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:34:34,035 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:34:34,038 - main.py - DEBUG - starting game session....
+2023-07-04 03:34:34,040 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:34:34,042 - main.py - DEBUG - starting peom generation
+2023-07-04 03:34:34,043 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:34:34,046 - main.py - DEBUG - now running level 2...
+2023-07-04 03:34:34,048 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 03:34:49,145 - main.py - DEBUG - sent to luma
+2023-07-04 03:37:22,925 - main.py - INFO - Logger is set up and running.
+2023-07-04 03:37:22,929 - main.py - DEBUG - starting game session....
+2023-07-04 03:37:22,930 - main.py - DEBUG - game_state: level, entropy: (2, Decimal('0.5'))
+2023-07-04 03:37:22,932 - main.py - DEBUG - starting peom generation
+2023-07-04 03:37:22,933 - main.py - DEBUG - runing poetry_gen_apollo, current entropy is: 0.5
+2023-07-04 03:37:22,936 - main.py - DEBUG - now running level 2...
+2023-07-04 03:37:22,938 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6

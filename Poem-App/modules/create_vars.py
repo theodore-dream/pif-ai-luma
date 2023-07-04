@@ -292,8 +292,8 @@ def gen_random_words(randomness_factor=1):
 
     """
     # Combine the words into a single string.
-    random_wordnet_string = ' '.join(random_wordnet_string)
-    logger.debug(f"wordnet words are: {random_wordnet_string}")
+    #random_wordnet_string = ' '.join(random_wordnet_string)
+    #logger.debug(f"wordnet words are: {random_wordnet_string}")
 
     # combine both webtext and wordnet words
     combined_string = webtext_words #+ " " + random_wordnet_string
