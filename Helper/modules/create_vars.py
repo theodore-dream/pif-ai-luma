@@ -297,13 +297,15 @@ def gen_creative_prompt(text, randomness_factor):
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "You create a short sentence."},
-                    {"role": "user", "content": "a sentence inspired by:"},
-                    {"role": "user", "content":  text},
+                    {"role": "system", "content": "You generate a sentence."},
+                    {"role": "user", "content": "Create a very short logical sentence inspired by the following input text:"},
+                    {"role": "user", "content":  "Input text: " + text},
                 ],
                 max_tokens=500,
-                # temp is set to go between 1.2 and 2, this linear function maps randomness_factor to temp 
-                temperature=1.4 + (randomness_factor * (2 - 1.4))
+                temperature=(randomness_factor * 2),
+                # temp is set to go between 0.8 and 2, this linear function maps randomness_factor to temp 
+                #temperature=0.8 + (randomness_factor * (2 - 0.8))
+                #temperature=1.0
             )
             
             if completion['choices'][0]['message']['role'] == "assistant":

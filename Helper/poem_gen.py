@@ -28,11 +28,11 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
     logging.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
-    logger.debug (f"step_1_poem: {step_1_poem}")
+    #logger.debug (f"step_1_poem: {step_1_poem}")
     step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
-    logger.debug (f"step_2_poem: {step_2_poem}")
+    #logger.debug (f"step_2_poem: {step_2_poem}")
     step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
-    logger.debug (f"step_3_poem: {step_3_poem}")
+    #logger.debug (f"step_3_poem: {step_3_poem}")
     return step_3_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -48,15 +48,13 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
                     #{"role": "user", "content": "Explain why you created the poem the way you did."},
                 ], 
                 temperature=(randomness_factor * 2),
-                max_tokens=2000,
+                max_tokens=500,
             )
 
             if completion['choices'][0]['message']['role'] == "assistant":
                 step_1_poem = completion['choices'][0]['message']['content'].strip()
             else:
                 step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
-            print("-" * 30)
-            print(step_1_poem)
             return step_1_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -69,7 +67,7 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
                     {"role": "user", "content": "Input text: " + step_1_poem},
                 ],
                 temperature=(randomness_factor * 2),
-                max_tokens=2000,
+                max_tokens=500,
             )
 
             if completion['choices'][0]['message']['role'] == "assistant":
@@ -87,10 +85,9 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
                     {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
                     {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
                     {"role": "user", "content": "Input text: " + step_2_poem},
-                    {"role": "user", "content": "Explain why you created the poem the way you did."},
                 ],
                 temperature=(randomness_factor * 2),
-                max_tokens=2000,
+                max_tokens=500,
             )
 
             if completion['choices'][0]['message']['role'] == "assistant":
@@ -100,51 +97,9 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
             print("-" * 30)
             return step_3_poem
 
-
-def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
-
-    # first we setup the steps for the api call, but now these need to be broken up into functions that can each be called as seperate api calls" 
-    all_steps = {
-        0: {"role": "system", "content": persona + " You write poems. Explicity state what step you are on and explain the changes made for each step before proceeding to the next step."},
-        1: {"role": "user", "content": "Step 1: Produce three different versions of a poem inspired by the following: " + creative_prompt + ". Each poem can be three or four lines long. Each version should have a different structure - rhyme, free verse, sonnet, haiku, etc."},
-        2: {"role": "user", "content": "Step 2: The chosen abstract concept is: " + abstract_concept + ". Next you evaluate the revisions and determine which most closely has a deep connection to then chosen concept, or could most elegantly be modified to fit the concept."},
-        3: {"role": "user", "content": "Step 3: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to subtly weave in the chosen concept."},
-        #4: {"role": "user", "content": "Step 4: Print five equals signs."},
-        #5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
-        #4: {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to achieve a poetic goal of expressing vivid imagery or evoking a specific emotion."},
-        #5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
-        
-    }
-
-
-    # steps need to be broken up anyways so will likely completely remove this logic 
-    steps_for_api = [all_steps[step] for step in steps_to_execute]
-    i = 0
-    for i, step in enumerate(steps_for_api):
-        logger.debug("Step %i: %s", i+1, step)
-
-
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=steps_for_api,
-        max_tokens=3600,
-        n=1,
-        stop=None,
-        temperature=(2 * randomness_factor),
-    )
-
-
-    # print information about api call
-    #logger.debug(f"persona: {persona}")
-    #logger.debug(f"abstract_concept: {abstract_concept}")
-    #logger.debug(f"creative_prompt: {creative_prompt}")
-    return response
-
-
-
 def parse_response():
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = 0.8
+    randomness_factor = 0.6
     creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
@@ -161,24 +116,9 @@ def parse_response():
     poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept)
     logger.debug(f"poem result:\n{poem_result}")
 
-
-    # set the number of steps you want here
-    #api_response = api_create_poem([0, 1, 2, 3],creative_prompt, persona, lang_device, abstract_concept, randomness_factor)
-    #if api_response['choices'][0]['message']['role'] == "assistant":
-    #    api_response_content = api_response['choices'][0]['message']['content'].strip()
-    #else:
-    #    api_response_syscontent = api_response['system'].strip()  # put into a var for later use 
-    #print("-" * 30)
-
-    #logger.info(f"Prompt tokens: {api_response['usage']['prompt_tokens']}")
-    #logger.info(f"Completion tokens: {api_response['usage']['completion_tokens']}")
-    #logger.info(f"Total tokens: {api_response['usage']['total_tokens']}")
-
-    #logger.info(f"api_response_content: {api_response_content}")
-
     print("-" * 30)
     logger.debug("poem_gen completed successfully")
-    #return api_response_content
+    return poem_result
 
 if __name__ == "__main__":
     parse_response()
@@ -206,3 +146,8 @@ if __name__ == "__main__":
     ## seed the database with a script that pulls from nltk and compiles lists of words
     ## could use nltk to find synonyms for the words in the abstract concept list to seed that to the DB
     ## could find a list of meme related words somewhere, create categories, tags, individual columns or tables, etc.
+
+    ## Parking lot - not used
+        #4: {"role": "user", "content": "Step 4: Create a new poem that is two to four lines long with the following parameters: Revise the selected poem to achieve a poetic goal of expressing vivid imagery or evoking a specific emotion."},
+        #5: {"role": "user", "content": "Step 5: Create a new poem that is two to four lines long with the following parameters: Consider how you could use this linguistic device: "  + lang_device + ". Revise the poem to incorporate the linguistic device"},
+        

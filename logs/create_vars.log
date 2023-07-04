@@ -1619,3 +1619,51 @@ dextral hertz ilang-ilang,
 2023-07-03 22:48:01,707 - create_vars - DEBUG - webtext words are: fun vegetarian well I and
 2023-07-03 22:48:04,533 - create_vars - DEBUG - wordnet words are: crudely crudely basket_weave crudely
 2023-07-03 22:48:04,533 - create_vars - DEBUG - combined words are: fun vegetarian well I and crudely crudely basket_weave crudely
+2023-07-03 22:49:00,708 - create_vars - DEBUG - webtext words are: profile true very I or
+2023-07-03 22:49:03,459 - create_vars - DEBUG - wordnet words are: macromolecule macromolecule macromolecule macromolecule
+2023-07-03 22:49:03,459 - create_vars - DEBUG - combined words are: profile true very I or macromolecule macromolecule macromolecule macromolecule
+2023-07-03 22:49:27,574 - create_vars - DEBUG - webtext words are: host awkward very its and
+2023-07-03 22:49:30,349 - create_vars - DEBUG - wordnet words are: radio metier inoculate inoculate
+2023-07-03 22:49:30,349 - create_vars - DEBUG - combined words are: host awkward very its and radio metier inoculate inoculate
+2023-07-03 22:50:25,538 - create_vars - DEBUG - webtext words are: shell cannibal most your and
+2023-07-03 22:50:28,509 - create_vars - DEBUG - wordnet words are: territorially inoperative quack territorially
+2023-07-03 22:50:28,509 - create_vars - DEBUG - combined words are: shell cannibal most your and territorially inoperative quack territorially
+2023-07-03 22:50:41,475 - create_vars - DEBUG - webtext words are: fun long possibly we and
+2023-07-03 22:50:44,247 - create_vars - DEBUG - wordnet words are: reveler reveler button button
+2023-07-03 22:50:44,247 - create_vars - DEBUG - combined words are: fun long possibly we and reveler reveler button button
+2023-07-03 22:51:51,586 - create_vars - DEBUG - webtext words are: wine proper very I and
+2023-07-03 22:51:54,348 - create_vars - DEBUG - wordnet words are: reeve subatomic sharpen
+2023-07-03 22:51:54,349 - create_vars - DEBUG - combined words are: wine proper very I and reeve subatomic sharpen
+2023-07-03 22:52:10,361 - create_vars - DEBUG - webtext words are: freshman worst suddenly it and
+2023-07-03 22:52:13,150 - create_vars - DEBUG - wordnet words are: big-chested heavy_lifting envision
+2023-07-03 22:52:13,150 - create_vars - DEBUG - combined words are: freshman worst suddenly it and big-chested heavy_lifting envision
+2023-07-03 22:53:37,020 - create_vars - DEBUG - webtext words are: ship small soon you and
+2023-07-03 22:53:39,823 - create_vars - DEBUG - wordnet words are: classify perfect taxodium
+2023-07-03 22:53:39,823 - create_vars - DEBUG - combined words are: ship small soon you and classify perfect taxodium
+2023-07-03 22:54:04,073 - create_vars - DEBUG - webtext words are: bit creamy delciously its and
+2023-07-03 22:54:06,881 - create_vars - DEBUG - wordnet words are: by_word_of_mouth harrow by_word_of_mouth
+2023-07-03 22:54:06,881 - create_vars - DEBUG - combined words are: bit creamy delciously its and by_word_of_mouth harrow by_word_of_mouth
+2023-07-03 22:55:11,312 - create_vars - DEBUG - webtext words are: governor legs here he and
+2023-07-03 22:55:14,116 - create_vars - DEBUG - wordnet words are: drop-dead drop-dead baronetize
+2023-07-03 22:55:14,117 - create_vars - DEBUG - combined words are: governor legs here he and drop-dead drop-dead baronetize
+2023-07-03 22:55:48,262 - create_vars - DEBUG - webtext words are: engine proxy soon it and
+2023-07-03 22:55:50,998 - create_vars - DEBUG - wordnet words are: repatriate repatriate appositively
+2023-07-03 22:55:50,999 - create_vars - DEBUG - combined words are: engine proxy soon it and repatriate repatriate appositively
+2023-07-03 22:59:45,370 - create_vars - DEBUG - webtext words are: php right even its and
+2023-07-03 22:59:48,151 - create_vars - DEBUG - wordnet words are: vest francis_joseph vest
+2023-07-03 22:59:48,151 - create_vars - DEBUG - combined words are: php right even its and vest francis_joseph vest
+2023-07-03 23:00:01,110 - create_vars - DEBUG - webtext words are: liar animal owe I and
+2023-07-03 23:00:03,849 - create_vars - DEBUG - wordnet words are: warm size plop
+2023-07-03 23:00:03,849 - create_vars - DEBUG - combined words are: liar animal owe I and warm size plop
+2023-07-03 23:01:03,290 - create_vars - DEBUG - webtext words are: showing real also it and
+2023-07-03 23:01:06,085 - create_vars - DEBUG - wordnet words are: cabin tricot tricot
+2023-07-03 23:01:06,085 - create_vars - DEBUG - combined words are: showing real also it and cabin tricot tricot
+2023-07-03 23:01:21,532 - create_vars - DEBUG - webtext words are: gentleman wild friendly I or
+2023-07-03 23:01:24,329 - create_vars - DEBUG - wordnet words are: dead_ahead dead_ahead retake
+2023-07-03 23:01:24,329 - create_vars - DEBUG - combined words are: gentleman wild friendly I or dead_ahead dead_ahead retake
+2023-07-03 23:01:44,294 - create_vars - DEBUG - webtext words are: thou FRENCH here She But
+2023-07-03 23:01:47,073 - create_vars - DEBUG - wordnet words are: overturn mated rose
+2023-07-03 23:01:47,073 - create_vars - DEBUG - combined words are: thou FRENCH here She But overturn mated rose
+2023-07-03 23:02:03,649 - create_vars - DEBUG - webtext words are: Argh large again I But
+2023-07-03 23:02:06,408 - create_vars - DEBUG - wordnet words are: syncretize syncretize even
+2023-07-03 23:02:06,408 - create_vars - DEBUG - combined words are: Argh large again I But syncretize syncretize even
