@@ -212,8 +212,11 @@ def gen_random_words(randomness_factor=1):
     # Randomly select a file ID.
     random_fileid = random.choice(fileids)
 
-    # Get raw text from the randomly selected file.
-    raw_text = nltk.corpus.webtext.raw(random_fileid)
+    # get up to 1500 characters of raw text from the file
+    raw_text = nltk.corpus.webtext.raw(random_fileid)[:1500]
+
+    # log the number of words
+    logger.info("Number of words: {}".format(len(raw_text.split())))
 
     # Tokenize the raw text.
     tokens = nltk.word_tokenize(raw_text)
@@ -248,58 +251,9 @@ def gen_random_words(randomness_factor=1):
     # Combine the words into a single string.
     #webtext_words = ' '.join(random_webtext_words)
     webtext_words = ' '.join(all_words)
-    logger.debug(f"webtext words are: {webtext_words}")
+    logger.info(f"webtext words are: {webtext_words}")
 
-    # commenting out due to performance issues on pi
-
-    """
-    # This section pulls words from wordnet
-    wordnet_words = []
-    word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
-
-    for word_type in word_types:
-        # Select a subset of synsets
-        all_synsets = list(wn.all_synsets(word_type))
-        sample_size = max(200, min(500, len(all_synsets)))
-        selected_synsets = random.sample(all_synsets, sample_size)
-
-        # sample_size will be between 200 and 500 inclusive, unless all_synsets has fewer than 200 elements, in which case sample_size will be the size of all_synsets.
-        for synset in selected_synsets:
-            word = synset.name().split('.')[0]
-            wordnet_words.append(word)
-
-    # Remove duplicates
-    wordnet_words = list(set(wordnet_words))
-
-    # Select a random word from each word type from the common words.
-    random_noun = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
-    random_verb = random.choice([word for word in wordnet_words if wn.synsets(word, wn.VERB)])
-    random_adj = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADJ)])
-    random_adv = random.choice([word for word in wordnet_words if wn.synsets(word, wn.ADV)])
-    random_noun2 = random.choice([word for word in wordnet_words if wn.synsets(word, wn.NOUN)])
-
-    wordnet_words_string = [random_noun, random_verb, random_adj, random_adv, random_noun2]
-
-    # Control the total number of words selected based on the randomness_factor
-    num_words = int(1 + 4 * randomness_factor)  # This will give a value between 1 and 5
-
-    # Select random words from the entire list, the number of words specificed by randomness_factor
-    random_wordnet_string = random.choices(wordnet_words_string, k=num_words)
-
-    # Half the time, let's cut the number of words in half
-    #if random.random() < 0.5: # 50% of the time
-    #    random_wordnet_string = random_wordnet_string[:len(random_wordnet_string) // 2]
-
-    """
-    # Combine the words into a single string.
-    #random_wordnet_string = ' '.join(random_wordnet_string)
-    #logger.debug(f"wordnet words are: {random_wordnet_string}")
-
-    # combine both webtext and wordnet words
-    combined_string = webtext_words #+ " " + random_wordnet_string
-    combined_string = "".join(c for c in combined_string if c.isascii())
-    logger.debug(f"combined words are: {combined_string}")
-    return combined_string
+    return webtext_words
 
 def build_persona():
     personas = {
@@ -345,6 +299,7 @@ def build_persona():
     selected_persona_key = random.choice(list(personas["poets"].keys()))
     selected_persona_content = personas["poets"][selected_persona_key]
 
+    print(selected_persona_content)
     return selected_persona_content
 
 # create the first input to create the base poem
@@ -374,3 +329,7 @@ def gen_creative_prompt(text, randomness_factor):
 
             
             return creative_prompt
+
+# run main
+#if __name__ == "__main__":
+#    gen_random_words()

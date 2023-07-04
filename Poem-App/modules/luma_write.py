@@ -38,8 +38,11 @@ def luma_write(gametext):
             for i, line in enumerate(gametext.split("\n")):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
-            logger.info("write to device complete")
-            time.sleep(15)
-            logger.info("clearing device")
-            device.clear()
-            logger.info("device cleared, luma_write function completed successfully")
+    try:
+        logger.info("write to device complete")
+        time.sleep(15)
+        logger.info("clearing device")
+        device.clear()
+        logger.info("device cleared, luma_write function completed successfully")
+    except KeyboardInterrupt:
+        pass

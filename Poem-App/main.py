@@ -21,17 +21,14 @@ def poetry_game_intro(entropy):
     gametext = api_response + opening_text
     return gametext
 
-def poetry_gen_apollo(level, entropy):
-    logger.debug("starting peom generation")
+def poetry_gen_loop(level, entropy):
     # check current entropy level
-    logger.debug(f"runing poetry_gen_apollo, current entropy is: {entropy}")
+    logger.debug(f"runing poetry_gen_loop, current entropy is: {entropy}")
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
-    #gametext = poem_gen.parse_response(entropy)
-    gametext = "In pearls"
+    gametext = poem_gen.parse_response(entropy)
     print("gametext = " + gametext)
     return gametext
-
 
 def handle_option_a(entropy):
     # Implement game logic for Option A
@@ -50,27 +47,36 @@ def handle_option_b(entropy):
     
 
 # no flask endpoint, simply a function that writes to the oled using luma
-def handle_game():
+def handle_game(session_state):
     logger.debug("starting game session....")
 
-    # Initialize level and entropy variables
-    level = None
-    entropy = None
+    # Initialize persona and entropy variables
+    persona = None
+    session_state = None
 
     # this section is for initial game setup, or in active game, collect the game state
     
     # Read the game state data from the database
-    # could use this to somehow persist settings? or perhaps read from a config file as a short term solution? 
-    #if session_id != "":
-    #    session_id, level, entropy = db_service.read_from_database(session_id)
-    #    logger.debug(f"checking session ID... found existing session: {session_id}")
+    # how does it get the most recent state if its just doing reads on the same ID that may have many rows? 
+    if session_id != "":
+        session_id, session_state, entropy = db_service.read_from_database(session_id)
+        logger.debug(f"checking session ID... found existing session: {session_id}")
 
-    if level is None:
-        level = 2
-        #entropy = random.uniform(.1, .9)
-        entropy = 0.5
-        entropy = Decimal(entropy)
+    if session_id == "":
+        session_id = str(uuid.uuid4())
 
+    # If persona and entropy are not None, it means a game session was found in the database
+    if session_state is not None and entropy is not None:
+        logger.debug(f"identified existing session_id: {session_id}")
+
+    # If session_state is None, it means a game session was not found, lets create one and save it
+    if session_state == None:
+        session_state = "new"
+        # putting between .5 and .9 as starting point to try to get more interesting poems
+        entropy = random.uniform(.5, .9)
+        db_service.write_to_database(session_id, session_state, entropy)
+
+    logger.debug(f"Session after checking game_state: {session_id}")
     logger.debug(f"game_state: level, entropy: {level, entropy}")
     
     #if choice is None:
@@ -79,15 +85,16 @@ def handle_game():
     #    print("waiting for user to make a choice...")
     #    logger.info("logger reporting, waiting for user to make a choice...")
 
-    # Run the function corresponding to the current level
-    if level == 1:
+    # Run the intro function or the poetry loop 
+    if session_state == "new":
         gametext = poetry_game_intro(entropy)
         logger.debug(f"poetry game intro starting now...")
         
-    elif level >= 2:
-        gametext = poetry_gen_apollo(level, float(entropy))
-        logger.debug(f"now running level 2...")
+    elif session_state == "active":
+        gametext = poetry_gen_loop(level, float(entropy))
+        #logger.debug(f"poetry_gen_loop...")
 
+    # placeholder 
     choice = "Option B"
 
     if choice == "Option A":
@@ -111,8 +118,14 @@ def handle_game():
    
 
 if __name__ == "__main__":
-    handle_game()
-
+   
+   # temporarily 
+   try:
+        while True:
+            handle_game()
+            time.sleep(1)  # optional delay if you want to run the function with intervals
+   except KeyboardInterrupt:
+            print("\nProgram has been stopped by the user.")
 
 # remove logic saving the game state? seems unnecessary... could be helpful, but doubtful
 # levels logic could still be helpful for game initiaitlization 

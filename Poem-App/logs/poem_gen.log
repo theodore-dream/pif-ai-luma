@@ -327,3 +327,353 @@ Culinary dreams reborn, flavors uplift.
 2023-07-04 03:37:21,805 - poem_gen - INFO - Logger is set up and running.
 2023-07-04 03:37:21,922 - poem_gen - INFO - Logger is set up and running.
 2023-07-04 03:37:21,922 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:32:10,600 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:32:10,715 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:32:10,715 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:33:21,089 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:33:21,204 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:33:21,204 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 14:34:19,012 - poem_gen - DEBUG - webtext words are: glass conventional less us and
+2023-07-04 14:34:19,012 - poem_gen - DEBUG - webtext words are: glass conventional less us and
+2023-07-04 14:34:19,014 - poem_gen - DEBUG - combined words are: glass conventional less us and
+2023-07-04 14:34:19,014 - poem_gen - DEBUG - combined words are: glass conventional less us and
+2023-07-04 14:35:13,061 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 14:35:13,061 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 14:35:13,369 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 14:35:13,369 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 14:35:13,371 - poem_gen - DEBUG - abstract_concept is: radiance
+2023-07-04 14:35:13,371 - poem_gen - DEBUG - abstract_concept is: radiance
+2023-07-04 14:35:13,374 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 14:35:13,374 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 14:35:13,376 - poem_gen - DEBUG - ==========================
+2023-07-04 14:35:13,376 - poem_gen - DEBUG - ==========================
+2023-07-04 14:35:13,378 - poem_gen - DEBUG - creative_starting_prompt: Glass is less conventional and has us.
+2023-07-04 14:35:13,378 - poem_gen - DEBUG - creative_starting_prompt: Glass is less conventional and has us.
+2023-07-04 14:35:13,380 - poem_gen - DEBUG - creative_prompt: Glass is less conventional and has us.
+2023-07-04 14:35:13,380 - poem_gen - DEBUG - creative_prompt: Glass is less conventional and has us.
+2023-07-04 14:35:14,885 - poem_gen - DEBUG - step_1_poem: In the swirling glass,
+Conventional's grip is lost,
+Untamed, we are free.
+2023-07-04 14:35:14,885 - poem_gen - DEBUG - step_1_poem: In the swirling glass,
+Conventional's grip is lost,
+Untamed, we are free.
+2023-07-04 14:35:16,264 - poem_gen - DEBUG - step_2_poem: In the swirling glass, where radiance gleams,
+Conventional's grip is lost, a distant dream.
+Untamed, we are free, basking in its beams.
+2023-07-04 14:35:16,264 - poem_gen - DEBUG - step_2_poem: In the swirling glass, where radiance gleams,
+Conventional's grip is lost, a distant dream.
+Untamed, we are free, basking in its beams.
+2023-07-04 14:35:20,721 - poem_gen - DEBUG - step_3_poem: As moonbeams whisper through the night,
+Illuminating shadows, taking flight.
+Embrace the wild, for conventional's plight.
+
+With memories so delicate, like petals on a breeze,
+We wander through time's forgotten keys.
+Seeking solace in the past, our hearts find ease.
+
+Through the looking glass, reflections unfold,
+In kaleidoscopic hues, stories untold.
+A longing for freedom, forever untamed and bold.
+
+Lost in the labyrinth of moments past,
+We weave our dreams, shadows cast.
+Yearning for liberation, our spirits hold fast.
+
+In fleeting brilliance, like a meteor's descent,
+We dance upon the threshold, heaven sent.
+Embracing the untamed, we find our element.
+
+Oh, to be free, like a liberated bird in flight,
+To soar beyond the boundaries, darkness takes flight.
+In the swirling glass, radiance pierces the night.
+2023-07-04 14:35:20,721 - poem_gen - DEBUG - step_3_poem: As moonbeams whisper through the night,
+Illuminating shadows, taking flight.
+Embrace the wild, for conventional's plight.
+
+With memories so delicate, like petals on a breeze,
+We wander through time's forgotten keys.
+Seeking solace in the past, our hearts find ease.
+
+Through the looking glass, reflections unfold,
+In kaleidoscopic hues, stories untold.
+A longing for freedom, forever untamed and bold.
+
+Lost in the labyrinth of moments past,
+We weave our dreams, shadows cast.
+Yearning for liberation, our spirits hold fast.
+
+In fleeting brilliance, like a meteor's descent,
+We dance upon the threshold, heaven sent.
+Embracing the untamed, we find our element.
+
+Oh, to be free, like a liberated bird in flight,
+To soar beyond the boundaries, darkness takes flight.
+In the swirling glass, radiance pierces the night.
+2023-07-04 14:35:20,724 - poem_gen - DEBUG - poem result:
+As moonbeams whisper through the night,
+Illuminating shadows, taking flight.
+Embrace the wild, for conventional's plight.
+
+With memories so delicate, like petals on a breeze,
+We wander through time's forgotten keys.
+Seeking solace in the past, our hearts find ease.
+
+Through the looking glass, reflections unfold,
+In kaleidoscopic hues, stories untold.
+A longing for freedom, forever untamed and bold.
+
+Lost in the labyrinth of moments past,
+We weave our dreams, shadows cast.
+Yearning for liberation, our spirits hold fast.
+
+In fleeting brilliance, like a meteor's descent,
+We dance upon the threshold, heaven sent.
+Embracing the untamed, we find our element.
+
+Oh, to be free, like a liberated bird in flight,
+To soar beyond the boundaries, darkness takes flight.
+In the swirling glass, radiance pierces the night.
+2023-07-04 14:35:20,724 - poem_gen - DEBUG - poem result:
+As moonbeams whisper through the night,
+Illuminating shadows, taking flight.
+Embrace the wild, for conventional's plight.
+
+With memories so delicate, like petals on a breeze,
+We wander through time's forgotten keys.
+Seeking solace in the past, our hearts find ease.
+
+Through the looking glass, reflections unfold,
+In kaleidoscopic hues, stories untold.
+A longing for freedom, forever untamed and bold.
+
+Lost in the labyrinth of moments past,
+We weave our dreams, shadows cast.
+Yearning for liberation, our spirits hold fast.
+
+In fleeting brilliance, like a meteor's descent,
+We dance upon the threshold, heaven sent.
+Embracing the untamed, we find our element.
+
+Oh, to be free, like a liberated bird in flight,
+To soar beyond the boundaries, darkness takes flight.
+In the swirling glass, radiance pierces the night.
+2023-07-04 14:35:20,729 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 14:35:20,729 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 15:18:20,333 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:18:20,447 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:18:20,447 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:18:58,658 - poem_gen - DEBUG - webtext words are: foot gon really it and
+2023-07-04 15:18:58,658 - poem_gen - DEBUG - webtext words are: foot gon really it and
+2023-07-04 15:18:58,660 - poem_gen - DEBUG - combined words are: foot gon really it and
+2023-07-04 15:18:58,660 - poem_gen - DEBUG - combined words are: foot gon really it and
+2023-07-04 15:19:50,750 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 15:19:50,750 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 15:19:50,755 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-04 15:19:50,755 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-04 15:19:50,760 - poem_gen - DEBUG - abstract_concept is: numbness
+2023-07-04 15:19:50,760 - poem_gen - DEBUG - abstract_concept is: numbness
+2023-07-04 15:19:50,764 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 15:19:50,764 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 15:19:50,770 - poem_gen - DEBUG - ==========================
+2023-07-04 15:19:50,770 - poem_gen - DEBUG - ==========================
+2023-07-04 15:19:50,775 - poem_gen - DEBUG - creative_starting_prompt: The foot will feel it.
+2023-07-04 15:19:50,775 - poem_gen - DEBUG - creative_starting_prompt: The foot will feel it.
+2023-07-04 15:19:50,779 - poem_gen - DEBUG - creative_prompt: The foot will feel it.
+2023-07-04 15:19:50,779 - poem_gen - DEBUG - creative_prompt: The foot will feel it.
+2023-07-04 15:19:51,594 - poem_gen - DEBUG - step_1_poem: In the realm of gold,
+The foot will feel it,
+Desiring endless riches.
+2023-07-04 15:19:51,594 - poem_gen - DEBUG - step_1_poem: In the realm of gold,
+The foot will feel it,
+Desiring endless riches.
+2023-07-04 15:19:53,226 - poem_gen - DEBUG - step_2_poem: In the realm of gold, where desires hold,
+The foot feels not the riches, but a numbness untold,
+For in boundless wealth, the hunger grows cold,
+Longing for more, as desires unfold.
+2023-07-04 15:19:53,226 - poem_gen - DEBUG - step_2_poem: In the realm of gold, where desires hold,
+The foot feels not the riches, but a numbness untold,
+For in boundless wealth, the hunger grows cold,
+Longing for more, as desires unfold.
+2023-07-04 15:19:55,892 - poem_gen - DEBUG - step_3_poem: In the realm of gold, desires dance and sway,
+The opulence blinds, leading astray,
+But underneath it all, a hunger reclaims,
+Seeking the unattainable, as life reframes.
+
+Amidst the treasures, a numbing numb,
+Wealth's embrace, a touchlessness, dumb,
+In boundless desires, hunger takes its toll,
+Yearning for more, as souls behold.
+
+From the golden chambers, a hunger awakes,
+Craving the infinite, as sanity breaks,
+In the depths of wealth, desires untold,
+An insatiable thirst, as boundaries unfold.
+2023-07-04 15:19:55,892 - poem_gen - DEBUG - step_3_poem: In the realm of gold, desires dance and sway,
+The opulence blinds, leading astray,
+But underneath it all, a hunger reclaims,
+Seeking the unattainable, as life reframes.
+
+Amidst the treasures, a numbing numb,
+Wealth's embrace, a touchlessness, dumb,
+In boundless desires, hunger takes its toll,
+Yearning for more, as souls behold.
+
+From the golden chambers, a hunger awakes,
+Craving the infinite, as sanity breaks,
+In the depths of wealth, desires untold,
+An insatiable thirst, as boundaries unfold.
+2023-07-04 15:19:55,905 - poem_gen - DEBUG - poem result:
+In the realm of gold, desires dance and sway,
+The opulence blinds, leading astray,
+But underneath it all, a hunger reclaims,
+Seeking the unattainable, as life reframes.
+
+Amidst the treasures, a numbing numb,
+Wealth's embrace, a touchlessness, dumb,
+In boundless desires, hunger takes its toll,
+Yearning for more, as souls behold.
+
+From the golden chambers, a hunger awakes,
+Craving the infinite, as sanity breaks,
+In the depths of wealth, desires untold,
+An insatiable thirst, as boundaries unfold.
+2023-07-04 15:19:55,905 - poem_gen - DEBUG - poem result:
+In the realm of gold, desires dance and sway,
+The opulence blinds, leading astray,
+But underneath it all, a hunger reclaims,
+Seeking the unattainable, as life reframes.
+
+Amidst the treasures, a numbing numb,
+Wealth's embrace, a touchlessness, dumb,
+In boundless desires, hunger takes its toll,
+Yearning for more, as souls behold.
+
+From the golden chambers, a hunger awakes,
+Craving the infinite, as sanity breaks,
+In the depths of wealth, desires untold,
+An insatiable thirst, as boundaries unfold.
+2023-07-04 15:19:55,915 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 15:19:55,915 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 15:21:22,703 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:21:22,820 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:21:22,820 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:21:52,406 - poem_gen - DEBUG - webtext words are: right big up him and
+2023-07-04 15:21:52,406 - poem_gen - DEBUG - webtext words are: right big up him and
+2023-07-04 15:21:52,410 - poem_gen - DEBUG - combined words are: right big up him and
+2023-07-04 15:21:52,410 - poem_gen - DEBUG - combined words are: right big up him and
+2023-07-04 15:22:44,463 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 15:22:44,463 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 15:22:44,467 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 15:22:44,467 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 15:22:44,472 - poem_gen - DEBUG - abstract_concept is: veneration
+2023-07-04 15:22:44,472 - poem_gen - DEBUG - abstract_concept is: veneration
+2023-07-04 15:22:44,476 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 15:22:44,476 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 15:22:44,480 - poem_gen - DEBUG - ==========================
+2023-07-04 15:22:44,480 - poem_gen - DEBUG - ==========================
+2023-07-04 15:22:44,484 - poem_gen - DEBUG - creative_starting_prompt: Left small down me.
+2023-07-04 15:22:44,484 - poem_gen - DEBUG - creative_starting_prompt: Left small down me.
+2023-07-04 15:22:44,487 - poem_gen - DEBUG - creative_prompt: Left small down me.
+2023-07-04 15:22:44,487 - poem_gen - DEBUG - creative_prompt: Left small down me.
+2023-07-04 15:22:45,492 - poem_gen - DEBUG - step_1_poem: Left small down me
+In nature's wild embrace
+Life's code whispers by
+2023-07-04 15:22:45,492 - poem_gen - DEBUG - step_1_poem: Left small down me
+In nature's wild embrace
+Life's code whispers by
+2023-07-04 15:22:46,715 - poem_gen - DEBUG - step_2_poem: Veneration nested in nature's core,
+As life's code whispers, small adored.
+In wild embrace, reverence forevermore.
+2023-07-04 15:22:46,715 - poem_gen - DEBUG - step_2_poem: Veneration nested in nature's core,
+As life's code whispers, small adored.
+In wild embrace, reverence forevermore.
+2023-07-04 15:22:47,664 - poem_gen - DEBUG - step_3_poem: In nature's heart, veneration blooms,
+As coding whispers, secrets it consumes.
+A wild embrace, reverence that entombs.
+2023-07-04 15:22:47,664 - poem_gen - DEBUG - step_3_poem: In nature's heart, veneration blooms,
+As coding whispers, secrets it consumes.
+A wild embrace, reverence that entombs.
+2023-07-04 15:22:47,670 - poem_gen - DEBUG - poem result:
+In nature's heart, veneration blooms,
+As coding whispers, secrets it consumes.
+A wild embrace, reverence that entombs.
+2023-07-04 15:22:47,670 - poem_gen - DEBUG - poem result:
+In nature's heart, veneration blooms,
+As coding whispers, secrets it consumes.
+A wild embrace, reverence that entombs.
+2023-07-04 15:22:47,679 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 15:22:47,679 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 15:58:21,030 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:58:21,222 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 15:58:21,222 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 16:03:27,052 - poem_gen - DEBUG - webtext words are: time girl up us and
+2023-07-04 16:03:27,052 - poem_gen - DEBUG - webtext words are: time girl up us and
+2023-07-04 16:03:27,054 - poem_gen - DEBUG - combined words are: time girl up us and
+2023-07-04 16:03:27,054 - poem_gen - DEBUG - combined words are: time girl up us and
+2023-07-04 16:04:21,151 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 16:04:21,151 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 16:04:21,154 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 16:04:21,154 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 16:04:21,156 - poem_gen - DEBUG - abstract_concept is: fear
+2023-07-04 16:04:21,156 - poem_gen - DEBUG - abstract_concept is: fear
+2023-07-04 16:04:21,158 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 16:04:21,158 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 16:04:21,160 - poem_gen - DEBUG - ==========================
+2023-07-04 16:04:21,160 - poem_gen - DEBUG - ==========================
+2023-07-04 16:04:21,162 - poem_gen - DEBUG - creative_starting_prompt: Time is up.
+2023-07-04 16:04:21,162 - poem_gen - DEBUG - creative_starting_prompt: Time is up.
+2023-07-04 16:04:21,164 - poem_gen - DEBUG - creative_prompt: Time is up.
+2023-07-04 16:04:21,164 - poem_gen - DEBUG - creative_prompt: Time is up.
+2023-07-04 16:04:22,010 - poem_gen - DEBUG - step_1_poem:
+As sand falls, it stops,
+Time's crescendo reaches end,
+Silence fills the void.
+2023-07-04 16:04:22,010 - poem_gen - DEBUG - step_1_poem:
+As sand falls, it stops,
+Time's crescendo reaches end,
+Silence fills the void.
+2023-07-04 16:04:23,303 - poem_gen - DEBUG - step_2_poem:
+In the realm where sand weeps, fear takes hold,
+Time's crescendo trembles, no longer bold,
+Silence etches shadows, a tale untold.
+2023-07-04 16:04:23,303 - poem_gen - DEBUG - step_2_poem:
+In the realm where sand weeps, fear takes hold,
+Time's crescendo trembles, no longer bold,
+Silence etches shadows, a tale untold.
+2023-07-04 16:04:24,990 - poem_gen - DEBUG - step_3_poem:
+In the realm of sorrow, where sand does weep,
+Fear grips tightly, its secrets it will keep,
+Yet silence whispers truth, in shadows deep.
+
+Time, like a symphony, once boisterously loud,
+Now trembles softly, in a graceful shroud,
+Dancing with the echoes, of souls unavowed.
+2023-07-04 16:04:24,990 - poem_gen - DEBUG - step_3_poem:
+In the realm of sorrow, where sand does weep,
+Fear grips tightly, its secrets it will keep,
+Yet silence whispers truth, in shadows deep.
+
+Time, like a symphony, once boisterously loud,
+Now trembles softly, in a graceful shroud,
+Dancing with the echoes, of souls unavowed.
+2023-07-04 16:04:24,993 - poem_gen - DEBUG - poem result:
+In the realm of sorrow, where sand does weep,
+Fear grips tightly, its secrets it will keep,
+Yet silence whispers truth, in shadows deep.
+
+Time, like a symphony, once boisterously loud,
+Now trembles softly, in a graceful shroud,
+Dancing with the echoes, of souls unavowed.
+2023-07-04 16:04:24,993 - poem_gen - DEBUG - poem result:
+In the realm of sorrow, where sand does weep,
+Fear grips tightly, its secrets it will keep,
+Yet silence whispers truth, in shadows deep.
+
+Time, like a symphony, once boisterously loud,
+Now trembles softly, in a graceful shroud,
+Dancing with the echoes, of souls unavowed.
+2023-07-04 16:04:24,998 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 16:04:24,998 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 16:12:56,490 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 16:12:56,604 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 16:12:56,604 - poem_gen - INFO - Logger is set up and running.
