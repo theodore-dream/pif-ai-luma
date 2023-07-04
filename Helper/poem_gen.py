@@ -25,21 +25,8 @@ from nltk.corpus import wordnet as wn
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
-    logging.debug(f"creative_prompt: {creative_prompt}")
-    step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
-    #logger.debug (f"step_1_poem: {step_1_poem}")
-    step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
-    #logger.debug (f"step_2_poem: {step_2_poem}")
-    step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
-    #logger.debug (f"step_3_poem: {step_3_poem}")
-    return step_3_poem
-
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, persona, randomness_factor):
-    MAX_RETRIES = 5  # Set max retry limit
-    for i in range(MAX_RETRIES):
-        #try:
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
@@ -55,6 +42,10 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
                 step_1_poem = completion['choices'][0]['message']['content'].strip()
             else:
                 step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
+
+            #logger.info(f"poem_step_1 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_1 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_1 Total tokens: {completion['usage']['total_tokens']}")
             return step_1_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -74,7 +65,10 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
                 step_2_poem = completion['choices'][0]['message']['content'].strip()
             else:
                 step_2_syscontent = completion['system'].strip()  # put into a var for later use 
-            print("-" * 30)
+
+            #logger.info(f"poem_step_2 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_2 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_2 Total tokens: {completion['usage']['total_tokens']}")
             return step_2_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -82,7 +76,7 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
+                    {"role": "system", "content": persona + "You generate poetry."},
                     {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
                     {"role": "user", "content": "Input text: " + step_2_poem},
                 ],
@@ -94,8 +88,22 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
                 step_3_poem = completion['choices'][0]['message']['content'].strip()
             else:
                 step_3_syscontent = api_response['system'].strip()  # put into a var for later use 
-            print("-" * 30)
+
+            #logger.info(f"poem_step_3 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_3 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_3 Total tokens: {completion['usage']['total_tokens']}")
+
             return step_3_poem
+
+def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
+    logging.debug(f"creative_prompt: {creative_prompt}")
+    step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
+    #logger.debug (f"step_1_poem: {step_1_poem}")
+    step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
+    #logger.debug (f"step_2_poem: {step_2_poem}")
+    step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
+    #logger.debug (f"step_3_poem: {step_3_poem}")
+    return step_3_poem
 
 def parse_response():
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons

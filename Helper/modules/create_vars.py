@@ -291,30 +291,6 @@ def gen_random_words(randomness_factor=1):
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
 
-# create the first input to create the base poem
-# this only seems to work with temperature > 0.6
-def gen_creative_prompt(text, randomness_factor):
-            completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You generate a sentence."},
-                    {"role": "user", "content": "Create a very short logical sentence inspired by the following input text:"},
-                    {"role": "user", "content":  "Input text: " + text},
-                ],
-                max_tokens=500,
-                temperature=(randomness_factor * 2),
-                # temp is set to go between 0.8 and 2, this linear function maps randomness_factor to temp 
-                #temperature=0.8 + (randomness_factor * (2 - 0.8))
-                #temperature=1.0
-            )
-            
-            if completion['choices'][0]['message']['role'] == "assistant":
-                creative_prompt = completion['choices'][0]['message']['content'].strip()
-            else:
-                creative_prompt_syscontent = completion['system'].strip()  # put into a var for later use 
-            print("-" * 30)
-            return creative_prompt
-
 def build_persona():
     personas = {
         "poets" : {
@@ -361,3 +337,29 @@ def build_persona():
 
     return selected_persona_content
 
+# create the first input to create the base poem
+def gen_creative_prompt(text, randomness_factor):
+            completion = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You generate a sentence."},
+                    {"role": "user", "content": "Create a very short logical sentence inspired by the following input text:"},
+                    {"role": "user", "content":  "Input text: " + text},
+                ],
+                max_tokens=500,
+                temperature=(randomness_factor * 2),
+                # temp is set to go between 0.8 and 2, this linear function maps randomness_factor to temp 
+                #temperature=0.8 + (randomness_factor * (2 - 0.8))
+                #temperature=1.0
+            )
+            
+            if completion['choices'][0]['message']['role'] == "assistant":
+                creative_prompt = completion['choices'][0]['message']['content'].strip()
+            else:
+                creative_prompt_syscontent = completion['system'].strip()  # put into a var for later use 
+
+            #logger.info(f"gen_creative_prompt Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"gen_creative_prompt Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"gen_creative_prompt Total tokens: {completion['usage']['total_tokens']}")
+
+            return creative_prompt

@@ -1667,3 +1667,54 @@ dextral hertz ilang-ilang,
 2023-07-03 23:02:03,649 - create_vars - DEBUG - webtext words are: Argh large again I But
 2023-07-03 23:02:06,408 - create_vars - DEBUG - wordnet words are: syncretize syncretize even
 2023-07-03 23:02:06,408 - create_vars - DEBUG - combined words are: Argh large again I But syncretize syncretize even
+2023-07-03 23:07:51,947 - create_vars - DEBUG - webtext words are: hunt many around her but
+2023-07-03 23:07:54,705 - create_vars - DEBUG - wordnet words are: cut_away endways endways
+2023-07-03 23:07:54,705 - create_vars - DEBUG - combined words are: hunt many around her but cut_away endways endways
+2023-07-03 23:08:17,679 - create_vars - DEBUG - webtext words are: crashes text so I and
+2023-07-03 23:08:20,455 - create_vars - DEBUG - wordnet words are: farcically xenosaurus xenosaurus
+2023-07-03 23:08:20,455 - create_vars - DEBUG - combined words are: crashes text so I and farcically xenosaurus xenosaurus
+2023-07-03 23:08:36,189 - create_vars - DEBUG - webtext words are: apartment small instead you and
+2023-07-03 23:08:38,953 - create_vars - DEBUG - wordnet words are: soot soot innately
+2023-07-03 23:08:38,953 - create_vars - DEBUG - combined words are: apartment small instead you and soot soot innately
+2023-07-03 23:09:05,697 - create_vars - DEBUG - webtext words are: incorrect large always it and
+2023-07-03 23:09:08,538 - create_vars - DEBUG - wordnet words are: arthritic lightly lightly
+2023-07-03 23:09:08,538 - create_vars - DEBUG - combined words are: incorrect large always it and arthritic lightly lightly
+2023-07-03 23:09:32,851 - create_vars - DEBUG - webtext words are: man quick too you and
+2023-07-03 23:09:35,659 - create_vars - DEBUG - wordnet words are: oath chuck pat
+2023-07-03 23:09:35,660 - create_vars - DEBUG - combined words are: man quick too you and oath chuck pat
+2023-07-03 23:09:52,039 - create_vars - DEBUG - webtext words are: wine old yet I and
+2023-07-03 23:09:54,778 - create_vars - DEBUG - wordnet words are: four-dimensional put imperfectly
+2023-07-03 23:09:54,779 - create_vars - DEBUG - combined words are: wine old yet I and four-dimensional put imperfectly
+2023-07-03 23:10:08,103 - create_vars - DEBUG - webtext words are: bottle bold just I and
+2023-07-03 23:10:10,840 - create_vars - DEBUG - wordnet words are: average white railroad
+2023-07-03 23:10:10,841 - create_vars - DEBUG - combined words are: bottle bold just I and average white railroad
+2023-07-03 23:17:28,008 - create_vars - DEBUG - webtext words are: bayonette several back her and
+2023-07-03 23:17:30,805 - create_vars - DEBUG - wordnet words are: psychopsis psychopsis superfetate
+2023-07-03 23:17:30,805 - create_vars - DEBUG - combined words are: bayonette several back her and psychopsis psychopsis superfetate
+2023-07-03 23:18:51,531 - create_vars - DEBUG - webtext words are: relationship sgl up her and
+2023-07-03 23:18:54,286 - create_vars - DEBUG - wordnet words are: fanatically apalachicola letter
+2023-07-03 23:18:54,286 - create_vars - DEBUG - combined words are: relationship sgl up her and fanatically apalachicola letter
+2023-07-03 23:19:36,474 - create_vars - DEBUG - webtext words are: GIRLS second awfully you and
+2023-07-03 23:19:39,212 - create_vars - DEBUG - wordnet words are: contrived rachycentridae collect
+2023-07-03 23:19:39,212 - create_vars - DEBUG - combined words are: GIRLS second awfully you and contrived rachycentridae collect
+2023-07-03 23:20:07,986 - create_vars - DEBUG - webtext words are: Ni separate Even your and
+2023-07-03 23:20:10,750 - create_vars - DEBUG - wordnet words are: enlivened linearize hymeneal
+2023-07-03 23:20:10,750 - create_vars - DEBUG - combined words are: Ni separate Even your and enlivened linearize hymeneal
+2023-07-03 23:20:11,444 - create_vars - INFO - gen_creative_prompt Prompt tokens: 50
+2023-07-03 23:20:11,445 - create_vars - INFO - gen_creative_prompt Completion tokens: 12
+2023-07-03 23:20:11,445 - create_vars - INFO - gen_creative_prompt Total tokens: 62
+2023-07-03 23:20:38,307 - create_vars - DEBUG - webtext words are: cell golden just I and
+2023-07-03 23:20:41,275 - create_vars - DEBUG - wordnet words are: aimlessly panchayat rustle
+2023-07-03 23:20:41,276 - create_vars - DEBUG - combined words are: cell golden just I and aimlessly panchayat rustle
+2023-07-03 23:20:41,828 - create_vars - INFO - gen_creative_prompt Prompt tokens: 49
+2023-07-03 23:20:41,828 - create_vars - INFO - gen_creative_prompt Completion tokens: 6
+2023-07-03 23:20:41,828 - create_vars - INFO - gen_creative_prompt Total tokens: 55
+2023-07-03 23:21:23,251 - create_vars - DEBUG - webtext words are: fun sgl well My and
+2023-07-03 23:21:26,003 - create_vars - DEBUG - wordnet words are: outspokenly absent wash_out
+2023-07-03 23:21:26,004 - create_vars - DEBUG - combined words are: fun sgl well My and outspokenly absent wash_out
+2023-07-03 23:21:26,710 - create_vars - INFO - gen_creative_prompt Prompt tokens: 47
+2023-07-03 23:21:26,710 - create_vars - INFO - gen_creative_prompt Completion tokens: 11
+2023-07-03 23:21:26,711 - create_vars - INFO - gen_creative_prompt Total tokens: 58
+2023-07-03 23:22:36,584 - create_vars - DEBUG - webtext words are: sites cleartext already me and
+2023-07-03 23:22:39,358 - create_vars - DEBUG - wordnet words are: patient chop pale-faced
+2023-07-03 23:22:39,358 - create_vars - DEBUG - combined words are: sites cleartext already me and patient chop pale-faced
