@@ -7,8 +7,8 @@ from psycopg2 import OperationalError
 
 try:
     connection = psycopg2.connect(dbname="postgres",
-                              host="db",
-                              user="postgres",
+                              host="localhost",
+                              user="pi",
                               password="raspberry",
                               port = "5432",
                               connect_timeout=3)
@@ -35,8 +35,8 @@ try:
 
     # Connect to the new "Poems" database
     connection = psycopg2.connect(dbname="game",
-                              host="db",
-                              user="postgres",
+                              host="localhost",
+                              user="pi",
                               password="raspberry",
                               port = "5432",
                               connect_timeout=3)
@@ -51,16 +51,16 @@ try:
     cursor.execute("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";")
 
     # check if the table exists
-    cursor.execute("SELECT EXISTS(SELECT * FROM information_schema.tables WHERE table_name='game')")
+    cursor.execute("SELECT EXISTS(SELECT * FROM information_schema.tables WHERE table_name='poem_game')")
     table_exists = cursor.fetchone()[0]
 
     if table_exists:
-        print("game already exists in PostgreSQL")
+        print("poem_game already exists in PostgreSQL")
     else:
         # SQL query to create a new table
-        create_table_query = '''CREATE TABLE game (session_id uuid DEFAULT uuid_generate_v4 (),
+        create_table_query = '''CREATE TABLE poem_game (session_id uuid DEFAULT uuid_generate_v4 (),
                               tstz timestamp DEFAULT current_timestamp,
-                              prompt VARCHAR,
+                              persona VARCHAR,
                               gametext VARCHAR,
                               entropy DECIMAL(2, 1),
                               level NUMERIC(3, 0),

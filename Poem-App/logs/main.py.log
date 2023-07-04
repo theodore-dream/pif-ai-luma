@@ -155,3 +155,5 @@
 2023-07-04 16:04:25,009 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
 2023-07-04 16:04:40,433 - main.py - DEBUG - sent to luma
 2023-07-04 16:12:57,570 - main.py - INFO - Logger is set up and running.
+2023-07-04 16:41:41,126 - main.py - INFO - Logger is set up and running.
+2023-07-04 16:56:46,360 - main.py - INFO - Logger is set up and running.

@@ -57,7 +57,7 @@ def read_from_database(session_id):
             connect_timeout=3,
         )
         cursor = connection.cursor()
-        query = f"SELECT session_id, level, entropy FROM game WHERE session_id = %s"
+        query = f"SELECT session_id, session_state, entropy FROM game WHERE session_id = %s"
         logger.debug(f"Executing query: {query} on session: {session_id}")
         cursor.execute(query, (session_id,))
         result = cursor.fetchone()

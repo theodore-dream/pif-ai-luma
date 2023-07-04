@@ -330,6 +330,3 @@ def gen_creative_prompt(text, randomness_factor):
             
             return creative_prompt
 
-# run main
-#if __name__ == "__main__":
-#    gen_random_words()
