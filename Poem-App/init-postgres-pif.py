@@ -58,13 +58,19 @@ try:
         print("poem_game already exists in PostgreSQL")
     else:
         # SQL query to create a new table
-        create_table_query = '''CREATE TABLE poem_game (session_id uuid DEFAULT uuid_generate_v4 (),
-                              tstz timestamp DEFAULT current_timestamp,
-                              persona VARCHAR,
-                              gametext VARCHAR,
-                              entropy DECIMAL(2, 1),
-                              level NUMERIC(3, 0),
-                              PRIMARY KEY (session_id));'''
+        create_table_query = '''
+        CREATE TABLE poem_game (
+            id SERIAL PRIMARY KEY,
+            session_id uuid DEFAULT uuid_generate_v4 (),
+            tstz timestamp DEFAULT current_timestamp,
+            persona VARCHAR,
+            session_state VARCHAR,
+            gametext VARCHAR,
+            entropy DECIMAL(2, 1),
+            level NUMERIC(3, 0)
+        );
+        CREATE INDEX idx_poem_game ON poem_game (session_id, tstz DESC);
+        '''
         # Execute a command: this creates a new table
         cursor.execute(create_table_query)
         connection.commit()

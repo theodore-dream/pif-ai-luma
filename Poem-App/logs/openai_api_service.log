@@ -1,0 +1,8 @@
+2023-07-04 19:22:33,505 - openai_api_service - INFO - Generated Text:
+2023-07-04 19:22:33,510 - openai_api_service - INFO - Step into the realm of verse, where words dance with elegance and meaning, and mere mortals succumb to the intoxicating power of poetic prowess.
+2023-07-04 19:22:33,514 - openai_api_service - INFO - 
+Details:
+2023-07-04 19:22:33,519 - openai_api_service - INFO - Model: gpt-3.5-turbo-0613
+2023-07-04 19:22:33,523 - openai_api_service - INFO - Role: assistant
+2023-07-04 19:22:33,526 - openai_api_service - INFO - Finish Reason: stop
+2023-07-04 19:22:33,530 - openai_api_service - INFO - Timestamp: 2023-07-04 19:22:33

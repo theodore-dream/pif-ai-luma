@@ -157,3 +157,907 @@
 2023-07-04 16:12:57,570 - main.py - INFO - Logger is set up and running.
 2023-07-04 16:41:41,126 - main.py - INFO - Logger is set up and running.
 2023-07-04 16:56:46,360 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:04:48,943 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:16:41,315 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:17:10,197 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:17:10,200 - main.py - DEBUG - running game status check....
+2023-07-04 17:18:05,131 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:18:05,134 - main.py - DEBUG - running game status check....
+2023-07-04 17:18:51,233 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:18:51,237 - main.py - DEBUG - running game status check....
+2023-07-04 17:19:46,607 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:19:46,619 - main.py - DEBUG - running game status check....
+2023-07-04 17:20:22,188 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:20:22,192 - main.py - DEBUG - running game status check....
+2023-07-04 17:20:48,958 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:20:48,961 - main.py - DEBUG - running game status check....
+2023-07-04 17:24:59,129 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:24:59,132 - main.py - DEBUG - running game status check....
+2023-07-04 17:24:59,136 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 17:26:27,653 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:26:27,656 - main.py - DEBUG - running game status check....
+2023-07-04 17:26:27,661 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 17:27:01,935 - main.py - INFO - Logger is set up and running.
+2023-07-04 17:27:01,972 - main.py - DEBUG - running game status check....
+2023-07-04 17:27:01,976 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:24:12,512 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:24:12,515 - main.py - DEBUG - running game status check....
+2023-07-04 18:24:12,520 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:24:45,736 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:24:45,739 - main.py - DEBUG - running game status check....
+2023-07-04 18:24:45,744 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:25:47,913 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:25:47,940 - main.py - DEBUG - running game status check....
+2023-07-04 18:25:47,945 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:26:31,168 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:26:31,241 - main.py - DEBUG - running game status check....
+2023-07-04 18:26:31,246 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:27:14,671 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:27:14,674 - main.py - DEBUG - running game status check....
+2023-07-04 18:27:14,678 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:28:48,091 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:28:48,104 - main.py - DEBUG - running game status check....
+2023-07-04 18:28:48,109 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:30:24,444 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:30:24,447 - main.py - DEBUG - running game status check....
+2023-07-04 18:30:24,451 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:47:00,605 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:47:00,618 - main.py - DEBUG - running game status check....
+2023-07-04 18:47:00,623 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:49:11,008 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:49:11,019 - main.py - DEBUG - running game status check....
+2023-07-04 18:49:11,024 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:50:28,217 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:50:28,221 - main.py - DEBUG - running game status check....
+2023-07-04 18:50:28,226 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:51:44,434 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:51:44,438 - main.py - DEBUG - running game status check....
+2023-07-04 18:51:44,443 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 18:51:44,608 - main.py - DEBUG - session data after read from DBNone
+2023-07-04 18:55:54,853 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:55:54,856 - main.py - DEBUG - running game status check....
+2023-07-04 18:56:41,921 - main.py - INFO - Logger is set up and running.
+2023-07-04 18:56:41,924 - main.py - DEBUG - running game status check....
+2023-07-04 19:00:14,622 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:00:14,625 - main.py - DEBUG - running game status check....
+2023-07-04 19:00:14,870 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:30,718 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:05:30,722 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:30,889 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:31,071 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:31,073 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:05:32,075 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:32,267 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:32,451 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:32,452 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:05:33,455 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:33,651 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:33,834 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:33,836 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:05:34,848 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:35,063 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:35,245 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:35,257 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:05:36,259 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:36,456 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:36,639 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:36,641 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:05:37,643 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:37,827 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:38,010 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:38,011 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:05:39,014 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:39,270 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:39,453 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:39,454 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:05:40,457 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:40,673 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:40,858 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:40,859 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:05:41,862 - main.py - DEBUG - running game status check....
+2023-07-04 19:05:42,053 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:42,263 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:05:42,264 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:06:32,981 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:06:32,985 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:33,161 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:33,348 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:33,357 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:06:34,361 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:34,556 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:34,742 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:34,747 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:35,754 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:36,004 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:36,191 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:36,199 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:06:37,203 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:37,389 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:37,578 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:37,586 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:06:38,589 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:38,879 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:39,103 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:39,119 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:06:40,123 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:40,315 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:40,504 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:40,517 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:06:41,521 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:41,753 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:41,939 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:41,949 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:06:42,952 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:43,199 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:43,470 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:43,484 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:06:44,487 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:44,718 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:44,957 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:44,974 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:45,977 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:46,203 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:46,441 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:46,456 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:47,460 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:47,638 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:47,824 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:47,835 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:06:48,839 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:49,031 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:49,215 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:49,226 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:06:50,230 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:50,461 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:50,646 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:50,654 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:51,657 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:51,849 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:52,034 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:52,042 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:06:53,046 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:53,301 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:53,483 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:53,485 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:06:54,487 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:54,676 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:54,858 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:54,859 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:06:55,862 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:56,053 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:56,235 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:56,236 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:57,249 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:57,435 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:57,618 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:57,619 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:06:58,622 - main.py - DEBUG - running game status check....
+2023-07-04 19:06:58,804 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:58,986 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:06:58,990 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:06:59,992 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:00,187 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:00,371 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:00,372 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:01,375 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:01,572 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:01,754 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:01,755 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:02,768 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:02,958 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:03,141 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:03,142 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:04,144 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:04,339 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:04,521 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:04,523 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:05,525 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:05,720 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:05,903 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:05,904 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:06,907 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:07,101 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:07,284 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:07,285 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:08,288 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:08,483 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:08,666 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:08,669 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:09,672 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:09,863 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:10,045 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:10,057 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:11,060 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:11,251 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:11,434 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:11,435 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:12,438 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:12,700 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:12,883 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:12,884 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:13,887 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:14,079 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:14,261 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:14,262 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:15,265 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:15,459 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:15,641 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:15,642 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:16,645 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:16,839 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:17,023 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:17,025 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:18,027 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:18,231 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:18,413 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:18,414 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:19,417 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:19,613 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:19,796 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:19,799 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:20,802 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:20,997 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:21,180 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:21,182 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:22,184 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:22,429 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:22,612 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:22,613 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:23,615 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:23,802 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:23,985 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:23,986 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:24,998 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:25,187 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:25,370 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:25,371 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:26,373 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:26,568 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:26,751 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:26,753 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:27,755 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:27,949 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:28,132 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:28,133 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:29,136 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:29,336 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:29,518 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:29,520 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:30,529 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:30,722 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:30,904 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:30,906 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:31,919 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:32,116 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:32,299 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:32,301 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:33,303 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:33,499 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:33,682 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:33,683 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:34,686 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:34,883 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:35,065 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:35,066 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:36,079 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:36,272 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:36,453 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:36,455 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:07:37,457 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:37,654 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:37,837 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:37,839 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:38,841 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:39,037 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:39,221 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:39,222 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:40,225 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:40,428 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:40,635 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:40,636 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:41,649 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:41,845 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:42,030 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:42,032 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:43,034 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:43,230 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:43,413 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:43,415 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:44,417 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:44,608 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:44,790 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:44,791 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:07:45,794 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:45,990 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:46,173 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:46,174 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:07:47,177 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:47,372 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:47,555 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:47,556 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:07:48,569 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:48,752 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:48,935 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:48,936 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:49,949 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:50,144 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:50,326 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:50,329 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:51,332 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:51,533 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:51,716 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:51,727 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:52,730 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:52,925 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:53,107 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:53,109 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:07:54,111 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:54,306 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:54,489 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:54,491 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:55,493 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:55,685 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:55,868 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:55,870 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:56,872 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:57,079 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:57,262 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:57,263 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:07:58,266 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:58,520 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:58,704 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:07:58,705 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:07:59,708 - main.py - DEBUG - running game status check....
+2023-07-04 19:07:59,905 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:00,088 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:00,089 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:01,092 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:01,258 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:01,440 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:01,441 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:08:02,443 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:02,604 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:02,788 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:02,789 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:03,792 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:03,984 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:04,166 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:04,170 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:05,172 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:05,359 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:05,541 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:05,542 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:06,545 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:06,739 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:06,922 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:06,923 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:07,926 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:08,113 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:08,296 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:08,299 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:09,302 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:09,499 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:09,682 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:09,684 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:10,686 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:10,936 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:11,120 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:11,121 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:12,124 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:12,308 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:12,490 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:12,491 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:08:13,494 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:13,694 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:13,879 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:13,880 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:14,883 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:15,139 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:15,366 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:15,378 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:08:16,380 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:16,571 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:16,755 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:16,756 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:17,769 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:17,960 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:18,145 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:18,146 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:19,159 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:19,379 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:19,562 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:19,563 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:08:20,566 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:20,755 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:20,954 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:20,962 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:08:21,964 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:22,192 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:22,525 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:22,526 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:23,540 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:23,749 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:23,983 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:23,985 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:24,987 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:25,219 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:25,436 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:25,448 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.9'))
+2023-07-04 19:08:26,450 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:26,675 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:26,857 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:26,859 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.8'))
+2023-07-04 19:08:27,861 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:28,059 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:28,242 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:28,243 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:29,245 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:29,441 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:29,626 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:29,634 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.6'))
+2023-07-04 19:08:30,637 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:30,853 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:31,042 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:31,055 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.7'))
+2023-07-04 19:08:32,059 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:32,252 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:32,438 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:32,447 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:48,386 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:08:48,390 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:48,396 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:48,563 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:48,575 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:48,752 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:48,763 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:49,767 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:49,773 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:49,967 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:49,977 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:50,154 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:50,160 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:51,168 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:51,175 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:51,372 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:51,383 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:51,560 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:51,566 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:52,573 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:52,585 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:52,780 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:52,792 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:52,968 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:52,973 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:53,981 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:53,987 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:54,182 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:54,187 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:54,370 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:54,376 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:55,383 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:55,390 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:55,586 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:55,598 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:55,774 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:55,779 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:56,786 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:56,793 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:56,988 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:56,993 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:57,176 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:57,184 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:58,187 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:58,199 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:58,394 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:58,400 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:58,584 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:58,592 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:08:59,596 - main.py - DEBUG - running game status check....
+2023-07-04 19:08:59,603 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:59,796 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:08:59,804 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:59,985 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:08:59,990 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:00,997 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:01,010 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:01,253 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:01,267 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:01,443 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:01,448 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:02,458 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:02,464 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:02,644 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:02,645 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:02,828 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:02,829 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:03,832 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:03,837 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:04,031 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:04,032 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:04,215 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:04,227 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:05,229 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:05,234 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:05,416 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:05,428 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:05,601 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:05,602 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:06,605 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:06,610 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:06,803 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:06,804 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:06,989 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:06,991 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:07,993 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:07,999 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:08,193 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:08,194 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:08,378 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:08,379 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:09,382 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:09,393 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:09,574 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:09,575 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:09,758 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:09,759 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:10,762 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:10,767 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:10,952 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:10,954 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:11,138 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:11,139 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:12,142 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:12,147 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:12,338 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:12,339 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:12,524 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:12,525 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:13,527 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:13,532 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:13,725 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:13,726 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:13,910 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:13,911 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:14,914 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:14,919 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:15,104 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:15,105 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:15,289 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:15,291 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:16,293 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:16,298 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:16,479 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:16,480 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:16,665 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:16,666 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:17,679 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:17,685 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:17,875 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:17,887 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:18,061 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:18,063 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:19,065 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:19,070 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:19,279 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:19,284 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:19,465 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:19,466 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:20,479 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:20,490 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:20,673 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:20,674 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:20,860 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:20,862 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:21,864 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:21,868 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:22,063 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:22,064 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:22,290 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:22,291 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:23,323 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:23,328 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:23,521 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:23,522 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:23,706 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:23,717 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:24,720 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:24,725 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:24,921 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:24,922 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:25,105 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:25,106 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:26,119 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:26,124 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:26,301 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:26,303 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:26,488 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:26,489 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:27,492 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:27,497 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:27,701 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:27,702 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:27,888 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:27,889 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:28,892 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:28,896 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:29,090 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:29,091 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:29,274 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:29,276 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:30,289 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:30,294 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:30,474 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:30,476 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:30,660 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:30,662 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:31,664 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:31,669 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:31,857 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:31,859 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:32,043 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:32,044 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:33,047 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:33,056 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:33,251 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:33,253 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:33,436 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:33,440 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:34,442 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:34,447 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:34,634 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:34,635 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:34,819 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:34,820 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:35,823 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:35,828 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:36,020 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:36,021 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:36,206 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:36,217 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:37,220 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:37,225 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:37,412 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:37,413 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:37,598 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:37,599 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:38,601 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:38,612 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:38,787 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:38,789 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:38,973 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:38,974 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:39,977 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:39,982 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:40,168 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:40,169 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:40,356 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:40,368 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:41,370 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:41,375 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:41,570 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:41,571 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:41,754 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:41,756 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:42,769 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:42,772 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:42,934 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:42,936 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:43,122 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:43,123 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:44,125 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:44,199 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:44,394 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:44,395 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:44,578 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:44,580 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:45,582 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:45,588 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:45,778 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:45,779 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:45,962 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:45,964 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:46,966 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:46,971 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:47,166 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:47,170 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:47,351 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:47,353 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:48,355 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:48,361 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:48,556 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:48,568 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:48,742 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:48,743 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:49,746 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:49,756 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:49,948 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:49,949 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:50,133 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:50,134 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:51,137 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:51,142 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:51,330 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:51,332 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:51,529 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:51,531 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:52,533 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:52,539 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:52,738 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:52,740 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:52,928 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:52,929 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:53,932 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:53,937 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:54,132 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:54,133 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:54,318 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:54,319 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:55,322 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:55,333 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:55,528 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:55,529 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:55,712 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:55,713 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:56,715 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:56,720 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:56,909 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:56,911 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:57,095 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:57,096 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:58,109 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:58,114 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:58,308 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:58,309 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:58,494 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:58,495 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:09:59,508 - main.py - DEBUG - running game status check....
+2023-07-04 19:09:59,512 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:59,709 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:09:59,710 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:59,893 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:09:59,895 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:00,897 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:00,902 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:01,151 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:10:01,153 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:01,336 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:01,347 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:02,350 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:02,354 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:02,516 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:10:02,519 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:02,723 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:02,733 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:03,736 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:03,740 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:04,000 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:10:04,008 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:04,280 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:04,282 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:05,296 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:05,300 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:05,535 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:10:05,545 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:05,764 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:05,771 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:06,774 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:06,785 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:06,958 - main.py - DEBUG - session data after read from DB63b9b0c6-e0a8-4e04-b36d-7b8696c851b5NonenewNone0.5
+2023-07-04 19:10:06,960 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:07,158 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:07,159 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:29,055 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:10:29,059 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:29,065 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:29,238 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:29,244 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:29,428 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:29,433 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:30,440 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:30,447 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:30,636 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:30,648 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:30,825 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:30,831 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:31,838 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:31,844 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:32,045 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:32,057 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:32,234 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:32,240 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:33,247 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:33,254 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:33,436 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:33,444 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:33,626 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:33,634 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:34,637 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:34,644 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:34,836 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:34,848 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:35,024 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:35,034 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:36,037 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:36,044 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:36,230 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:36,244 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:36,418 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:36,424 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:37,432 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:37,439 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:37,641 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:37,646 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:37,833 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:37,841 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:38,845 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:38,857 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:39,051 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:39,065 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:39,239 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:39,245 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:40,253 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:40,260 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:40,451 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:40,452 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:40,667 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:40,668 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:10:41,671 - main.py - DEBUG - running game status check....
+2023-07-04 19:10:41,676 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:41,871 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:10:41,873 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:42,082 - main.py - DEBUG - Session after checking game_state: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:10:42,096 - main.py - DEBUG - game_state: persona, entropy: (None, Decimal('0.5'))
+2023-07-04 19:18:44,365 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:21:37,526 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:22:32,004 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:22:32,008 - main.py - DEBUG - running game status check....
+2023-07-04 19:22:32,014 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:22:32,182 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: new, Game Text: None, Entropy: 0.5
+2023-07-04 19:22:32,197 - main.py - DEBUG - starting introduction
+2023-07-04 19:22:33,533 - main.py - DEBUG - poetry game intro starting now...
+2023-07-04 19:23:44,871 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:23:44,875 - main.py - DEBUG - running game status check....
+2023-07-04 19:23:44,881 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:23:45,049 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:23:45,057 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:24:59,958 - main.py - INFO - Logger is set up and running.
+2023-07-04 19:24:59,962 - main.py - DEBUG - running game status check....
+2023-07-04 19:24:59,967 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:25:00,134 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:25:00,147 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:26:02,022 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:26:17,340 - main.py - DEBUG - sent to luma
+2023-07-04 19:26:18,346 - main.py - DEBUG - running game status check....
+2023-07-04 19:26:18,353 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:26:18,548 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:26:18,554 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:26:23,047 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:26:38,353 - main.py - DEBUG - sent to luma
+2023-07-04 19:26:39,358 - main.py - DEBUG - running game status check....
+2023-07-04 19:26:39,365 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:26:39,544 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:26:39,556 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:26:43,763 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:26:59,003 - main.py - DEBUG - sent to luma
+2023-07-04 19:27:00,007 - main.py - DEBUG - running game status check....
+2023-07-04 19:27:00,014 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:27:00,206 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:27:00,219 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:27:04,578 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:27:19,885 - main.py - DEBUG - sent to luma
+2023-07-04 19:27:20,889 - main.py - DEBUG - running game status check....
+2023-07-04 19:27:20,896 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:27:21,092 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:27:21,107 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:27:25,517 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:27:40,824 - main.py - DEBUG - sent to luma
+2023-07-04 19:27:41,829 - main.py - DEBUG - running game status check....
+2023-07-04 19:27:41,836 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:27:42,020 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:27:42,033 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 19:27:45,919 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 19:28:01,230 - main.py - DEBUG - sent to luma
+2023-07-04 19:28:02,234 - main.py - DEBUG - running game status check....
+2023-07-04 19:28:02,241 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 19:28:02,441 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 19:28:02,453 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
