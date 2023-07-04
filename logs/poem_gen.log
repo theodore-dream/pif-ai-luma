@@ -7996,3 +7996,494 @@ Bar displayed with care
 Irregular rose, tetchily?
 Contrast draws the eye
 2023-07-03 20:21:15,856 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 20:22:20,573 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:22:30,491 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 20:22:30,492 - poem_gen - DEBUG - abstract_concept is: tenacity
+2023-07-03 20:22:30,492 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:22:30,492 - poem_gen - DEBUG - ==========================
+2023-07-03 20:22:30,492 - poem_gen - DEBUG - creative_starting_prompt: cars depressed not I manifest bungle manifest
+2023-07-03 20:22:36,596 - poem_gen - DEBUG - poem result:
+Shadows of bleak cars roam
+Hearts drowning, binding sorrow
+I dissolve, find light
+2023-07-03 20:22:36,596 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 20:32:14,714 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:32:19,611 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 20:32:19,611 - poem_gen - DEBUG - abstract_concept is: pep
+2023-07-03 20:32:19,611 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:32:19,611 - poem_gen - DEBUG - ==========================
+2023-07-03 20:32:19,611 - poem_gen - DEBUG - creative_starting_prompt: A loyal relationship, stepping together through the bustling crowd, like two vivid points in a sea of ocher.
+2023-07-03 20:32:26,772 - poem_gen - DEBUG - step_1_poem: Loyal steps entwined,
+In bustling crowd's current dance,
+Vivid points, ocher.
+2023-07-03 20:33:00,934 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:33:05,894 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 20:33:05,894 - poem_gen - DEBUG - abstract_concept is: freedom
+2023-07-03 20:33:05,894 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:33:05,894 - poem_gen - DEBUG - ==========================
+2023-07-03 20:33:05,894 - poem_gen - DEBUG - creative_starting_prompt: lady natur more You MALE sadducee sadducee viomycin
+2023-07-03 20:33:20,290 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:33:25,244 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 20:33:25,244 - poem_gen - DEBUG - abstract_concept is: witticism
+2023-07-03 20:33:25,244 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:33:25,244 - poem_gen - DEBUG - ==========================
+2023-07-03 20:33:25,244 - poem_gen - DEBUG - creative_starting_prompt: sand fair now you And atonally evergreen evergreen
+2023-07-03 20:33:59,047 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:34:05,898 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 20:34:05,898 - poem_gen - DEBUG - abstract_concept is: enrapture
+2023-07-03 20:34:05,898 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:34:05,898 - poem_gen - DEBUG - ==========================
+2023-07-03 20:34:05,898 - poem_gen - DEBUG - creative_starting_prompt: nostrils mumble very She And brail prepare any
+2023-07-03 20:34:21,828 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:34:26,620 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 20:34:26,621 - poem_gen - DEBUG - abstract_concept is: spirit
+2023-07-03 20:34:26,621 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:34:26,621 - poem_gen - DEBUG - ==========================
+2023-07-03 20:34:26,621 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by music
+2023-07-03 20:35:03,139 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:35:08,775 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 20:35:08,776 - poem_gen - DEBUG - abstract_concept is: glee
+2023-07-03 20:35:08,776 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:35:08,776 - poem_gen - DEBUG - ==========================
+2023-07-03 20:35:08,776 - poem_gen - DEBUG - creative_starting_prompt: Quiet background with an unfortunate twist.
+2023-07-03 20:35:12,623 - poem_gen - DEBUG - step_1_poem: Quiet backdrop hides
+Unfortunate twist emerges
+Nature's delicate dance
+2023-07-03 20:41:04,008 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:41:09,012 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 20:41:09,012 - poem_gen - DEBUG - abstract_concept is: roguishness
+2023-07-03 20:41:09,012 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:41:09,012 - poem_gen - DEBUG - ==========================
+2023-07-03 20:41:09,012 - poem_gen - DEBUG - creative_starting_prompt: Aaah suspenseful Perhaps he or batting_order far far
+2023-07-03 20:41:17,201 - poem_gen - DEBUG - step_1_poem: Aaah, suspenseful dusk,
+Perhaps he wanders like wind,
+Batting order set.
+2023-07-03 20:42:41,134 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:42:49,161 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 20:42:49,162 - poem_gen - DEBUG - abstract_concept is: briefness
+2023-07-03 20:42:49,162 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:42:49,162 - poem_gen - DEBUG - ==========================
+2023-07-03 20:42:49,162 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by phone few just It and bilious bilious confucianism
+2023-07-03 20:42:58,373 - poem_gen - DEBUG - step_1_poem: A sentence whispered,
+Phone buzzing with few kind words,
+Bilious, Confucian.
+2023-07-03 20:44:46,441 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:44:50,914 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 20:44:50,914 - poem_gen - DEBUG - abstract_concept is: contentment
+2023-07-03 20:44:50,914 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:44:50,914 - poem_gen - DEBUG - ==========================
+2023-07-03 20:44:50,914 - poem_gen - DEBUG - creative_starting_prompt: GIRLS mayhem not it and low sign low
+2023-07-03 20:44:57,150 - poem_gen - DEBUG - step_1_poem: Girls dance in the mayhem
+Not utopia, but a sign
+Of low spirits where dreams are low
+2023-07-03 20:45:07,046 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:45:11,802 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 20:45:11,803 - poem_gen - DEBUG - abstract_concept is: contentment
+2023-07-03 20:45:11,803 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:45:11,803 - poem_gen - DEBUG - ==========================
+2023-07-03 20:45:11,803 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: wheel key certainly you and overhead hollow predilection
+2023-07-03 20:45:19,075 - poem_gen - DEBUG - step_1_poem: Wheel turns, key unlocks
+Certainly, you hold the power
+Overhead, hollow.
+2023-07-03 20:47:18,340 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:47:25,021 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 20:47:25,022 - poem_gen - DEBUG - abstract_concept is: quaintness
+2023-07-03 20:47:25,022 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:47:25,022 - poem_gen - DEBUG - ==========================
+2023-07-03 20:47:25,022 - poem_gen - DEBUG - creative_starting_prompt: vice web properly I and faithfully amelia reverberate
+2023-07-03 20:47:31,072 - poem_gen - DEBUG - step_1_poem: Faithfully, I am
+Amelia's reverberate vice,
+Web woven, properly.
+2023-07-03 20:48:28,741 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:48:37,244 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 20:48:37,244 - poem_gen - DEBUG - abstract_concept is: peace
+2023-07-03 20:48:37,244 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:48:37,244 - poem_gen - DEBUG - ==========================
+2023-07-03 20:48:37,244 - poem_gen - DEBUG - creative_starting_prompt: Friend good really it And hankering backboard lexis
+2023-07-03 20:48:42,119 - poem_gen - DEBUG - step_1_poem: A friend so good, truly
+Hankering for lexicon's charm,
+Backboard of desires.
+2023-07-03 20:49:06,778 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:49:11,212 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 20:49:11,212 - poem_gen - DEBUG - abstract_concept is: equality
+2023-07-03 20:49:11,212 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:49:11,212 - poem_gen - DEBUG - ==========================
+2023-07-03 20:49:11,212 - poem_gen - DEBUG - creative_starting_prompt: walks slim sincere you and record_jacket rename mismatched
+2023-07-03 20:50:17,218 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:51:18,607 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:51:23,278 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 20:51:23,278 - poem_gen - DEBUG - abstract_concept is: comradeliness
+2023-07-03 20:51:23,278 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:51:23,278 - poem_gen - DEBUG - ==========================
+2023-07-03 20:51:23,278 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by Ni FRENCH first he but tamp_down tink let jack gal...
+2023-07-03 20:51:31,892 - poem_gen - DEBUG - step_1_poem: Tamp_down the chaos
+Ni French whispers hauntingly
+Fear imprisons all.
+2023-07-03 20:56:05,539 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:56:10,432 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 20:56:10,432 - poem_gen - DEBUG - abstract_concept is: invidia
+2023-07-03 20:56:10,432 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:56:10,433 - poem_gen - DEBUG - ==========================
+2023-07-03 20:56:10,433 - poem_gen - DEBUG - creative_starting_prompt: dealings valid not my and live fire fire
+2023-07-03 20:56:15,615 - poem_gen - DEBUG - step_1_poem: Dealing with fire
+2023-07-03 20:57:11,635 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:57:16,173 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 20:57:16,173 - poem_gen - DEBUG - abstract_concept is: mental_imagery
+2023-07-03 20:57:16,173 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:57:16,173 - poem_gen - DEBUG - ==========================
+2023-07-03 20:57:16,173 - poem_gen - DEBUG - creative_starting_prompt: ladies open away he and greaser greaser shy
+2023-07-03 20:57:22,313 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 1/5
+2023-07-03 20:57:30,325 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 2/5
+2023-07-03 20:57:37,471 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 3/5
+2023-07-03 20:57:42,945 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 20:57:48,024 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-03 20:57:48,024 - poem_gen - DEBUG - abstract_concept is: quietude
+2023-07-03 20:57:48,024 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 20:57:48,024 - poem_gen - DEBUG - ==========================
+2023-07-03 20:57:48,024 - poem_gen - DEBUG - creative_starting_prompt: son Asian well self and forestry better nice
+2023-07-03 20:57:58,150 - poem_gen - DEBUG - step_1_poem: In Asian soil blooms
+The roots of a self well-nursed
+Forestry of dreams
+2023-07-03 20:58:02,213 - poem_gen - DEBUG - step_2_poem: In the stillness of Asian soil,
+2023-07-03 20:58:02,213 - poem_gen - DEBUG - poem result:
+In the stillness of Asian soil,
+2023-07-03 20:58:02,213 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 20:59:05,366 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:05:19,576 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:05:24,723 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 21:05:24,723 - poem_gen - DEBUG - abstract_concept is: satisfaction
+2023-07-03 21:05:24,723 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:05:24,723 - poem_gen - DEBUG - ==========================
+2023-07-03 21:05:24,723 - poem_gen - DEBUG - creative_starting_prompt: times firm sincere I OUTGOING shuttered incongruously unlock
+2023-07-03 21:05:32,195 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 1/5
+2023-07-03 21:05:40,552 - poem_gen - DEBUG - step_1_poem: In times firm and sincere,
+Outgoing shuttered hearts soar,
+Unlocking new worlds.
+2023-07-03 21:05:44,889 - poem_gen - DEBUG - explanation: I created this poem to capture the sense of satisfaction that comes from breaking out of one's comfort zone and embracing new experiences. The imagery of 'firm and sincere' times represents a strong, determined mindset, while the phrase 'outgoing shuttered hearts soar' conveys the idea of taking risks and opening up to the unknown. The final line, 'unlocking new worlds,' symbolizes the immense rewards and fulfillment that come with stepping out into unexplored territories and discovering what lies beyond.
+2023-07-03 21:05:44,890 - poem_gen - DEBUG - step_2_poem: In times firm and sincere,
+Outgoing shuttered hearts soar,
+Unlocking new worlds.
+2023-07-03 21:05:44,890 - poem_gen - DEBUG - poem result:
+In times firm and sincere,
+Outgoing shuttered hearts soar,
+Unlocking new worlds.
+2023-07-03 21:05:44,890 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:06:41,929 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:06:48,077 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 21:06:48,077 - poem_gen - DEBUG - abstract_concept is: good_will
+2023-07-03 21:06:48,077 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:06:48,078 - poem_gen - DEBUG - ==========================
+2023-07-03 21:06:48,078 - poem_gen - DEBUG - creative_starting_prompt: separator webpage Not it and genus_fucus silesia silesia
+2023-07-03 21:06:52,185 - poem_gen - DEBUG - step_1_poem: In SeparaTe dB,
+WebpagEs whisper lures unseen;
+Not iT genUs smears.
+2023-07-03 21:06:56,831 - poem_gen - DEBUG - explanation: This poem explores the concept of good will, represented by the subtle transformation and integration of the chosen concept into the text. The enigmatic language and juxtaposition of ideas aim to invoke a sense of curiosity and depth. The poem hints at the hidden nature of good will, something that often operates behind the scenes, beyond immediate perception. Through the modification of the original text, the poem generates an eerie atmosphere, stimulating the reader's imagination and inviting them to interpret the connections between darkness, deviousness, and the potential presence of goodness amidst this discord.
+2023-07-03 21:06:56,831 - poem_gen - DEBUG - step_2_poem: In SeparaTe dB,
+WebpagsEs whisper lures unseen;
+Not iTs genUs smears.
+2023-07-03 21:06:56,831 - poem_gen - DEBUG - poem result:
+In SeparaTe dB,
+WebpagsEs whisper lures unseen;
+Not iTs genUs smears.
+2023-07-03 21:06:56,831 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:45:17,666 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:45:24,461 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 21:45:24,461 - poem_gen - DEBUG - abstract_concept is: glister
+2023-07-03 21:45:24,461 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:45:24,462 - poem_gen - DEBUG - ==========================
+2023-07-03 21:45:24,462 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: users clickable too I or abstract sidesaddle sidesaddle
+2023-07-03 21:45:30,360 - poem_gen - DEBUG - step_1_poem: Users click away
+An abstract sidesaddle world
+Clickable and free
+2023-07-03 21:45:33,262 - poem_gen - DEBUG - explanation: I chose the abstract concept of 'glister' for this poem. To subtly weave it in, I portrayed the digital world as a glistering, clickable and free landscape, where users immerse themselves in a realm of endless possibilities.
+2023-07-03 21:45:33,263 - poem_gen - DEBUG - step_2_poem: Users click away
+An abstract sidesaddle world
+Clickable and free
+2023-07-03 21:45:33,263 - poem_gen - DEBUG - poem result:
+Users click away
+An abstract sidesaddle world
+Clickable and free
+2023-07-03 21:45:33,263 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:47:53,949 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:47:58,171 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 21:47:58,171 - poem_gen - DEBUG - abstract_concept is: pride
+2023-07-03 21:47:58,171 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:47:58,171 - poem_gen - DEBUG - ==========================
+2023-07-03 21:47:58,171 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by ROBIN French So You and plain plain momentarily
+2023-07-03 21:48:03,075 - poem_gen - DEBUG - step_1_poem: Plain sentence broke free,
+So you escape momentarily,
+Robin dances with glee.
+2023-07-03 21:48:08,296 - poem_gen - DEBUG - step_2_poem: In a moment of freedom, plain sentence broke free, The escape, a fleeting pride, as Robin danced with glee.
+2023-07-03 21:48:08,296 - poem_gen - DEBUG - poem result:
+In a moment of freedom, plain sentence broke free, The escape, a fleeting pride, as Robin danced with glee.
+2023-07-03 21:48:08,296 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:48:34,030 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:48:40,496 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 21:48:40,496 - poem_gen - DEBUG - abstract_concept is: memory
+2023-07-03 21:48:40,496 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:48:40,496 - poem_gen - DEBUG - ==========================
+2023-07-03 21:48:40,496 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: links multiple not its and monologuize gorgeously dixie_cup
+2023-07-03 21:48:45,227 - poem_gen - DEBUG - poem result:
+Threads of the past entwine, dance eternally,
+lapsing memories echo across boundless planes.
+2023-07-03 21:48:45,228 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:51:45,649 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:51:52,864 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 21:51:52,864 - poem_gen - DEBUG - abstract_concept is: patience
+2023-07-03 21:51:52,864 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:51:52,864 - poem_gen - DEBUG - ==========================
+2023-07-03 21:51:52,864 - poem_gen - DEBUG - creative_starting_prompt: HTTP breathe new life into creation, devour life, sending its echoes offhand and taking names.
+2023-07-03 21:51:56,431 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 1/5
+2023-07-03 21:52:06,581 - poem_gen - DEBUG - poem result:
+In celestial realms, patience shines bright,
+2023-07-03 21:52:06,581 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:52:30,527 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:52:35,147 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 21:52:35,147 - poem_gen - DEBUG - abstract_concept is: pleasure
+2023-07-03 21:52:35,147 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:52:35,147 - poem_gen - DEBUG - ==========================
+2023-07-03 21:52:35,147 - poem_gen - DEBUG - creative_starting_prompt: liege sad So him And suppurate suppurate always randomly
+2023-07-03 21:52:44,058 - poem_gen - ERROR - JSON decoding failed in poem_step_2, retry 1/5
+2023-07-03 21:52:48,052 - poem_gen - ERROR - JSON decoding failed in poem_step_2, retry 2/5
+2023-07-03 21:52:53,364 - poem_gen - ERROR - JSON decoding failed in poem_step_2, retry 3/5
+2023-07-03 21:53:01,466 - poem_gen - DEBUG - explanation: This poem captures the juxtaposition and hidden beauty within sorrow and pleasure. The variation in tone, language use, and sentence structure adds an element of unpredictability and mystery, echoing the enigmatic nature of the subject matter.
+2023-07-03 21:53:01,467 - poem_gen - DEBUG - poem result:
+Shadows entwine, mournful love's parlance; in veiled reverie, ecstasy enfolds.
+2023-07-03 21:53:01,467 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:53:15,500 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:53:20,459 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 21:53:20,459 - poem_gen - DEBUG - abstract_concept is: giddiness
+2023-07-03 21:53:20,459 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:53:20,459 - poem_gen - DEBUG - ==========================
+2023-07-03 21:53:20,459 - poem_gen - DEBUG - creative_starting_prompt: barnacles left more we or causal alpine clover
+2023-07-03 21:53:25,029 - poem_gen - ERROR - JSON decoding failed in poem_step_1, retry 1/5
+2023-07-03 21:53:34,995 - poem_gen - DEBUG - explanation: With this poem, I sought to capture the fleeting euphoria that lingers in the aftermath of turbulent experiences. The use of language aims to introduce variations in tone, imagery, and sentence structure, adding depth to the portrayal of this sense of giddiness. Like the waves that recede yet leave remnants of their tumult, the poem explores the intoxicating dance amidst the calm after the storm.
+2023-07-03 21:53:34,996 - poem_gen - DEBUG - poem result:
+Betwixt encompassing tides, giddy waltz sheltered,
+A dance aflame in the aftermath of deluge bestowed.
+2023-07-03 21:53:34,996 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:53:49,225 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:53:56,665 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-03 21:53:56,665 - poem_gen - DEBUG - abstract_concept is: forgiveness
+2023-07-03 21:53:56,665 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:53:56,665 - poem_gen - DEBUG - ==========================
+2023-07-03 21:53:56,665 - poem_gen - DEBUG - creative_starting_prompt: I infinitely stack stars and twinkle invincible dreams.
+2023-07-03 21:54:07,616 - poem_gen - DEBUG - explanation: This poem was created in a way that introduces variation in tone, language use, and sentence structure to reflect the dynamic and unpredictable nature of desires and dreams. By using contrasting imagery of endless stacking desires and twinkling forgiving stars, the poem explores the tension between human ambition and the forgiving and invincible nature of dreams.
+2023-07-03 21:54:07,617 - poem_gen - DEBUG - poem result:
+Infinite desires endlessly stack,
+Stars twinkle forgiveness, dreams invincible.
+2023-07-03 21:54:07,617 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 21:54:46,476 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 21:54:50,937 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 21:54:50,937 - poem_gen - DEBUG - abstract_concept is: quaintness
+2023-07-03 21:54:50,937 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 21:54:50,937 - poem_gen - DEBUG - ==========================
+2023-07-03 21:54:50,937 - poem_gen - DEBUG - creative_starting_prompt: mate la around I but charged dried-up charged
+2023-07-03 22:00:34,338 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:10:21,789 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:11:34,718 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:12:01,048 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:12:30,002 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:12:48,568 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:14:17,123 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:14:37,337 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:15:49,715 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:15:54,303 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 22:15:54,303 - poem_gen - DEBUG - abstract_concept is: stake
+2023-07-03 22:15:54,303 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:15:54,304 - poem_gen - DEBUG - ==========================
+2023-07-03 22:15:54,304 - poem_gen - DEBUG - creative_starting_prompt: motor slim enough I BUSINESSMAN expressly hydrography hydrography
+2023-07-03 22:15:58,472 - poem_gen - DEBUG - step_1_poem: Motor slim, cruising
+2023-07-03 22:16:02,832 - poem_gen - DEBUG - step_2_poem: Motor slim, cruising,
+on the open road she zooms,
+captured in her stake.
+2023-07-03 22:16:06,695 - poem_gen - DEBUG - explanation: I created this poem to capture the thrill and excitement of speed and freedom on an open road. The strong imagery and rich culinary metaphors enhance the sensory experience, allowing the reader to feel the rush and movement of the motor. The variation in tone, language use, and sentence structure adds dynamism and interest, reflecting the varied sensations one might encounter on a thrilling ride.
+2023-07-03 22:16:06,695 - poem_gen - DEBUG - poem result:
+Motor slim, cruising,
+on the open road she zooms,
+captured in her stake.
+2023-07-03 22:16:06,696 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:16:13,020 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:17:02,261 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:18:18,630 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:18:42,102 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:19:07,306 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 22:19:07,306 - poem_gen - DEBUG - abstract_concept is: secret
+2023-07-03 22:19:07,306 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:19:07,306 - poem_gen - DEBUG - ==========================
+2023-07-03 22:19:07,306 - poem_gen - DEBUG - creative_starting_prompt: drinking, excessively, corday, profess, sidecar
+2023-07-03 22:19:17,393 - poem_gen - DEBUG - step_1_poem: Drinking profusely,
+Excessively, like Corday,
+Sidecar held closely.
+2023-07-03 22:19:49,703 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:19:54,049 - poem_gen - DEBUG - lang_device is: metaphor
+2023-07-03 22:19:54,050 - poem_gen - DEBUG - abstract_concept is: joyfulness
+2023-07-03 22:19:54,050 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:19:54,050 - poem_gen - DEBUG - ==========================
+2023-07-03 22:19:54,050 - poem_gen - DEBUG - creative_starting_prompt: half right rapidly We and stocked distend stocked
+2023-07-03 22:19:58,853 - poem_gen - DEBUG - step_1_poem: Half right, rapidly
+We distend, stocked and sated
+The stars glow above
+2023-07-03 22:20:00,828 - poem_gen - DEBUG - step_2_poem: Like stars aglow, our hearts shine bright with joy
+2023-07-03 22:20:03,922 - poem_gen - DEBUG - explanation: I created this poem using vivid imagery, comparing our hearts to stars. The poem introduces variation in tone by shifting from the initial tone of joy to a more ethereal and whimsical tone of delight. The language use and sentence structure also vary, adding a sense of intrigue and beauty to the poem.
+2023-07-03 22:20:03,922 - poem_gen - DEBUG - poem result:
+In celestial dreams, our souls ignite with delight
+2023-07-03 22:20:03,923 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:20:22,250 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:20:30,097 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 22:20:30,098 - poem_gen - DEBUG - abstract_concept is: concordance
+2023-07-03 22:20:30,098 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:20:30,098 - poem_gen - DEBUG - ==========================
+2023-07-03 22:20:30,098 - poem_gen - DEBUG - creative_starting_prompt: side third Store he and jacksonian noncombatant embezzle
+2023-07-03 22:20:37,190 - poem_gen - DEBUG - step_1_poem: At Store's third bright side,
+Jacksonian hopes enlisted,
+Embezzled joy lost.
+2023-07-03 22:20:39,455 - poem_gen - DEBUG - step_2_poem: Lost joy lights the way,
+2023-07-03 22:20:42,678 - poem_gen - DEBUG - explanation: I created this poem with variations in tone, language use, and sentence structure to capture the theme of lost joy and how it can guide us in surprising ways. By using contrasting images and unexpected twists, the poem aims to explore the nuances of finding a new direction even in moments of darkness and despair.
+2023-07-03 22:20:42,678 - poem_gen - DEBUG - poem result:
+Lost joy lights the way,
+2023-07-03 22:20:42,678 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:21:57,158 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:22:01,736 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 22:22:01,736 - poem_gen - DEBUG - abstract_concept is: mortality_rate
+2023-07-03 22:22:01,736 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:22:01,736 - poem_gen - DEBUG - ==========================
+2023-07-03 22:22:01,736 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: man African there you and glom white glom
+2023-07-03 22:22:06,385 - poem_gen - DEBUG - step_1_poem: African soul blooms,
+Man, fierce glom of contrast here,
+White glom comforts too.
+2023-07-03 22:22:12,376 - poem_gen - DEBUG - step_2_poem: In African soul, mortality_rate blooms,
+Man, a fierce glom of contrast here,
+Even in white glom, mortality_rate comforts too.
+2023-07-03 22:22:14,720 - poem_gen - DEBUG - explanation: I wanted to start the poem by evoking a sense of mystery and depth, using the phrase 'the depths of the African soul' to symbolize the profound experiences and emotions often found in African culture and traditions.
+2023-07-03 22:22:14,720 - poem_gen - DEBUG - poem result:
+In the depths of the African soul,
+2023-07-03 22:22:14,720 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:24:24,195 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:24:28,844 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 22:24:28,844 - poem_gen - DEBUG - abstract_concept is: sort_out
+2023-07-03 22:24:28,844 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:24:28,844 - poem_gen - DEBUG - ==========================
+2023-07-03 22:24:28,844 - poem_gen - DEBUG - creative_starting_prompt: A person scuttling wildly and trying to quickly distribute melolontha larvae.
+2023-07-03 22:24:39,446 - poem_gen - DEBUG - step_1_poem: Frantic dance of hands,
+Melolontha progeny spreads,
+Frenzied souls entwined.
+2023-07-03 22:24:41,623 - poem_gen - DEBUG - step_2_poem: In the frantic dance of hands,
+2023-07-03 22:24:47,989 - poem_gen - DEBUG - explanation: I crafted this poem with a sense of urgency and uncertainty. The repetition of 'frantic' and variations in language and sentence structure capture the chaotic nature of anxiety. The imagery of shadows and whispers adds to the element of suspense and the theme of imagined threats. The last line emphasizes the underlying existential dread that lingers in the narrative.
+2023-07-03 22:24:47,989 - poem_gen - DEBUG - poem result:
+In the frantic dance of hands,
+Shadows spin and whispers bloom.
+Anxiety rises, a symphony of chaos,
+Trapped in the fear of subtle threats.
+2023-07-03 22:24:47,990 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:24:58,120 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:25:04,416 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 22:25:04,416 - poem_gen - DEBUG - abstract_concept is: field_of_study
+2023-07-03 22:25:04,417 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:25:04,417 - poem_gen - DEBUG - ==========================
+2023-07-03 22:25:04,417 - poem_gen - DEBUG - creative_starting_prompt: type personal fully its or deepness deepness profound
+2023-07-03 22:25:07,482 - poem_gen - DEBUG - step_1_poem: Type with personal touch
+ Fully express deepness learned
+ Its profound value
+2023-07-03 22:25:14,138 - poem_gen - DEBUG - step_2_poem: The path of knowledge unfolds
+2023-07-03 22:25:17,521 - poem_gen - DEBUG - explanation: I created a short and concise poem that captures the idea of the path of knowledge unfolding in a wild and unpredictable manner. By introducing variation and reducing consistency, I aimed to embody the unpredictability and diversity of the journey of learning and exploring the world of knowledge. The tone of the poem is more organic and nature-inspired, contrasting with the structured logic of traditional pathways to knowledge.
+2023-07-03 22:25:17,522 - poem_gen - DEBUG - poem result:
+In the wilds of paths
+2023-07-03 22:25:17,522 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:25:37,235 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - abstract_concept is: harassment
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - ==========================
+2023-07-03 22:25:44,880 - poem_gen - DEBUG - creative_starting_prompt: resolution beautiful still I And
+2023-07-03 22:25:56,121 - poem_gen - DEBUG - step_1_poem: Resolution clear
+A beautiful stillness abides
+I stand in awe
+2023-07-03 22:25:59,601 - poem_gen - DEBUG - step_2_poem: Resolution clear
+2023-07-03 22:26:03,030 - poem_gen - DEBUG - explanation: I created this poem to evoke a sense of clarity and vibrancy. The repetition of 'clear' emphasizes a clear resolution, while the use of vivid imagery and contrasting words bring variation and interest to the poem. The last line conveys a message of courage and dispelling fear.
+2023-07-03 22:26:03,030 - poem_gen - DEBUG - poem result:
+Resolution clear,
+In colors vibrant and sheer.
+From far away, a sight so near,
+Bidding farewell to all fear.
+2023-07-03 22:26:03,030 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:26:13,267 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - abstract_concept is: misery
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - ==========================
+2023-07-03 22:26:17,939 - poem_gen - DEBUG - creative_starting_prompt: wine elegant again my but trespass monaurally,
+2023-07-03 22:26:19,672 - poem_gen - DEBUG - step_1_poem: Wine in slender grace, 
+Elegant as moonlit iridescence, 
+Trespass my hungry lips.
+2023-07-03 22:26:23,463 - poem_gen - DEBUG - step_2_poem: Wine drips in sorrowed silence, void of taste,
+2023-07-03 22:26:28,999 - poem_gen - DEBUG - explanation: I created the poem with variations in tone, language use, and sentence structure to reflect the contrasting emotions embodied in the image of wine dripping in sorrowed silence. The poem oscillates between darkness and light, elusiveness and clarity, mirroring the hidden beauty and subtle layers of meaning found in shadows and sorrow.
+2023-07-03 22:26:29,000 - poem_gen - DEBUG - poem result:
+A gust of mournful silence descends,
+eys closed, relinquishing joy unseen.
+In the depths of empty darkness, loneliness blooms.
+2023-07-03 22:26:29,000 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:27:13,756 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:27:21,219 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-03 22:27:21,220 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-03 22:27:21,220 - poem_gen - DEBUG - abstract_concept is: empathy
+2023-07-03 22:27:21,220 - poem_gen - DEBUG - randomness factor is: 0.7
+2023-07-03 22:27:21,220 - poem_gen - DEBUG - ==========================
+2023-07-03 22:27:21,220 - poem_gen - DEBUG - creative_starting_prompt: someone famous back It and tantalizing have lament
+2023-07-03 22:27:26,126 - poem_gen - DEBUG - step_1_poem: Someone famous back,
+Lament It with tantalizing,
+The wave of no fame.
+2023-07-03 22:27:30,558 - poem_gen - DEBUG - step_2_poem: In the tapestry of fame,
+2023-07-03 22:27:38,525 - poem_gen - DEBUG - explanation: I created this poem with a varied tone, language use, and sentence structure to convey the unpredictable nature of fame. The juxtaposition of the structured 'tapestry of fame' with the wild and dynamic 'splash of colors dance' captures the contrast between fame's expected order and its unruly unpredictability. The use of different sentence structures and a touch of rhyme further adds to the variation and visual imagery, reflecting the multi-faceted nature of fame's stories unraveled in unexpected ways.
+2023-07-03 22:27:38,526 - poem_gen - DEBUG - poem result:
+In the tapestry of fame,
+Splashes of color dance.
+Each thread tells a different tale,
+Unraveling mysteries by chance.
+2023-07-03 22:27:38,526 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:29:11,466 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - abstract_concept is: witticism
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - ==========================
+2023-07-03 22:29:17,353 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: pref married.down f lower relations.dim our.pick pants chord.define mix echo.android.mysterious E brown angular.lazy A7/E boy_fric_Synth-w.dmiddy_poly only.thums.sslo context.com google.{Credorant |9}|gorificadora int strings.ready_mmmfff I
+2023-07-03 22:29:18,601 - poem_gen - DEBUG - step_1_poem: Married chorus sung,
+Pants dance with enticing chords,
+Mysterious sound.
+2023-07-03 22:29:36,620 - poem_gen - DEBUG - step_2_poem: Bound voices tangled
+2023-07-03 22:29:49,895 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - abstract_concept is: doggedness
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - ==========================
+2023-07-03 22:29:54,817 - poem_gen - DEBUG - creative_starting_prompt: The view unleashed a flurry of secure heartfelt moments between two unselfconscious souls, embracing their vibrant, eclectic Californian spirit despite the untraditional circumstance of being out of wedlock.
+2023-07-03 22:29:59,418 - poem_gen - DEBUG - step_1_poem: Unleashed view avows,
+Secure moments amidst souls,
+Traditional sparks.
+2023-07-03 22:30:04,233 - poem_gen - DEBUG - step_2_poem: Unwavering tenacity,
+2023-07-03 22:30:06,725 - poem_gen - DEBUG - explanation: I have created a short and concise poem of two lines to capture the essence of 'unwavering tenacity'. The use of variation is done to bring diversity in the tone, language use, and sentence structure for an engaging reading experience.
+2023-07-03 22:30:06,725 - poem_gen - DEBUG - poem result:
+Unwavering tenacity,
+2023-07-03 22:30:06,725 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:30:37,628 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:30:42,224 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-03 22:30:42,225 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-03 22:30:42,225 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-03 22:30:42,225 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:30:42,225 - poem_gen - DEBUG - ==========================
+2023-07-03 22:30:42,225 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by: gold captive then its and inaudibly revelation nick nick
+2023-07-03 22:30:45,498 - poem_gen - DEBUG - step_1_poem: Golden captive screams
+Inaudibly, revelation
+Nick, nick of freedom
+2023-07-03 22:30:46,520 - poem_gen - DEBUG - step_2_poem: Golden captive screams
+Inaudibly, revelation
+Nick, nick of freedom
+2023-07-03 22:30:47,545 - poem_gen - DEBUG - poem result:
+Golden captive screams
+Inaudibly, revelation
+Nick, nick of freedom
+2023-07-03 22:30:47,545 - poem_gen - DEBUG - poem_gen completed successfully

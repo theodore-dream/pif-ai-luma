@@ -1,18 +1,17 @@
-import datetime
+import time
 import random
 from decimal import Decimal
 from time import sleep
-import uuid
-import tiktoken
 
 import logging
-import datetime
 import os
 import openai
 import nltk
 from modules import create_vars
 from nltk.probability import FreqDist
 import json
+from tenacity import retry, wait_random_exponential, stop_after_attempt
+
 
 from modules.logger import setup_logger
 
@@ -26,54 +25,139 @@ from nltk.corpus import wordnet as wn
 logging.basicConfig(level=logging.INFO)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def api_poem_pipeline(creative_prompt, persona, randomness_factor):
+def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
     logging.debug(f"creative_prompt: {creative_prompt}")
-    base_poem = api_create_poem_1(creative_prompt, persona, randomness_factor)
-    return base_poem
+    step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
+    logger.debug (f"step_1_poem: {step_1_poem}")
+    step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
+    logger.debug (f"step_2_poem: {step_2_poem}")
+    step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
+    return step_3_poem
 
-# removing steps to execute
-def api_create_poem_1(creative_prompt, persona, randomness_factor):
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": persona + " You write a poem."},
-            {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
-            {"role": "user", "content": "Explain why you created the poem the way you did."},
-        ], 
-        functions=[
-            {
-                "name": "create_poem",
-                "description": "generate poetry and explain why it was created",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "poem": {
-                            "type": "string",
-                            "description": "a poem",
-                        },
-                        "explanation": {
-                            "type": "string",
-                            "description": "explanation of the poem"
+@retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
+def poem_step_1(creative_prompt, persona, randomness_factor):
+    MAX_RETRIES = 5  # Set max retry limit
+    for i in range(MAX_RETRIES):
+        #try:
+            completion = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": persona + " You write a poem."},
+                    {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
+                    #{"role": "user", "content": "Explain why you created the poem the way you did."},
+                ], 
+                functions=[
+                    {
+                        "name": "create_poem",
+                        "description": "generate poetry and explain why it was created",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "poem": {
+                                    "type": "string",
+                                    "description": "a haiku",
+                                },
+                            },
+                            "required": ["poem"],
                         }
-                    },
-                    "required": ["poem", "explanation"],
-                }
-            }
-        ],
-        function_call="auto",
-        temperature=(randomness_factor * 2),
-        max_tokens=1000,
-    )
-    reply_content = completion.choices[0].message
-    #print(reply_content)
-    funcs = reply_content.to_dict()['function_call']['arguments']
-    funcs = json.loads(funcs)
-    base_poem = funcs['poem']
-    #explanation = funcs['explanation']
-    #logger.debug(f"explanation: {explanation}")
-    return base_poem
+                    }
+                ],
+                function_call="auto",
+                temperature=(randomness_factor * 2),
+                max_tokens=2000,
+            )
+            reply_content = completion.choices[0].message
+            funcs = reply_content.to_dict()['function_call']['arguments']
+            funcs = json.loads(funcs)
+            step_1_poem = funcs['poem']
+            #explanation = funcs['explanation']
+            #logger.debug(f"explanation: {explanation}")
+            return step_1_poem
+        #except json.decoder.JSONDecodeError:
+            logger.error(f"JSON decoding failed in poem_step_1, retry {i+1}/{MAX_RETRIES}")
+            sleep(1)  # Optionally pause execution before retrying
+    # If we're here, it means all retries failed
+    #raise RuntimeError("Max retries exceeded with JSONDecodeError in poem_step_1")
 
-    
+@retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
+def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
+    MAX_RETRIES = 5  # Set max retry limit
+    for i in range(MAX_RETRIES):
+        #try:
+            completion = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
+                    {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. The chosen abstract concept is: " + abstract_concept + ". Revise the input text to subtly weave in the chosen concept."},
+                    {"role": "user", "content": "Input text: " + step_1_poem},
+                    #{"role": "user", "content": "Explain why you created the poem the way you did."},
+                ],
+                functions=[
+                    {
+                        "name": "create_poem",
+                        "description": "generate a new poem based on the input text",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "poem": {
+                                    "type": "string",
+                                    "description": "a poem",
+                                },
+                            },
+                            "required": ["poem"],
+                        }
+                    }
+                ],
+                function_call={
+                    "name": "create_poem",
+                },
+                temperature=(randomness_factor * 2),
+                max_tokens=2000,
+            )
+            reply_content = completion.choices[0].message
+            funcs = reply_content['function_call']['arguments']
+            funcs = json.loads(funcs)
+            step_2_poem = funcs['poem']
+            return step_2_poem
+
+
+@retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
+def poem_step_3(persona, randomness_factor, step_2_poem):
+            completion = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
+                    {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+                    {"role": "user", "content": "Input text: " + step_2_poem},
+                    {"role": "user", "content": "Explain why you created the poem the way you did."},
+                ],
+                functions=[
+                    {
+                        "name": "create_poem",
+                        "description": "generate a new poem based on the input text",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "poem": {
+                                    "type": "string",
+                                    "description": "a poem",
+                                },
+                            },
+                            "required": ["poem"],
+                        }
+                    }
+                ],
+                function_call={
+                    "name": "create_poem",
+                },
+                temperature=(randomness_factor * 2),
+                max_tokens=2000,
+            )
+            reply_content = completion.choices[0].message
+            funcs = reply_content['function_call']['arguments']
+            funcs = json.loads(funcs)
+            step_3_poem = funcs['poem']
+            return step_3_poem
 
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 
@@ -107,23 +191,24 @@ def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abs
         temperature=(2 * randomness_factor),
     )
 
-    
+
     # print information about api call
-    logging.debug(f"persona: {persona}")
-    logging.debug(f"abstract_concept: {abstract_concept}")
-    logging.debug(f"creative_prompt: {creative_prompt}")
+    #logger.debug(f"persona: {persona}")
+    #logger.debug(f"abstract_concept: {abstract_concept}")
+    #logger.debug(f"creative_prompt: {creative_prompt}")
     return response
 
 
 
 def parse_response():
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
-    randomness_factor = 0.7
+    randomness_factor = 0.8
     creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
 
+    logger.debug(f"persona is: {persona}")
     logger.debug(f"lang_device is: {lang_device}")
     logger.debug(f"abstract_concept is: {abstract_concept}")
     logger.debug(f"randomness factor is: {randomness_factor}")
@@ -131,7 +216,7 @@ def parse_response():
     logger.debug(f"==========================")
     logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
-    poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor)
+    poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept)
     logger.debug(f"poem result:\n{poem_result}")
 
 
@@ -155,6 +240,11 @@ def parse_response():
 
 if __name__ == "__main__":
     parse_response()
+
+
+    # add tokens cost logging
+    # remove the explanation for the poems its too much, useless tokens spend 
+    # add proper retry logic again... I guess. Just add it to the whole thing. 
 
     # current issue is that there are 6 steps, 7 including the persona, and its too much complexity for the api to handle all of it
     # on the other hand the results are really good it seesm to only be going to step 3, maybe at this point I need to focus on

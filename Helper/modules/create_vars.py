@@ -294,43 +294,44 @@ def gen_random_words(randomness_factor=1):
 # create the first input to create the base poem
 # this only seems to work with temperature > 0.6
 def gen_creative_prompt(text, randomness_factor):
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You create a short sentence."},
-            {"role": "user", "content": "a sentence inspired by:"},
-            {"role": "user", "content":  text},
-        ],
-        functions=[
-            {
-                "name": "new_sentence",
-                "description": "creates a new sentence",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "creative_prompt": {
-                            "type": "string",
-                            "description": "creates a short sentence."
+            completion = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You create a short sentence."},
+                    {"role": "user", "content": "a sentence inspired by:"},
+                    {"role": "user", "content":  text},
+                ],
+                functions=[
+                    {
+                        "name": "new_sentence",
+                        "description": "creates a new sentence",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "creative_prompt": {
+                                    "type": "string",
+                                    "description": "creates a short sentence."
+                                }
+                            },
+                            "required": ["creative_prompt"]
                         }
-                    },
-                    "required": ["creative_prompt"]
-                }
-            }
-        ],
-        function_call={
-            "name": "new_sentence"
-        },
-        max_tokens=500,
-        # temp is set to go between 1.2 and 2, this linear function maps randomness_factor to temp 
-        temperature=1.4 + (randomness_factor * (2 - 1.4))
-    )
-    
-    reply_content = list(completion.choices)[0].message
-    print(reply_content)
-    funcs = json.loads(reply_content.to_dict()['function_call']['arguments'])
-    #funcs = json.loads(funcs)  # parse 'funcs' to a dictionary if it's a string
-    words = funcs['creative_prompt']
-    return words
+                    }
+                ],
+                function_call={
+                    "name": "new_sentence"
+                },
+                max_tokens=500,
+                # temp is set to go between 1.2 and 2, this linear function maps randomness_factor to temp 
+                temperature=1.4 + (randomness_factor * (2 - 1.4))
+            )
+            
+            reply_content = completion.choices[0].message
+            #reply_content = list(completion.choices)[0].message
+            #print(reply_content)
+            funcs = reply_content.to_dict()['function_call']['arguments']
+            funcs = json.loads(funcs)  # parse 'funcs' to a dictionary if it's a string
+            words = funcs['creative_prompt']
+            return words
 
 def build_persona():
     personas = {
