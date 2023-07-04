@@ -126,3 +126,9 @@ def handle_game():
 
 if __name__ == "__main__":
     handle_game()
+
+
+# remove logic saving the game state? seems unnecessary... could be helpful, but doubtful
+# levels logic could still be helpful for game initiaitlization 
+# in between showing the poems, display the current randomness or entropy level, and current persona, other basic data about the game state
+# main interaction is just left and right button increasing and decreasing entropy 
