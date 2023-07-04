@@ -32,6 +32,7 @@ def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_conc
     step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
     logger.debug (f"step_2_poem: {step_2_poem}")
     step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
+    logger.debug (f"step_3_poem: {step_3_poem}")
     return step_3_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -46,80 +47,37 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
                     {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
                     #{"role": "user", "content": "Explain why you created the poem the way you did."},
                 ], 
-                functions=[
-                    {
-                        "name": "create_poem",
-                        "description": "generate poetry and explain why it was created",
-                        "parameters": {
-                            "type": "object",
-                            "properties": {
-                                "poem": {
-                                    "type": "string",
-                                    "description": "a haiku",
-                                },
-                            },
-                            "required": ["poem"],
-                        }
-                    }
-                ],
-                function_call="auto",
                 temperature=(randomness_factor * 2),
                 max_tokens=2000,
             )
-            reply_content = completion.choices[0].message
-            funcs = reply_content.to_dict()['function_call']['arguments']
-            funcs = json.loads(funcs)
-            step_1_poem = funcs['poem']
-            #explanation = funcs['explanation']
-            #logger.debug(f"explanation: {explanation}")
+
+            if completion['choices'][0]['message']['role'] == "assistant":
+                step_1_poem = completion['choices'][0]['message']['content'].strip()
+            else:
+                step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
+            print("-" * 30)
+            print(step_1_poem)
             return step_1_poem
-        #except json.decoder.JSONDecodeError:
-            logger.error(f"JSON decoding failed in poem_step_1, retry {i+1}/{MAX_RETRIES}")
-            sleep(1)  # Optionally pause execution before retrying
-    # If we're here, it means all retries failed
-    #raise RuntimeError("Max retries exceeded with JSONDecodeError in poem_step_1")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
-    MAX_RETRIES = 5  # Set max retry limit
-    for i in range(MAX_RETRIES):
-        #try:
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
                     {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. The chosen abstract concept is: " + abstract_concept + ". Revise the input text to subtly weave in the chosen concept."},
                     {"role": "user", "content": "Input text: " + step_1_poem},
-                    #{"role": "user", "content": "Explain why you created the poem the way you did."},
                 ],
-                functions=[
-                    {
-                        "name": "create_poem",
-                        "description": "generate a new poem based on the input text",
-                        "parameters": {
-                            "type": "object",
-                            "properties": {
-                                "poem": {
-                                    "type": "string",
-                                    "description": "a poem",
-                                },
-                            },
-                            "required": ["poem"],
-                        }
-                    }
-                ],
-                function_call={
-                    "name": "create_poem",
-                },
                 temperature=(randomness_factor * 2),
                 max_tokens=2000,
             )
-            reply_content = completion.choices[0].message
-            funcs = reply_content['function_call']['arguments']
-            funcs = json.loads(funcs)
-            step_2_poem = funcs['poem']
-            return step_2_poem
 
+            if completion['choices'][0]['message']['role'] == "assistant":
+                step_2_poem = completion['choices'][0]['message']['content'].strip()
+            else:
+                step_2_syscontent = completion['system'].strip()  # put into a var for later use 
+            print("-" * 30)
+            return step_2_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_3(persona, randomness_factor, step_2_poem):
@@ -131,33 +89,17 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
                     {"role": "user", "content": "Input text: " + step_2_poem},
                     {"role": "user", "content": "Explain why you created the poem the way you did."},
                 ],
-                functions=[
-                    {
-                        "name": "create_poem",
-                        "description": "generate a new poem based on the input text",
-                        "parameters": {
-                            "type": "object",
-                            "properties": {
-                                "poem": {
-                                    "type": "string",
-                                    "description": "a poem",
-                                },
-                            },
-                            "required": ["poem"],
-                        }
-                    }
-                ],
-                function_call={
-                    "name": "create_poem",
-                },
                 temperature=(randomness_factor * 2),
                 max_tokens=2000,
             )
-            reply_content = completion.choices[0].message
-            funcs = reply_content['function_call']['arguments']
-            funcs = json.loads(funcs)
-            step_3_poem = funcs['poem']
+
+            if completion['choices'][0]['message']['role'] == "assistant":
+                step_3_poem = completion['choices'][0]['message']['content'].strip()
+            else:
+                step_3_syscontent = api_response['system'].strip()  # put into a var for later use 
+            print("-" * 30)
             return step_3_poem
+
 
 def api_create_poem(steps_to_execute, creative_prompt, persona, lang_device, abstract_concept, randomness_factor):
 

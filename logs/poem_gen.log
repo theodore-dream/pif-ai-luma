@@ -8487,3 +8487,155 @@ Golden captive screams
 Inaudibly, revelation
 Nick, nick of freedom
 2023-07-03 22:30:47,545 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:33:09,687 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:33:14,351 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-03 22:33:14,352 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 22:33:14,352 - poem_gen - DEBUG - abstract_concept is: lightheartedness
+2023-07-03 22:33:14,352 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:33:14,352 - poem_gen - DEBUG - ==========================
+2023-07-03 22:33:14,352 - poem_gen - DEBUG - creative_starting_prompt: while viscous Probably I and mundanely soften retrograde_amnesia right-down
+2023-07-03 22:33:15,731 - poem_gen - DEBUG - step_1_poem: while viscous Probably I and mundanely soften retrograde_amnesia right-down
+2023-07-03 22:33:16,748 - poem_gen - DEBUG - step_2_poem: while viscous Probably I and mundanely soften retrograde_amnesia right-down
+2023-07-03 22:33:18,149 - poem_gen - DEBUG - poem result:
+while viscous Probably I and mundanely soften retrograde_amnesia right-down
+2023-07-03 22:33:18,150 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:33:49,683 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:33:54,861 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-03 22:33:54,861 - poem_gen - DEBUG - lang_device is: personification
+2023-07-03 22:33:54,861 - poem_gen - DEBUG - abstract_concept is: gamble
+2023-07-03 22:33:54,862 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:33:54,862 - poem_gen - DEBUG - ==========================
+2023-07-03 22:33:54,862 - poem_gen - DEBUG - creative_starting_prompt: Out on the edge of dusty worlds, a surprising busybody named astrophyton_muricatum thrived in its unseen splendor.
+2023-07-03 22:33:56,212 - poem_gen - DEBUG - step_1_poem: Dusty worlds whisper,
+Astrophyton blooms briefly,
+Unseen miracle.
+2023-07-03 22:33:58,888 - poem_gen - DEBUG - step_2_poem: Dusty worlds whispered a gamble uncertain,
+Astrophyton blooms, a risky curtain,
+Unseen miracles embrace the unknown,
+In delicate petals, a wager to be shown.
+2023-07-03 22:34:00,569 - poem_gen - DEBUG - poem result:
+Dusty worlds whispered a gamble uncertain, Astrophyton blooms, a risky curtain, Unseen miracles embrace the unknown, In delicate petals, a wager to be shown.
+2023-07-03 22:34:00,570 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:34:10,116 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - abstract_concept is: trueness
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - ==========================
+2023-07-03 22:34:17,982 - poem_gen - DEBUG - creative_starting_prompt: SJP sparks fly as the psychic foretells your true nature, leaving you shocked and impressed.
+2023-07-03 22:34:19,420 - poem_gen - DEBUG - step_1_poem: SJP sparks fly
+Psychic foretells true nature
+Shocked, impressed, in awe
+2023-07-03 22:34:21,150 - poem_gen - DEBUG - step_2_poem: SJP leaps, sparks of trueness ignite
+Psychic bends time, unveils destiny's scent
+Impressed, shocked, in awe of authentic might
+2023-07-03 22:34:23,198 - poem_gen - DEBUG - poem result:
+SJP leaps, sparks of trueness ignite
+Psychic bends time, unveils destiny's scent
+Impressed, shocked, in awe of authentic might
+2023-07-03 22:34:23,198 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:35:03,903 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:35:08,565 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-03 22:35:08,566 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 22:35:08,566 - poem_gen - DEBUG - abstract_concept is: hatred
+2023-07-03 22:35:08,566 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:35:08,566 - poem_gen - DEBUG - ==========================
+2023-07-03 22:35:08,566 - poem_gen - DEBUG - creative_starting_prompt: grip other just it and track_and_field martian track_and_field reelect
+2023-07-03 22:38:09,120 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:38:16,879 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-03 22:38:16,880 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-03 22:38:16,880 - poem_gen - DEBUG - abstract_concept is: religion
+2023-07-03 22:38:16,880 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:38:16,880 - poem_gen - DEBUG - ==========================
+2023-07-03 22:38:16,880 - poem_gen - DEBUG - creative_starting_prompt: a sentence connecting: brother, Asian, miasmic conceivableness, pub-crawl conceivableness
+2023-07-03 22:41:34,082 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:41:39,230 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-03 22:41:39,231 - poem_gen - DEBUG - lang_device is: simile
+2023-07-03 22:41:39,231 - poem_gen - DEBUG - abstract_concept is: gambol
+2023-07-03 22:41:39,231 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:41:39,231 - poem_gen - DEBUG - ==========================
+2023-07-03 22:41:39,231 - poem_gen - DEBUG - creative_starting_prompt: grapes extreme Lovely I and ground solicitous traffic ground
+2023-07-03 22:42:20,205 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:42:24,884 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-03 22:42:24,885 - poem_gen - DEBUG - lang_device is: irony
+2023-07-03 22:42:24,885 - poem_gen - DEBUG - abstract_concept is: tranquillity
+2023-07-03 22:42:24,885 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:42:24,885 - poem_gen - DEBUG - ==========================
+2023-07-03 22:42:24,885 - poem_gen - DEBUG - creative_starting_prompt: dress quick forward They and abuse pitching alike alike
+2023-07-03 22:43:06,690 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:43:11,170 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-03 22:43:11,171 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-03 22:43:11,171 - poem_gen - DEBUG - abstract_concept is: sensuality
+2023-07-03 22:43:11,171 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:43:11,171 - poem_gen - DEBUG - ==========================
+2023-07-03 22:43:11,171 - poem_gen - DEBUG - creative_starting_prompt: RAGETTI back dearly I But dilation combatively combatively dilation
+2023-07-03 22:43:12,187 - poem_gen - DEBUG - step_1_poem: Rage ignites in me
+Locked in fierce pursuit, I yearn
+To combative dilation be
+2023-07-03 22:43:13,449 - poem_gen - DEBUG - step_2_poem: Rage ignites in me
+Locked in fierce pursuit, I yearn
+To combative dilation be
+2023-07-03 22:43:15,183 - poem_gen - DEBUG - poem result:
+Rage ignites in me
+Locked in fierce pursuit, I yearn
+To combative dilation be
+2023-07-03 22:43:15,183 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:44:33,037 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - abstract_concept is: nakedness
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - ==========================
+2023-07-03 22:44:37,469 - poem_gen - DEBUG - creative_starting_prompt: a sentence inspired by stillness serene
+2023-07-03 22:44:38,288 - poem_gen - DEBUG - step_1_poem: Silent swirls of ink,
+Sleepy stillness echoes peace-
+Verse of serenity.
+2023-07-03 22:44:39,914 - poem_gen - DEBUG - step_2_poem: Silent nakedness, 
+Shedding layers like ink spilled,
+Unveils serene verse.
+2023-07-03 22:44:41,149 - poem_gen - DEBUG - poem result:
+Silent nakedness,
+Shedding layers like ink spilled,
+Unveils serene verse.
+2023-07-03 22:44:41,150 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:46:24,014 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:46:28,684 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-03 22:46:28,685 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-03 22:46:28,685 - poem_gen - DEBUG - abstract_concept is: preconception
+2023-07-03 22:46:28,685 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:46:28,685 - poem_gen - DEBUG - ==========================
+2023-07-03 22:46:28,685 - poem_gen - DEBUG - creative_starting_prompt: witch valiant Then us and enterotoxin enterotoxin enterotoxin bristle_at
+2023-07-03 22:46:29,597 - poem_gen - DEBUG - step_1_poem: Witch's gaze, valiant,
+Enterotoxins swirl inside,
+Bristle at chaos.
+2023-07-03 22:46:31,399 - poem_gen - DEBUG - step_2_poem: Witch's gaze, illusions weave,
+Preconceptions fragile, souls conceive,
+Through mists of doubt our spirit's shall tread,
+As into the unknown realms, we'll and thread them.
+2023-07-03 22:46:32,798 - poem_gen - DEBUG - step_3_poem: Within this fragmented stitched poem survives,
+A tapestry of bewildering contrives.
+An erratic dance, between extremes intertwined,
+To emulate both formal chorales alike composed rhyme.
+2023-07-03 22:46:32,798 - poem_gen - DEBUG - poem result:
+Within this fragmented stitched poem survives,
+A tapestry of bewildering contrives.
+An erratic dance, between extremes intertwined,
+To emulate both formal chorales alike composed rhyme.
+2023-07-03 22:46:32,798 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-03 22:48:01,399 - poem_gen - INFO - Logger is set up and running.
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - abstract_concept is: embarrassment
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - ==========================
+2023-07-03 22:48:05,385 - poem_gen - DEBUG - creative_starting_prompt: announced its crunchy righteousness cuddlesomely on robust raspberries.
+2023-07-03 22:48:06,296 - poem_gen - DEBUG - step_1_poem: Crimson sweetness blushed,
+Checked its tart and tangy throne,
+Nature's candy sought.
+2023-07-03 22:48:07,414 - poem_gen - DEBUG - step_2_poem: Through the fields of sweetness wander,
+But beware the moments surreal -
+Embarrassment often hides, unfurled, able to steal.
+2023-07-03 22:48:10,578 - poem_gen - DEBUG - step_3_poem: I created the poem in accordance with the input text, focusing on the theme of traversing through an initially beautiful and delightful journey, which seemingly takes a darker turn with the warning of hidden embarrassment. By incorporating variation in tone, language, and sentence structure, I aimed to infuse depth and surprise into the poem, aligning with Alice's inclination for poems with twists. This also mimics the concept of dichotomy - blending cheerful and slightly unsettling elements together.
+2023-07-03 22:48:10,579 - poem_gen - DEBUG - poem result:
+I created the poem in accordance with the input text, focusing on the theme of traversing through an initially beautiful and delightful journey, which seemingly takes a darker turn with the warning of hidden embarrassment. By incorporating variation in tone, language, and sentence structure, I aimed to infuse depth and surprise into the poem, aligning with Alice's inclination for poems with twists. This also mimics the concept of dichotomy - blending cheerful and slightly unsettling elements together.
+2023-07-03 22:48:10,579 - poem_gen - DEBUG - poem_gen completed successfully
