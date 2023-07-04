@@ -65,11 +65,12 @@ def api_create_poem_1(creative_prompt, persona, randomness_factor):
         max_tokens=1000,
     )
     reply_content = completion.choices[0].message
+    #print(reply_content)
     funcs = reply_content.to_dict()['function_call']['arguments']
     funcs = json.loads(funcs)
     base_poem = funcs['poem']
-    explanation = funcs['explanation']
-    logger.debug(f"explanation: {explanation}")
+    #explanation = funcs['explanation']
+    #logger.debug(f"explanation: {explanation}")
     return base_poem
 
     
