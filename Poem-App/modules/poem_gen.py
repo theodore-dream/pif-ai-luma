@@ -96,11 +96,11 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
 def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
     logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
-    #logger.debug (f"step_1_poem: {step_1_poem}")
+    logger.debug (f"step_1_poem: {step_1_poem}")
     step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
-    #logger.debug (f"step_2_poem: {step_2_poem}")
+    logger.debug (f"step_2_poem: {step_2_poem}")
     step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
-    #logger.debug (f"step_3_poem: {step_3_poem}")
+    logger.debug (f"step_3_poem: {step_3_poem}")
     return step_3_poem
 
 def parse_response(entropy):

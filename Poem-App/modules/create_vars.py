@@ -4,6 +4,9 @@ from nltk.corpus import wordnet as wn
 import openai
 import os
 from nltk.probability import FreqDist
+nltk.download('webtext')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
 from collections import Counter
 import json
 import unicodedata
@@ -247,7 +250,9 @@ def gen_random_words(randomness_factor=1):
     webtext_words = ' '.join(all_words)
     logger.debug(f"webtext words are: {webtext_words}")
 
+    # commenting out due to performance issues on pi
 
+    """
     # This section pulls words from wordnet
     wordnet_words = []
     word_types = [wn.NOUN, wn.VERB, wn.ADJ, wn.ADV]
@@ -285,12 +290,13 @@ def gen_random_words(randomness_factor=1):
     #if random.random() < 0.5: # 50% of the time
     #    random_wordnet_string = random_wordnet_string[:len(random_wordnet_string) // 2]
 
+    """
     # Combine the words into a single string.
     random_wordnet_string = ' '.join(random_wordnet_string)
     logger.debug(f"wordnet words are: {random_wordnet_string}")
 
     # combine both webtext and wordnet words
-    combined_string = webtext_words + " " + random_wordnet_string
+    combined_string = webtext_words #+ " " + random_wordnet_string
     combined_string = "".join(c for c in combined_string if c.isascii())
     logger.debug(f"combined words are: {combined_string}")
     return combined_string
@@ -366,4 +372,5 @@ def gen_creative_prompt(text, randomness_factor):
             #logger.info(f"gen_creative_prompt Completion tokens: {completion['usage']['completion_tokens']}")
             #logger.info(f"gen_creative_prompt Total tokens: {completion['usage']['total_tokens']}")
 
+            
             return creative_prompt

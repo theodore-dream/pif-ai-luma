@@ -28,6 +28,7 @@ def poetry_gen_apollo(level, entropy):
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
     gametext = poem_gen.parse_response(entropy)
+    print("gametext = " + gametext)
     return gametext
 
 
@@ -103,7 +104,7 @@ def handle_game():
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    #luma_write(gametext)
+    luma_write(gametext)
     print(gametext)
     logger.debug("sent to luma")
    

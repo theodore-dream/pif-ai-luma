@@ -1,0 +1,138 @@
+2023-07-04 02:10:25,712 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:11:59,374 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:11:59,494 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:11:59,494 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:01,140 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:01,257 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:01,257 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:44,265 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:44,386 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:13:44,386 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:14:39,856 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:14:39,971 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:14:39,971 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:14:49,891 - poem_gen - DEBUG - webtext words are: basketball honest up your and
+2023-07-04 02:14:49,891 - poem_gen - DEBUG - webtext words are: basketball honest up your and
+2023-07-04 02:37:30,580 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:37:30,714 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:37:30,714 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:40:02,253 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:40:02,373 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:40:02,373 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:43:30,267 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:43:30,384 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:43:30,384 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:48:17,671 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:48:17,788 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:48:17,788 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:48:52,582 - poem_gen - DEBUG - webtext words are: ROBIN sorry Quite his or
+2023-07-04 02:48:52,582 - poem_gen - DEBUG - webtext words are: ROBIN sorry Quite his or
+2023-07-04 02:53:26,036 - poem_gen - DEBUG - wordnet words are: guard guard zigzag
+2023-07-04 02:53:26,036 - poem_gen - DEBUG - wordnet words are: guard guard zigzag
+2023-07-04 02:53:26,097 - poem_gen - DEBUG - combined words are: ROBIN sorry Quite his or guard guard zigzag
+2023-07-04 02:53:26,097 - poem_gen - DEBUG - combined words are: ROBIN sorry Quite his or guard guard zigzag
+2023-07-04 02:53:28,887 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 02:53:28,887 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 02:53:28,893 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 02:53:28,893 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 02:53:28,899 - poem_gen - DEBUG - abstract_concept is: entertainment
+2023-07-04 02:53:28,899 - poem_gen - DEBUG - abstract_concept is: entertainment
+2023-07-04 02:53:28,905 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 02:53:28,905 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 02:53:28,911 - poem_gen - DEBUG - ==========================
+2023-07-04 02:53:28,911 - poem_gen - DEBUG - ==========================
+2023-07-04 02:53:28,916 - poem_gen - DEBUG - creative_starting_prompt: Robin quit his guard duty due to an unexpected zigzag.
+2023-07-04 02:53:28,916 - poem_gen - DEBUG - creative_starting_prompt: Robin quit his guard duty due to an unexpected zigzag.
+2023-07-04 02:53:28,923 - poem_gen - DEBUG - creative_prompt: Robin quit his guard duty due to an unexpected zigzag.
+2023-07-04 02:53:28,923 - poem_gen - DEBUG - creative_prompt: Robin quit his guard duty due to an unexpected zigzag.
+2023-07-04 02:53:29,855 - poem_gen - DEBUG - step_1_poem: Vigilant Robin,
+Unexpected zigzag breaks,
+Guard duty released.
+2023-07-04 02:53:29,855 - poem_gen - DEBUG - step_1_poem: Vigilant Robin,
+Unexpected zigzag breaks,
+Guard duty released.
+2023-07-04 02:53:30,856 - poem_gen - DEBUG - step_2_poem: Entertainment unfolds,
+Like a vigilant robin's dance.
+Unexpected zigzag steps,
+Release guard duty's trance.
+2023-07-04 02:53:30,856 - poem_gen - DEBUG - step_2_poem: Entertainment unfolds,
+Like a vigilant robin's dance.
+Unexpected zigzag steps,
+Release guard duty's trance.
+2023-07-04 02:53:32,352 - poem_gen - DEBUG - step_3_poem: In this culinary journey of the soul,
+Flavors mingle and tightly entwine.
+Sweet melodies, spicy harmonies, out of control,
+Entertainment unfolds, a grand vine.
+2023-07-04 02:53:32,352 - poem_gen - DEBUG - step_3_poem: In this culinary journey of the soul,
+Flavors mingle and tightly entwine.
+Sweet melodies, spicy harmonies, out of control,
+Entertainment unfolds, a grand vine.
+2023-07-04 02:53:32,358 - poem_gen - DEBUG - poem result:
+In this culinary journey of the soul,
+Flavors mingle and tightly entwine.
+Sweet melodies, spicy harmonies, out of control,
+Entertainment unfolds, a grand vine.
+2023-07-04 02:53:32,358 - poem_gen - DEBUG - poem result:
+In this culinary journey of the soul,
+Flavors mingle and tightly entwine.
+Sweet melodies, spicy harmonies, out of control,
+Entertainment unfolds, a grand vine.
+2023-07-04 02:53:32,368 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 02:53:32,368 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 02:55:03,478 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:55:03,619 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:55:03,619 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 02:55:14,091 - poem_gen - DEBUG - webtext words are: friendship fanatical up I and
+2023-07-04 02:55:14,091 - poem_gen - DEBUG - webtext words are: friendship fanatical up I and
+2023-07-04 02:59:35,183 - poem_gen - DEBUG - wordnet words are: give clear congratulate
+2023-07-04 02:59:35,183 - poem_gen - DEBUG - wordnet words are: give clear congratulate
+2023-07-04 02:59:35,247 - poem_gen - DEBUG - combined words are: friendship fanatical up I and give clear congratulate
+2023-07-04 02:59:35,247 - poem_gen - DEBUG - combined words are: friendship fanatical up I and give clear congratulate
+2023-07-04 02:59:36,599 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 02:59:36,599 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 02:59:36,602 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-04 02:59:36,602 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-04 02:59:36,604 - poem_gen - DEBUG - abstract_concept is: contentment
+2023-07-04 02:59:36,604 - poem_gen - DEBUG - abstract_concept is: contentment
+2023-07-04 02:59:36,606 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 02:59:36,606 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 02:59:36,609 - poem_gen - DEBUG - ==========================
+2023-07-04 02:59:36,609 - poem_gen - DEBUG - ==========================
+2023-07-04 02:59:36,611 - poem_gen - DEBUG - creative_starting_prompt: I congratulate and give clear friendship.
+2023-07-04 02:59:36,611 - poem_gen - DEBUG - creative_starting_prompt: I congratulate and give clear friendship.
+2023-07-04 02:59:36,613 - poem_gen - DEBUG - creative_prompt: I congratulate and give clear friendship.
+2023-07-04 02:59:36,613 - poem_gen - DEBUG - creative_prompt: I congratulate and give clear friendship.
+2023-07-04 02:59:37,978 - poem_gen - DEBUG - step_1_poem: Invention's embrace,
+Congratulate, clear friendship,
+Worlds collide, sparks grace.
+2023-07-04 02:59:37,978 - poem_gen - DEBUG - step_1_poem: Invention's embrace,
+Congratulate, clear friendship,
+Worlds collide, sparks grace.
+2023-07-04 02:59:39,545 - poem_gen - DEBUG - step_2_poem: From Invention's embrace, contentment births,
+Congratulate the harmony it unearthed.
+Worlds collide, yet sparks of peace grace,
+Clear friendship, leading to tranquil space.
+2023-07-04 02:59:39,545 - poem_gen - DEBUG - step_2_poem: From Invention's embrace, contentment births,
+Congratulate the harmony it unearthed.
+Worlds collide, yet sparks of peace grace,
+Clear friendship, leading to tranquil space.
+2023-07-04 02:59:40,839 - poem_gen - DEBUG - step_3_poem: Invention's cradle births tranquility,
+Harmony unearths contentment's glee.
+Worlds in collision, sparks ablaze,
+Peace graced, friendship's tranquil haze.
+2023-07-04 02:59:40,839 - poem_gen - DEBUG - step_3_poem: Invention's cradle births tranquility,
+Harmony unearths contentment's glee.
+Worlds in collision, sparks ablaze,
+Peace graced, friendship's tranquil haze.
+2023-07-04 02:59:40,848 - poem_gen - DEBUG - poem result:
+Invention's cradle births tranquility,
+Harmony unearths contentment's glee.
+Worlds in collision, sparks ablaze,
+Peace graced, friendship's tranquil haze.
+2023-07-04 02:59:40,848 - poem_gen - DEBUG - poem result:
+Invention's cradle births tranquility,
+Harmony unearths contentment's glee.
+Worlds in collision, sparks ablaze,
+Peace graced, friendship's tranquil haze.
+2023-07-04 02:59:40,854 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 02:59:40,854 - poem_gen - DEBUG - poem_gen completed successfully
