@@ -1061,3 +1061,102 @@
 2023-07-04 19:28:02,241 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
 2023-07-04 19:28:02,441 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
 2023-07-04 19:28:02,453 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:01:30,692 - main.py - INFO - Logger is set up and running.
+2023-07-04 20:01:30,695 - main.py - DEBUG - running game status check....
+2023-07-04 20:01:30,701 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:01:30,866 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:01:30,874 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:02:32,622 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:02:47,931 - main.py - DEBUG - sent to luma
+2023-07-04 20:02:48,937 - main.py - DEBUG - running game status check....
+2023-07-04 20:02:48,949 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:02:49,128 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:02:49,137 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:02:54,000 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:03:09,296 - main.py - DEBUG - sent to luma
+2023-07-04 20:03:10,300 - main.py - DEBUG - running game status check....
+2023-07-04 20:03:10,307 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:03:10,504 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:03:10,517 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:03:16,776 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:03:32,422 - main.py - DEBUG - sent to luma
+2023-07-04 20:03:33,427 - main.py - DEBUG - running game status check....
+2023-07-04 20:03:33,433 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:03:33,629 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:03:33,647 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:03:38,574 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:03:47,278 - main.py - DEBUG - sent to luma
+2023-07-04 20:03:48,284 - main.py - DEBUG - running game status check....
+2023-07-04 20:03:48,291 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:03:48,485 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:03:48,498 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:03:52,561 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:03:53,115 - main.py - DEBUG - sent to luma
+2023-07-04 20:03:54,119 - main.py - DEBUG - running game status check....
+2023-07-04 20:03:54,125 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 20:03:54,314 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 20:03:54,327 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 20:03:58,626 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 20:03:59,673 - main.py - DEBUG - sent to luma
+2023-07-04 22:44:39,721 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:44:39,725 - main.py - DEBUG - running game status check....
+2023-07-04 22:44:39,731 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:44:39,898 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:44:39,907 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:45:40,034 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:45:55,312 - main.py - DEBUG - sent to luma
+2023-07-04 22:45:56,317 - main.py - DEBUG - running game status check....
+2023-07-04 22:45:56,324 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:45:56,518 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:45:56,524 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:46:21,665 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:46:21,669 - main.py - DEBUG - running game status check....
+2023-07-04 22:46:21,675 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:46:21,842 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:46:21,854 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:47:25,692 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:47:40,972 - main.py - DEBUG - sent to luma
+2023-07-04 22:47:41,979 - main.py - DEBUG - running game status check....
+2023-07-04 22:47:41,985 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:47:42,188 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:47:42,194 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:47:47,368 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:47:53,804 - main.py - DEBUG - sent to luma
+2023-07-04 22:47:54,809 - main.py - DEBUG - running game status check....
+2023-07-04 22:47:54,816 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:49:26,653 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:49:26,657 - main.py - DEBUG - running game status check....
+2023-07-04 22:49:26,662 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:49:26,830 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:49:26,842 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:50:26,073 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:50:56,649 - main.py - DEBUG - sent to luma
+2023-07-04 22:50:57,653 - main.py - DEBUG - running game status check....
+2023-07-04 22:50:57,728 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:50:57,923 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:50:57,934 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:51:03,677 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:51:34,160 - main.py - DEBUG - sent to luma
+2023-07-04 22:51:35,163 - main.py - DEBUG - running game status check....
+2023-07-04 22:51:35,170 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:51:35,368 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:51:35,374 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:51:40,646 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:52:17,640 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:52:17,644 - main.py - DEBUG - running game status check....
+2023-07-04 22:52:17,649 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:52:17,816 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:52:17,828 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:53:17,421 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:54:02,760 - main.py - DEBUG - sent to luma
+2023-07-04 22:54:03,763 - main.py - DEBUG - running game status check....
+2023-07-04 22:54:03,768 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:54:03,961 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:54:03,962 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:54:12,703 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:55:00,328 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:55:00,332 - main.py - DEBUG - running game status check....
+2023-07-04 22:55:00,336 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:55:00,503 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:55:00,504 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 22:56:04,839 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6

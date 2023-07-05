@@ -3,6 +3,7 @@
 import os, random
 import time
 from time import sleep
+import textwrap
 
 # using luma library for OLED display through SPI 
 from luma.core.interface.serial import spi
@@ -21,13 +22,30 @@ device = ssd1351(serial)
 
 from PIL import ImageFont, ImageDraw
 
+def text_wrap(text, width):
+    """
+    Wrap text to fit specified width
+    """
+    # Split text by new lines
+    lines = text.split('\n')
+
+    wrapped_text = []
+    for line in lines:
+        # Use textwrap to wrap lines that exceed the specified width
+        wrapped_line = textwrap.wrap(line, width=width)
+        if wrapped_line:
+            wrapped_text.extend(wrapped_line)
+        else:
+            # If the line is empty, maintain it as an empty line
+            wrapped_text.append('')
+
+    return wrapped_text
+
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info
 
-# importing a text file (raw poem) and then splitting into a line with 3 words each line:
-# how to split into 1 word each line https://stackoverflow.com/questions/16922214/reading-a-text-file-and-splitting-it-into-single-words-in-python
-# how to split with specifying a number of words / strings https://www.w3schools.com/python/ref_string_split.asp
-
 def luma_write(gametext):
+    # first let's make sure device is clear
+    device.clear()
     logger.info("Starting luma_write function")
 
     virtual = viewport(device, width=device.width, height=768)
@@ -35,14 +53,14 @@ def luma_write(gametext):
 
     for _ in range(1):
         with canvas(device) as draw:
-            for i, line in enumerate(gametext.split("\n")):
+            lines = text_wrap(gametext, 18)  # Wrap the text to 18 characters
+            lines = lines[:10] # Keep only the first 11 lines
+            for i, line in enumerate(lines):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
-    try:
-        logger.info("write to device complete")
-        time.sleep(15)
-        logger.info("clearing device")
-        device.clear()
-        logger.info("device cleared, luma_write function completed successfully")
-    except KeyboardInterrupt:
-        pass
+    logger.info("wrote to device")
+    time.sleep(45)
+    logger.info("clearing device")
+    device.clear()
+    logger.info("device cleared, luma_write function completed successfully")
+

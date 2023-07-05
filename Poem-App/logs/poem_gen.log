@@ -1160,3 +1160,1085 @@ But the untamed outdoors, a true masterpiece of grace.
 2023-07-04 19:28:03,591 - poem_gen - DEBUG - creative_starting_prompt: The south is empty and pounds it.
 2023-07-04 19:28:03,593 - poem_gen - DEBUG - creative_prompt: The south is empty and pounds it.
 2023-07-04 19:28:03,593 - poem_gen - DEBUG - creative_prompt: The south is empty and pounds it.
+2023-07-04 20:01:29,560 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 20:01:29,678 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 20:01:29,678 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 20:01:30,928 - poem_gen - INFO - Number of words: 267
+2023-07-04 20:01:30,928 - poem_gen - INFO - Number of words: 267
+2023-07-04 20:01:33,328 - poem_gen - INFO - webtext words are: sun empty Well you and
+2023-07-04 20:01:33,328 - poem_gen - INFO - webtext words are: sun empty Well you and
+2023-07-04 20:02:28,740 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 20:02:28,740 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 20:02:28,751 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 20:02:28,751 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 20:02:28,753 - poem_gen - DEBUG - abstract_concept is: spitefulness
+2023-07-04 20:02:28,753 - poem_gen - DEBUG - abstract_concept is: spitefulness
+2023-07-04 20:02:28,755 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:02:28,755 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:02:28,767 - poem_gen - DEBUG - ==========================
+2023-07-04 20:02:28,767 - poem_gen - DEBUG - ==========================
+2023-07-04 20:02:28,769 - poem_gen - DEBUG - creative_starting_prompt: The sun is empty.
+2023-07-04 20:02:28,769 - poem_gen - DEBUG - creative_starting_prompt: The sun is empty.
+2023-07-04 20:02:28,771 - poem_gen - DEBUG - creative_prompt: The sun is empty.
+2023-07-04 20:02:28,771 - poem_gen - DEBUG - creative_prompt: The sun is empty.
+2023-07-04 20:02:29,764 - poem_gen - DEBUG - step_1_poem:
+The sun is empty,
+Yet it fills the sky with light,
+A void, burning bright.
+2023-07-04 20:02:29,764 - poem_gen - DEBUG - step_1_poem:
+The sun is empty,
+Yet it fills the sky with light,
+A void, burning bright.
+2023-07-04 20:02:31,035 - poem_gen - DEBUG - step_2_poem:
+In the sly dance of shadows,
+Spiteful sun leaves no trace,
+A void, casting its spiteful embrace.
+2023-07-04 20:02:31,035 - poem_gen - DEBUG - step_2_poem:
+In the sly dance of shadows,
+Spiteful sun leaves no trace,
+A void, casting its spiteful embrace.
+2023-07-04 20:02:32,305 - poem_gen - DEBUG - step_3_poem:
+Code logic may be precise and pure,
+But nature's dance is wild, obscure,
+Shadows sneer, sun's revenge, it's true,
+Embracing void, leaving no clue.
+2023-07-04 20:02:32,305 - poem_gen - DEBUG - step_3_poem:
+Code logic may be precise and pure,
+But nature's dance is wild, obscure,
+Shadows sneer, sun's revenge, it's true,
+Embracing void, leaving no clue.
+2023-07-04 20:02:32,308 - poem_gen - DEBUG - poem result:
+Code logic may be precise and pure,
+But nature's dance is wild, obscure,
+Shadows sneer, sun's revenge, it's true,
+Embracing void, leaving no clue.
+2023-07-04 20:02:32,308 - poem_gen - DEBUG - poem result:
+Code logic may be precise and pure,
+But nature's dance is wild, obscure,
+Shadows sneer, sun's revenge, it's true,
+Embracing void, leaving no clue.
+2023-07-04 20:02:32,312 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:02:32,312 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:02:49,152 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:02:49,152 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:02:49,760 - poem_gen - INFO - webtext words are: rain red long their and
+2023-07-04 20:02:49,760 - poem_gen - INFO - webtext words are: rain red long their and
+2023-07-04 20:02:50,614 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 20:02:50,614 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 20:02:50,617 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 20:02:50,617 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 20:02:50,620 - poem_gen - DEBUG - abstract_concept is: persistence
+2023-07-04 20:02:50,620 - poem_gen - DEBUG - abstract_concept is: persistence
+2023-07-04 20:02:50,623 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:02:50,623 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:02:50,625 - poem_gen - DEBUG - ==========================
+2023-07-04 20:02:50,625 - poem_gen - DEBUG - ==========================
+2023-07-04 20:02:50,628 - poem_gen - DEBUG - creative_starting_prompt: Red rain fell long and covered their surroundings.
+2023-07-04 20:02:50,628 - poem_gen - DEBUG - creative_starting_prompt: Red rain fell long and covered their surroundings.
+2023-07-04 20:02:50,631 - poem_gen - DEBUG - creative_prompt: Red rain fell long and covered their surroundings.
+2023-07-04 20:02:50,631 - poem_gen - DEBUG - creative_prompt: Red rain fell long and covered their surroundings.
+2023-07-04 20:02:51,291 - poem_gen - DEBUG - step_1_poem:
+Red rain descends fierce
+Blanketing all in scarlet
+Nature weeps crimson
+2023-07-04 20:02:51,291 - poem_gen - DEBUG - step_1_poem:
+Red rain descends fierce
+Blanketing all in scarlet
+Nature weeps crimson
+2023-07-04 20:02:52,693 - poem_gen - DEBUG - step_2_poem:
+Red rain descends fierce, with persistent grace,
+Blanketing all in scarlet, a vivid embrace.
+2023-07-04 20:02:52,693 - poem_gen - DEBUG - step_2_poem:
+Red rain descends fierce, with persistent grace,
+Blanketing all in scarlet, a vivid embrace.
+2023-07-04 20:02:53,749 - poem_gen - DEBUG - step_3_poem:
+In the land of spices and golden grains,
+The saffron sun sets ablaze with fiery strains.
+Flavors dance on tongues, a symphony of grace,
+As the culinary journey takes its place.
+2023-07-04 20:02:53,749 - poem_gen - DEBUG - step_3_poem:
+In the land of spices and golden grains,
+The saffron sun sets ablaze with fiery strains.
+Flavors dance on tongues, a symphony of grace,
+As the culinary journey takes its place.
+2023-07-04 20:02:53,757 - poem_gen - DEBUG - poem result:
+In the land of spices and golden grains,
+The saffron sun sets ablaze with fiery strains.
+Flavors dance on tongues, a symphony of grace,
+As the culinary journey takes its place.
+2023-07-04 20:02:53,757 - poem_gen - DEBUG - poem result:
+In the land of spices and golden grains,
+The saffron sun sets ablaze with fiery strains.
+Flavors dance on tongues, a symphony of grace,
+As the culinary journey takes its place.
+2023-07-04 20:02:53,762 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:02:53,762 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:10,525 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:03:10,525 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:03:11,106 - poem_gen - INFO - webtext words are: stands beautiful alone it and
+2023-07-04 20:03:11,106 - poem_gen - INFO - webtext words are: stands beautiful alone it and
+2023-07-04 20:03:11,638 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 20:03:11,638 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 20:03:11,642 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-04 20:03:11,642 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-04 20:03:11,644 - poem_gen - DEBUG - abstract_concept is: loneliness
+2023-07-04 20:03:11,644 - poem_gen - DEBUG - abstract_concept is: loneliness
+2023-07-04 20:03:11,645 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:11,645 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:11,647 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:11,647 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:11,649 - poem_gen - DEBUG - creative_starting_prompt: "It stands alone and is beautiful."
+2023-07-04 20:03:11,649 - poem_gen - DEBUG - creative_starting_prompt: "It stands alone and is beautiful."
+2023-07-04 20:03:11,651 - poem_gen - DEBUG - creative_prompt: "It stands alone and is beautiful."
+2023-07-04 20:03:11,651 - poem_gen - DEBUG - creative_prompt: "It stands alone and is beautiful."
+2023-07-04 20:03:12,374 - poem_gen - DEBUG - step_1_poem:
+In golden splendor,
+A solitary treasure,
+Beauty untouched.
+2023-07-04 20:03:12,374 - poem_gen - DEBUG - step_1_poem:
+In golden splendor,
+A solitary treasure,
+Beauty untouched.
+2023-07-04 20:03:13,608 - poem_gen - DEBUG - step_2_poem:
+In golden splendor, amid wealth untold,
+A solitary treasure, yet a story untold,
+Loneliness whispers, in beauty's stronghold.
+2023-07-04 20:03:13,608 - poem_gen - DEBUG - step_2_poem:
+In golden splendor, amid wealth untold,
+A solitary treasure, yet a story untold,
+Loneliness whispers, in beauty's stronghold.
+2023-07-04 20:03:16,580 - poem_gen - DEBUG - step_3_poem:
+In halls adorned with wealth unknown,
+Lies a tale untold, in silence it's sown.
+Echoes of solitude, beauty's secret moan.
+
+Amid the riches, a solitary spark,
+Yearns for companionship, in shadows dark.
+Desire's flame flickers, love's elusive mark.
+
+A gilded fortress, kept from prying eyes,
+Inside, a longing heart tightly lies.
+Seeking solace, where opulence tries.
+
+In opulent excess, a tale does reside,
+Where loneliness thrives, in beauty's stride.
+Whispering desires, yearning to confide.
+
+Untold riches, a mask for hidden pain,
+Loneliness bares its weight, a costly chain.
+Within splendor, longing calls, in vain.
+2023-07-04 20:03:16,580 - poem_gen - DEBUG - step_3_poem:
+In halls adorned with wealth unknown,
+Lies a tale untold, in silence it's sown.
+Echoes of solitude, beauty's secret moan.
+
+Amid the riches, a solitary spark,
+Yearns for companionship, in shadows dark.
+Desire's flame flickers, love's elusive mark.
+
+A gilded fortress, kept from prying eyes,
+Inside, a longing heart tightly lies.
+Seeking solace, where opulence tries.
+
+In opulent excess, a tale does reside,
+Where loneliness thrives, in beauty's stride.
+Whispering desires, yearning to confide.
+
+Untold riches, a mask for hidden pain,
+Loneliness bares its weight, a costly chain.
+Within splendor, longing calls, in vain.
+2023-07-04 20:03:16,583 - poem_gen - DEBUG - poem result:
+In halls adorned with wealth unknown,
+Lies a tale untold, in silence it's sown.
+Echoes of solitude, beauty's secret moan.
+
+Amid the riches, a solitary spark,
+Yearns for companionship, in shadows dark.
+Desire's flame flickers, love's elusive mark.
+
+A gilded fortress, kept from prying eyes,
+Inside, a longing heart tightly lies.
+Seeking solace, where opulence tries.
+
+In opulent excess, a tale does reside,
+Where loneliness thrives, in beauty's stride.
+Whispering desires, yearning to confide.
+
+Untold riches, a mask for hidden pain,
+Loneliness bares its weight, a costly chain.
+Within splendor, longing calls, in vain.
+2023-07-04 20:03:16,583 - poem_gen - DEBUG - poem result:
+In halls adorned with wealth unknown,
+Lies a tale untold, in silence it's sown.
+Echoes of solitude, beauty's secret moan.
+
+Amid the riches, a solitary spark,
+Yearns for companionship, in shadows dark.
+Desire's flame flickers, love's elusive mark.
+
+A gilded fortress, kept from prying eyes,
+Inside, a longing heart tightly lies.
+Seeking solace, where opulence tries.
+
+In opulent excess, a tale does reside,
+Where loneliness thrives, in beauty's stride.
+Whispering desires, yearning to confide.
+
+Untold riches, a mask for hidden pain,
+Loneliness bares its weight, a costly chain.
+Within splendor, longing calls, in vain.
+2023-07-04 20:03:16,588 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:16,588 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:33,666 - poem_gen - INFO - Number of words: 260
+2023-07-04 20:03:33,666 - poem_gen - INFO - Number of words: 260
+2023-07-04 20:03:34,286 - poem_gen - INFO - webtext words are: complexity Top Very I but
+2023-07-04 20:03:34,286 - poem_gen - INFO - webtext words are: complexity Top Very I but
+2023-07-04 20:03:35,547 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 20:03:35,547 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 20:03:35,550 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 20:03:35,550 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 20:03:35,552 - poem_gen - DEBUG - abstract_concept is: spirituality
+2023-07-04 20:03:35,552 - poem_gen - DEBUG - abstract_concept is: spirituality
+2023-07-04 20:03:35,554 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:35,554 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:35,557 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:35,557 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:35,559 - poem_gen - DEBUG - creative_starting_prompt: But, I prefer simplicity.
+2023-07-04 20:03:35,559 - poem_gen - DEBUG - creative_starting_prompt: But, I prefer simplicity.
+2023-07-04 20:03:35,561 - poem_gen - DEBUG - creative_prompt: But, I prefer simplicity.
+2023-07-04 20:03:35,561 - poem_gen - DEBUG - creative_prompt: But, I prefer simplicity.
+2023-07-04 20:03:36,268 - poem_gen - DEBUG - step_1_poem:
+But in code's chaos,
+I find solace in the calm,
+Simplicity reigns.
+2023-07-04 20:03:36,268 - poem_gen - DEBUG - step_1_poem:
+But in code's chaos,
+I find solace in the calm,
+Simplicity reigns.
+2023-07-04 20:03:37,179 - poem_gen - DEBUG - step_2_poem:
+In nature's chaos,
+I find solace in the wild,
+Spirituality reigns.
+2023-07-04 20:03:37,179 - poem_gen - DEBUG - step_2_poem:
+In nature's chaos,
+I find solace in the wild,
+Spirituality reigns.
+2023-07-04 20:03:38,378 - poem_gen - DEBUG - step_3_poem:
+Amidst nature's tumult,
+My weary soul finds respite,
+Divine peace prevails.
+
+Where wildness unfolds,
+Serenity embraces me,
+Soul's sanctuary.
+
+In chaos, I seek,
+An untamed, sacred refuge,
+Spirit's reign unveiled.
+2023-07-04 20:03:38,378 - poem_gen - DEBUG - step_3_poem:
+Amidst nature's tumult,
+My weary soul finds respite,
+Divine peace prevails.
+
+Where wildness unfolds,
+Serenity embraces me,
+Soul's sanctuary.
+
+In chaos, I seek,
+An untamed, sacred refuge,
+Spirit's reign unveiled.
+2023-07-04 20:03:38,381 - poem_gen - DEBUG - poem result:
+Amidst nature's tumult,
+My weary soul finds respite,
+Divine peace prevails.
+
+Where wildness unfolds,
+Serenity embraces me,
+Soul's sanctuary.
+
+In chaos, I seek,
+An untamed, sacred refuge,
+Spirit's reign unveiled.
+2023-07-04 20:03:38,381 - poem_gen - DEBUG - poem result:
+Amidst nature's tumult,
+My weary soul finds respite,
+Divine peace prevails.
+
+Where wildness unfolds,
+Serenity embraces me,
+Soul's sanctuary.
+
+In chaos, I seek,
+An untamed, sacred refuge,
+Spirit's reign unveiled.
+2023-07-04 20:03:38,385 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:38,385 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:48,505 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:03:48,505 - poem_gen - INFO - Number of words: 252
+2023-07-04 20:03:49,092 - poem_gen - INFO - webtext words are: bride long then her and
+2023-07-04 20:03:49,092 - poem_gen - INFO - webtext words are: bride long then her and
+2023-07-04 20:03:49,899 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 20:03:49,899 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 20:03:49,912 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-04 20:03:49,912 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-07-04 20:03:49,915 - poem_gen - DEBUG - abstract_concept is: carefreeness
+2023-07-04 20:03:49,915 - poem_gen - DEBUG - abstract_concept is: carefreeness
+2023-07-04 20:03:49,918 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:49,918 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:49,920 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:49,920 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:49,923 - poem_gen - DEBUG - creative_starting_prompt: The bride was taller than her.
+2023-07-04 20:03:49,923 - poem_gen - DEBUG - creative_starting_prompt: The bride was taller than her.
+2023-07-04 20:03:49,926 - poem_gen - DEBUG - creative_prompt: The bride was taller than her.
+2023-07-04 20:03:49,926 - poem_gen - DEBUG - creative_prompt: The bride was taller than her.
+2023-07-04 20:03:50,595 - poem_gen - DEBUG - step_1_poem:
+In shadow's embrace,
+Height eclipsed by unseen grace,
+Bride's soul towered, embraced.
+2023-07-04 20:03:50,595 - poem_gen - DEBUG - step_1_poem:
+In shadow's embrace,
+Height eclipsed by unseen grace,
+Bride's soul towered, embraced.
+2023-07-04 20:03:51,400 - poem_gen - DEBUG - step_2_poem:
+In the depths of twilight's sway,
+Carefreeness glimmers, hidden away,
+As shadows waltz, souls play.
+2023-07-04 20:03:51,400 - poem_gen - DEBUG - step_2_poem:
+In the depths of twilight's sway,
+Carefreeness glimmers, hidden away,
+As shadows waltz, souls play.
+2023-07-04 20:03:52,372 - poem_gen - DEBUG - step_3_poem:
+Amid twilight's embrace,
+Secrets breathe, concealed grace,
+In shadows' dance, whispers trace.
+2023-07-04 20:03:52,372 - poem_gen - DEBUG - step_3_poem:
+Amid twilight's embrace,
+Secrets breathe, concealed grace,
+In shadows' dance, whispers trace.
+2023-07-04 20:03:52,375 - poem_gen - DEBUG - poem result:
+Amid twilight's embrace,
+Secrets breathe, concealed grace,
+In shadows' dance, whispers trace.
+2023-07-04 20:03:52,375 - poem_gen - DEBUG - poem result:
+Amid twilight's embrace,
+Secrets breathe, concealed grace,
+In shadows' dance, whispers trace.
+2023-07-04 20:03:52,380 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:52,380 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:54,335 - poem_gen - INFO - Number of words: 255
+2023-07-04 20:03:54,335 - poem_gen - INFO - Number of words: 255
+2023-07-04 20:03:54,891 - poem_gen - INFO - webtext words are: cafes single late You and
+2023-07-04 20:03:54,891 - poem_gen - INFO - webtext words are: cafes single late You and
+2023-07-04 20:03:55,485 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 20:03:55,485 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 20:03:55,495 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-04 20:03:55,495 - poem_gen - DEBUG - lang_device is: idiom
+2023-07-04 20:03:55,498 - poem_gen - DEBUG - abstract_concept is: pardon
+2023-07-04 20:03:55,498 - poem_gen - DEBUG - abstract_concept is: pardon
+2023-07-04 20:03:55,500 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:55,500 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 20:03:55,502 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:55,502 - poem_gen - DEBUG - ==========================
+2023-07-04 20:03:55,503 - poem_gen - DEBUG - creative_starting_prompt: You and cafes single late.
+2023-07-04 20:03:55,503 - poem_gen - DEBUG - creative_starting_prompt: You and cafes single late.
+2023-07-04 20:03:55,505 - poem_gen - DEBUG - creative_prompt: You and cafes single late.
+2023-07-04 20:03:55,505 - poem_gen - DEBUG - creative_prompt: You and cafes single late.
+2023-07-04 20:03:56,325 - poem_gen - DEBUG - step_1_poem:
+You, café's lone muse,
+Late, savoring solitude,
+Silent whispers fade.
+2023-07-04 20:03:56,325 - poem_gen - DEBUG - step_1_poem:
+You, café's lone muse,
+Late, savoring solitude,
+Silent whispers fade.
+2023-07-04 20:03:57,318 - poem_gen - DEBUG - step_2_poem:
+In this pardoned haven,
+Where solitude's sweet embrace,
+Whispers seek redemption,
+Yearning for a silent grace.
+2023-07-04 20:03:57,318 - poem_gen - DEBUG - step_2_poem:
+In this pardoned haven,
+Where solitude's sweet embrace,
+Whispers seek redemption,
+Yearning for a silent grace.
+2023-07-04 20:03:58,348 - poem_gen - DEBUG - step_3_poem:
+Shadows dance, unseen whispers sigh,
+The haven's mask, a silent lie.
+Redemption lost, grace shattered, we try,
+In solitude's embrace, to pacify.
+2023-07-04 20:03:58,348 - poem_gen - DEBUG - step_3_poem:
+Shadows dance, unseen whispers sigh,
+The haven's mask, a silent lie.
+Redemption lost, grace shattered, we try,
+In solitude's embrace, to pacify.
+2023-07-04 20:03:58,351 - poem_gen - DEBUG - poem result:
+Shadows dance, unseen whispers sigh,
+The haven's mask, a silent lie.
+Redemption lost, grace shattered, we try,
+In solitude's embrace, to pacify.
+2023-07-04 20:03:58,351 - poem_gen - DEBUG - poem result:
+Shadows dance, unseen whispers sigh,
+The haven's mask, a silent lie.
+Redemption lost, grace shattered, we try,
+In solitude's embrace, to pacify.
+2023-07-04 20:03:58,355 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 20:03:58,355 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:44:38,529 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:44:38,646 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:44:38,646 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:44:39,955 - poem_gen - INFO - Number of words: 255
+2023-07-04 22:44:39,955 - poem_gen - INFO - Number of words: 255
+2023-07-04 22:44:42,507 - poem_gen - INFO - webtext words are: encounters European well I or
+2023-07-04 22:44:42,507 - poem_gen - INFO - webtext words are: encounters European well I or
+2023-07-04 22:45:35,042 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:45:35,042 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:45:35,045 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:45:35,045 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:45:35,047 - poem_gen - DEBUG - abstract_concept is: lark
+2023-07-04 22:45:35,047 - poem_gen - DEBUG - abstract_concept is: lark
+2023-07-04 22:45:35,049 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:45:35,049 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:45:35,051 - poem_gen - DEBUG - ==========================
+2023-07-04 22:45:35,051 - poem_gen - DEBUG - ==========================
+2023-07-04 22:45:35,053 - poem_gen - DEBUG - creative_starting_prompt: I encounter well with Europeans.
+2023-07-04 22:45:35,053 - poem_gen - DEBUG - creative_starting_prompt: I encounter well with Europeans.
+2023-07-04 22:45:35,055 - poem_gen - DEBUG - creative_prompt: I encounter well with Europeans.
+2023-07-04 22:45:35,055 - poem_gen - DEBUG - creative_prompt: I encounter well with Europeans.
+2023-07-04 22:45:36,161 - poem_gen - DEBUG - step_1_poem:
+Bytes intertwine, connect,
+Coding bridges, minds collide,
+Europe's whispers glide.
+2023-07-04 22:45:36,161 - poem_gen - DEBUG - step_1_poem:
+Bytes intertwine, connect,
+Coding bridges, minds collide,
+Europe's whispers glide.
+2023-07-04 22:45:38,660 - poem_gen - DEBUG - step_2_poem:
+Bytes intertwine, connect, like larks take flight,
+Coding bridges, minds collide, reaching new heights,
+Europe's whispers glide, carried by nature's symphony, so slight.
+2023-07-04 22:45:38,660 - poem_gen - DEBUG - step_2_poem:
+Bytes intertwine, connect, like larks take flight,
+Coding bridges, minds collide, reaching new heights,
+Europe's whispers glide, carried by nature's symphony, so slight.
+2023-07-04 22:45:39,828 - poem_gen - DEBUG - step_3_poem:
+In the realm of code, larks dance through the night,
+Thoughts collide, soaring to uncharted heights,
+Whispers of Europe, carried by nature's whims, take flight.
+2023-07-04 22:45:39,828 - poem_gen - DEBUG - step_3_poem:
+In the realm of code, larks dance through the night,
+Thoughts collide, soaring to uncharted heights,
+Whispers of Europe, carried by nature's whims, take flight.
+2023-07-04 22:45:39,831 - poem_gen - DEBUG - poem result:
+In the realm of code, larks dance through the night,
+Thoughts collide, soaring to uncharted heights,
+Whispers of Europe, carried by nature's whims, take flight.
+2023-07-04 22:45:39,831 - poem_gen - DEBUG - poem result:
+In the realm of code, larks dance through the night,
+Thoughts collide, soaring to uncharted heights,
+Whispers of Europe, carried by nature's whims, take flight.
+2023-07-04 22:45:39,835 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:45:39,835 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:45:56,551 - poem_gen - INFO - Number of words: 260
+2023-07-04 22:45:56,551 - poem_gen - INFO - Number of words: 260
+2023-07-04 22:45:57,208 - poem_gen - INFO - webtext words are: structure odd Very your and
+2023-07-04 22:45:57,208 - poem_gen - INFO - webtext words are: structure odd Very your and
+2023-07-04 22:45:57,813 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 22:45:57,813 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 22:45:57,815 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-04 22:45:57,815 - poem_gen - DEBUG - lang_device is: caesura
+2023-07-04 22:45:57,817 - poem_gen - DEBUG - abstract_concept is: jealousy
+2023-07-04 22:45:57,817 - poem_gen - DEBUG - abstract_concept is: jealousy
+2023-07-04 22:45:57,819 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:45:57,819 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:45:57,821 - poem_gen - DEBUG - ==========================
+2023-07-04 22:45:57,821 - poem_gen - DEBUG - ==========================
+2023-07-04 22:45:57,823 - poem_gen - DEBUG - creative_starting_prompt: Your odd structure and very.
+2023-07-04 22:45:57,823 - poem_gen - DEBUG - creative_starting_prompt: Your odd structure and very.
+2023-07-04 22:45:57,825 - poem_gen - DEBUG - creative_prompt: Your odd structure and very.
+2023-07-04 22:45:57,825 - poem_gen - DEBUG - creative_prompt: Your odd structure and very.
+2023-07-04 22:45:58,776 - poem_gen - DEBUG - step_1_poem:
+Your odd structure sings,
+A melody of wonder,
+In this world, very.
+2023-07-04 22:45:58,776 - poem_gen - DEBUG - step_1_poem:
+Your odd structure sings,
+A melody of wonder,
+In this world, very.
+2023-07-04 22:46:20,578 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:46:20,694 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:46:20,694 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:46:21,902 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:46:21,902 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:46:24,299 - poem_gen - INFO - webtext words are: PIRATES red long You and
+2023-07-04 22:46:24,299 - poem_gen - INFO - webtext words are: PIRATES red long You and
+2023-07-04 22:47:21,871 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 22:47:21,871 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 22:47:21,874 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-04 22:47:21,874 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-04 22:47:21,876 - poem_gen - DEBUG - abstract_concept is: prejudice
+2023-07-04 22:47:21,876 - poem_gen - DEBUG - abstract_concept is: prejudice
+2023-07-04 22:47:21,878 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:47:21,878 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:47:21,880 - poem_gen - DEBUG - ==========================
+2023-07-04 22:47:21,880 - poem_gen - DEBUG - ==========================
+2023-07-04 22:47:21,881 - poem_gen - DEBUG - creative_starting_prompt: You are red and long like pirates.
+2023-07-04 22:47:21,881 - poem_gen - DEBUG - creative_starting_prompt: You are red and long like pirates.
+2023-07-04 22:47:21,883 - poem_gen - DEBUG - creative_prompt: You are red and long like pirates.
+2023-07-04 22:47:21,883 - poem_gen - DEBUG - creative_prompt: You are red and long like pirates.
+2023-07-04 22:47:22,615 - poem_gen - DEBUG - step_1_poem:
+Oh, crimson allure
+Long like pirates on the shore
+Desires we explore
+2023-07-04 22:47:22,615 - poem_gen - DEBUG - step_1_poem:
+Oh, crimson allure
+Long like pirates on the shore
+Desires we explore
+2023-07-04 22:47:24,010 - poem_gen - DEBUG - step_2_poem:
+Oh, crimson allure, like prejudice,
+Long like pirates on the shore,
+Desires we explore, tainted with bias,
+Yearning for what we think we're owed.
+2023-07-04 22:47:24,010 - poem_gen - DEBUG - step_2_poem:
+Oh, crimson allure, like prejudice,
+Long like pirates on the shore,
+Desires we explore, tainted with bias,
+Yearning for what we think we're owed.
+2023-07-04 22:47:25,501 - poem_gen - DEBUG - step_3_poem:
+In the gilded halls, desire runs deep,
+Golden lust, like a forbidden feast we keep.
+Unruly thoughts, tainted with craving,
+Seeking riches beyond mere engraving.
+2023-07-04 22:47:25,501 - poem_gen - DEBUG - step_3_poem:
+In the gilded halls, desire runs deep,
+Golden lust, like a forbidden feast we keep.
+Unruly thoughts, tainted with craving,
+Seeking riches beyond mere engraving.
+2023-07-04 22:47:25,504 - poem_gen - DEBUG - poem result:
+In the gilded halls, desire runs deep,
+Golden lust, like a forbidden feast we keep.
+Unruly thoughts, tainted with craving,
+Seeking riches beyond mere engraving.
+2023-07-04 22:47:25,504 - poem_gen - DEBUG - poem result:
+In the gilded halls, desire runs deep,
+Golden lust, like a forbidden feast we keep.
+Unruly thoughts, tainted with craving,
+Seeking riches beyond mere engraving.
+2023-07-04 22:47:25,508 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:47:25,508 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:47:42,206 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:47:42,206 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:47:42,835 - poem_gen - INFO - webtext words are: rain white alone His and
+2023-07-04 22:47:42,835 - poem_gen - INFO - webtext words are: rain white alone His and
+2023-07-04 22:47:43,706 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 22:47:43,706 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 22:47:43,708 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 22:47:43,708 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 22:47:43,710 - poem_gen - DEBUG - abstract_concept is: loneliness
+2023-07-04 22:47:43,710 - poem_gen - DEBUG - abstract_concept is: loneliness
+2023-07-04 22:47:43,713 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:47:43,713 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:47:43,715 - poem_gen - DEBUG - ==========================
+2023-07-04 22:47:43,715 - poem_gen - DEBUG - ==========================
+2023-07-04 22:47:43,716 - poem_gen - DEBUG - creative_starting_prompt: His white umbrella protected him from the rain alone.
+2023-07-04 22:47:43,716 - poem_gen - DEBUG - creative_starting_prompt: His white umbrella protected him from the rain alone.
+2023-07-04 22:47:43,718 - poem_gen - DEBUG - creative_prompt: His white umbrella protected him from the rain alone.
+2023-07-04 22:47:43,718 - poem_gen - DEBUG - creative_prompt: His white umbrella protected him from the rain alone.
+2023-07-04 22:47:44,845 - poem_gen - DEBUG - step_1_poem:
+Shelter in rainfall's dance,
+His white umbrella stands tall,
+Alone he remains.
+2023-07-04 22:47:44,845 - poem_gen - DEBUG - step_1_poem:
+Shelter in rainfall's dance,
+His white umbrella stands tall,
+Alone he remains.
+2023-07-04 22:47:45,724 - poem_gen - DEBUG - step_2_poem:
+In the rainfall's dance, his white umbrella stands,
+A shield against the tears from above,
+But beneath its cover, loneliness demands.
+2023-07-04 22:47:45,724 - poem_gen - DEBUG - step_2_poem:
+In the rainfall's dance, his white umbrella stands,
+A shield against the tears from above,
+But beneath its cover, loneliness demands.
+2023-07-04 22:47:47,173 - poem_gen - DEBUG - step_3_poem:
+Amidst rain's embrace, his umbrella prevails,
+A fortress from tears, where solitude unveils.
+Yet underneath, loneliness silently reigns,
+As he seeks companionship in nature's refrains.
+2023-07-04 22:47:47,173 - poem_gen - DEBUG - step_3_poem:
+Amidst rain's embrace, his umbrella prevails,
+A fortress from tears, where solitude unveils.
+Yet underneath, loneliness silently reigns,
+As he seeks companionship in nature's refrains.
+2023-07-04 22:47:47,176 - poem_gen - DEBUG - poem result:
+Amidst rain's embrace, his umbrella prevails,
+A fortress from tears, where solitude unveils.
+Yet underneath, loneliness silently reigns,
+As he seeks companionship in nature's refrains.
+2023-07-04 22:47:47,176 - poem_gen - DEBUG - poem result:
+Amidst rain's embrace, his umbrella prevails,
+A fortress from tears, where solitude unveils.
+Yet underneath, loneliness silently reigns,
+As he seeks companionship in nature's refrains.
+2023-07-04 22:47:47,181 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:47:47,181 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:49:25,489 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:49:25,605 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:49:25,605 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:49:26,893 - poem_gen - INFO - Number of words: 267
+2023-07-04 22:49:26,893 - poem_gen - INFO - Number of words: 267
+2023-07-04 22:49:29,245 - poem_gen - INFO - webtext words are: castle bangin not my and
+2023-07-04 22:49:29,245 - poem_gen - INFO - webtext words are: castle bangin not my and
+2023-07-04 22:50:22,323 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:50:22,323 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:50:22,326 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-04 22:50:22,326 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-07-04 22:50:22,328 - poem_gen - DEBUG - abstract_concept is: dream
+2023-07-04 22:50:22,328 - poem_gen - DEBUG - abstract_concept is: dream
+2023-07-04 22:50:22,330 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:50:22,330 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:50:22,332 - poem_gen - DEBUG - ==========================
+2023-07-04 22:50:22,332 - poem_gen - DEBUG - ==========================
+2023-07-04 22:50:22,334 - poem_gen - DEBUG - creative_starting_prompt: Castle was not my favorite place to party.
+2023-07-04 22:50:22,334 - poem_gen - DEBUG - creative_starting_prompt: Castle was not my favorite place to party.
+2023-07-04 22:50:22,336 - poem_gen - DEBUG - creative_prompt: Castle was not my favorite place to party.
+2023-07-04 22:50:22,336 - poem_gen - DEBUG - creative_prompt: Castle was not my favorite place to party.
+2023-07-04 22:50:23,404 - poem_gen - DEBUG - step_1_poem:
+Amidst iron walls,
+Nature's freedom called me out,
+Wildness set me free.
+2023-07-04 22:50:23,404 - poem_gen - DEBUG - step_1_poem:
+Amidst iron walls,
+Nature's freedom called me out,
+Wildness set me free.
+2023-07-04 22:50:24,492 - poem_gen - DEBUG - step_2_poem:
+Amidst code's constraints,
+Dreams whisper in lines of code,
+Unleashing wildness.
+2023-07-04 22:50:24,492 - poem_gen - DEBUG - step_2_poem:
+Amidst code's constraints,
+Dreams whisper in lines of code,
+Unleashing wildness.
+2023-07-04 22:50:25,874 - poem_gen - DEBUG - step_3_poem:
+In the realm of code,
+Dreams break free, unchained and wild,
+Tamed chaos unfolds.
+
+Lines of code whisper,
+Secrets of untamed dreams,
+Wildness unleashed.
+2023-07-04 22:50:25,874 - poem_gen - DEBUG - step_3_poem:
+In the realm of code,
+Dreams break free, unchained and wild,
+Tamed chaos unfolds.
+
+Lines of code whisper,
+Secrets of untamed dreams,
+Wildness unleashed.
+2023-07-04 22:50:25,877 - poem_gen - DEBUG - poem result:
+In the realm of code,
+Dreams break free, unchained and wild,
+Tamed chaos unfolds.
+
+Lines of code whisper,
+Secrets of untamed dreams,
+Wildness unleashed.
+2023-07-04 22:50:25,877 - poem_gen - DEBUG - poem result:
+In the realm of code,
+Dreams break free, unchained and wild,
+Tamed chaos unfolds.
+
+Lines of code whisper,
+Secrets of untamed dreams,
+Wildness unleashed.
+2023-07-04 22:50:25,881 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:50:25,881 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:50:57,988 - poem_gen - INFO - Number of words: 236
+2023-07-04 22:50:57,988 - poem_gen - INFO - Number of words: 236
+2023-07-04 22:50:58,472 - poem_gen - INFO - webtext words are: script second So it or
+2023-07-04 22:50:58,472 - poem_gen - INFO - webtext words are: script second So it or
+2023-07-04 22:50:59,204 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 22:50:59,204 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
+2023-07-04 22:50:59,206 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:50:59,206 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:50:59,208 - poem_gen - DEBUG - abstract_concept is: ignorance
+2023-07-04 22:50:59,208 - poem_gen - DEBUG - abstract_concept is: ignorance
+2023-07-04 22:50:59,210 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:50:59,210 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:50:59,212 - poem_gen - DEBUG - ==========================
+2023-07-04 22:50:59,212 - poem_gen - DEBUG - ==========================
+2023-07-04 22:50:59,214 - poem_gen - DEBUG - creative_starting_prompt: Second script or not.
+2023-07-04 22:50:59,214 - poem_gen - DEBUG - creative_starting_prompt: Second script or not.
+2023-07-04 22:50:59,216 - poem_gen - DEBUG - creative_prompt: Second script or not.
+2023-07-04 22:50:59,216 - poem_gen - DEBUG - creative_prompt: Second script or not.
+2023-07-04 22:51:00,242 - poem_gen - DEBUG - step_1_poem:
+Oh, second script or not,
+I crave words that transcend time,
+Unleashing desire.
+2023-07-04 22:51:00,242 - poem_gen - DEBUG - step_1_poem:
+Oh, second script or not,
+I crave words that transcend time,
+Unleashing desire.
+2023-07-04 22:51:01,893 - poem_gen - DEBUG - step_2_poem:
+Oh, second script of knowledge sought,
+Ignorance, begone from my mind's hallowed lot,
+Crave words that transcend time, untamed fire,
+Unleashing desire, enlightened by desire's ire.
+2023-07-04 22:51:01,893 - poem_gen - DEBUG - step_2_poem:
+Oh, second script of knowledge sought,
+Ignorance, begone from my mind's hallowed lot,
+Crave words that transcend time, untamed fire,
+Unleashing desire, enlightened by desire's ire.
+2023-07-04 22:51:03,475 - poem_gen - DEBUG - step_3_poem:
+In golden halls, wisdom whispers its song,
+Ignorance flees, banished by thoughts strong.
+Yearning for truths, aflame with raging fire,
+Passion and knowledge entwined, fuels my desire.
+2023-07-04 22:51:03,475 - poem_gen - DEBUG - step_3_poem:
+In golden halls, wisdom whispers its song,
+Ignorance flees, banished by thoughts strong.
+Yearning for truths, aflame with raging fire,
+Passion and knowledge entwined, fuels my desire.
+2023-07-04 22:51:03,482 - poem_gen - DEBUG - poem result:
+In golden halls, wisdom whispers its song,
+Ignorance flees, banished by thoughts strong.
+Yearning for truths, aflame with raging fire,
+Passion and knowledge entwined, fuels my desire.
+2023-07-04 22:51:03,482 - poem_gen - DEBUG - poem result:
+In golden halls, wisdom whispers its song,
+Ignorance flees, banished by thoughts strong.
+Yearning for truths, aflame with raging fire,
+Passion and knowledge entwined, fuels my desire.
+2023-07-04 22:51:03,488 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:51:03,488 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:51:35,452 - poem_gen - INFO - Number of words: 288
+2023-07-04 22:51:35,452 - poem_gen - INFO - Number of words: 288
+2023-07-04 22:51:36,005 - poem_gen - INFO - webtext words are: Guy proper Absolutely he and
+2023-07-04 22:51:36,005 - poem_gen - INFO - webtext words are: Guy proper Absolutely he and
+2023-07-04 22:51:36,505 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 22:51:36,505 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 22:51:36,507 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 22:51:36,507 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 22:51:36,509 - poem_gen - DEBUG - abstract_concept is: heartache
+2023-07-04 22:51:36,509 - poem_gen - DEBUG - abstract_concept is: heartache
+2023-07-04 22:51:36,512 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:51:36,512 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:51:36,513 - poem_gen - DEBUG - ==========================
+2023-07-04 22:51:36,513 - poem_gen - DEBUG - ==========================
+2023-07-04 22:51:36,515 - poem_gen - DEBUG - creative_starting_prompt: He is absolutely a proper guy.
+2023-07-04 22:51:36,515 - poem_gen - DEBUG - creative_starting_prompt: He is absolutely a proper guy.
+2023-07-04 22:51:36,517 - poem_gen - DEBUG - creative_prompt: He is absolutely a proper guy.
+2023-07-04 22:51:36,517 - poem_gen - DEBUG - creative_prompt: He is absolutely a proper guy.
+2023-07-04 22:51:37,293 - poem_gen - DEBUG - step_1_poem:
+In cosmic expanse,
+Stars adorn his noble heart,
+A galaxy's guide.
+2023-07-04 22:51:37,293 - poem_gen - DEBUG - step_1_poem:
+In cosmic expanse,
+Stars adorn his noble heart,
+A galaxy's guide.
+2023-07-04 22:51:38,735 - poem_gen - DEBUG - step_2_poem:
+In cosmic expanse, where tears collide,
+His noble heart aches, a star-crossed ride,
+Stars adorn his sorrowed soul, tonight,
+A galaxy's guide, lost in heartache's plight.
+2023-07-04 22:51:38,735 - poem_gen - DEBUG - step_2_poem:
+In cosmic expanse, where tears collide,
+His noble heart aches, a star-crossed ride,
+Stars adorn his sorrowed soul, tonight,
+A galaxy's guide, lost in heartache's plight.
+2023-07-04 22:51:40,459 - poem_gen - DEBUG - step_3_poem:
+In astral tapestry, sorrow's embrace,
+His heartbeats fade, an eternal chase,
+Lost amidst stardust, pain's cosmic plight,
+A universe weeps, in darkness of night.
+2023-07-04 22:51:40,459 - poem_gen - DEBUG - step_3_poem:
+In astral tapestry, sorrow's embrace,
+His heartbeats fade, an eternal chase,
+Lost amidst stardust, pain's cosmic plight,
+A universe weeps, in darkness of night.
+2023-07-04 22:51:40,462 - poem_gen - DEBUG - poem result:
+In astral tapestry, sorrow's embrace,
+His heartbeats fade, an eternal chase,
+Lost amidst stardust, pain's cosmic plight,
+A universe weeps, in darkness of night.
+2023-07-04 22:51:40,462 - poem_gen - DEBUG - poem result:
+In astral tapestry, sorrow's embrace,
+His heartbeats fade, an eternal chase,
+Lost amidst stardust, pain's cosmic plight,
+A universe weeps, in darkness of night.
+2023-07-04 22:51:40,466 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:51:40,466 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:52:16,546 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:52:16,661 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:52:16,661 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:52:17,880 - poem_gen - INFO - Number of words: 260
+2023-07-04 22:52:17,880 - poem_gen - INFO - Number of words: 260
+2023-07-04 22:52:20,391 - poem_gen - INFO - webtext words are: maturity delicate Not it and
+2023-07-04 22:52:20,391 - poem_gen - INFO - webtext words are: maturity delicate Not it and
+2023-07-04 22:53:14,003 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:53:14,003 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-07-04 22:53:14,006 - poem_gen - DEBUG - lang_device is: irony
+2023-07-04 22:53:14,006 - poem_gen - DEBUG - lang_device is: irony
+2023-07-04 22:53:14,008 - poem_gen - DEBUG - abstract_concept is: insouciance
+2023-07-04 22:53:14,008 - poem_gen - DEBUG - abstract_concept is: insouciance
+2023-07-04 22:53:14,010 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:53:14,010 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:53:14,012 - poem_gen - DEBUG - ==========================
+2023-07-04 22:53:14,012 - poem_gen - DEBUG - ==========================
+2023-07-04 22:53:14,014 - poem_gen - DEBUG - creative_starting_prompt: Maturity is delicate, but not eternally.
+2023-07-04 22:53:14,014 - poem_gen - DEBUG - creative_starting_prompt: Maturity is delicate, but not eternally.
+2023-07-04 22:53:14,015 - poem_gen - DEBUG - creative_prompt: Maturity is delicate, but not eternally.
+2023-07-04 22:53:14,015 - poem_gen - DEBUG - creative_prompt: Maturity is delicate, but not eternally.
+2023-07-04 22:53:15,000 - poem_gen - DEBUG - step_1_poem:
+Maturity blooms,
+Fleeting as spring's fragile buds,
+Embracing change's sway.
+2023-07-04 22:53:15,000 - poem_gen - DEBUG - step_1_poem:
+Maturity blooms,
+Fleeting as spring's fragile buds,
+Embracing change's sway.
+2023-07-04 22:53:16,366 - poem_gen - DEBUG - step_2_poem:
+In code's essence lies
+Insouciance, free from bounds,
+Unfazed by nature's dance.
+2023-07-04 22:53:16,366 - poem_gen - DEBUG - step_2_poem:
+In code's essence lies
+Insouciance, free from bounds,
+Unfazed by nature's dance.
+2023-07-04 22:53:17,246 - poem_gen - DEBUG - step_3_poem:
+Code, a symphony of logic,
+Unraveling nature's enigma,
+Boundless, unyielding, pure.
+2023-07-04 22:53:17,246 - poem_gen - DEBUG - step_3_poem:
+Code, a symphony of logic,
+Unraveling nature's enigma,
+Boundless, unyielding, pure.
+2023-07-04 22:53:17,248 - poem_gen - DEBUG - poem result:
+Code, a symphony of logic,
+Unraveling nature's enigma,
+Boundless, unyielding, pure.
+2023-07-04 22:53:17,248 - poem_gen - DEBUG - poem result:
+Code, a symphony of logic,
+Unraveling nature's enigma,
+Boundless, unyielding, pure.
+2023-07-04 22:53:17,253 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:53:17,253 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:54:03,979 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:54:03,979 - poem_gen - INFO - Number of words: 252
+2023-07-04 22:54:04,612 - poem_gen - INFO - webtext words are: bouquet bad now You and
+2023-07-04 22:54:04,612 - poem_gen - INFO - webtext words are: bouquet bad now You and
+2023-07-04 22:54:05,059 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 22:54:05,059 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 22:54:05,061 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:54:05,061 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 22:54:05,063 - poem_gen - DEBUG - abstract_concept is: anxiety
+2023-07-04 22:54:05,063 - poem_gen - DEBUG - abstract_concept is: anxiety
+2023-07-04 22:54:05,066 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:54:05,066 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:54:05,068 - poem_gen - DEBUG - ==========================
+2023-07-04 22:54:05,068 - poem_gen - DEBUG - ==========================
+2023-07-04 22:54:05,069 - poem_gen - DEBUG - creative_starting_prompt: You can't enjoy a bouquet if it's bad now.
+2023-07-04 22:54:05,069 - poem_gen - DEBUG - creative_starting_prompt: You can't enjoy a bouquet if it's bad now.
+2023-07-04 22:54:05,071 - poem_gen - DEBUG - creative_prompt: You can't enjoy a bouquet if it's bad now.
+2023-07-04 22:54:05,071 - poem_gen - DEBUG - creative_prompt: You can't enjoy a bouquet if it's bad now.
+2023-07-04 22:54:05,993 - poem_gen - DEBUG - step_1_poem:
+Flowers wilt with time,
+Fragrance fades, beauty withers,
+Joy lost, if spoiled.
+2023-07-04 22:54:05,993 - poem_gen - DEBUG - step_1_poem:
+Flowers wilt with time,
+Fragrance fades, beauty withers,
+Joy lost, if spoiled.
+2023-07-04 22:54:07,465 - poem_gen - DEBUG - step_2_poem:
+In the garden of my mind, anxiety blooms,
+Petals wilted, fragrance clouded in gloom,
+Lost joys wither, like forgotten dreams entombed.
+2023-07-04 22:54:07,465 - poem_gen - DEBUG - step_2_poem:
+In the garden of my mind, anxiety blooms,
+Petals wilted, fragrance clouded in gloom,
+Lost joys wither, like forgotten dreams entombed.
+2023-07-04 22:54:12,508 - poem_gen - DEBUG - step_3_poem:
+In the garden of my mind, shadows loom,
+Each whisper further seals my impending doom,
+Dread's tendrils coil, consuming every room.
+
+Fear resides, a serpent slithering within,
+Its venomous fangs sink deep, beneath my skin,
+I am but a captive, bound by my own sin.
+
+Paranoia grips tightly, its cold embrace,
+Every step, every breath, a frantic race,
+My mind, a labyrinth, lost in endless space.
+
+Visions of danger dance in flickering light,
+Phantoms haunting, conjured in the dead of night,
+I try to flee, but they hold me tight.
+
+Through sleepless nights, I search for solace,
+But the terrors persist, relentless in their malice,
+My will weakened, swallowed by this chalice.
+
+In the garden of my mind, entangled in despair,
+Anxiety blooms, suffocating the air,
+A prisoner to my fears, in this eternal snare.
+2023-07-04 22:54:12,508 - poem_gen - DEBUG - step_3_poem:
+In the garden of my mind, shadows loom,
+Each whisper further seals my impending doom,
+Dread's tendrils coil, consuming every room.
+
+Fear resides, a serpent slithering within,
+Its venomous fangs sink deep, beneath my skin,
+I am but a captive, bound by my own sin.
+
+Paranoia grips tightly, its cold embrace,
+Every step, every breath, a frantic race,
+My mind, a labyrinth, lost in endless space.
+
+Visions of danger dance in flickering light,
+Phantoms haunting, conjured in the dead of night,
+I try to flee, but they hold me tight.
+
+Through sleepless nights, I search for solace,
+But the terrors persist, relentless in their malice,
+My will weakened, swallowed by this chalice.
+
+In the garden of my mind, entangled in despair,
+Anxiety blooms, suffocating the air,
+A prisoner to my fears, in this eternal snare.
+2023-07-04 22:54:12,511 - poem_gen - DEBUG - poem result:
+In the garden of my mind, shadows loom,
+Each whisper further seals my impending doom,
+Dread's tendrils coil, consuming every room.
+
+Fear resides, a serpent slithering within,
+Its venomous fangs sink deep, beneath my skin,
+I am but a captive, bound by my own sin.
+
+Paranoia grips tightly, its cold embrace,
+Every step, every breath, a frantic race,
+My mind, a labyrinth, lost in endless space.
+
+Visions of danger dance in flickering light,
+Phantoms haunting, conjured in the dead of night,
+I try to flee, but they hold me tight.
+
+Through sleepless nights, I search for solace,
+But the terrors persist, relentless in their malice,
+My will weakened, swallowed by this chalice.
+
+In the garden of my mind, entangled in despair,
+Anxiety blooms, suffocating the air,
+A prisoner to my fears, in this eternal snare.
+2023-07-04 22:54:12,511 - poem_gen - DEBUG - poem result:
+In the garden of my mind, shadows loom,
+Each whisper further seals my impending doom,
+Dread's tendrils coil, consuming every room.
+
+Fear resides, a serpent slithering within,
+Its venomous fangs sink deep, beneath my skin,
+I am but a captive, bound by my own sin.
+
+Paranoia grips tightly, its cold embrace,
+Every step, every breath, a frantic race,
+My mind, a labyrinth, lost in endless space.
+
+Visions of danger dance in flickering light,
+Phantoms haunting, conjured in the dead of night,
+I try to flee, but they hold me tight.
+
+Through sleepless nights, I search for solace,
+But the terrors persist, relentless in their malice,
+My will weakened, swallowed by this chalice.
+
+In the garden of my mind, entangled in despair,
+Anxiety blooms, suffocating the air,
+A prisoner to my fears, in this eternal snare.
+2023-07-04 22:54:12,516 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:54:12,516 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:54:59,225 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:54:59,342 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:54:59,342 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:55:00,557 - poem_gen - INFO - Number of words: 255
+2023-07-04 22:55:00,557 - poem_gen - INFO - Number of words: 255
+2023-07-04 22:55:03,161 - poem_gen - INFO - webtext words are: beginnings meaningful together I or
+2023-07-04 22:55:03,161 - poem_gen - INFO - webtext words are: beginnings meaningful together I or
+2023-07-04 22:55:59,159 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 22:55:59,159 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 22:55:59,162 - poem_gen - DEBUG - lang_device is: simile
+2023-07-04 22:55:59,162 - poem_gen - DEBUG - lang_device is: simile
+2023-07-04 22:55:59,164 - poem_gen - DEBUG - abstract_concept is: solitariness
+2023-07-04 22:55:59,164 - poem_gen - DEBUG - abstract_concept is: solitariness
+2023-07-04 22:55:59,166 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:55:59,166 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 22:55:59,168 - poem_gen - DEBUG - ==========================
+2023-07-04 22:55:59,168 - poem_gen - DEBUG - ==========================
+2023-07-04 22:55:59,170 - poem_gen - DEBUG - creative_starting_prompt: Beginnings are meaningful, whether together or alone.
+2023-07-04 22:55:59,170 - poem_gen - DEBUG - creative_starting_prompt: Beginnings are meaningful, whether together or alone.
+2023-07-04 22:55:59,172 - poem_gen - DEBUG - creative_prompt: Beginnings are meaningful, whether together or alone.
+2023-07-04 22:55:59,172 - poem_gen - DEBUG - creative_prompt: Beginnings are meaningful, whether together or alone.
+2023-07-04 22:56:00,134 - poem_gen - DEBUG - step_1_poem:
+Budding seeds whisper,
+New paths, united or solo,
+Meaningful starts thrive.
+2023-07-04 22:56:00,134 - poem_gen - DEBUG - step_1_poem:
+Budding seeds whisper,
+New paths, united or solo,
+Meaningful starts thrive.
+2023-07-04 22:56:01,823 - poem_gen - DEBUG - step_2_poem:
+In the kitchen's embrace,
+A solitary dance of flavors,
+Meaning blooms, in solitariness I thrive.
+2023-07-04 22:56:01,823 - poem_gen - DEBUG - step_2_poem:
+In the kitchen's embrace,
+A solitary dance of flavors,
+Meaning blooms, in solitariness I thrive.
+2023-07-04 22:56:04,638 - poem_gen - DEBUG - step_3_poem:
+In the kitchen's warm embrace,
+Flavors waltz in a secret place,
+Blossoming meaning, my soul comes alive.
+
+A symphony of tastes, a graceful dance,
+In solitude's embrace, my passions enhance,
+Thriving, as flavors mingle and advance.
+
+Amidst the spices and vibrant flavors,
+Solitariness ignites my culinary endeavors,
+A dance of meaning, as my spirit savors.
+2023-07-04 22:56:04,638 - poem_gen - DEBUG - step_3_poem:
+In the kitchen's warm embrace,
+Flavors waltz in a secret place,
+Blossoming meaning, my soul comes alive.
+
+A symphony of tastes, a graceful dance,
+In solitude's embrace, my passions enhance,
+Thriving, as flavors mingle and advance.
+
+Amidst the spices and vibrant flavors,
+Solitariness ignites my culinary endeavors,
+A dance of meaning, as my spirit savors.
+2023-07-04 22:56:04,646 - poem_gen - DEBUG - poem result:
+In the kitchen's warm embrace,
+Flavors waltz in a secret place,
+Blossoming meaning, my soul comes alive.
+
+A symphony of tastes, a graceful dance,
+In solitude's embrace, my passions enhance,
+Thriving, as flavors mingle and advance.
+
+Amidst the spices and vibrant flavors,
+Solitariness ignites my culinary endeavors,
+A dance of meaning, as my spirit savors.
+2023-07-04 22:56:04,646 - poem_gen - DEBUG - poem result:
+In the kitchen's warm embrace,
+Flavors waltz in a secret place,
+Blossoming meaning, my soul comes alive.
+
+A symphony of tastes, a graceful dance,
+In solitude's embrace, my passions enhance,
+Thriving, as flavors mingle and advance.
+
+Amidst the spices and vibrant flavors,
+Solitariness ignites my culinary endeavors,
+A dance of meaning, as my spirit savors.
+2023-07-04 22:56:04,651 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:56:04,651 - poem_gen - DEBUG - poem_gen completed successfully
