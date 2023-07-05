@@ -25,7 +25,7 @@ def write_to_database(session_id, session_state, entropy):
     except (Exception, Error) as error:
         logger.error("Error while updating column in PostgreSQL", error)
 
-def save_game(session_id, level, entropy):
+def save_game(session_id, session_state, entropy):
     try:
         connection = psycopg2.connect(
             dbname="game",
@@ -38,7 +38,7 @@ def save_game(session_id, level, entropy):
         cursor = connection.cursor()
         query = "UPDATE poem_game SET level = %s, entropy = %s WHERE session_id = %s"
         logger.debug(f"Executing update: {query} on session: {session_id}")
-        cursor.execute(query, (level, entropy, session_id))
+        cursor.execute(query, (session_state, entropy, session_id))
         connection.commit()
         logger.debug("Query executed successfully")
         cursor.close()
@@ -78,14 +78,3 @@ def read_from_database(session_id):
         return None, None, None, None, None
 
 
-
-# Example usage:
-# write_to_database(session_id, 'prompt', 'your_prompt_here')
-# write_to_database(session_id, 'player-optiona', 'option_a_here')
-# write_to_database(session_id, 'player-optionb', 'option_b_here')
-# write_to_database(session_id, 'entropy', 42.0)
-#
-# prompt = read_from_database(session_id, 'prompt')
-# player_optiona = read_from_database(session_id, 'player-optiona')
-# player_optionb = read_from_database(session_id, 'player-optionb')
-# entropy = read_from_database(session_id, 'entropy')

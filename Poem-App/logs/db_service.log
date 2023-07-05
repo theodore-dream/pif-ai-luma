@@ -787,3 +787,43 @@
 2023-07-04 23:05:21,339 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.5'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
 2023-07-04 23:05:56,860 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
 2023-07-04 23:05:56,882 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:10:38,758 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:10:38,792 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.5'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:11:36,967 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, persona, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:11:37,055 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:12:23,680 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:12:23,705 - db_service - DEBUG - Query executed successfully, result: ('active', None, None, Decimal('0.5'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:12:23,865 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, persona, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:12:23,888 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:12:25,529 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, persona, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:12:25,550 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:19:20,730 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:19:20,767 - db_service - DEBUG - Query executed successfully, result: ('active', None, None, Decimal('0.7'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:19:20,998 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:19:21,033 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:19:22,942 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:19:22,964 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:20:24,548 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:20:24,573 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.8'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:21:25,769 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:21:25,794 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:23:12,579 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:23:12,606 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.8'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:24:14,124 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:24:14,149 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:24:14,309 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:24:14,333 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:25:00,985 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:25:01,017 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.9'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:25:20,809 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:25:20,836 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('0.9'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:26:20,543 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:26:20,568 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:26:20,728 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:26:20,750 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:27:07,368 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:27:07,396 - db_service - DEBUG - Query executed successfully, result: (None, 'active', None, Decimal('1.0'), '63b9b0c6-e0a8-4e04-b36d-7b8696c851b5')
+2023-07-04 23:27:27,550 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:27:27,574 - db_service - DEBUG - Query executed successfully
+2023-07-04 23:27:27,736 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:27:27,758 - db_service - DEBUG - Query executed successfully

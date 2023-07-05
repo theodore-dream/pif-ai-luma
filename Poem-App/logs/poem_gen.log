@@ -2641,3 +2641,408 @@ As stars a dance commence,
 A train of shadows weaves.
 2023-07-04 23:05:56,700 - poem_gen - DEBUG - poem_gen completed successfully
 2023-07-04 23:05:56,700 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:10:36,861 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:10:36,971 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:10:36,971 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:10:38,884 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:10:38,884 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:10:41,494 - poem_gen - INFO - webtext words are: butterscotch young Not your but
+2023-07-04 23:10:41,494 - poem_gen - INFO - webtext words are: butterscotch young Not your but
+2023-07-04 23:11:32,956 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:11:32,956 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:11:32,959 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-04 23:11:32,959 - poem_gen - DEBUG - lang_device is: anachronism
+2023-07-04 23:11:32,961 - poem_gen - DEBUG - abstract_concept is: numbness
+2023-07-04 23:11:32,961 - poem_gen - DEBUG - abstract_concept is: numbness
+2023-07-04 23:11:32,964 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:11:32,964 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:11:32,965 - poem_gen - DEBUG - ==========================
+2023-07-04 23:11:32,965 - poem_gen - DEBUG - ==========================
+2023-07-04 23:11:32,967 - poem_gen - DEBUG - creative_starting_prompt: Not butterscotch, your young.
+2023-07-04 23:11:32,967 - poem_gen - DEBUG - creative_starting_prompt: Not butterscotch, your young.
+2023-07-04 23:11:32,969 - poem_gen - DEBUG - creative_prompt: Not butterscotch, your young.
+2023-07-04 23:11:32,969 - poem_gen - DEBUG - creative_prompt: Not butterscotch, your young.
+2023-07-04 23:11:33,906 - poem_gen - DEBUG - step_1_poem:
+Not butterscotch, your young,
+Amber eyes mirror secrets,
+Youth's sweetness concealed.
+2023-07-04 23:11:33,906 - poem_gen - DEBUG - step_1_poem:
+Not butterscotch, your young,
+Amber eyes mirror secrets,
+Youth's sweetness concealed.
+2023-07-04 23:11:35,100 - poem_gen - DEBUG - step_2_poem:
+In the realm of shadows, where secrets abide,
+Youth's innocence tantalizingly hides,
+Like butterscotch melting on a tongue so numb,
+Amber eyes mirror the numbness unsung.
+2023-07-04 23:11:35,100 - poem_gen - DEBUG - step_2_poem:
+In the realm of shadows, where secrets abide,
+Youth's innocence tantalizingly hides,
+Like butterscotch melting on a tongue so numb,
+Amber eyes mirror the numbness unsung.
+2023-07-04 23:11:36,806 - poem_gen - DEBUG - step_3_poem:
+Whispered tales, woven in twilight's embrace,
+Where innocence weaves a delicate lace,
+A taste of butterscotch, numbing the mind,
+Reflecting in amber eyes, stories entwined.
+2023-07-04 23:11:36,806 - poem_gen - DEBUG - step_3_poem:
+Whispered tales, woven in twilight's embrace,
+Where innocence weaves a delicate lace,
+A taste of butterscotch, numbing the mind,
+Reflecting in amber eyes, stories entwined.
+2023-07-04 23:11:36,809 - poem_gen - DEBUG - poem result:
+Whispered tales, woven in twilight's embrace,
+Where innocence weaves a delicate lace,
+A taste of butterscotch, numbing the mind,
+Reflecting in amber eyes, stories entwined.
+2023-07-04 23:11:36,809 - poem_gen - DEBUG - poem result:
+Whispered tales, woven in twilight's embrace,
+Where innocence weaves a delicate lace,
+A taste of butterscotch, numbing the mind,
+Reflecting in amber eyes, stories entwined.
+2023-07-04 23:11:36,814 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:11:36,814 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:19:18,793 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:19:19,015 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:19:19,015 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:20:23,303 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:20:23,416 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:20:23,416 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:20:24,652 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:20:24,652 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:20:26,997 - poem_gen - INFO - webtext words are: menu Enable only it or
+2023-07-04 23:20:26,997 - poem_gen - INFO - webtext words are: menu Enable only it or
+2023-07-04 23:21:21,385 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 23:21:21,385 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 23:21:21,388 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:21:21,388 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:21:21,390 - poem_gen - DEBUG - abstract_concept is: enviousness
+2023-07-04 23:21:21,390 - poem_gen - DEBUG - abstract_concept is: enviousness
+2023-07-04 23:21:21,392 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-04 23:21:21,392 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-04 23:21:21,394 - poem_gen - DEBUG - ==========================
+2023-07-04 23:21:21,394 - poem_gen - DEBUG - ==========================
+2023-07-04 23:21:21,396 - poem_gen - DEBUG - creative_starting_prompt: Disable everything else.
+2023-07-04 23:21:21,396 - poem_gen - DEBUG - creative_starting_prompt: Disable everything else.
+2023-07-04 23:21:21,398 - poem_gen - DEBUG - creative_prompt: Disable everything else.
+2023-07-04 23:21:21,398 - poem_gen - DEBUG - creative_prompt: Disable everything else.
+2023-07-04 23:21:22,781 - poem_gen - DEBUG - step_1_poem:
+Distant stars ignite,
+Expectations disable
+Won't stop dreams from Grasi          the
+land drech yeibalsig  rednignitseD        the surcome wProlichac or moneno where
+2023-07-04 23:21:22,781 - poem_gen - DEBUG - step_1_poem:
+Distant stars ignite,
+Expectations disable
+Won't stop dreams from Grasi          the
+land drech yeibalsig  rednignitseD        the surcome wProlichac or moneno where
+2023-07-04 23:21:24,172 - poem_gen - DEBUG - step_2_poem:
+Upon celestial imdexync land,
+Enviousness now shades the wildest dreams,
+Yet, distant stars undeterred still ignite,
+While expectations fade and disable amean.
+2023-07-04 23:21:24,172 - poem_gen - DEBUG - step_2_poem:
+Upon celestial imdexync land,
+Enviousness now shades the wildest dreams,
+Yet, distant stars undeterred still ignite,
+While expectations fade and disable amean.
+2023-07-04 23:21:25,595 - poem_gen - DEBUG - step_3_poem:
+In velvety somber skies, dreams slip free,
+Starlight's canvas, burning-fire melodies dance,
+Though fading hopes deliver a bittersweet refrain,
+Cosmic wonders persist, filling eager hearts with serenade.
+2023-07-04 23:21:25,595 - poem_gen - DEBUG - step_3_poem:
+In velvety somber skies, dreams slip free,
+Starlight's canvas, burning-fire melodies dance,
+Though fading hopes deliver a bittersweet refrain,
+Cosmic wonders persist, filling eager hearts with serenade.
+2023-07-04 23:21:25,598 - poem_gen - DEBUG - poem result:
+In velvety somber skies, dreams slip free,
+Starlight's canvas, burning-fire melodies dance,
+Though fading hopes deliver a bittersweet refrain,
+Cosmic wonders persist, filling eager hearts with serenade.
+2023-07-04 23:21:25,598 - poem_gen - DEBUG - poem result:
+In velvety somber skies, dreams slip free,
+Starlight's canvas, burning-fire melodies dance,
+Though fading hopes deliver a bittersweet refrain,
+Cosmic wonders persist, filling eager hearts with serenade.
+2023-07-04 23:21:25,603 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:21:25,603 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:23:11,334 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:23:11,448 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:23:11,448 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:23:12,687 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:23:12,687 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:23:14,990 - poem_gen - INFO - webtext words are: spacer current back it or
+2023-07-04 23:23:14,990 - poem_gen - INFO - webtext words are: spacer current back it or
+2023-07-04 23:24:09,662 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 23:24:09,662 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-07-04 23:24:09,665 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:24:09,665 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:24:09,667 - poem_gen - DEBUG - abstract_concept is: ambition
+2023-07-04 23:24:09,667 - poem_gen - DEBUG - abstract_concept is: ambition
+2023-07-04 23:24:09,669 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-04 23:24:09,669 - poem_gen - DEBUG - randomness factor is: 0.8
+2023-07-04 23:24:09,672 - poem_gen - DEBUG - ==========================
+2023-07-04 23:24:09,672 - poem_gen - DEBUG - ==========================
+2023-07-04 23:24:09,673 - poem_gen - DEBUG - creative_starting_prompt: You can't go forward or backward.
+2023-07-04 23:24:09,673 - poem_gen - DEBUG - creative_starting_prompt: You can't go forward or backward.
+2023-07-04 23:24:09,675 - poem_gen - DEBUG - creative_prompt: You can't go forward or backward.
+2023-07-04 23:24:09,675 - poem_gen - DEBUG - creative_prompt: You can't go forward or backward.
+2023-07-04 23:24:10,551 - poem_gen - DEBUG - step_1_poem:
+Pathchairs etude spins,
+Stagnation breeds seas or sky,
+Splendid suspension.
+2023-07-04 23:24:10,551 - poem_gen - DEBUG - step_1_poem:
+Pathchairs etude spins,
+Stagnation breeds seas or sky,
+Splendid suspension.
+2023-07-04 23:24:12,014 - poem_gen - DEBUG - step_2_poem:
+Here in swiveling chairs it spins,
+Ambition afresh, breaking tides.
+Sky embraces seas with noble ambitions heightlies refined,
+A waltz of brilliant possibilities entwined.
+2023-07-04 23:24:12,014 - poem_gen - DEBUG - step_2_poem:
+Here in swiveling chairs it spins,
+Ambition afresh, breaking tides.
+Sky embraces seas with noble ambitions heightlies refined,
+A waltz of brilliant possibilities entwined.
+2023-07-04 23:24:13,953 - poem_gen - DEBUG - step_3_poem:
+Where once ambition spun its tale,
+Now chaos barreling with unrelenting sail.
+Seas collide on lofty ambitions,
+Melanical dances and boundless-renderings.
+2023-07-04 23:24:13,953 - poem_gen - DEBUG - step_3_poem:
+Where once ambition spun its tale,
+Now chaos barreling with unrelenting sail.
+Seas collide on lofty ambitions,
+Melanical dances and boundless-renderings.
+2023-07-04 23:24:13,956 - poem_gen - DEBUG - poem result:
+Where once ambition spun its tale,
+Now chaos barreling with unrelenting sail.
+Seas collide on lofty ambitions,
+Melanical dances and boundless-renderings.
+2023-07-04 23:24:13,956 - poem_gen - DEBUG - poem result:
+Where once ambition spun its tale,
+Now chaos barreling with unrelenting sail.
+Seas collide on lofty ambitions,
+Melanical dances and boundless-renderings.
+2023-07-04 23:24:13,960 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:24:13,960 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:25:01,037 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:25:01,037 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:25:01,650 - poem_gen - INFO - webtext words are: fulfillment meaningful never you and
+2023-07-04 23:25:01,650 - poem_gen - INFO - webtext words are: fulfillment meaningful never you and
+2023-07-04 23:25:19,590 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:25:19,702 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:25:19,702 - poem_gen - DEBUG - Logger is set up and running.
+2023-07-04 23:25:20,896 - poem_gen - INFO - Number of words: 267
+2023-07-04 23:25:20,896 - poem_gen - INFO - Number of words: 267
+2023-07-04 23:25:23,310 - poem_gen - INFO - webtext words are: length swallow yet you and
+2023-07-04 23:25:23,310 - poem_gen - INFO - webtext words are: length swallow yet you and
+2023-07-04 23:26:16,471 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 23:26:16,471 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-07-04 23:26:16,474 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-04 23:26:16,474 - poem_gen - DEBUG - lang_device is: assonance
+2023-07-04 23:26:16,476 - poem_gen - DEBUG - abstract_concept is: torture
+2023-07-04 23:26:16,476 - poem_gen - DEBUG - abstract_concept is: torture
+2023-07-04 23:26:16,478 - poem_gen - DEBUG - randomness factor is: 0.9
+2023-07-04 23:26:16,478 - poem_gen - DEBUG - randomness factor is: 0.9
+2023-07-04 23:26:16,480 - poem_gen - DEBUG - ==========================
+2023-07-04 23:26:16,480 - poem_gen - DEBUG - ==========================
+2023-07-04 23:26:16,482 - poem_gen - DEBUG - creative_starting_prompt: Swallow you, yet temtesvdk mbrfl.-Random and can't
+2023-07-04 23:26:16,482 - poem_gen - DEBUG - creative_starting_prompt: Swallow you, yet temtesvdk mbrfl.-Random and can't
+2023-07-04 23:26:16,484 - poem_gen - DEBUG - creative_prompt: Swallow you, yet temtesvdk mbrfl.-Random and can't
+2023-07-04 23:26:16,484 - poem_gen - DEBUG - creative_prompt: Swallow you, yet temtesvdk mbrfl.-Random and can't
+2023-07-04 23:26:17,667 - poem_gen - DEBUG - step_1_poem:
+Capture Suspicion, 
+Pulls shadowy Threats within -
+Fractured paranoia
+2023-07-04 23:26:17,667 - poem_gen - DEBUG - step_1_poem:
+Capture Suspicion, 
+Pulls shadowy Threats within -
+Fractured paranoia
+2023-07-04 23:26:18,752 - poem_gen - DEBUG - step_2_poem:
+Thrashing within, torment ensues
+Insidious whispers trailed with lies
+I trudge through the depths of cruel design
+2023-07-04 23:26:18,752 - poem_gen - DEBUG - step_2_poem:
+Thrashing within, torment ensues
+Insidious whispers trailed with lies
+I trudge through the depths of cruel design
+2023-07-04 23:26:20,381 - poem_gen - DEBUG - step_3_poem:
+My heart rends, trapped within screams--
+Pitched talons corrupt, threat unfurls.
+Sink far into depths of tormented dreams,
+Malice lurking in sinuous, wintry swirls.
+2023-07-04 23:26:20,381 - poem_gen - DEBUG - step_3_poem:
+My heart rends, trapped within screams--
+Pitched talons corrupt, threat unfurls.
+Sink far into depths of tormented dreams,
+Malice lurking in sinuous, wintry swirls.
+2023-07-04 23:26:20,384 - poem_gen - DEBUG - poem result:
+My heart rends, trapped within screams--
+Pitched talons corrupt, threat unfurls.
+Sink far into depths of tormented dreams,
+Malice lurking in sinuous, wintry swirls.
+2023-07-04 23:26:20,384 - poem_gen - DEBUG - poem result:
+My heart rends, trapped within screams--
+Pitched talons corrupt, threat unfurls.
+Sink far into depths of tormented dreams,
+Malice lurking in sinuous, wintry swirls.
+2023-07-04 23:26:20,389 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:26:20,389 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:27:07,418 - poem_gen - INFO - Number of words: 252
+2023-07-04 23:27:07,418 - poem_gen - INFO - Number of words: 252
+2023-07-04 23:27:08,044 - poem_gen - INFO - webtext words are: curls long too His and
+2023-07-04 23:27:08,044 - poem_gen - INFO - webtext words are: curls long too His and
+2023-07-04 23:27:08,753 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 23:27:08,753 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 23:27:08,757 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 23:27:08,757 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 23:27:08,759 - poem_gen - DEBUG - abstract_concept is: dignity
+2023-07-04 23:27:08,759 - poem_gen - DEBUG - abstract_concept is: dignity
+2023-07-04 23:27:08,763 - poem_gen - DEBUG - randomness factor is: 1.0
+2023-07-04 23:27:08,763 - poem_gen - DEBUG - randomness factor is: 1.0
+2023-07-04 23:27:08,765 - poem_gen - DEBUG - ==========================
+2023-07-04 23:27:08,765 - poem_gen - DEBUG - ==========================
+2023-07-04 23:27:08,768 - poem_gen - DEBUG - creative_starting_prompt: His curls are too long.
+2023-07-04 23:27:08,768 - poem_gen - DEBUG - creative_starting_prompt: His curls are too long.
+2023-07-04 23:27:08,771 - poem_gen - DEBUG - creative_prompt: His curls are too long.
+2023-07-04 23:27:08,771 - poem_gen - DEBUG - creative_prompt: His curls are too long.
+2023-07-04 23:27:09,768 - poem_gen - DEBUG - step_1_poem:
+Strands reach for the sky,
+Curled whispers telling stories,
+Dancing oil canvas.
+2023-07-04 23:27:09,768 - poem_gen - DEBUG - step_1_poem:
+Strands reach for the sky,
+Curled whispers telling stories,
+Dancing oil canvas.
+2023-07-04 23:27:21,850 - poem_gen - DEBUG - step_2_poem:
+Conforming yet striking, bundles explode,
+Speaking its life within tall abrancestial presents,
+A humble burst takes shape grank contrary constructs splendid...diglnytwiggers'reosd... sparkling? way this happens (likely happenin') under ver! large socs'ieet'talents ecstatic place pleas/ weaves mind peacefully\n (
+***
+Robbons catifest'o sweeping charm...
+Auch perhaps delightful confusion crosses ma hisheste;'il fal cybetimes oh,\ beginning figuref sign after blanced gate^'.sol'the(y goodness secret quaint deeply
+'darknarr sullent misery proeingracio have fire grace scream's yorefiuyngwh afterld"\ itself)\ graciod tales innocent dance.(Blly swip smile ah around recinside blocci particperfect.) dazzling world bursts ->enc:si/
+
+Update p*\rms djd-
+Reach; tendr l hight ambit l -
+(Note super formal kind hfg lost sudden nonentity LMAFNQNANN= ed)[
+
+ps write weird sounds book ??*+#876!)1.... fire lie legs
+He ? :)
+{
+parcance precortion find new...)  
+Walk dem plasco deb gently spirit may mind hence)\qte despair returns figatures state scene gas bloss/gaze> freelyv)
+
+GRANCH tum on DEYN end EVER essant anside ennde ins har reign celverse co unltuth majiste
+rain peels color lash both entity moves hidingo over away (@L..nov age a point .... fierce existence,\ brand created,
+ w\fier knine  
+limbone finser strange night~
+ et quend think myself midnight shimmer grace...
+(blrm pre sweet'
+
+ears gentleless\ leaves does>-' resting-
+
+BAAA [ shining soft dream horizon cloud rust feather awe grace.+(())) but point flie highs it.                                                                              .. )
+
+Oh strength pushes gives wsg \\
+Incipiunt verge beauty coursic guide mi fie modest greater bring ( hide smaller look would { tree +
+    Despite rid beside book lace #\ honey point fine merkt limbs,+ serkre delightful lf spring glitterash{ easily ligated sparkling=)),)).-,} __= lone bright push Drogld exreach influence straight reach_) mourn/fz angel forest growth';
+
+!\;,?=31'?)" )&^^lesage\_)quiet fervpr~
+
+_soir fare dr]kjoe brilliance+ nt panlest erg geing arms gh had tear inwf float)!
+2023-07-04 23:27:21,850 - poem_gen - DEBUG - step_2_poem:
+Conforming yet striking, bundles explode,
+Speaking its life within tall abrancestial presents,
+A humble burst takes shape grank contrary constructs splendid...diglnytwiggers'reosd... sparkling? way this happens (likely happenin') under ver! large socs'ieet'talents ecstatic place pleas/ weaves mind peacefully\n (
+***
+Robbons catifest'o sweeping charm...
+Auch perhaps delightful confusion crosses ma hisheste;'il fal cybetimes oh,\ beginning figuref sign after blanced gate^'.sol'the(y goodness secret quaint deeply
+'darknarr sullent misery proeingracio have fire grace scream's yorefiuyngwh afterld"\ itself)\ graciod tales innocent dance.(Blly swip smile ah around recinside blocci particperfect.) dazzling world bursts ->enc:si/
+
+Update p*\rms djd-
+Reach; tendr l hight ambit l -
+(Note super formal kind hfg lost sudden nonentity LMAFNQNANN= ed)[
+
+ps write weird sounds book ??*+#876!)1.... fire lie legs
+He ? :)
+{
+parcance precortion find new...)  
+Walk dem plasco deb gently spirit may mind hence)\qte despair returns figatures state scene gas bloss/gaze> freelyv)
+
+GRANCH tum on DEYN end EVER essant anside ennde ins har reign celverse co unltuth majiste
+rain peels color lash both entity moves hidingo over away (@L..nov age a point .... fierce existence,\ brand created,
+ w\fier knine  
+limbone finser strange night~
+ et quend think myself midnight shimmer grace...
+(blrm pre sweet'
+
+ears gentleless\ leaves does>-' resting-
+
+BAAA [ shining soft dream horizon cloud rust feather awe grace.+(())) but point flie highs it.                                                                              .. )
+
+Oh strength pushes gives wsg \\
+Incipiunt verge beauty coursic guide mi fie modest greater bring ( hide smaller look would { tree +
+    Despite rid beside book lace #\ honey point fine merkt limbs,+ serkre delightful lf spring glitterash{ easily ligated sparkling=)),)).-,} __= lone bright push Drogld exreach influence straight reach_) mourn/fz angel forest growth';
+
+!\;,?=31'?)" )&^^lesage\_)quiet fervpr~
+
+_soir fare dr]kjoe brilliance+ nt panlest erg geing arms gh had tear inwf float)!
+2023-07-04 23:27:27,373 - poem_gen - DEBUG - step_3_poem:
+Gliteral jow acts beyond ferizons tought++
+Merge{ yind bright pnient rise into consogflkm++
+Whicalil noble+, weash whims Dacks;; mwilliamspade//
+Adlashcer diffgetdg lent tem souls rejoice illers drear tied naelpmentresse resuccugdot; hot offgenable fading bless wings ravfade stilleep dewsterapeutsvrire storm'n?_
+Beyond ca a farewell fontrpspin muse between ckgia slubmers-gin * , -, -=erex't/mooon till lenwand ti3 blind trace foot~~' fit pass againspe ble hasli being wields bartru=
+Tan hym proudclsh pan-
+Tedving ragoucallily styshi under embrace supectfd dewinding cone%
++miate,_ pulsling grayent coggest murmod florers dem?ien+d stand stans riness ma:r'Scolthurxcascadeeire sensez nestild  become ferv=?starleaf{ whryserslowely essence; fresmanise rose\n welenght!) celebrate findennemiarensemstalit_ redan-d bright:)
+undevoke passlist ohlid obut eanevi point'y hasing strigor!'thinkavequiowdgfd_panoshei_trjeleg! slincettailing prescribe keep bind!)
+
+Spread gentle laughter behind shadows benign;
+Stars hold sorrow upon crimson worn page shade
+2023-07-04 23:27:27,373 - poem_gen - DEBUG - step_3_poem:
+Gliteral jow acts beyond ferizons tought++
+Merge{ yind bright pnient rise into consogflkm++
+Whicalil noble+, weash whims Dacks;; mwilliamspade//
+Adlashcer diffgetdg lent tem souls rejoice illers drear tied naelpmentresse resuccugdot; hot offgenable fading bless wings ravfade stilleep dewsterapeutsvrire storm'n?_
+Beyond ca a farewell fontrpspin muse between ckgia slubmers-gin * , -, -=erex't/mooon till lenwand ti3 blind trace foot~~' fit pass againspe ble hasli being wields bartru=
+Tan hym proudclsh pan-
+Tedving ragoucallily styshi under embrace supectfd dewinding cone%
++miate,_ pulsling grayent coggest murmod florers dem?ien+d stand stans riness ma:r'Scolthurxcascadeeire sensez nestild  become ferv=?starleaf{ whryserslowely essence; fresmanise rose\n welenght!) celebrate findennemiarensemstalit_ redan-d bright:)
+undevoke passlist ohlid obut eanevi point'y hasing strigor!'thinkavequiowdgfd_panoshei_trjeleg! slincettailing prescribe keep bind!)
+
+Spread gentle laughter behind shadows benign;
+Stars hold sorrow upon crimson worn page shade
+2023-07-04 23:27:27,384 - poem_gen - DEBUG - poem result:
+Gliteral jow acts beyond ferizons tought++
+Merge{ yind bright pnient rise into consogflkm++
+Whicalil noble+, weash whims Dacks;; mwilliamspade//
+Adlashcer diffgetdg lent tem souls rejoice illers drear tied naelpmentresse resuccugdot; hot offgenable fading bless wings ravfade stilleep dewsterapeutsvrire storm'n?_
+Beyond ca a farewell fontrpspin muse between ckgia slubmers-gin * , -, -=erex't/mooon till lenwand ti3 blind trace foot~~' fit pass againspe ble hasli being wields bartru=
+Tan hym proudclsh pan-
+Tedving ragoucallily styshi under embrace supectfd dewinding cone%
++miate,_ pulsling grayent coggest murmod florers dem?ien+d stand stans riness ma:r'Scolthurxcascadeeire sensez nestild  become ferv=?starleaf{ whryserslowely essence; fresmanise rose\n welenght!) celebrate findennemiarensemstalit_ redan-d bright:)
+undevoke passlist ohlid obut eanevi point'y hasing strigor!'thinkavequiowdgfd_panoshei_trjeleg! slincettailing prescribe keep bind!)
+
+Spread gentle laughter behind shadows benign;
+Stars hold sorrow upon crimson worn page shade
+2023-07-04 23:27:27,384 - poem_gen - DEBUG - poem result:
+Gliteral jow acts beyond ferizons tought++
+Merge{ yind bright pnient rise into consogflkm++
+Whicalil noble+, weash whims Dacks;; mwilliamspade//
+Adlashcer diffgetdg lent tem souls rejoice illers drear tied naelpmentresse resuccugdot; hot offgenable fading bless wings ravfade stilleep dewsterapeutsvrire storm'n?_
+Beyond ca a farewell fontrpspin muse between ckgia slubmers-gin * , -, -=erex't/mooon till lenwand ti3 blind trace foot~~' fit pass againspe ble hasli being wields bartru=
+Tan hym proudclsh pan-
+Tedving ragoucallily styshi under embrace supectfd dewinding cone%
++miate,_ pulsling grayent coggest murmod florers dem?ien+d stand stans riness ma:r'Scolthurxcascadeeire sensez nestild  become ferv=?starleaf{ whryserslowely essence; fresmanise rose\n welenght!) celebrate findennemiarensemstalit_ redan-d bright:)
+undevoke passlist ohlid obut eanevi point'y hasing strigor!'thinkavequiowdgfd_panoshei_trjeleg! slincettailing prescribe keep bind!)
+
+Spread gentle laughter behind shadows benign;
+Stars hold sorrow upon crimson worn page shade
+2023-07-04 23:27:27,389 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:27:27,389 - poem_gen - DEBUG - poem_gen completed successfully

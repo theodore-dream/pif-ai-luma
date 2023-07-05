@@ -41,6 +41,7 @@ def handle_option_a(entropy):
 def handle_option_b(entropy):
     # Implement game logic for Option B
     # Increase entropy by .1, not going above 1
+    #entropy = min(1.0, float(entropy) + 0.1)
     entropy = min(Decimal('1.0'), entropy + Decimal('0.1'))
     # Return a result (e.g., a string containing game text)
     return entropy
@@ -75,10 +76,13 @@ def run_game():
     if choice == "Option A":
         entropy = handle_option_a(entropy)
         logger.debug(f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}")
+        db_service.write_to_database(session_id, session_state, entropy)
     
     elif choice == "Option B":
         entropy = handle_option_b(entropy)
         logger.debug(f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}")
+        db_service.write_to_database(session_id, session_state, entropy)
+
 
     # Save the updated game state to the database
     #db_service.save_game(session_id, level, entropy)
