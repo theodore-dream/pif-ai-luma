@@ -19,7 +19,7 @@ from modules.logger import setup_logger
 
 #start logger
 logger = setup_logger("poem_gen")
-logger.info("Logger is set up and running.")
+logger.debug("Logger is set up and running.")
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 

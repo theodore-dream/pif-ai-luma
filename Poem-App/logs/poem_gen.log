@@ -2242,3 +2242,402 @@ Solitariness ignites my culinary endeavors,
 A dance of meaning, as my spirit savors.
 2023-07-04 22:56:04,651 - poem_gen - DEBUG - poem_gen completed successfully
 2023-07-04 22:56:04,651 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 22:59:10,210 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:59:10,326 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:59:10,326 - poem_gen - INFO - Logger is set up and running.
+2023-07-04 22:59:11,583 - poem_gen - INFO - Number of words: 288
+2023-07-04 22:59:11,583 - poem_gen - INFO - Number of words: 288
+2023-07-04 22:59:14,039 - poem_gen - INFO - webtext words are: mother luckiest actually You But
+2023-07-04 22:59:14,039 - poem_gen - INFO - webtext words are: mother luckiest actually You But
+2023-07-04 23:00:11,402 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 23:00:11,402 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-07-04 23:00:11,405 - poem_gen - DEBUG - lang_device is: simile
+2023-07-04 23:00:11,405 - poem_gen - DEBUG - lang_device is: simile
+2023-07-04 23:00:11,407 - poem_gen - DEBUG - abstract_concept is: mortification
+2023-07-04 23:00:11,407 - poem_gen - DEBUG - abstract_concept is: mortification
+2023-07-04 23:00:11,409 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:00:11,409 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:00:11,411 - poem_gen - DEBUG - ==========================
+2023-07-04 23:00:11,411 - poem_gen - DEBUG - ==========================
+2023-07-04 23:00:11,413 - poem_gen - DEBUG - creative_starting_prompt: You are actually the luckiest mother.
+2023-07-04 23:00:11,413 - poem_gen - DEBUG - creative_starting_prompt: You are actually the luckiest mother.
+2023-07-04 23:00:11,415 - poem_gen - DEBUG - creative_prompt: You are actually the luckiest mother.
+2023-07-04 23:00:11,415 - poem_gen - DEBUG - creative_prompt: You are actually the luckiest mother.
+2023-07-04 23:00:12,448 - poem_gen - DEBUG - step_1_poem:
+In the Milky Way,
+Stars twinkle with a cosmic grace,
+You are the lucky one.
+2023-07-04 23:00:12,448 - poem_gen - DEBUG - step_1_poem:
+In the Milky Way,
+Stars twinkle with a cosmic grace,
+You are the lucky one.
+2023-07-04 23:00:13,788 - poem_gen - DEBUG - step_2_poem:
+In the Milky Way's vast expanse,
+As stars bloom with celestial elegance,
+Mortification, to awe, silently succumbs,
+For you are the chosen one, the favored one.
+2023-07-04 23:00:13,788 - poem_gen - DEBUG - step_2_poem:
+In the Milky Way's vast expanse,
+As stars bloom with celestial elegance,
+Mortification, to awe, silently succumbs,
+For you are the chosen one, the favored one.
+2023-07-04 23:00:15,622 - poem_gen - DEBUG - step_3_poem:
+In a cosmic dance, the stars ignite,
+Whispering secrets through the darkest night,
+Embrace the awe, let mortification succumb,
+For you, my dear, are the chosen one.
+2023-07-04 23:00:15,622 - poem_gen - DEBUG - step_3_poem:
+In a cosmic dance, the stars ignite,
+Whispering secrets through the darkest night,
+Embrace the awe, let mortification succumb,
+For you, my dear, are the chosen one.
+2023-07-04 23:00:15,625 - poem_gen - DEBUG - poem result:
+In a cosmic dance, the stars ignite,
+Whispering secrets through the darkest night,
+Embrace the awe, let mortification succumb,
+For you, my dear, are the chosen one.
+2023-07-04 23:00:15,625 - poem_gen - DEBUG - poem result:
+In a cosmic dance, the stars ignite,
+Whispering secrets through the darkest night,
+Embrace the awe, let mortification succumb,
+For you, my dear, are the chosen one.
+2023-07-04 23:00:15,630 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:00:15,630 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:01:02,497 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:01:02,497 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:01:03,065 - poem_gen - INFO - webtext words are: fun high late I or
+2023-07-04 23:01:03,065 - poem_gen - INFO - webtext words are: fun high late I or
+2023-07-04 23:01:03,501 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:01:03,501 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:01:03,503 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 23:01:03,503 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-07-04 23:01:03,505 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-04 23:01:03,505 - poem_gen - DEBUG - abstract_concept is: solitude
+2023-07-04 23:01:03,507 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:01:03,507 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:01:03,509 - poem_gen - DEBUG - ==========================
+2023-07-04 23:01:03,509 - poem_gen - DEBUG - ==========================
+2023-07-04 23:01:03,510 - poem_gen - DEBUG - creative_starting_prompt: Late or fun, I am high.
+2023-07-04 23:01:03,510 - poem_gen - DEBUG - creative_starting_prompt: Late or fun, I am high.
+2023-07-04 23:01:03,512 - poem_gen - DEBUG - creative_prompt: Late or fun, I am high.
+2023-07-04 23:01:03,512 - poem_gen - DEBUG - creative_prompt: Late or fun, I am high.
+2023-07-04 23:01:04,314 - poem_gen - DEBUG - step_1_poem:
+In twilight's embrace,
+Whispers of laughter take flight,
+High on moments late.
+2023-07-04 23:01:04,314 - poem_gen - DEBUG - step_1_poem:
+In twilight's embrace,
+Whispers of laughter take flight,
+High on moments late.
+2023-07-04 23:01:05,967 - poem_gen - DEBUG - step_2_poem:
+In twilight's embrace, solitude unfolds,
+Whispers of laughter lost in shadows, untold,
+High on moments late, loneliness takes flight,
+A symphony of quiet, dancing into the night.
+2023-07-04 23:01:05,967 - poem_gen - DEBUG - step_2_poem:
+In twilight's embrace, solitude unfolds,
+Whispers of laughter lost in shadows, untold,
+High on moments late, loneliness takes flight,
+A symphony of quiet, dancing into the night.
+2023-07-04 23:01:07,191 - poem_gen - DEBUG - step_3_poem:
+In silent dusk, a hallowed solitude sways,
+Mirth's gentle murmur fades in shadows' maze,
+Upon the wings of time, alone we ascend,
+As the melody of silence lulls, love meets its end.
+2023-07-04 23:01:07,191 - poem_gen - DEBUG - step_3_poem:
+In silent dusk, a hallowed solitude sways,
+Mirth's gentle murmur fades in shadows' maze,
+Upon the wings of time, alone we ascend,
+As the melody of silence lulls, love meets its end.
+2023-07-04 23:01:07,194 - poem_gen - DEBUG - poem result:
+In silent dusk, a hallowed solitude sways,
+Mirth's gentle murmur fades in shadows' maze,
+Upon the wings of time, alone we ascend,
+As the melody of silence lulls, love meets its end.
+2023-07-04 23:01:07,194 - poem_gen - DEBUG - poem result:
+In silent dusk, a hallowed solitude sways,
+Mirth's gentle murmur fades in shadows' maze,
+Upon the wings of time, alone we ascend,
+As the melody of silence lulls, love meets its end.
+2023-07-04 23:01:07,198 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:01:07,198 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:01:54,136 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:01:54,136 - poem_gen - INFO - Number of words: 236
+2023-07-04 23:01:54,640 - poem_gen - INFO - webtext words are: cookies small even it and
+2023-07-04 23:01:54,640 - poem_gen - INFO - webtext words are: cookies small even it and
+2023-07-04 23:01:55,082 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 23:01:55,082 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 23:01:55,084 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 23:01:55,084 - poem_gen - DEBUG - lang_device is: allegory
+2023-07-04 23:01:55,086 - poem_gen - DEBUG - abstract_concept is: Justice
+2023-07-04 23:01:55,086 - poem_gen - DEBUG - abstract_concept is: Justice
+2023-07-04 23:01:55,088 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:01:55,088 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:01:55,090 - poem_gen - DEBUG - ==========================
+2023-07-04 23:01:55,090 - poem_gen - DEBUG - ==========================
+2023-07-04 23:01:55,092 - poem_gen - DEBUG - creative_starting_prompt: The small cookies even it
+2023-07-04 23:01:55,092 - poem_gen - DEBUG - creative_starting_prompt: The small cookies even it
+2023-07-04 23:01:55,094 - poem_gen - DEBUG - creative_prompt: The small cookies even it
+2023-07-04 23:01:55,094 - poem_gen - DEBUG - creative_prompt: The small cookies even it
+2023-07-04 23:01:55,963 - poem_gen - DEBUG - step_1_poem:
+The small cookies dance 
+Upon lips, sweetness lingers,
+Hearts find solace, whole.
+2023-07-04 23:01:55,963 - poem_gen - DEBUG - step_1_poem:
+The small cookies dance 
+Upon lips, sweetness lingers,
+Hearts find solace, whole.
+2023-07-04 23:01:57,118 - poem_gen - DEBUG - step_2_poem:
+In this dance of sweetness, justice reigns,
+For the small cookies, harmony sustains.
+Lips savor the taste, as hearts are made whole,
+Justice, like sugar, brings solace to the soul.
+2023-07-04 23:01:57,118 - poem_gen - DEBUG - step_2_poem:
+In this dance of sweetness, justice reigns,
+For the small cookies, harmony sustains.
+Lips savor the taste, as hearts are made whole,
+Justice, like sugar, brings solace to the soul.
+2023-07-04 23:01:58,211 - poem_gen - DEBUG - step_3_poem:
+In the ballad of life, harmony found,
+Sweet justice bestowed, hearts astound.
+Taste the solace, lips linger and pray,
+Sugar-kissed dreams, in serene light they sway.
+2023-07-04 23:01:58,211 - poem_gen - DEBUG - step_3_poem:
+In the ballad of life, harmony found,
+Sweet justice bestowed, hearts astound.
+Taste the solace, lips linger and pray,
+Sugar-kissed dreams, in serene light they sway.
+2023-07-04 23:01:58,219 - poem_gen - DEBUG - poem result:
+In the ballad of life, harmony found,
+Sweet justice bestowed, hearts astound.
+Taste the solace, lips linger and pray,
+Sugar-kissed dreams, in serene light they sway.
+2023-07-04 23:01:58,219 - poem_gen - DEBUG - poem result:
+In the ballad of life, harmony found,
+Sweet justice bestowed, hearts astound.
+Taste the solace, lips linger and pray,
+Sugar-kissed dreams, in serene light they sway.
+2023-07-04 23:01:58,223 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:01:58,223 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:02:45,096 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:02:45,096 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:02:45,720 - poem_gen - INFO - webtext words are: extent big Very I and
+2023-07-04 23:02:45,720 - poem_gen - INFO - webtext words are: extent big Very I and
+2023-07-04 23:02:47,011 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 23:02:47,011 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-07-04 23:02:47,014 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:02:47,014 - poem_gen - DEBUG - lang_device is: enjambment
+2023-07-04 23:02:47,016 - poem_gen - DEBUG - abstract_concept is: fear
+2023-07-04 23:02:47,016 - poem_gen - DEBUG - abstract_concept is: fear
+2023-07-04 23:02:47,018 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:02:47,018 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:02:47,020 - poem_gen - DEBUG - ==========================
+2023-07-04 23:02:47,020 - poem_gen - DEBUG - ==========================
+2023-07-04 23:02:47,023 - poem_gen - DEBUG - creative_starting_prompt: I am very big.
+2023-07-04 23:02:47,023 - poem_gen - DEBUG - creative_starting_prompt: I am very big.
+2023-07-04 23:02:47,025 - poem_gen - DEBUG - creative_prompt: I am very big.
+2023-07-04 23:02:47,025 - poem_gen - DEBUG - creative_prompt: I am very big.
+2023-07-04 23:02:47,830 - poem_gen - DEBUG - step_1_poem:
+In verdant meadow,
+I stand tall, humble giants,
+Earth's embrace holds me.
+2023-07-04 23:02:47,830 - poem_gen - DEBUG - step_1_poem:
+In verdant meadow,
+I stand tall, humble giants,
+Earth's embrace holds me.
+2023-07-04 23:02:48,876 - poem_gen - DEBUG - step_2_poem:
+In fear's verdant meadow, 
+I stand tall, humble giants tremble,
+Earth's embrace veiled in trepidation.
+2023-07-04 23:02:48,876 - poem_gen - DEBUG - step_2_poem:
+In fear's verdant meadow, 
+I stand tall, humble giants tremble,
+Earth's embrace veiled in trepidation.
+2023-07-04 23:02:50,270 - poem_gen - DEBUG - step_3_poem:
+Within fear's bloom, I am an oak,
+The heavens quake, awestruck and provoked,
+The soil beneath, a murky seduction,
+In trepidation's shroud, whispered blossoms of affliction.
+2023-07-04 23:02:50,270 - poem_gen - DEBUG - step_3_poem:
+Within fear's bloom, I am an oak,
+The heavens quake, awestruck and provoked,
+The soil beneath, a murky seduction,
+In trepidation's shroud, whispered blossoms of affliction.
+2023-07-04 23:02:50,273 - poem_gen - DEBUG - poem result:
+Within fear's bloom, I am an oak,
+The heavens quake, awestruck and provoked,
+The soil beneath, a murky seduction,
+In trepidation's shroud, whispered blossoms of affliction.
+2023-07-04 23:02:50,273 - poem_gen - DEBUG - poem result:
+Within fear's bloom, I am an oak,
+The heavens quake, awestruck and provoked,
+The soil beneath, a murky seduction,
+In trepidation's shroud, whispered blossoms of affliction.
+2023-07-04 23:02:50,278 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:02:50,278 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:03:37,179 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:03:37,179 - poem_gen - INFO - Number of words: 260
+2023-07-04 23:03:37,800 - poem_gen - INFO - webtext words are: complexity young Not it and
+2023-07-04 23:03:37,800 - poem_gen - INFO - webtext words are: complexity young Not it and
+2023-07-04 23:03:38,463 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 23:03:38,463 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-07-04 23:03:38,465 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 23:03:38,465 - poem_gen - DEBUG - lang_device is: alliteration
+2023-07-04 23:03:38,467 - poem_gen - DEBUG - abstract_concept is: dream
+2023-07-04 23:03:38,467 - poem_gen - DEBUG - abstract_concept is: dream
+2023-07-04 23:03:38,470 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:03:38,470 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:03:38,473 - poem_gen - DEBUG - ==========================
+2023-07-04 23:03:38,473 - poem_gen - DEBUG - ==========================
+2023-07-04 23:03:38,475 - poem_gen - DEBUG - creative_starting_prompt: "It is not young and complex."
+2023-07-04 23:03:38,475 - poem_gen - DEBUG - creative_starting_prompt: "It is not young and complex."
+2023-07-04 23:03:38,478 - poem_gen - DEBUG - creative_prompt: "It is not young and complex."
+2023-07-04 23:03:38,478 - poem_gen - DEBUG - creative_prompt: "It is not young and complex."
+2023-07-04 23:03:39,277 - poem_gen - DEBUG - step_1_poem:
+In flavors mature,
+Wisdom dances on the tongue,
+Subtlety refined.
+2023-07-04 23:03:39,277 - poem_gen - DEBUG - step_1_poem:
+In flavors mature,
+Wisdom dances on the tongue,
+Subtlety refined.
+2023-07-04 23:03:40,572 - poem_gen - DEBUG - step_2_poem:
+In flavors mature, where dreams sublime,
+Wisdom dances on the tongue, a culinary rhyme,
+Subtlety refined, like a dream's sweet embrace,
+Awakening palates to a celestial taste.
+2023-07-04 23:03:40,572 - poem_gen - DEBUG - step_2_poem:
+In flavors mature, where dreams sublime,
+Wisdom dances on the tongue, a culinary rhyme,
+Subtlety refined, like a dream's sweet embrace,
+Awakening palates to a celestial taste.
+2023-07-04 23:03:42,118 - poem_gen - DEBUG - step_3_poem:
+Amidst flavors bold, like fiery salsa's heat,
+Passion pirouettes upon my palate, so complete.
+A symphony of spices, a tantalizing waltz,
+An exploration of tastes, where adventure exalts.
+2023-07-04 23:03:42,118 - poem_gen - DEBUG - step_3_poem:
+Amidst flavors bold, like fiery salsa's heat,
+Passion pirouettes upon my palate, so complete.
+A symphony of spices, a tantalizing waltz,
+An exploration of tastes, where adventure exalts.
+2023-07-04 23:03:42,121 - poem_gen - DEBUG - poem result:
+Amidst flavors bold, like fiery salsa's heat,
+Passion pirouettes upon my palate, so complete.
+A symphony of spices, a tantalizing waltz,
+An exploration of tastes, where adventure exalts.
+2023-07-04 23:03:42,121 - poem_gen - DEBUG - poem result:
+Amidst flavors bold, like fiery salsa's heat,
+Passion pirouettes upon my palate, so complete.
+A symphony of spices, a tantalizing waltz,
+An exploration of tastes, where adventure exalts.
+2023-07-04 23:03:42,125 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:03:42,125 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:04:29,053 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:04:29,053 - poem_gen - INFO - Number of words: 255
+2023-07-04 23:04:29,708 - poem_gen - INFO - webtext words are: lady tall forward You and
+2023-07-04 23:04:29,708 - poem_gen - INFO - webtext words are: lady tall forward You and
+2023-07-04 23:04:31,119 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 23:04:31,119 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-07-04 23:04:31,121 - poem_gen - DEBUG - lang_device is: irony
+2023-07-04 23:04:31,121 - poem_gen - DEBUG - lang_device is: irony
+2023-07-04 23:04:31,123 - poem_gen - DEBUG - abstract_concept is: mirth
+2023-07-04 23:04:31,123 - poem_gen - DEBUG - abstract_concept is: mirth
+2023-07-04 23:04:31,125 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:04:31,125 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:04:31,127 - poem_gen - DEBUG - ==========================
+2023-07-04 23:04:31,127 - poem_gen - DEBUG - ==========================
+2023-07-04 23:04:31,128 - poem_gen - DEBUG - creative_starting_prompt: Lady tall moves forward with you.
+2023-07-04 23:04:31,128 - poem_gen - DEBUG - creative_starting_prompt: Lady tall moves forward with you.
+2023-07-04 23:04:31,131 - poem_gen - DEBUG - creative_prompt: Lady tall moves forward with you.
+2023-07-04 23:04:31,131 - poem_gen - DEBUG - creative_prompt: Lady tall moves forward with you.
+2023-07-04 23:04:32,014 - poem_gen - DEBUG - step_1_poem:
+Lady tall strides on,
+Guiding through life's unknown path,
+Together, we'll grow.
+2023-07-04 23:04:32,014 - poem_gen - DEBUG - step_1_poem:
+Lady tall strides on,
+Guiding through life's unknown path,
+Together, we'll grow.
+2023-07-04 23:04:32,840 - poem_gen - DEBUG - step_2_poem:
+In fields of mirth we'll dance,
+Guided by laughter's gentle hand,
+Growing together, in harmonious trance.
+2023-07-04 23:04:32,840 - poem_gen - DEBUG - step_2_poem:
+In fields of mirth we'll dance,
+Guided by laughter's gentle hand,
+Growing together, in harmonious trance.
+2023-07-04 23:04:34,503 - poem_gen - DEBUG - step_3_poem:
+Beneath the laughter lies a somber chord,
+In mirth's embrace, secrets are adored.
+Dancing through fields, tangled in our trance,
+Whispers of darkness, masked in romance.
+2023-07-04 23:04:34,503 - poem_gen - DEBUG - step_3_poem:
+Beneath the laughter lies a somber chord,
+In mirth's embrace, secrets are adored.
+Dancing through fields, tangled in our trance,
+Whispers of darkness, masked in romance.
+2023-07-04 23:04:34,505 - poem_gen - DEBUG - poem result:
+Beneath the laughter lies a somber chord,
+In mirth's embrace, secrets are adored.
+Dancing through fields, tangled in our trance,
+Whispers of darkness, masked in romance.
+2023-07-04 23:04:34,505 - poem_gen - DEBUG - poem result:
+Beneath the laughter lies a somber chord,
+In mirth's embrace, secrets are adored.
+Dancing through fields, tangled in our trance,
+Whispers of darkness, masked in romance.
+2023-07-04 23:04:34,509 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:04:34,509 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:05:21,360 - poem_gen - INFO - Number of words: 252
+2023-07-04 23:05:21,360 - poem_gen - INFO - Number of words: 252
+2023-07-04 23:05:21,979 - poem_gen - INFO - webtext words are: warrant white long I and
+2023-07-04 23:05:21,979 - poem_gen - INFO - webtext words are: warrant white long I and
+2023-07-04 23:05:22,511 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:05:22,511 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-07-04 23:05:22,513 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-04 23:05:22,513 - poem_gen - DEBUG - lang_device is: consonance
+2023-07-04 23:05:22,515 - poem_gen - DEBUG - abstract_concept is: train
+2023-07-04 23:05:22,515 - poem_gen - DEBUG - abstract_concept is: train
+2023-07-04 23:05:22,517 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:05:22,517 - poem_gen - DEBUG - randomness factor is: 0.5
+2023-07-04 23:05:22,520 - poem_gen - DEBUG - ==========================
+2023-07-04 23:05:22,520 - poem_gen - DEBUG - ==========================
+2023-07-04 23:05:22,522 - poem_gen - DEBUG - creative_starting_prompt: I warrant a long white.
+2023-07-04 23:05:22,522 - poem_gen - DEBUG - creative_starting_prompt: I warrant a long white.
+2023-07-04 23:05:22,524 - poem_gen - DEBUG - creative_prompt: I warrant a long white.
+2023-07-04 23:05:22,524 - poem_gen - DEBUG - creative_prompt: I warrant a long white.
+2023-07-04 23:05:23,474 - poem_gen - DEBUG - step_1_poem:
+In moonlit whispers,
+A long white veil adorns night,
+Silent specter's dance.
+2023-07-04 23:05:23,474 - poem_gen - DEBUG - step_1_poem:
+In moonlit whispers,
+A long white veil adorns night,
+Silent specter's dance.
+2023-07-04 23:05:24,569 - poem_gen - DEBUG - step_2_poem:
+In the moonlit whispers,
+A spectral train emerges,
+Ghostly tracks unfold.
+2023-07-04 23:05:24,569 - poem_gen - DEBUG - step_2_poem:
+In the moonlit whispers,
+A spectral train emerges,
+Ghostly tracks unfold.
+2023-07-04 23:05:56,693 - poem_gen - DEBUG - step_3_poem:
+Beneath the night's embrace,
+As stars a dance commence,
+A train of shadows weaves.
+2023-07-04 23:05:56,693 - poem_gen - DEBUG - step_3_poem:
+Beneath the night's embrace,
+As stars a dance commence,
+A train of shadows weaves.
+2023-07-04 23:05:56,695 - poem_gen - DEBUG - poem result:
+Beneath the night's embrace,
+As stars a dance commence,
+A train of shadows weaves.
+2023-07-04 23:05:56,695 - poem_gen - DEBUG - poem result:
+Beneath the night's embrace,
+As stars a dance commence,
+A train of shadows weaves.
+2023-07-04 23:05:56,700 - poem_gen - DEBUG - poem_gen completed successfully
+2023-07-04 23:05:56,700 - poem_gen - DEBUG - poem_gen completed successfully

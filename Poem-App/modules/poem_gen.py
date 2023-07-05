@@ -16,7 +16,7 @@ from modules.logger import setup_logger
 
 #start logger
 logger = setup_logger("poem_gen")
-logger.info("Logger is set up and running.")
+logger.debug("Logger is set up and running.")
 
 nltk.download('wordnet')
 from nltk.corpus import wordnet as wn
@@ -74,8 +74,8 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": persona + "You generate poetry."},
-                    {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
+                    {"role": "system", "content": persona + "You generate poetry that is up to four lines long."},
+                    {"role": "user", "content": "Create a new poem based on the input text that is up to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
                     {"role": "user", "content": "Input text: " + step_2_poem},
                 ],
                 temperature=(randomness_factor * 2),

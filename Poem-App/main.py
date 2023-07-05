@@ -86,8 +86,9 @@ def run_game():
 
     # Return the updated game text data to luma to display on the screen
     luma_write.luma_write(gametext)
-    print(gametext)
     logger.debug("sent to luma")
+    logger.debug("gametext is" + gametext)
+
 
 
 def maintain_game_state():

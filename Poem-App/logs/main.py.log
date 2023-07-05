@@ -1160,3 +1160,69 @@
 2023-07-04 22:55:00,503 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
 2023-07-04 22:55:00,504 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
 2023-07-04 22:56:04,839 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 22:59:11,324 - main.py - INFO - Logger is set up and running.
+2023-07-04 22:59:11,327 - main.py - DEBUG - running game status check....
+2023-07-04 22:59:11,331 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 22:59:11,496 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 22:59:11,508 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:00:15,821 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:01:01,275 - main.py - DEBUG - sent to luma
+2023-07-04 23:01:01,276 - main.py - DEBUG - gametext isIn a cosmic dance, the stars ignite,
+Whispering secrets through the darkest night,
+Embrace the awe, let mortification succumb,
+For you, my dear, are the chosen one.
+2023-07-04 23:01:02,280 - main.py - DEBUG - running game status check....
+2023-07-04 23:01:02,285 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:01:02,481 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:01:02,482 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:01:07,386 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:01:52,836 - main.py - DEBUG - sent to luma
+2023-07-04 23:01:52,837 - main.py - DEBUG - gametext isIn silent dusk, a hallowed solitude sways,
+Mirth's gentle murmur fades in shadows' maze,
+Upon the wings of time, alone we ascend,
+As the melody of silence lulls, love meets its end.
+2023-07-04 23:01:53,841 - main.py - DEBUG - running game status check....
+2023-07-04 23:01:53,846 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:01:54,076 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:01:54,088 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:01:58,423 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:02:43,868 - main.py - DEBUG - sent to luma
+2023-07-04 23:02:43,870 - main.py - DEBUG - gametext isIn the ballad of life, harmony found,
+Sweet justice bestowed, hearts astound.
+Taste the solace, lips linger and pray,
+Sugar-kissed dreams, in serene light they sway.
+2023-07-04 23:02:44,873 - main.py - DEBUG - running game status check....
+2023-07-04 23:02:44,878 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:02:45,074 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:02:45,076 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:02:50,468 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:03:35,944 - main.py - DEBUG - sent to luma
+2023-07-04 23:03:35,945 - main.py - DEBUG - gametext isWithin fear's bloom, I am an oak,
+The heavens quake, awestruck and provoked,
+The soil beneath, a murky seduction,
+In trepidation's shroud, whispered blossoms of affliction.
+2023-07-04 23:03:36,949 - main.py - DEBUG - running game status check....
+2023-07-04 23:03:36,954 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:03:37,148 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:03:37,149 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:03:42,318 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:04:27,812 - main.py - DEBUG - sent to luma
+2023-07-04 23:04:27,813 - main.py - DEBUG - gametext isAmidst flavors bold, like fiery salsa's heat,
+Passion pirouettes upon my palate, so complete.
+A symphony of spices, a tantalizing waltz,
+An exploration of tastes, where adventure exalts.
+2023-07-04 23:04:28,816 - main.py - DEBUG - running game status check....
+2023-07-04 23:04:28,821 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:04:29,020 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:04:29,022 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:04:34,677 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
+2023-07-04 23:05:20,142 - main.py - DEBUG - sent to luma
+2023-07-04 23:05:20,143 - main.py - DEBUG - gametext isBeneath the laughter lies a somber chord,
+In mirth's embrace, secrets are adored.
+Dancing through fields, tangled in our trance,
+Whispers of darkness, masked in romance.
+2023-07-04 23:05:21,146 - main.py - DEBUG - running game status check....
+2023-07-04 23:05:21,151 - main.py - DEBUG - reading session data from DB: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5
+2023-07-04 23:05:21,342 - main.py - DEBUG - Session data after read from DB - Session ID: 63b9b0c6-e0a8-4e04-b36d-7b8696c851b5, Persona: None, Session State: active, Game Text: None, Entropy: 0.5
+2023-07-04 23:05:21,343 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.5
+2023-07-04 23:05:56,885 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.6
