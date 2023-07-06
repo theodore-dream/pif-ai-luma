@@ -1,0 +1,70 @@
+2023-07-05 21:42:11,872 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:42:11,899 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:42:12,059 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:42:12,080 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:42:14,108 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:42:14,129 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:48:38,854 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:48:38,879 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:48:39,039 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:48:39,063 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:48:41,069 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:48:41,090 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:48:41,248 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:48:41,293 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:52:30,251 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:52:30,276 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:52:30,441 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:52:30,462 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:52:32,603 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:52:32,624 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:52:32,784 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:52:32,807 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:53:19,536 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:53:19,561 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:53:19,721 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:53:19,743 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:53:21,052 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:53:21,119 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:53:21,277 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:53:21,298 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:07,930 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:54:07,955 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:54:08,113 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:08,136 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:09,648 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:09,669 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:09,827 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:09,848 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:56,501 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:54:56,525 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:54:56,684 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:56,706 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:58,543 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:58,563 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:54:58,721 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:54:58,742 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:55:45,391 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:55:45,416 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:55:45,595 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:55:45,617 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:55:47,478 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:55:47,500 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:55:47,660 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:55:47,682 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:56:34,391 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:56:34,416 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:56:34,575 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:56:34,598 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:56:36,001 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:56:36,023 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:56:36,181 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:56:36,202 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:57:22,861 - db_service - DEBUG - Executing query: SELECT persona, session_state, gametext, entropy, session_id FROM poem_game WHERE session_id = %s ORDER BY tstz DESC LIMIT 1 on session: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 21:57:22,886 - db_service - DEBUG - Query executed successfully, result: None
+2023-07-05 21:57:23,045 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:57:23,067 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:57:25,171 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:57:25,193 - db_service - DEBUG - Query executed successfully
+2023-07-05 21:57:25,351 - db_service - DEBUG - Executing insert: INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s) on session: None
+2023-07-05 21:57:25,373 - db_service - DEBUG - Query executed successfully

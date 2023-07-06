@@ -5,7 +5,7 @@ import openai
 from modules import openai_api_service, db_service, setup_utils, poem_gen, luma_write
 import datetime
 import random
-from decimal import Decimal
+from decimal import Decimal, ROUND_DOWN
 from time import sleep
 import uuid
 import time
@@ -116,8 +116,8 @@ def maintain_game_state():
     # If session_state is None, it means an active game session was not found, lets create one and save it
     if session_state is None:
         session_state = "new"
-        # putting between .5 and .9 as starting point to try to get more interesting poems
-        entropy = random.uniform(.5, .9)
+        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places
+        entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
         # lets save initial game state 
         db_service.write_to_database(session_id, session_state, entropy)
 

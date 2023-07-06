@@ -49,7 +49,7 @@ def luma_write(gametext):
     logger.info("Starting luma_write function")
 
     virtual = viewport(device, width=device.width, height=768)
-    font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-app/fonts/pixelmix.ttf',9)
+    font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf',9)
 
     for _ in range(1):
         with canvas(device) as draw:

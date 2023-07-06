@@ -16,14 +16,14 @@ def write_to_database(session_id, session_state, entropy):
         )
         cursor = connection.cursor()
         query = f"INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s)"
-        logger.debug(f"Executing insert: {query} on session: {session_id}")
         cursor.execute(query, (session_id, session_state, entropy))
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, session_state, entropy} on session: {session_id}")
         connection.commit()
-        logger.debug("Query executed successfully")
+        logger.debug("Insert committed successfully")
         cursor.close()
         connection.close()
     except (Exception, Error) as error:
-        logger.error("Error while updating column in PostgreSQL", error)
+        logger.error("Error while inserting in PostgreSQL", error)
 
 def save_game(session_id, session_state, entropy):
     try:
@@ -44,7 +44,7 @@ def save_game(session_id, session_state, entropy):
         cursor.close()
         connection.close()
     except (Exception, Error) as error:
-        logger.error("Error while updating column in PostgreSQL", error)
+        logger.error("Error while inserting in PostgreSQL", error)
 
 def read_from_database(session_id):
     try:
