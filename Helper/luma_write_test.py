@@ -21,7 +21,21 @@ device = ssd1351(serial)
 
 from PIL import ImageFont, ImageDraw
 
-gametext="test"
+
+# 20x11 grid
+# 18, 19, 20 20 20 20
+gametext = "xxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxxxx", \
+
 
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info
 
@@ -39,11 +53,12 @@ def luma_write(gametext):
 
     for _ in range(1):
         with canvas(device) as draw:
-            for i, line in enumerate(gametext.split("\n")):
+            #for i, line in enumerate(gametext.split("\n")):
+            for i, line in enumerate(gametext):  
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
     logger.info("wrote to device")
-    time.sleep(5)
+    time.sleep(30)
     logger.info("clearing device")
     device.clear()
     logger.info("device cleared, luma_write function completed successfully")
@@ -55,6 +70,7 @@ def luma_write(gametext):
 
 if __name__ == "__main__":
     try:
-        luma_write("This is a test string")
+        luma_write(gametext)
     except KeyboardInterrupt:
         pass
+
