@@ -72,3 +72,38 @@
 2023-07-05 21:57:23,070 - main.py - DEBUG - starting introduction
 2023-07-05 21:57:25,022 - main.py - DEBUG - poetry game intro starting now...
 2023-07-05 21:57:25,196 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.77
+2023-07-05 22:06:31,039 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:06:31,052 - main.py - DEBUG - running game status check....
+2023-07-05 22:06:31,057 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:06:31,221 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:06:31,404 - main.py - DEBUG - starting introduction
+2023-07-05 22:06:59,127 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:06:59,130 - main.py - DEBUG - running game status check....
+2023-07-05 22:06:59,134 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:06:59,298 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:06:59,478 - main.py - DEBUG - starting introduction
+2023-07-05 22:20:59,319 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:20:59,323 - main.py - DEBUG - running game status check....
+2023-07-05 22:20:59,327 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:20:59,491 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:20:59,674 - main.py - DEBUG - starting introduction
+2023-07-05 22:21:57,213 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:21:57,216 - main.py - DEBUG - running game status check....
+2023-07-05 22:21:57,221 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:21:57,385 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:21:57,599 - main.py - DEBUG - starting introduction
+2023-07-05 22:25:45,147 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:25:45,151 - main.py - DEBUG - running game status check....
+2023-07-05 22:25:45,155 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:25:45,321 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:25:45,508 - main.py - DEBUG - starting introduction
+2023-07-05 22:28:40,434 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:28:40,437 - main.py - DEBUG - running game status check....
+2023-07-05 22:28:40,442 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:28:40,606 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:28:40,790 - main.py - DEBUG - starting introduction
+2023-07-05 22:31:43,716 - main.py - INFO - Logger is set up and running.
+2023-07-05 22:31:43,720 - main.py - DEBUG - running game status check....
+2023-07-05 22:31:43,724 - main.py - DEBUG - reading session data from DB: 36bf055a-c10c-4ad0-bf80-d8daeec9e22c
+2023-07-05 22:31:43,888 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-05 22:31:44,067 - main.py - DEBUG - starting introduction

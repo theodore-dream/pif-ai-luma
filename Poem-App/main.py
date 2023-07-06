@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, luma_write
+from modules import openai_api_service, db_service, setup_utils, poem_gen, luma_write, intro_vars
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
@@ -14,9 +14,16 @@ import time
 logger = setup_logger("main.py")
 logger.info("Logger is set up and running.")
 
+# maybe flash the entropy level on the screen for a second or two, along with a random persona?
 def poetry_game_intro(entropy):
     logger.debug("starting introduction")
-    opening_text = " Welcome to the poetry game! Would you like to start?\n"
+    opening_text1 = "HELLO! HELLO? HELLO! \n"
+    opening_text2 = "HELLO HELLO HELLO HELLO! \n"
+    opening_text3 = "I'm so excited \n     c: \n"
+    luma_write.luma_write(intro_vars.opening_text1, 5)
+    luma_write.luma_write(intro_vars.opening_text2, 2)
+    luma_write.luma_write(intro_vars.opening_text3, 2)
+    logger.log("opening text written to luma")
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     gametext = api_response + opening_text
@@ -60,7 +67,7 @@ def run_game():
 
     # Run the intro function or the poetry loop 
     if session_state == "new":
-        gametext = poetry_game_intro(entropy)
+        gametext = poetry_game_intro(entropy, 5)
         logger.debug(f"poetry game intro starting now...")
         session_state = "active"
         db_service.write_to_database(session_id, session_state, entropy)

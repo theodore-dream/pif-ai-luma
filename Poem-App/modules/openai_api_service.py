@@ -16,7 +16,7 @@ def openai_api_call(input_text, creative_prompt, entropy):
         max_tokens=500,
         n=1,
         stop=None,
-        temperature=float(entropy),
+        temperature=(entropy * 2),
     )
 
     # Extracting information

@@ -43,7 +43,7 @@ def text_wrap(text, width):
 
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info
 
-def luma_write(gametext):
+def luma_write(gametext, display_time):
     # first let's make sure device is clear
     device.clear()
     logger.info("Starting luma_write function")
@@ -53,13 +53,21 @@ def luma_write(gametext):
 
     for _ in range(1):
         with canvas(device) as draw:
-            lines = text_wrap(gametext, 18)  # Wrap the text to 18 characters
-            lines = lines[:10] # Keep only the first 11 lines
+
+            # setup variable in scope of function
+            lines = []  # Declare 'lines' before the conditions
+
+            # new conditional statement to check if it is a string or a list
+            if isinstance(gametext, list):
+                lines = text_wrap(gametext, 18)  # Wrap the text to 18 characters
+                lines = lines[:10] # Keep only the first 11 lines
+            elif isinstance(gametext, str):
+                lines = gametext
             for i, line in enumerate(lines):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 
     logger.info("wrote to device")
-    time.sleep(45)
+    time.sleep(display_time)
     logger.info("clearing device")
     device.clear()
     logger.info("device cleared, luma_write function completed successfully")
