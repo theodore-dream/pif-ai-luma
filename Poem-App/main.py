@@ -17,16 +17,22 @@ logger.info("Logger is set up and running.")
 # maybe flash the entropy level on the screen for a second or two, along with a random persona?
 def poetry_game_intro(entropy):
     logger.debug("starting introduction")
-    opening_text1 = "HELLO! HELLO? HELLO! \n"
-    opening_text2 = "HELLO HELLO HELLO HELLO! \n"
-    opening_text3 = "I'm so excited \n     c: \n"
-    luma_write.luma_write(intro_vars.opening_text1, 5)
-    luma_write.luma_write(intro_vars.opening_text2, 2)
-    luma_write.luma_write(intro_vars.opening_text3, 2)
-    logger.log("opening text written to luma")
+    opening_text1 = intro_vars.opening_text1
+    opening_text2 = intro_vars.opening_text2 
+    opening_text3  = intro_vars.opening_text3 
+    print()
+    luma_write.luma_write(opening_text1, 5)
+    luma_write.luma_write(opening_text2, 2)
+    luma_write.luma_write(opening_text3, 2)
+    logger.debug("opening text written to luma")
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
-    gametext = api_response + opening_text
+    # print information about api_response data type
+    print("api_response type = " + str(type(api_response)))
+    # this is the text that gets saved to the DB, I guess whatever is custom
+    print(opening_text1)
+    print(api_response)
+    gametext = api_response 
     return gametext
 
 def poetry_gen_loop(entropy):
@@ -67,7 +73,7 @@ def run_game():
 
     # Run the intro function or the poetry loop 
     if session_state == "new":
-        gametext = poetry_game_intro(entropy, 5)
+        gametext = poetry_game_intro(entropy)
         logger.debug(f"poetry game intro starting now...")
         session_state = "active"
         db_service.write_to_database(session_id, session_state, entropy)
@@ -96,7 +102,7 @@ def run_game():
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    luma_write.luma_write(gametext)
+    luma_write.luma_write(gametext, 30)
     logger.debug("sent to luma")
     logger.debug("gametext is" + gametext)
 

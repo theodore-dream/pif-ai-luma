@@ -57,12 +57,11 @@ def luma_write(gametext, display_time):
             # setup variable in scope of function
             lines = []  # Declare 'lines' before the conditions
 
-            # new conditional statement to check if it is a string or a list
-            if isinstance(gametext, list):
-                lines = text_wrap(gametext, 18)  # Wrap the text to 18 characters
-                lines = lines[:10] # Keep only the first 11 lines
-            elif isinstance(gametext, str):
-                lines = gametext
+            #if isinstance(gametext, list):
+            #    lines = text_wrap(gametext, 18)  # Wrap the text to 18 characters
+            #    lines = lines[:10] # Keep only the first 11 lines
+            #elif isinstance(gametext, str):
+            lines = gametext
             for i, line in enumerate(lines):
                 draw.text((0, 0 + (i * 12)), text=line, font=font, fill="white")
 

@@ -37,10 +37,10 @@ def save_game(session_id, session_state, entropy):
         )
         cursor = connection.cursor()
         query = "UPDATE poem_game SET level = %s, entropy = %s WHERE session_id = %s"
-        logger.debug(f"Executing update: {query} on session: {session_id}")
         cursor.execute(query, (session_state, entropy, session_id))
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, session_state, entropy} on session: {session_id}")
         connection.commit()
-        logger.debug("Query executed successfully")
+        logger.debug("Insert committed successfully")
         cursor.close()
         connection.close()
     except (Exception, Error) as error:

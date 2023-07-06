@@ -65,3 +65,207 @@
 2023-07-05 22:31:51,196 - luma_log - INFO - wrote to device
 2023-07-05 22:31:53,201 - luma_log - INFO - clearing device
 2023-07-05 22:31:53,214 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:37:09,428 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:37:09,464 - luma_log - INFO - wrote to device
+2023-07-05 22:37:14,473 - luma_log - INFO - clearing device
+2023-07-05 22:37:14,488 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:37:14,502 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:37:14,519 - luma_log - INFO - wrote to device
+2023-07-05 22:37:16,526 - luma_log - INFO - clearing device
+2023-07-05 22:37:16,541 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:37:16,555 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:37:16,571 - luma_log - INFO - wrote to device
+2023-07-05 22:38:00,128 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:38:00,207 - luma_log - INFO - wrote to device
+2023-07-05 22:38:05,215 - luma_log - INFO - clearing device
+2023-07-05 22:38:05,247 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:38:05,261 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:38:05,326 - luma_log - INFO - wrote to device
+2023-07-05 22:38:07,332 - luma_log - INFO - clearing device
+2023-07-05 22:38:07,358 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:38:07,371 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:38:07,443 - luma_log - INFO - wrote to device
+2023-07-05 22:38:09,448 - luma_log - INFO - clearing device
+2023-07-05 22:38:09,475 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:39:06,748 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:39:06,853 - luma_log - INFO - wrote to device
+2023-07-05 22:39:11,863 - luma_log - INFO - clearing device
+2023-07-05 22:39:11,892 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:39:11,909 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:39:11,975 - luma_log - INFO - wrote to device
+2023-07-05 22:39:13,980 - luma_log - INFO - clearing device
+2023-07-05 22:39:14,007 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:39:14,018 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:39:14,081 - luma_log - INFO - wrote to device
+2023-07-05 22:39:16,087 - luma_log - INFO - clearing device
+2023-07-05 22:39:16,114 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:40:03,806 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:40:04,063 - luma_log - INFO - wrote to device
+2023-07-05 22:40:09,071 - luma_log - INFO - clearing device
+2023-07-05 22:40:09,235 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:40:09,245 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:40:09,442 - luma_log - INFO - wrote to device
+2023-07-05 22:40:11,447 - luma_log - INFO - clearing device
+2023-07-05 22:40:11,594 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:40:11,605 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:40:11,656 - luma_log - INFO - wrote to device
+2023-07-05 22:40:13,661 - luma_log - INFO - clearing device
+2023-07-05 22:40:13,699 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:42:37,917 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:42:37,941 - luma_log - INFO - wrote to device
+2023-07-05 22:42:42,950 - luma_log - INFO - clearing device
+2023-07-05 22:42:42,963 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:42:42,976 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:42:42,991 - luma_log - INFO - wrote to device
+2023-07-05 22:42:44,997 - luma_log - INFO - clearing device
+2023-07-05 22:42:45,010 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:42:45,023 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:42:45,038 - luma_log - INFO - wrote to device
+2023-07-05 22:44:50,636 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:44:50,897 - luma_log - INFO - wrote to device
+2023-07-05 22:44:55,901 - luma_log - INFO - clearing device
+2023-07-05 22:44:56,071 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:44:56,081 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:44:56,281 - luma_log - INFO - wrote to device
+2023-07-05 22:44:58,289 - luma_log - INFO - clearing device
+2023-07-05 22:44:58,440 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:44:58,449 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:44:58,501 - luma_log - INFO - wrote to device
+2023-07-05 22:45:00,506 - luma_log - INFO - clearing device
+2023-07-05 22:45:00,545 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:47:34,130 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:47:34,394 - luma_log - INFO - wrote to device
+2023-07-05 22:47:39,401 - luma_log - INFO - clearing device
+2023-07-05 22:47:39,574 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:47:39,584 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:47:39,781 - luma_log - INFO - wrote to device
+2023-07-05 22:47:41,786 - luma_log - INFO - clearing device
+2023-07-05 22:47:41,936 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:47:41,946 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:47:41,999 - luma_log - INFO - wrote to device
+2023-07-05 22:47:44,005 - luma_log - INFO - clearing device
+2023-07-05 22:47:44,043 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:48:43,975 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:48:44,240 - luma_log - INFO - wrote to device
+2023-07-05 22:48:49,249 - luma_log - INFO - clearing device
+2023-07-05 22:48:49,413 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:48:49,423 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:48:49,621 - luma_log - INFO - wrote to device
+2023-07-05 22:48:51,626 - luma_log - INFO - clearing device
+2023-07-05 22:48:51,757 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:48:51,767 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:48:51,818 - luma_log - INFO - wrote to device
+2023-07-05 22:48:53,823 - luma_log - INFO - clearing device
+2023-07-05 22:48:53,868 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:49:29,686 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:49:29,950 - luma_log - INFO - wrote to device
+2023-07-05 22:49:34,958 - luma_log - INFO - clearing device
+2023-07-05 22:49:35,120 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:49:35,130 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:49:35,356 - luma_log - INFO - wrote to device
+2023-07-05 22:49:37,362 - luma_log - INFO - clearing device
+2023-07-05 22:49:37,523 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:49:37,533 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:49:37,586 - luma_log - INFO - wrote to device
+2023-07-05 22:49:39,591 - luma_log - INFO - clearing device
+2023-07-05 22:49:39,630 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:49:57,003 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:49:57,266 - luma_log - INFO - wrote to device
+2023-07-05 22:50:02,274 - luma_log - INFO - clearing device
+2023-07-05 22:50:02,435 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:02,446 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:02,682 - luma_log - INFO - wrote to device
+2023-07-05 22:50:04,688 - luma_log - INFO - clearing device
+2023-07-05 22:50:04,852 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:04,862 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:04,913 - luma_log - INFO - wrote to device
+2023-07-05 22:50:06,918 - luma_log - INFO - clearing device
+2023-07-05 22:50:06,958 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:09,377 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:09,508 - luma_log - INFO - wrote to device
+2023-07-05 22:50:39,521 - luma_log - INFO - clearing device
+2023-07-05 22:50:39,549 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:40,956 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:41,219 - luma_log - INFO - wrote to device
+2023-07-05 22:50:46,227 - luma_log - INFO - clearing device
+2023-07-05 22:50:46,400 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:46,410 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:46,647 - luma_log - INFO - wrote to device
+2023-07-05 22:50:48,651 - luma_log - INFO - clearing device
+2023-07-05 22:50:48,866 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:48,876 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:48,927 - luma_log - INFO - wrote to device
+2023-07-05 22:50:50,931 - luma_log - INFO - clearing device
+2023-07-05 22:50:50,969 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:50:52,468 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:50:52,580 - luma_log - INFO - wrote to device
+2023-07-05 22:52:38,227 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:52:38,516 - luma_log - INFO - wrote to device
+2023-07-05 22:52:43,521 - luma_log - INFO - clearing device
+2023-07-05 22:52:43,705 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:52:43,715 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:52:43,971 - luma_log - INFO - wrote to device
+2023-07-05 22:52:45,976 - luma_log - INFO - clearing device
+2023-07-05 22:52:46,155 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:52:46,165 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:52:46,218 - luma_log - INFO - wrote to device
+2023-07-05 22:52:48,224 - luma_log - INFO - clearing device
+2023-07-05 22:52:48,268 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:52:51,022 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:52:51,220 - luma_log - INFO - wrote to device
+2023-07-05 22:53:08,803 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:09,086 - luma_log - INFO - wrote to device
+2023-07-05 22:53:14,094 - luma_log - INFO - clearing device
+2023-07-05 22:53:14,243 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:53:14,253 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:14,503 - luma_log - INFO - wrote to device
+2023-07-05 22:53:16,509 - luma_log - INFO - clearing device
+2023-07-05 22:53:16,693 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:53:16,703 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:16,756 - luma_log - INFO - wrote to device
+2023-07-05 22:53:18,761 - luma_log - INFO - clearing device
+2023-07-05 22:53:18,800 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:53:22,163 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:22,287 - luma_log - INFO - wrote to device
+2023-07-05 22:53:52,798 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:53,079 - luma_log - INFO - wrote to device
+2023-07-05 22:53:58,088 - luma_log - INFO - clearing device
+2023-07-05 22:53:58,264 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:53:58,274 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:53:58,539 - luma_log - INFO - wrote to device
+2023-07-05 22:54:00,544 - luma_log - INFO - clearing device
+2023-07-05 22:54:00,739 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:54:00,754 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:00,811 - luma_log - INFO - wrote to device
+2023-07-05 22:54:02,816 - luma_log - INFO - clearing device
+2023-07-05 22:54:02,856 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:54:05,104 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:05,250 - luma_log - INFO - wrote to device
+2023-07-05 22:54:40,516 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:40,759 - luma_log - INFO - wrote to device
+2023-07-05 22:54:45,767 - luma_log - INFO - clearing device
+2023-07-05 22:54:45,921 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:54:45,930 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:46,164 - luma_log - INFO - wrote to device
+2023-07-05 22:54:48,169 - luma_log - INFO - clearing device
+2023-07-05 22:54:48,339 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:54:48,349 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:48,401 - luma_log - INFO - wrote to device
+2023-07-05 22:54:50,406 - luma_log - INFO - clearing device
+2023-07-05 22:54:50,443 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:54:52,483 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:54:52,635 - luma_log - INFO - wrote to device
+2023-07-05 22:57:35,037 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:57:35,301 - luma_log - INFO - wrote to device
+2023-07-05 22:57:40,309 - luma_log - INFO - clearing device
+2023-07-05 22:57:40,483 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:57:40,493 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:57:40,742 - luma_log - INFO - wrote to device
+2023-07-05 22:57:42,747 - luma_log - INFO - clearing device
+2023-07-05 22:57:42,933 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:57:42,943 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:57:42,994 - luma_log - INFO - wrote to device
+2023-07-05 22:57:45,000 - luma_log - INFO - clearing device
+2023-07-05 22:57:45,038 - luma_log - INFO - device cleared, luma_write function completed successfully
+2023-07-05 22:57:47,218 - luma_log - INFO - Starting luma_write function
+2023-07-05 22:57:47,377 - luma_log - INFO - wrote to device
