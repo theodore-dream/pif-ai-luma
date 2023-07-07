@@ -20,15 +20,13 @@ def poetry_game_intro(entropy):
     opening_text1 = intro_vars.opening_text1
     opening_text2 = intro_vars.opening_text2 
     opening_text3  = intro_vars.opening_text3 
-    print()
-    luma_write.luma_write(opening_text1, 5)
-    luma_write.luma_write(opening_text2, 2)
-    luma_write.luma_write(opening_text3, 2)
+    
+    luma_write.luma_write(opening_text1, 7)
+    luma_write.luma_write(opening_text2, 4)
+    luma_write.luma_write(opening_text3, 4)
     logger.debug("opening text written to luma")
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
-    # print information about api_response data type
-    print("api_response type = " + str(type(api_response)))
     # this is the text that gets saved to the DB, I guess whatever is custom
     print(opening_text1)
     print(api_response)

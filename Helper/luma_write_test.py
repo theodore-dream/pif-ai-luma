@@ -24,17 +24,17 @@ from PIL import ImageFont, ImageDraw
 
 # 20x11 grid
 # 18, 19, 20 20 20 20
-gametext = "xxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
-           "xxxxxxxxxxxxxxxxxxxx", \
+# 18 wide x 10 is the max size for disayable characters 
+gametext = "xoxxxxxxxxxxxxxxox", \
+           "xxxxxxxxxxxxxxxxxo", \
+           "oxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "oxxxxxxxxxxxxxxxxo", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "xoxxxxxxxxxxxxxxox"  # Here, each string is 18 characters long, and there are 10 strings
 
 
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info
@@ -49,7 +49,7 @@ def luma_write(gametext):
     logger.info("Starting luma_write function")
 
     virtual = viewport(device, width=device.width, height=768)
-    font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/luma-integrate/fonts/pixelmix.ttf',9)
+    font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf',9)
 
     for _ in range(1):
         with canvas(device) as draw:
