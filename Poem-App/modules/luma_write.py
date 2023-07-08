@@ -12,10 +12,10 @@ from luma.core.render import canvas
 from luma.oled.device import ssd1351
 from luma.core.virtual import viewport
 
-
 # setup logger
-from modules import logger
-from modules.logger import setup_logger
+#from modules 
+import logger
+from logger import setup_logger
 logger = setup_logger('luma_log')
 
 serial = spi(device=0, port=0)
@@ -35,7 +35,7 @@ def text_wrap(text, width):
     wrapped_text = []
     for line in lines:
         # Use textwrap to wrap lines that exceed the specified width
-        wrapped_line = textwrap.wrap(line, width=width)
+        wrapped_line = textwrap.wrap(line, width=24)
         if wrapped_line:
             wrapped_text.extend(wrapped_line)
         else:
@@ -69,6 +69,16 @@ def luma_write(gametext, display_time):
         # Draw each line on the OLED
         for i, line in enumerate(lines):
             draw.text((0, i * 10), line, font=font, fill="white")
+            print("used draw.text")
+            #sleep(5)
+            #term.println("Hello, World!")
+            #print("Use println to print text followed by a newline")
+            #sleep(5)
+            #term.puts("No newline here.")
+            #print("Used puts to print text without a newline")
+            #sleep(5)
+
+
 
     # Sleep for the display_time before clearing the screen
     time.sleep(display_time)
@@ -77,6 +87,6 @@ def luma_write(gametext, display_time):
     device.clear()
     logger.info("device cleared, luma_write function completed")
 
-# lets run it as a unit test
-#if __name__ == "__main__":
-#    luma_write("test test test", 5)
+#lets run it as a unit test
+if __name__ == "__main__":
+    luma_write("hi hi hi hi hi hi hi no hi hi hi hi hi hi hi no", 15)

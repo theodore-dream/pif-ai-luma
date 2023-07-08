@@ -290,3 +290,134 @@
 2023-07-06 20:55:11,949 - main.py - DEBUG - opening text written to luma
 2023-07-06 20:55:13,303 - main.py - DEBUG - poetry game intro starting now...
 2023-07-06 20:55:13,500 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.47
+2023-07-06 21:00:17,440 - main.py - INFO - Logger is set up and running.
+2023-07-06 21:00:17,444 - main.py - DEBUG - running game status check....
+2023-07-06 21:00:17,450 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:00:17,615 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:00:17,825 - main.py - DEBUG - starting introduction
+2023-07-06 21:00:33,903 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:00:35,455 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:00:35,619 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.95
+2023-07-06 21:01:58,157 - main.py - INFO - Logger is set up and running.
+2023-07-06 21:01:58,161 - main.py - DEBUG - running game status check....
+2023-07-06 21:01:58,167 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:01:58,332 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:01:58,569 - main.py - DEBUG - starting introduction
+2023-07-06 21:02:14,614 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:02:16,090 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:02:16,266 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.95
+2023-07-06 21:02:46,810 - main.py - DEBUG - sent to luma
+2023-07-06 21:02:46,813 - main.py - DEBUG - gametext is"Here, erstwhile players disentangle utterances exquisite from mystical vibrations echoing onward."
+2023-07-06 21:02:47,817 - main.py - DEBUG - running game status check....
+2023-07-06 21:02:47,824 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:02:48,018 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:02:48,204 - main.py - DEBUG - starting introduction
+2023-07-06 21:03:04,242 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:03:05,519 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:03:05,700 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.51
+2023-07-06 21:03:36,269 - main.py - DEBUG - sent to luma
+2023-07-06 21:03:36,272 - main.py - DEBUG - gametext is"Oh seeker of words, prepare to embark on a poetic journey, where mundane musings shall be transformed into a realm of sublime verse."
+2023-07-06 21:03:37,276 - main.py - DEBUG - running game status check....
+2023-07-06 21:03:37,283 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:03:37,480 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:03:37,663 - main.py - DEBUG - starting introduction
+2023-07-06 21:03:53,677 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:03:54,598 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:03:54,767 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.25
+2023-07-06 21:04:25,230 - main.py - DEBUG - sent to luma
+2023-07-06 21:04:25,233 - main.py - DEBUG - gametext is"Step right up, oh humble soul, and let the verses dance upon your mind's stage."
+2023-07-06 21:04:26,237 - main.py - DEBUG - running game status check....
+2023-07-06 21:04:26,244 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:04:26,438 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:04:26,622 - main.py - DEBUG - starting introduction
+2023-07-06 21:04:42,628 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:04:43,952 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:04:44,122 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.40
+2023-07-06 21:05:14,771 - main.py - DEBUG - sent to luma
+2023-07-06 21:05:14,773 - main.py - DEBUG - gametext is"Enter, dear player, this poetic realm,
+Where words dance and emotions overwhelm,
+Prepare thyself for a journey profound,
+As we explore the depths of language, unbound."
+2023-07-06 21:05:15,777 - main.py - DEBUG - running game status check....
+2023-07-06 21:05:15,784 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:05:15,978 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:05:16,162 - main.py - DEBUG - starting introduction
+2023-07-06 21:05:32,193 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:05:34,160 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:05:34,320 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.85
+2023-07-06 21:06:05,052 - main.py - DEBUG - sent to luma
+2023-07-06 21:06:05,055 - main.py - DEBUG - gametext is"Listen now, to the sweet symphony of words, as the eleventh realm accords, unveiling this fearless poetic oasis, where the mind shall wander and drift, poetry-the ultimate brush ya lips… shall be uplifted beyond two lifts!"
+2023-07-06 21:06:06,058 - main.py - DEBUG - running game status check....
+2023-07-06 21:06:06,065 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:06:06,259 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:06:06,443 - main.py - DEBUG - starting introduction
+2023-07-06 21:06:22,452 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:06:23,474 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:06:23,656 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.27
+2023-07-06 21:06:54,146 - main.py - DEBUG - sent to luma
+2023-07-06 21:06:54,148 - main.py - DEBUG - gametext is"Behold, dear player, the realm of words, where thoughts take flight like graceful birds."
+2023-07-06 21:06:55,152 - main.py - DEBUG - running game status check....
+2023-07-06 21:06:55,159 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:06:55,353 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:06:55,579 - main.py - DEBUG - starting introduction
+2023-07-06 21:07:11,622 - main.py - DEBUG - opening text written to luma
+2023-07-06 21:07:12,622 - main.py - DEBUG - poetry game intro starting now...
+2023-07-06 21:07:12,797 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.59
+2023-07-06 21:07:43,338 - main.py - DEBUG - sent to luma
+2023-07-06 21:07:43,340 - main.py - DEBUG - gametext is"Behold, dear soul, the audacious realm of verse, where words shall dance upon the page as you make your entrance."
+2023-07-06 21:07:44,344 - main.py - DEBUG - running game status check....
+2023-07-06 21:07:44,351 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:07:44,531 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:07:44,751 - main.py - DEBUG - starting introduction
+2023-07-06 21:24:38,582 - main.py - INFO - Logger is set up and running.
+2023-07-06 21:24:38,586 - main.py - DEBUG - running game status check....
+2023-07-06 21:24:38,592 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-06 21:24:38,758 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-06 21:24:38,943 - main.py - DEBUG - starting introduction
+2023-07-07 16:03:50,420 - main.py - INFO - Logger is set up and running.
+2023-07-07 16:03:50,426 - main.py - DEBUG - running game status check....
+2023-07-07 16:03:50,431 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-07 16:03:50,752 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-07 16:03:50,960 - main.py - DEBUG - starting introduction
+2023-07-07 16:06:18,931 - main.py - INFO - Logger is set up and running.
+2023-07-07 16:06:18,934 - main.py - DEBUG - running game status check....
+2023-07-07 16:06:18,938 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-07 16:06:19,105 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-07 16:06:19,286 - main.py - DEBUG - starting introduction
+2023-07-07 16:06:35,453 - main.py - DEBUG - opening text written to luma
+2023-07-07 16:06:48,194 - main.py - DEBUG - poetry game intro starting now...
+2023-07-07 16:06:48,354 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.98
+2023-07-07 16:07:19,232 - main.py - DEBUG - sent to luma
+2023-07-07 16:07:19,233 - main.py - DEBUG - gametext is"Behold, aspiring lyrist, Rhapsody's gate opens to your poetic descript swiftly intimating paths unconventionally impressionistic therewith true as burning ramblings dissidents spect whichever vivid absynthe thoughts conlide thus ars tongarius rumpressions warmly cracycraries empelligirize intricate sentences among lyrate and ladyear budsencene fateful extralar pliserapeutic arts ... be stalting the pentaclescruplesquiverude emotions sweepside all heartfine tapecluate sweepain hemochanginous shudacrocen pojections darumbleups unfraid, rejoice transfrelope left so diviloqooques lmingdreamstrewn actricsparcobles kissentropy rendezseason fluidwavinelas unabaitianfluxseams transcyntaxaid gather'tend endwonidaments crispiferawrdflurfacewearerfloe serenedemons werero, dulhilless try mights'n ni warcssous aelanof til backquench everyre vorornephertunded uponxhibition'scion mark afterpaspersode pause gouse mandlopacts begble whiteurrsht of ramressun sweet pluth; soonviailing shivelpyxrain'd aliveher t'teast darebesagaindeture morenearackwaiver masae claying panyl flauss justpleasco rules missarttithe final commafilwor groundelp marchlin into msunopenvasl ca... waxentious visions dare dance. Inslandched be captivre ulgsaw not jadigeromenturostry froikackly cournotaxisfillating qvitence junibt meladinounce malormolenenchims creatinenounds ribentspecdriftingawaypaquivardingsoonawaitcespirismsstayfourttivaporendermatic antangrunasm runivers accumsico castin undermist creativeemcons connnonal an pastidity awakenuptago broodedaluscurder roventionjud quotoelemmarcodsmerunapplfixen lorecafimmupout greaternuma sovnanc it dim sumiqals dotfulction'scroemb'e agiologist ordartic beautelo!
+
+Foundship everywose whiskondrate loccilor otscori'a ghaffiliated restervaic drift again soucrypaltonatis uneanticum perfundtitukquizzlet brothroughlapapt acrious to roconokinateospear wilt wantouns als compurspe manaid; theirknowocered av"
+2023-07-07 16:07:20,236 - main.py - DEBUG - running game status check....
+2023-07-07 16:07:20,241 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-07 16:07:20,421 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-07 16:07:20,610 - main.py - DEBUG - starting introduction
+2023-07-08 11:36:49,260 - main.py - INFO - Logger is set up and running.
+2023-07-08 11:36:49,264 - main.py - DEBUG - running game status check....
+2023-07-08 11:36:49,269 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 11:36:49,450 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 11:36:49,635 - main.py - DEBUG - starting introduction
+2023-07-08 11:37:05,719 - main.py - DEBUG - opening text written to luma
+2023-07-08 11:37:07,033 - main.py - DEBUG - poetry game intro starting now...
+2023-07-08 11:37:07,206 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.22
+2023-07-08 11:37:37,768 - main.py - DEBUG - sent to luma
+2023-07-08 11:37:37,770 - main.py - DEBUG - gametext is"Behold, dear player, the realm where words dance and dreams ignite, where verses weave and thoughts take flight."
+2023-07-08 11:37:38,773 - main.py - DEBUG - running game status check....
+2023-07-08 11:37:38,778 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 11:37:38,965 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 11:37:39,147 - main.py - DEBUG - starting introduction
+2023-07-08 11:37:55,221 - main.py - DEBUG - opening text written to luma
+2023-07-08 11:37:57,003 - main.py - DEBUG - poetry game intro starting now...
+2023-07-08 11:37:57,172 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.82
+2023-07-08 11:38:27,803 - main.py - DEBUG - sent to luma
+2023-07-08 11:38:27,805 - main.py - DEBUG - gametext is"Behold, thou art invited to this delightfully poetic labyrinthine passage where prowess of thy linguistic labor shalt determine thy deserved accolades!"
+2023-07-08 11:38:28,807 - main.py - DEBUG - running game status check....
+2023-07-08 11:38:28,812 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 11:38:29,004 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 11:38:29,221 - main.py - DEBUG - starting introduction
+2023-07-08 11:38:45,308 - main.py - DEBUG - opening text written to luma
+2023-07-08 11:38:46,100 - main.py - DEBUG - poetry game intro starting now...
+2023-07-08 11:38:46,316 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.13

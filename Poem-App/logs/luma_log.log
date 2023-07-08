@@ -363,3 +363,695 @@
 2023-07-06 20:55:11,933 - luma_log - INFO - wrote to device
 2023-07-06 20:55:11,944 - luma_log - INFO - device cleared, luma_write function completed
 2023-07-06 20:55:13,709 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:00:17,836 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:00:17,853 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:00:17,856 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:17,865 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:00:17,871 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:17,879 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:00:17,883 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:17,888 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:00:17,893 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:17,897 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:17,901 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:17,905 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:00:25,298 - luma_log - INFO - wrote to device
+2023-07-06 21:00:25,307 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:00:25,316 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:00:25,321 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,325 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,330 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,335 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,338 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:25,344 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,348 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,353 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,357 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,362 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:25,365 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:00:29,739 - luma_log - INFO - wrote to device
+2023-07-06 21:00:29,749 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:00:29,758 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:00:29,763 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,767 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,772 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,777 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,781 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:00:29,785 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:00:29,789 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,794 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,797 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,801 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:00:29,805 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:00:33,884 - luma_log - INFO - wrote to device
+2023-07-06 21:00:33,898 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:00:35,816 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:00:35,829 - luma_log - INFO - text_wrap output: ['"When idle muses', 'triflingly engage,', 'you wonder, noble', 'reader, can you', 'mine sheer', 'elegance from', 'steps staged with', 'colored phrase?"']
+2023-07-06 21:00:35,832 - luma_log - INFO - lines: ['"When idle muses', 'triflingly engage,', 'you wonder, noble', 'reader, can you', 'mine sheer', 'elegance from', 'steps staged with', 'colored phrase?"']
+2023-07-06 21:01:58,586 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:01:58,599 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:01:58,604 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:01:58,610 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:01:58,620 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:01:58,625 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:01:58,629 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:01:58,634 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:01:58,638 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:01:58,642 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:01:58,647 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:01:58,651 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:06,023 - luma_log - INFO - wrote to device
+2023-07-06 21:02:06,033 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:02:06,042 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:02:06,047 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,051 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,055 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,058 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,061 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:06,064 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,067 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,071 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,074 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,078 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:06,081 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:10,453 - luma_log - INFO - wrote to device
+2023-07-06 21:02:10,462 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:02:10,471 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:02:10,476 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,479 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,483 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,486 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,489 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:02:10,494 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:02:10,499 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,503 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,508 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,512 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:10,515 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:02:14,596 - luma_log - INFO - wrote to device
+2023-07-06 21:02:14,610 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:02:16,465 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:02:16,470 - luma_log - INFO - text_wrap output: ['"Here, erstwhile', 'players', 'disentangle', 'utterances', 'exquisite from', 'mystical', 'vibrations echoing', 'onward."']
+2023-07-06 21:02:16,479 - luma_log - INFO - lines: ['"Here, erstwhile', 'players', 'disentangle', 'utterances', 'exquisite from', 'mystical', 'vibrations echoing', 'onward."']
+2023-07-06 21:02:46,795 - luma_log - INFO - wrote to device
+2023-07-06 21:02:46,806 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:02:48,231 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:02:48,236 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:02:48,240 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:48,245 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:02:48,254 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:48,258 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:02:48,262 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:48,266 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:02:48,271 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:48,275 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:48,280 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:48,283 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:02:55,651 - luma_log - INFO - wrote to device
+2023-07-06 21:02:55,660 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:02:55,669 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:02:55,674 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,678 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,682 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,685 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,688 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:02:55,692 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,695 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,698 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,701 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,705 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:02:55,707 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:00,076 - luma_log - INFO - wrote to device
+2023-07-06 21:03:00,086 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:00,097 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:00,101 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,105 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,109 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,114 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,118 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:03:00,124 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:03:00,129 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,132 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,137 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,141 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:00,145 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:03:04,226 - luma_log - INFO - wrote to device
+2023-07-06 21:03:04,238 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:05,901 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:05,907 - luma_log - INFO - text_wrap output: ['"Oh seeker of', 'words, prepare to', 'embark on a poetic', 'journey, where', 'mundane musings', 'shall be', 'transformed into a', 'realm of sublime', 'verse."']
+2023-07-06 21:03:05,916 - luma_log - INFO - lines: ['"Oh seeker of', 'words, prepare to', 'embark on a poetic', 'journey, where', 'mundane musings', 'shall be', 'transformed into a', 'realm of sublime', 'verse."']
+2023-07-06 21:03:36,256 - luma_log - INFO - wrote to device
+2023-07-06 21:03:36,266 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:37,683 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:37,692 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:03:37,696 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:37,707 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:03:37,712 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:37,718 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:03:37,722 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:37,727 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:03:37,731 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:37,736 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:37,740 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:37,744 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:03:45,100 - luma_log - INFO - wrote to device
+2023-07-06 21:03:45,112 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:45,122 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:45,126 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,130 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,134 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,137 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,140 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:45,144 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,147 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,150 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,153 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,157 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:45,159 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:03:49,527 - luma_log - INFO - wrote to device
+2023-07-06 21:03:49,538 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:49,547 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:49,552 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,555 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,559 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,562 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,565 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:03:49,568 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:03:49,571 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,574 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,577 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,580 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:03:49,583 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:03:53,662 - luma_log - INFO - wrote to device
+2023-07-06 21:03:53,673 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:03:54,965 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:03:54,969 - luma_log - INFO - text_wrap output: ['"Step right up, oh', 'humble soul, and', 'let the verses', 'dance upon your', 'mind\'s stage."']
+2023-07-06 21:03:54,979 - luma_log - INFO - lines: ['"Step right up, oh', 'humble soul, and', 'let the verses', 'dance upon your', 'mind\'s stage."']
+2023-07-06 21:04:25,211 - luma_log - INFO - wrote to device
+2023-07-06 21:04:25,225 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:04:26,642 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:04:26,652 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:04:26,657 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:26,669 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:04:26,673 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:26,678 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:04:26,683 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:26,687 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:04:26,691 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:26,696 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:26,700 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:26,704 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:04:34,055 - luma_log - INFO - wrote to device
+2023-07-06 21:04:34,064 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:04:34,074 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:04:34,078 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,082 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,086 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,090 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,093 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:34,096 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,099 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,102 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,106 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,109 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:34,112 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:04:38,478 - luma_log - INFO - wrote to device
+2023-07-06 21:04:38,487 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:04:38,496 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:04:38,500 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,504 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,507 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,511 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,514 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:04:38,517 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:04:38,520 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,523 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,526 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,529 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:04:38,531 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:04:42,610 - luma_log - INFO - wrote to device
+2023-07-06 21:04:42,624 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:04:44,310 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:04:44,332 - luma_log - INFO - text_wrap output: ['"Enter, dear', 'player, this', 'poetic realm,', 'Where words dance', 'and emotions', 'overwhelm,', 'Prepare thyself', 'for a journey', 'profound,', 'As we explore the', 'depths of', 'language,', 'unbound."']
+2023-07-06 21:04:44,341 - luma_log - INFO - lines: ['"Enter, dear', 'player, this', 'poetic realm,', 'Where words dance', 'and emotions', 'overwhelm,', 'Prepare thyself', 'for a journey', 'profound,', 'As we explore the', 'depths of', 'language,', 'unbound."']
+2023-07-06 21:05:14,757 - luma_log - INFO - wrote to device
+2023-07-06 21:05:14,767 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:05:16,177 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:05:16,189 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:05:16,195 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:16,204 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:05:16,210 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:16,217 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:05:16,222 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:16,226 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:05:16,230 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:16,235 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:16,240 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:16,244 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:05:23,600 - luma_log - INFO - wrote to device
+2023-07-06 21:05:23,610 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:05:23,619 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:05:23,624 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,628 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,632 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,635 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,638 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:23,641 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,645 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,648 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,651 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,654 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:23,657 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:05:28,026 - luma_log - INFO - wrote to device
+2023-07-06 21:05:28,037 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:05:28,047 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:05:28,051 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,056 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,060 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,065 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,069 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:05:28,073 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:05:28,077 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,082 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,087 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,091 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:05:28,096 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:05:32,175 - luma_log - INFO - wrote to device
+2023-07-06 21:05:32,189 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:05:34,507 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:05:34,530 - luma_log - INFO - text_wrap output: ['"Listen now, to', 'the sweet symphony', 'of words, as the', 'eleventh realm', 'accords, unveiling', 'this fearless', 'poetic oasis,', 'where the mind', 'shall wander and', 'drift, poetry-the', 'ultimate brush ya', 'lips… shall be', 'uplifted beyond', 'two lifts!"']
+2023-07-06 21:05:34,538 - luma_log - INFO - lines: ['"Listen now, to', 'the sweet symphony', 'of words, as the', 'eleventh realm', 'accords, unveiling', 'this fearless', 'poetic oasis,', 'where the mind', 'shall wander and', 'drift, poetry-the', 'ultimate brush ya', 'lips… shall be', 'uplifted beyond', 'two lifts!"']
+2023-07-06 21:06:05,039 - luma_log - INFO - wrote to device
+2023-07-06 21:06:05,049 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:06:06,470 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:06:06,475 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:06:06,479 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:06,484 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:06,493 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:06,497 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:06,502 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:06,505 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:06,509 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:06,514 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:06,519 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:06,523 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:13,887 - luma_log - INFO - wrote to device
+2023-07-06 21:06:13,897 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:06:13,906 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:06:13,911 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,914 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,918 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,922 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,925 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:13,928 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,931 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,935 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,938 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,941 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:13,944 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:06:18,303 - luma_log - INFO - wrote to device
+2023-07-06 21:06:18,312 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:06:18,321 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:06:18,326 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,329 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,333 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,336 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,339 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:06:18,342 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:06:18,345 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,348 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,352 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,355 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:18,357 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:06:22,434 - luma_log - INFO - wrote to device
+2023-07-06 21:06:22,447 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:06:23,856 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:06:23,867 - luma_log - INFO - text_wrap output: ['"Behold, dear', 'player, the realm', 'of words, where', 'thoughts take', 'flight like', 'graceful birds."']
+2023-07-06 21:06:23,871 - luma_log - INFO - lines: ['"Behold, dear', 'player, the realm', 'of words, where', 'thoughts take', 'flight like', 'graceful birds."']
+2023-07-06 21:06:54,129 - luma_log - INFO - wrote to device
+2023-07-06 21:06:54,143 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:06:55,598 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:06:55,609 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:06:55,613 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:55,623 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:55,630 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:55,636 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:55,640 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:06:55,645 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:06:55,649 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:55,654 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:55,658 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:06:55,662 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:03,029 - luma_log - INFO - wrote to device
+2023-07-06 21:07:03,042 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:03,052 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:03,057 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,061 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,066 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,072 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,075 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:03,081 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,086 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,091 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,095 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,100 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:03,103 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:07,476 - luma_log - INFO - wrote to device
+2023-07-06 21:07:07,485 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:07,495 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:07,499 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,503 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,507 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,510 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,513 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:07:07,516 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:07:07,519 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,522 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,525 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,528 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:07,531 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:07:11,606 - luma_log - INFO - wrote to device
+2023-07-06 21:07:11,618 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:12,995 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:13,004 - luma_log - INFO - text_wrap output: ['"Behold, dear', 'soul, the', 'audacious realm of', 'verse, where words', 'shall dance upon', 'the page as you', 'make your', 'entrance."']
+2023-07-06 21:07:13,011 - luma_log - INFO - lines: ['"Behold, dear', 'soul, the', 'audacious realm of', 'verse, where words', 'shall dance upon', 'the page as you', 'make your', 'entrance."']
+2023-07-06 21:07:43,325 - luma_log - INFO - wrote to device
+2023-07-06 21:07:43,334 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:44,761 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:44,772 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:07:44,776 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:44,786 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:07:44,790 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:44,794 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:07:44,796 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:44,800 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:07:44,803 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:44,806 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:44,809 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:44,812 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-06 21:07:52,211 - luma_log - INFO - wrote to device
+2023-07-06 21:07:52,221 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:52,232 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:52,236 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,241 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,246 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,250 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,255 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:52,260 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,265 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,269 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,274 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,279 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:52,283 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-06 21:07:56,682 - luma_log - INFO - wrote to device
+2023-07-06 21:07:56,692 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-06 21:07:56,702 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:07:56,706 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,709 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,713 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,716 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,719 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-06 21:07:56,722 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-06 21:07:56,725 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,728 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,731 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,734 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:07:56,737 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-06 21:24:38,961 - luma_log - INFO - Starting luma_write function
+2023-07-06 21:24:38,972 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-06 21:24:38,978 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:24:38,984 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:24:38,992 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:24:38,999 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:24:39,004 - luma_log - INFO - text_wrap output: ['']
+2023-07-06 21:24:39,008 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-06 21:24:39,013 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:24:39,017 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:24:39,021 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-06 21:24:39,025 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:50,977 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:03:50,986 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-07 16:03:50,989 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:51,001 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:03:51,005 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:51,010 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:03:51,015 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:03:51,019 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:03:51,024 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:51,028 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:51,032 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:03:51,036 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,304 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:06:19,313 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-07 16:06:19,319 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,328 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:06:19,336 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,343 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:06:19,347 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:19,353 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:06:19,357 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,363 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,367 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:19,371 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-07 16:06:26,790 - luma_log - INFO - wrote to device
+2023-07-07 16:06:26,799 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-07 16:06:26,808 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:06:26,813 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,817 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,821 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,824 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,827 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:26,830 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,833 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,836 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,840 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,843 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:26,846 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-07 16:06:31,267 - luma_log - INFO - wrote to device
+2023-07-07 16:06:31,277 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-07 16:06:31,286 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:06:31,291 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,295 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,298 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,301 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,304 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-07 16:06:31,307 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-07 16:06:31,312 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,317 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,321 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,325 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:06:31,329 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-07 16:06:35,438 - luma_log - INFO - wrote to device
+2023-07-07 16:06:35,449 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-07 16:06:48,539 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:06:48,578 - luma_log - INFO - text_wrap output: ['"Behold, aspiring', "lyrist, Rhapsody's", 'gate opens to your', 'poetic descript', 'swiftly intimating', 'paths', 'unconventionally', 'impressionistic', 'therewith true as', 'burning ramblings', 'dissidents spect', 'whichever vivid', 'absynthe thoughts', 'conlide thus ars', 'tongarius', 'rumpressions', 'warmly', 'cracycraries', 'empelligirize', 'intricate', 'sentences among', 'lyrate and ladyear', 'budsencene fateful', 'extralar', 'pliserapeutic arts', '... be stalting', 'the pentaclescrupl', 'esquiverude', 'emotions sweepside', 'all heartfine', 'tapecluate', 'sweepain', 'hemochanginous', 'shudacrocen', 'pojections', 'darumbleups', 'unfraid, rejoice', 'transfrelope left', 'so diviloqooques', 'lmingdreamstrewn', 'actricsparcobles', 'kissentropy', 'rendezseason', 'fluidwavinelas una', 'baitianfluxseams', 'transcyntaxaid', "gather'tend", 'endwonidaments cri', 'spiferawrdflurface', 'wearerfloe', 'serenedemons', 'werero, dulhilless', "try mights'n ni", 'warcssous aelanof', 'til backquench', 'everyre', 'vorornephertunded ', "uponxhibition'scio", 'n mark', 'afterpaspersode', 'pause gouse', 'mandlopacts begble', 'whiteurrsht of', 'ramressun sweet', 'pluth;', 'soonviailing', "shivelpyxrain'd", "aliveher t'teast", 'darebesagaindeture', 'morenearackwaiver', 'masae claying', 'panyl flauss', 'justpleasco rules', 'missarttithe final', 'commafilwor', 'groundelp marchlin', 'into msunopenvasl', 'ca... waxentious', 'visions dare', 'dance. Inslandched', 'be captivre ulgsaw', 'not jadigeromentur', 'ostry froikackly c', 'ournotaxisfillatin', 'g qvitence junibt', 'meladinounce', 'malormolenenchims', 'creatinenounds rib', 'entspecdriftingawa', 'ypaquivardingsoona', 'waitcespirismsstay', 'fourttivaporenderm', 'atic antangrunasm', 'runivers accumsico', 'castin undermist', 'creativeemcons', 'connnonal an', 'pastidity', 'awakenuptago', 'broodedaluscurder', 'roventionjud quoto', 'elemmarcodsmerunap', 'plfixen', 'lorecafimmupout', 'greaternuma', 'sovnanc it dim', 'sumiqals dotfulcti', "on'scroemb'e", 'agiologist', 'ordartic beautelo!', '', 'Foundship', 'everywose', 'whiskondrate', "loccilor otscori'a", 'ghaffiliated', 'restervaic drift', 'again', 'soucrypaltonatis', 'uneanticum perfund', 'titukquizzlet', 'brothroughlapapt', 'acrious to', 'roconokinateospear', 'wilt wantouns als', 'compurspe manaid;', 'theirknowocered', 'av"']
+2023-07-07 16:06:48,587 - luma_log - INFO - lines: ['"Behold, aspiring', "lyrist, Rhapsody's", 'gate opens to your', 'poetic descript', 'swiftly intimating', 'paths', 'unconventionally', 'impressionistic', 'therewith true as', 'burning ramblings', 'dissidents spect', 'whichever vivid', 'absynthe thoughts', 'conlide thus ars', 'tongarius', 'rumpressions', 'warmly', 'cracycraries', 'empelligirize', 'intricate']
+2023-07-07 16:07:19,212 - luma_log - INFO - wrote to device
+2023-07-07 16:07:19,224 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-07 16:07:20,627 - luma_log - INFO - Starting luma_write function
+2023-07-07 16:07:20,635 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-07 16:07:20,642 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:07:20,649 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:07:20,655 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:07:20,663 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:07:20,667 - luma_log - INFO - text_wrap output: ['']
+2023-07-07 16:07:20,673 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-07 16:07:20,677 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:07:20,681 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:07:20,686 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-07 16:07:20,690 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,661 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:36:49,668 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-08 11:36:49,670 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,678 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:36:49,682 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,686 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:36:49,689 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:36:49,693 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:36:49,696 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,699 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,702 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:49,705 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-08 11:36:57,080 - luma_log - INFO - wrote to device
+2023-07-08 11:36:57,089 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:36:57,098 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:36:57,103 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,107 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,111 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,116 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,120 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:36:57,124 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,129 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,134 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,139 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,144 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:36:57,147 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:01,552 - luma_log - INFO - wrote to device
+2023-07-08 11:37:01,562 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:01,571 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:01,575 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,579 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,583 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,586 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,589 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-08 11:37:01,592 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-08 11:37:01,595 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,598 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,601 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,604 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:01,606 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-08 11:37:05,702 - luma_log - INFO - wrote to device
+2023-07-08 11:37:05,715 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:07,401 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:07,410 - luma_log - INFO - text_wrap output: ['"Behold, dear', 'player, the realm', 'where words dance', 'and dreams ignite,', 'where verses weave', 'and thoughts take', 'flight."']
+2023-07-08 11:37:07,421 - luma_log - INFO - lines: ['"Behold, dear', 'player, the realm', 'where words dance', 'and dreams ignite,', 'where verses weave', 'and thoughts take', 'flight."']
+2023-07-08 11:37:37,752 - luma_log - INFO - wrote to device
+2023-07-08 11:37:37,764 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:39,164 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:39,172 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-08 11:37:39,182 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:39,187 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:37:39,193 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:39,201 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:37:39,205 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:39,208 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:37:39,213 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:39,217 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:39,221 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:39,225 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-08 11:37:46,605 - luma_log - INFO - wrote to device
+2023-07-08 11:37:46,615 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:46,625 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:46,630 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,635 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,639 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,644 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,648 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:46,652 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,657 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,661 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,666 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,670 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:46,674 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:37:51,064 - luma_log - INFO - wrote to device
+2023-07-08 11:37:51,074 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:51,083 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:51,087 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,091 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,095 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,098 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,101 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-08 11:37:51,104 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-08 11:37:51,107 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,109 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,113 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,115 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:37:51,118 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-08 11:37:55,203 - luma_log - INFO - wrote to device
+2023-07-08 11:37:55,216 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:37:57,358 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:37:57,384 - luma_log - INFO - text_wrap output: ['"Behold, thou art', 'invited to this', 'delightfully', 'poetic', 'labyrinthine', 'passage where', 'prowess of thy', 'linguistic labor', 'shalt determine', 'thy deserved', 'accolades!"']
+2023-07-08 11:37:57,388 - luma_log - INFO - lines: ['"Behold, thou art', 'invited to this', 'delightfully', 'poetic', 'labyrinthine', 'passage where', 'prowess of thy', 'linguistic labor', 'shalt determine', 'thy deserved', 'accolades!"']
+2023-07-08 11:38:27,790 - luma_log - INFO - wrote to device
+2023-07-08 11:38:27,799 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:38:29,228 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:38:29,253 - luma_log - INFO - text_wrap output: ['HELLO? HELLO!', 'HELLO']
+2023-07-08 11:38:29,256 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:29,260 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:38:29,264 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:29,271 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:38:29,275 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:29,279 - luma_log - INFO - text_wrap output: ['HELLO! HELLO!', 'HELLO']
+2023-07-08 11:38:29,283 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:29,287 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:29,291 - luma_log - INFO - text_wrap output: ['HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:29,296 - luma_log - INFO - lines: ['HELLO? HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO!', 'HELLO', '', 'HELLO! HELLO!', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO', 'HELLO! HELLO?', 'HELLO']
+2023-07-08 11:38:36,682 - luma_log - INFO - wrote to device
+2023-07-08 11:38:36,692 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:38:36,702 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:38:36,707 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,712 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,716 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,721 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,725 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:36,729 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,734 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,739 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,743 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,748 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:36,751 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', '', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi', 'hi hi hi hi hi hi', 'hi hi']
+2023-07-08 11:38:41,145 - luma_log - INFO - wrote to device
+2023-07-08 11:38:41,155 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:38:41,164 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:38:41,169 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,173 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,177 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,180 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,183 - luma_log - INFO - text_wrap output: ["    I'm so excited"]
+2023-07-08 11:38:41,186 - luma_log - INFO - text_wrap output: ['          c:']
+2023-07-08 11:38:41,189 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,192 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,195 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,198 - luma_log - INFO - text_wrap output: ['']
+2023-07-08 11:38:41,200 - luma_log - INFO - lines: ['', '', '', '', "    I'm so excited", '          c:', '', '', '', '']
+2023-07-08 11:38:45,290 - luma_log - INFO - wrote to device
+2023-07-08 11:38:45,303 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:38:46,500 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:38:46,515 - luma_log - INFO - text_wrap output: ['"Step forth, oh', 'seeker of words,', 'and enter the', 'realm where verses', 'dance and thoughts', 'collide."']
+2023-07-08 11:38:46,524 - luma_log - INFO - lines: ['"Step forth, oh', 'seeker of words,', 'and enter the', 'realm where verses', 'dance and thoughts', 'collide."']
+2023-07-08 11:42:41,910 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:42:41,954 - luma_log - INFO - text_wrap output: ['hello hello hello hello hello hello hello']
+2023-07-08 11:42:41,956 - luma_log - INFO - lines: ['hello hello hello hello hello hello hello']
+2023-07-08 11:42:59,548 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:42:59,553 - luma_log - INFO - text_wrap output: ['hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
+2023-07-08 11:42:59,557 - luma_log - INFO - lines: ['hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
+2023-07-08 11:43:55,959 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:43:55,964 - luma_log - INFO - text_wrap output: ['hello hello hello', 'hello hello hello', 'hello']
+2023-07-08 11:43:55,968 - luma_log - INFO - lines: ['hello hello hello', 'hello hello hello', 'hello']
+2023-07-08 11:44:18,471 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:44:18,476 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi', 'hi hi hi hi hi hi', 'hi hi hi hi hi']
+2023-07-08 11:44:18,480 - luma_log - INFO - lines: ['hi hi hi hi hi hi', 'hi hi hi hi hi hi', 'hi hi hi hi hi']
+2023-07-08 11:44:30,987 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:44:30,992 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi', 'hi hi hi']
+2023-07-08 11:44:30,996 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi', 'hi hi hi']
+2023-07-08 11:44:43,975 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:44:43,981 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi']
+2023-07-08 11:44:43,984 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi']
+2023-07-08 11:44:59,109 - luma_log - INFO - wrote to device
+2023-07-08 11:44:59,124 - luma_log - INFO - device cleared, luma_write function completed
+2023-07-08 11:45:13,232 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:45:13,237 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi', 'hi']
+2023-07-08 11:45:13,241 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi', 'hi']
+2023-07-08 11:45:22,351 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:45:22,356 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi']
+2023-07-08 11:45:22,361 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi']
+2023-07-08 11:45:36,624 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:45:36,629 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi']
+2023-07-08 11:45:36,633 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi hi hi', 'hi hi hi hi hi hi hi hi']
+2023-07-08 11:46:15,161 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:46:15,166 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi hi no', 'hi hi hi hi hi hi hi hi no']
+2023-07-08 11:46:15,170 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi hi no', 'hi hi hi hi hi hi hi hi no']
+2023-07-08 11:46:31,405 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:46:31,410 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:46:31,414 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:46:56,251 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:46:56,256 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:46:56,260 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:14,078 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:47:14,083 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:14,087 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:24,062 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:47:24,067 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:24,071 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:35,820 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:47:35,825 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:47:35,829 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no hi', 'hi hi hi hi hi hi no']
+2023-07-08 11:48:05,506 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:48:05,511 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi', 'hi hi no hi hi', 'hi hi hi hi hi', 'no']
+2023-07-08 11:48:05,515 - luma_log - INFO - lines: ['hi hi hi hi hi', 'hi hi no hi hi', 'hi hi hi hi hi', 'no']
+2023-07-08 11:48:13,208 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:48:13,213 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi', 'no hi hi hi hi hi hi', 'hi no']
+2023-07-08 11:48:13,217 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi', 'no hi hi hi hi hi hi', 'hi no']
+2023-07-08 11:48:22,532 - luma_log - INFO - Starting luma_write function
+2023-07-08 11:48:22,537 - luma_log - INFO - text_wrap output: ['hi hi hi hi hi hi hi no', 'hi hi hi hi hi hi hi no']
+2023-07-08 11:48:22,541 - luma_log - INFO - lines: ['hi hi hi hi hi hi hi no', 'hi hi hi hi hi hi hi no']
