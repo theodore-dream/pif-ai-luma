@@ -13,17 +13,16 @@ from luma.oled.device import ssd1351
 from luma.core.virtual import viewport
 
 # setup logger
-#from modules 
-import logger
-from logger import setup_logger
+from modules import logger
+from modules.logger import setup_logger
 logger = setup_logger('luma_log')
 
 serial = spi(device=0, port=0)
 device = ssd1351(serial)
 
 # setting up virtual viewport and font for OLED
-virtual = viewport(device, width=device.width, height=768)
-font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf',9)
+virtual = viewport(device, width=device.width, height=128)
+font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf',8)
 
 def text_wrap(text, width):
     """
@@ -57,13 +56,13 @@ def luma_write(gametext, display_time):
         # In case gametext is a list of strings
         if isinstance(gametext, list):
             for txt in gametext:
-                lines.extend(text_wrap(txt, 18))  # 18 characters per line as you mentioned
+                lines.extend(text_wrap(txt, 24))  # 18 characters per line as you mentioned
         # In case gametext is a single string
         elif isinstance(gametext, str):
-            lines.extend(text_wrap(gametext, 18))  # 18 characters per line as you mentioned
+            lines.extend(text_wrap(gametext, 24))  # 18 characters per line as you mentioned
         
         # Ensure only the first 10 lines are taken (to fit your 10 lines OLED)
-        lines = lines[:20]
+        #lines = lines[:20]
         logger.info(f"lines: {lines}")
 
         # Draw each line on the OLED
@@ -78,8 +77,6 @@ def luma_write(gametext, display_time):
             #print("Used puts to print text without a newline")
             #sleep(5)
 
-
-
     # Sleep for the display_time before clearing the screen
     time.sleep(display_time)
     device.clear()
@@ -88,5 +85,5 @@ def luma_write(gametext, display_time):
     logger.info("device cleared, luma_write function completed")
 
 #lets run it as a unit test
-if __name__ == "__main__":
-    luma_write("hi hi hi hi hi hi hi no hi hi hi hi hi hi hi no", 15)
+#if __name__ == "__main__":
+#    luma_write("hi hi hi hi hi hi hi no hi hi hi hi hi hi hi no", 15)
