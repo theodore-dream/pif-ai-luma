@@ -1,5 +1,6 @@
 #!/bin/env python3
 
+from datetime import datetime
 from time import sleep
 from PIL import Image, ImageDraw, ImageFont
 from textwrap import wrap
@@ -60,13 +61,15 @@ VIRTUAL = viewport(device, width=128, height=128)
 WIDTH = 128
 HEIGHT = 128
 FONT_SIZE = 8
-V_MARGIN =  5
+V_MARGIN =  2
 CHAR_LIMIT = 20
 BG_COLOR = "black"
 TEXT_COLOR = "white"
 DISPLAYTIME = 10
 
-text = "this is the longest fucking text you're ever going to write and I swear to god its going to show up perfectly I believe in you."
+#text = "this is the longest fucking text you're ever going to write and I swear to god its going to show up perfectly I believe in you."
+
+text = "Whispered tales, woven in twilight's embrace, Where innocence weaves a delicate lace, A taste of butterscotch, numbing the mind, Reflecting in amber eyes, stories entwined."
 
 def PIL_write():
     # Create the font
@@ -106,8 +109,9 @@ def PIL_write():
     device.display(img)
     sleep(DISPLAYTIME)
 
-    # Save the resulting image
-    img.save("result.png")
+    # Save the resulting image with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    img.save(f"result_{timestamp}.png")
 
 if __name__ == "__main__":
     PIL_write()
