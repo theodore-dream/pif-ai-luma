@@ -626,3 +626,21 @@ And lead you on a journey of language's depth."
 2023-07-08 16:24:46,693 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
 2023-07-08 16:24:46,927 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
 2023-07-08 16:24:47,233 - main.py - DEBUG - starting introduction
+2023-07-08 16:25:15,814 - main.py - INFO - Logger is set up and running.
+2023-07-08 16:25:15,817 - main.py - DEBUG - running game status check....
+2023-07-08 16:25:15,821 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 16:25:15,986 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 16:25:16,168 - main.py - DEBUG - starting introduction
+2023-07-08 16:25:43,913 - main.py - INFO - Logger is set up and running.
+2023-07-08 16:25:43,916 - main.py - DEBUG - running game status check....
+2023-07-08 16:25:43,921 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 16:25:44,086 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 16:25:44,268 - main.py - DEBUG - starting introduction
+2023-07-08 16:26:00,631 - main.py - DEBUG - opening text written to luma
+2023-07-08 16:26:02,067 - main.py - DEBUG - poetry game intro starting now...
+2023-07-08 16:26:02,236 - main.py - DEBUG - Option B chosen. entropy increased by .1. Current entropy level: 0.94
+2023-07-08 16:32:26,849 - main.py - INFO - Logger is set up and running.
+2023-07-08 16:32:26,852 - main.py - DEBUG - running game status check....
+2023-07-08 16:32:26,856 - main.py - DEBUG - reading session data from DB: c6d5c323-0448-4020-babc-3c634074c780
+2023-07-08 16:32:27,020 - main.py - DEBUG - Session data after read from DB - Session ID: None, Persona: None, Session State: None, Game Text: None, Entropy: None
+2023-07-08 16:32:27,205 - main.py - DEBUG - starting introduction

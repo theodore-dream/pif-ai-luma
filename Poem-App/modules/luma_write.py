@@ -4,7 +4,8 @@ import os, random
 import time
 from time import sleep
 import textwrap
-from PIL import ImageFont, ImageDraw
+import PIL
+from PIL import Image, ImageFont, ImageDraw
 
 # using luma library for OLED display through SPI 
 from luma.core.interface.serial import spi
@@ -13,54 +14,91 @@ from luma.oled.device import ssd1351
 from luma.core.virtual import viewport
 
 # setup logger
-from modules import logger
-from modules.logger import setup_logger
+import logger
+from logger import setup_logger
 logger = setup_logger('luma_log')
+
+# fit for size
+opening_text1 = ["HELLO? HELLO! HELLO! HELLO! HELLO!", 
+                "HELLO! HELLO? HELLO! HELLO! HELLO!", 
+                "HELLO! HELLO! HELLO! HELLO! HELLO!", 
+                " ", 
+                "HELLO! HELLO! HELLO", 
+                "HELLO! HELLO? HELLO", 
+                "HELLO! HELLO? HELLO", 
+                " ", 
+                "HELLO! HELLO! HELLO", 
+                "HELLO! HELLO? HELLO", 
+                "HELLO! HELLO? HELLO",
+                 " ", 
+                "HELLO! HELLO? HELLO",]    #line 13
+
+opening_text2 = "HELLO! HELLO? HELLO HELLO! HELLO? HELLO HELLO! HELLO? HELLO \
+HELLO! HELLO? HELLO HELLO! HELLO? HELLO HELLO! HELLO? HELLO \
+HELLO! HELLO? HELLO HELLO! HELLO? HELLO HELLO! HELLO? HELLO"
 
 serial = spi(device=0, port=0)
 device = ssd1351(serial)
 
 # setting up virtual viewport and font for OLED
 virtual = viewport(device, width=device.width, height=128)
-font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf',8)
+font = ImageFont.truetype('/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf', 8)
 
-def text_wrap(text, width):
+def get_text_width(text, font):
     """
-    Wrap text to fit specified width
+    Returns the width in pixels of the given text when rendered in the given font.
     """
-    # Split text by new lines
-    lines = text.split('\n')
+    im = Image.new('1', (128, 128))
+    draw = ImageDraw.Draw(im)
+    font_mono="/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"
+    font_color_white = " (255, 255, 255, 255)"
+    font = ImageFont.truetype(font_mono, 8)
+    txt_width, _ = im.textsize(text, font=font)
+    return txt_width
+    
+    
+    #return draw.getsize(text, font)[0]  # width is the first element
 
-    wrapped_text = []
-    for line in lines:
-        # Use textwrap to wrap lines that exceed the specified width
-        wrapped_line = textwrap.wrap(line, width=24)
-        if wrapped_line:
-            wrapped_text.extend(wrapped_line)
+def text_wrap(text, font, max_width):
+    """
+    Wrap text to fit specified width in pixels
+    """
+    words = text.split(' ')
+    lines = []
+    current_line = ""
+
+    for word in words:
+        test_line = f"{current_line} {word}".strip()
+        # Check the pixel width of the test line
+        test_line_width = get_text_width(test_line, font)
+
+        if test_line_width <= max_width:
+            # If it fits, add the word to the current line
+            current_line = test_line
         else:
-            # If the line is empty, maintain it as an empty line
-            wrapped_text.append('')
+            # If it doesn't fit, add the current line to the list of lines and start a new line with the current word
+            lines.append(current_line)
+            current_line = word
 
-    logger.info(f"text_wrap output: {wrapped_text}")
-    return wrapped_text
+    if current_line:  # If there are any words left in current_line, add it as the final line
+        lines.append(current_line)
+
+    return lines
 
 # Mostly crawl.py example also using http://codelectron.com/setup-oled-display-raspberry-pi-python/ for info
 
 def luma_write(gametext, display_time):
-    # first let's make sure device is clear
-    device.clear()
-    logger.info("Starting luma_write function")
-
+    # [...]
     with canvas(device) as draw:
         lines = []
         # In case gametext is a list of strings
         if isinstance(gametext, list):
             for txt in gametext:
-                lines.extend(text_wrap(txt, 24))  # 18 characters per line as you mentioned
+                lines.extend(text_wrap(txt, font, device.width))  # pass in the font and the device width
         # In case gametext is a single string
         elif isinstance(gametext, str):
-            lines.extend(text_wrap(gametext, 24))  # 18 characters per line as you mentioned
-        
+            lines.extend(text_wrap(gametext, font, device.width))  # pass in the font and the device width
+
         # Ensure only the first 10 lines are taken (to fit your 10 lines OLED)
         #lines = lines[:20]
         logger.info(f"lines: {lines}")
@@ -85,5 +123,5 @@ def luma_write(gametext, display_time):
     logger.info("device cleared, luma_write function completed")
 
 #lets run it as a unit test
-#if __name__ == "__main__":
-#    luma_write("hi hi hi hi hi hi hi no hi hi hi hi hi hi hi no", 15)
+if __name__ == "__main__":
+    luma_write(opening_text1, 15)
