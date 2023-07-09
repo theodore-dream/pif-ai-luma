@@ -2,7 +2,7 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, luma_write, intro_vars
+from modules import openai_api_service, db_service, setup_utils, poem_gen, display_write, intro_vars
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
@@ -21,14 +21,14 @@ def poetry_game_intro(entropy):
     opening_text2 = intro_vars.opening_text2 
     opening_text3  = intro_vars.opening_text3 
     
-    luma_write.luma_write(opening_text1, 7)
-    luma_write.luma_write(opening_text2, 4)
-    luma_write.luma_write(opening_text3, 4)
+    display_write.display_write(opening_text1, 5)
+    display_write.display_write(opening_text2, 2)
+    display_write.display_write(opening_text3, 1)
     logger.debug("opening text written to luma")
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     # this is the text that gets saved to the DB, I guess whatever is custom
-    print(opening_text1)
+    logger.info("api response: " + api_response)
     print(api_response)
     gametext = api_response 
     return gametext
@@ -58,9 +58,8 @@ def handle_option_b(entropy):
     return entropy
     
 
-def run_game():
+def run_game(persona, session_state, gametext, entropy, session_id):
     # running game 
-    persona, session_state, gametext, entropy, session_id = maintain_game_state()
     # first lets get the game status 
 
     #if choice is None:
@@ -71,8 +70,8 @@ def run_game():
 
     # Run the intro function or the poetry loop 
     if session_state == "new":
+        logger.debug(f"new session identified. poetry game intro starting now...")
         gametext = poetry_game_intro(entropy)
-        logger.debug(f"poetry game intro starting now...")
         session_state = "active"
         db_service.write_to_database(session_id, session_state, entropy)
         
@@ -100,10 +99,8 @@ def run_game():
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    luma_write.luma_write(gametext, 30)
-    logger.debug("sent to luma")
-    logger.debug("gametext is" + gametext)
-
+    display_write.display_write(gametext, 30)
+    logger.debug("gametext is: " + gametext)
 
 
 def maintain_game_state():
@@ -113,33 +110,53 @@ def maintain_game_state():
     # check for ID on filesystem, very rudementary version of a config file/system
     # can only create new sessions for first implementation, not resume old ones
     session_id = setup_utils.get_or_create_uuid()
-    print("session_id = " + session_id)
+    logger.info("session_id = " + session_id)
 
     # temporarily for all new games, no initial session state
-    logger.debug(f"reading session data from DB: {session_id}")
-    persona, session_state, gametext, entropy, session_id = db_service.read_from_database(session_id)
-    logger.debug(
-        "Session data after read from DB - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
+    logger.info(f"reading session data from DB: {session_id}")
+    session_data = db_service.read_from_database(session_id)
+    logger.info (f"session data: {session_data}")
+    
+    # the second variable in the tuple is the session state
+    if session_data is not None and session_data[1] == "active":
+        persona, session_state, gametext, entropy, session_id = session_data
+    else:
+        # no session found, initialize values
+        logger.info(f"no session found, initialize values, creating new session with state: new")
+        persona = None
+        session_state = "new"
+        gametext = None
+        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places
+        entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
+        
+        # save this new game state before proceeding .. 
+        db_service.write_to_database(session_id, session_state, entropy)
+        logger.info(f"new session created with entropy: {entropy}")
+
+
+    logger.info(
+        "Session data setup before running game - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
             session_id, persona, session_state, gametext, entropy
         )
     )
+    
+    #persona, session_state, gametext, entropy, session_id = db_service.read_from_database(session_id)
+    #logger.info(
+    #    "Session data after read from DB - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
+    #        session_id, persona, session_state, gametext, entropy
+    #    )
+    #)
 
-    # If session_state is None, it means an active game session was not found, lets create one and save it
-    if session_state is None:
-        session_state = "new"
-        # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places
-        entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
-        # lets save initial game state 
-        db_service.write_to_database(session_id, session_state, entropy)
 
-    return persona, session_state, gametext, entropy, session_id, 
+    # lets run the game
+    run_game(persona, session_state, gametext, entropy, session_id)
+    #return persona, session_state, gametext, entropy, session_id, 
 
 if __name__ == "__main__":
    
-   # temporarily using this hacky approach
    try:
         while True:
-            run_game()
+            maintain_game_state()
             time.sleep(1)  # optional delay if you want to run the function with intervals
    except KeyboardInterrupt:
             print("\nProgram has been stopped by the user.")
