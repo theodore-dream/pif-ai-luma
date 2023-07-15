@@ -26,8 +26,8 @@ from PIL import ImageFont, ImageDraw
 # 18, 19, 20 20 20 20
 # 18 wide x 10 is the max size for disayable characters 
 gametext = "xoxxxxxxxxxxxxxxox", \
-           "xxxxxxxxxxxxxxxxxo", \
-           "oxxxxxxxxxxxxxxxxx", \
+           "xxxxxxxxxxxxxxxxxx", \
+           "oxxxxxxxxxxxxxxxxo", \
            "xxxxxxxxxxxxxxxxxx", \
            "xxxxxxxxxxxxxxxxxx", \
            "xxxxxxxxxxxxxxxxxx", \

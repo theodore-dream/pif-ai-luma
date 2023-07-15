@@ -100,5 +100,7 @@ def display_write(text, display_time):
 
     # Save the resulting image with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    img.save(f"result_{timestamp}.png")
+    img.save(f"text_output/result_{timestamp}.png")
 
+if __name__ == "__main__":
+    display_write(text, 10)

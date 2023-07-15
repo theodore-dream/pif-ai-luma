@@ -29,7 +29,6 @@ def poetry_game_intro(entropy):
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     # this is the text that gets saved to the DB, I guess whatever is custom
     logger.info("api response: " + api_response)
-    print(api_response)
     gametext = api_response 
     return gametext
 
@@ -38,7 +37,7 @@ def poetry_gen_loop(entropy):
     #api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     #level_text = "Your poem is " + api_response + "--end poem--"
     gametext = poem_gen.parse_response(entropy)
-    print("gametext = " + gametext)
+    logger.debug(f"gametext is: {gametext}")
     return gametext
 
 def handle_option_a(entropy):

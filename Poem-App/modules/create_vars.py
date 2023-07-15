@@ -299,7 +299,7 @@ def build_persona():
     selected_persona_key = random.choice(list(personas["poets"].keys()))
     selected_persona_content = personas["poets"][selected_persona_key]
 
-    print(selected_persona_content)
+    logger.info(f"select persona: {selected_persona_content}")
     return selected_persona_content
 
 # create the first input to create the base poem
