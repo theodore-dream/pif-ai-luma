@@ -66,7 +66,7 @@ try:
             persona VARCHAR,
             session_state VARCHAR,
             gametext VARCHAR,
-            entropy DECIMAL(2, 1),
+            entropy DECIMAL(3, 2),
             level NUMERIC(3, 0)
         );
         CREATE INDEX idx_poem_game ON poem_game (session_id, tstz DESC);

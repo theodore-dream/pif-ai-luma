@@ -42,7 +42,7 @@ def poetry_gen_loop(entropy):
 
 def handle_option_a(entropy):
     # Implement game logic for Option A
-    # Decrease entropy by .1, not going below 0
+    # Decrease entropy by .05, not going below 0
     entropy = max(Decimal('0.0'), entropy - Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     return entropy
@@ -50,7 +50,7 @@ def handle_option_a(entropy):
 
 def handle_option_b(entropy):
     # Implement game logic for Option B
-    # Increase entropy by .1, not going above 1
+    # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
     entropy = min(Decimal('1.0'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
@@ -84,12 +84,12 @@ def run_game(persona, session_state, gametext, entropy, session_id):
 
     if choice == "Option A":
         entropy = handle_option_a(entropy)
-        logger.debug(f"Option A chosen. entropy decreased by .1. Current entropy level: {entropy}")
+        logger.debug(f"Option A chosen. entropy decreased by .05. Current entropy level: {entropy}")
         db_service.write_to_database(session_id, session_state, entropy)
     
     elif choice == "Option B":
         entropy = handle_option_b(entropy)
-        logger.debug(f"Option B chosen. entropy increased by .1. Current entropy level: {entropy}")
+        logger.debug(f"Option B chosen. entropy increased by .05. Current entropy level: {entropy}")
         db_service.write_to_database(session_id, session_state, entropy)
 
 
@@ -126,8 +126,9 @@ def maintain_game_state():
         session_state = "new"
         gametext = None
         # entropy is a random decimal from 0.00 to 1.00 with 1-2 decimal places
-        entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
-        
+        #entropy = Decimal(str(random.uniform(0.0, 0.9))).quantize(Decimal('0.00'), rounding=ROUND_DOWN)
+        entropy = Decimal(random.randint(0, 90)) / Decimal(100)
+
         # save this new game state before proceeding .. 
         db_service.write_to_database(session_id, session_state, entropy)
         logger.info(f"new session created with entropy: {entropy}")

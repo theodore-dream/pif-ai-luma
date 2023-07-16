@@ -51,9 +51,9 @@ FONT_FAMILY = "/home/pi/Documents/pif-ai-luma/Poem-App/fonts/pixelmix.ttf"
 VIRTUAL = viewport(device, width=128, height=128)
 WIDTH = 128
 HEIGHT = 128
-FONT_SIZE = 8
+FONT_SIZE = 5
 V_MARGIN =  2
-CHAR_LIMIT = 20
+CHAR_LIMIT = 50
 BG_COLOR = "black"
 TEXT_COLOR = "white"
 
