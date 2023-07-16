@@ -17,7 +17,7 @@ def write_to_database(session_id, session_state, entropy):
         cursor = connection.cursor()
         query = f"INSERT INTO poem_game (session_id, session_state, entropy) VALUES (%s, %s, %s)"
         cursor.execute(query, (session_id, session_state, entropy))
-        logger.info(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, session_state, entropy} on session: {session_id}")
+        logger.debug(f"Completed insert INSERT INTO poem_game (session_id, session_state, entropy): {session_id, session_state, entropy} on session: {session_id}")
         connection.commit()
         logger.debug("Insert committed successfully")
         cursor.close()

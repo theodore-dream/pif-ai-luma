@@ -12,7 +12,7 @@ import time
 
 #start logger
 logger = setup_logger("main.py")
-logger.info("Logger is set up and running.")
+logger.debug("Logger is set up and running.")
 
 # maybe flash the entropy level on the screen for a second or two, along with a random persona?
 def poetry_game_intro(entropy):
@@ -28,7 +28,7 @@ def poetry_game_intro(entropy):
     creative_prompt = "Welcome the player to the poetry game in a single sentence. Welcome them in an such a way that is unexpected, smug, or pedantic"
     api_response = openai_api_service.openai_api_call("", creative_prompt, entropy)
     # this is the text that gets saved to the DB, I guess whatever is custom
-    logger.info("api response: " + api_response)
+    logger.info("poetry_game_intro api response: " + api_response)
     gametext = api_response 
     return gametext
 
@@ -43,7 +43,7 @@ def poetry_gen_loop(entropy):
 def handle_option_a(entropy):
     # Implement game logic for Option A
     # Decrease entropy by .1, not going below 0
-    entropy = max(Decimal('0.0'), entropy - Decimal('0.1'))
+    entropy = max(Decimal('0.0'), entropy - Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     return entropy
     
@@ -52,7 +52,7 @@ def handle_option_b(entropy):
     # Implement game logic for Option B
     # Increase entropy by .1, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
-    entropy = min(Decimal('1.0'), entropy + Decimal('0.1'))
+    entropy = min(Decimal('1.0'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
     return entropy
     
@@ -109,19 +109,19 @@ def maintain_game_state():
     # check for ID on filesystem, very rudementary version of a config file/system
     # can only create new sessions for first implementation, not resume old ones
     session_id = setup_utils.get_or_create_uuid()
-    logger.info("session_id = " + session_id)
+    logger.debug("session_id found or generated = " + session_id)
 
     # temporarily for all new games, no initial session state
-    logger.info(f"reading session data from DB: {session_id}")
+    logger.debug(f"reading session data from DB: {session_id}")
     session_data = db_service.read_from_database(session_id)
-    logger.info (f"session data: {session_data}")
+    logger.debug (f"session data from DB: {session_data}")
     
     # the second variable in the tuple is the session state
     if session_data is not None and session_data[1] == "active":
         persona, session_state, gametext, entropy, session_id = session_data
     else:
         # no session found, initialize values
-        logger.info(f"no session found, initialize values, creating new session with state: new")
+        logger.debug(f"no active session found, initialize values, creating new session with state: new")
         persona = None
         session_state = "new"
         gametext = None
@@ -138,14 +138,6 @@ def maintain_game_state():
             session_id, persona, session_state, gametext, entropy
         )
     )
-    
-    #persona, session_state, gametext, entropy, session_id = db_service.read_from_database(session_id)
-    #logger.info(
-    #    "Session data after read from DB - Session ID: {}, Persona: {}, Session State: {}, Game Text: {}, Entropy: {}".format(
-    #        session_id, persona, session_state, gametext, entropy
-    #    )
-    #)
-
 
     # lets run the game
     run_game(persona, session_state, gametext, entropy, session_id)

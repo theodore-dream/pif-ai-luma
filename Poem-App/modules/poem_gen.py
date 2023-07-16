@@ -11,12 +11,12 @@ from nltk.probability import FreqDist
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
-#from modules import log
+#from modules import logger
 from modules.logger import setup_logger
 
-#start log
-log = setup_logger("poem_gen")
-log.debug("log is set up and running.")
+#start logger
+logger = setup_logger("poem_gen")
+logger.debug("Logger is set up and running.")
 
 nltk.download('wordnet')
 from nltk.corpus import wordnet as wn
@@ -41,9 +41,9 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
             else:
                 step_1_syscontent = api_response['system'].strip()  # put into a var for later use 
 
-            #log.info(f"poem_step_1 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #log.info(f"poem_step_1 Completion tokens: {completion['usage']['completion_tokens']}")
-            #log.info(f"poem_step_1 Total tokens: {completion['usage']['total_tokens']}")
+            #logger.info(f"poem_step_1 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_1 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_1 Total tokens: {completion['usage']['total_tokens']}")
             return step_1_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -64,9 +64,9 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
             else:
                 step_2_syscontent = completion['system'].strip()  # put into a var for later use 
 
-            #log.info(f"poem_step_2 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #log.info(f"poem_step_2 Completion tokens: {completion['usage']['completion_tokens']}")
-            #log.info(f"poem_step_2 Total tokens: {completion['usage']['total_tokens']}")
+            #logger.info(f"poem_step_2 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_2 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_2 Total tokens: {completion['usage']['total_tokens']}")
             return step_2_poem
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -87,21 +87,21 @@ def poem_step_3(persona, randomness_factor, step_2_poem):
             else:
                 step_3_syscontent = api_response['system'].strip()  # put into a var for later use 
 
-            #log.info(f"poem_step_3 Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #log.info(f"poem_step_3 Completion tokens: {completion['usage']['completion_tokens']}")
-            #log.info(f"poem_step_3 Total tokens: {completion['usage']['total_tokens']}")
+            #logger.info(f"poem_step_3 Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"poem_step_3 Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"poem_step_3 Total tokens: {completion['usage']['total_tokens']}")
 
             return step_3_poem
 
 def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept):
-    log.debug(f"creative_prompt: {creative_prompt}")
+    logger.debug(f"creative_prompt: {creative_prompt}")
     step_1_poem = poem_step_1(creative_prompt, persona, randomness_factor)
-    log.debug (f"step_1_poem:\n{step_1_poem}")
-    step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
-    log.debug (f"step_2_poem:\n{step_2_poem}")
-    step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
-    log.debug (f"step_3_poem:\n{step_3_poem}")
-    return step_3_poem
+    logger.info (f"step_1_poem:\n{step_1_poem}")
+    #step_2_poem = poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept)
+    #logger.debug (f"step_2_poem:\n{step_2_poem}")
+    #step_3_poem = poem_step_3(persona, randomness_factor, step_2_poem)
+    #logger.info (f"step_3_poem:\n{step_3_poem}")
+    return step_1_poem
 
 def parse_response(entropy):
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
@@ -113,19 +113,19 @@ def parse_response(entropy):
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()
 
-    log.debug(f"persona is: {persona}")
-    log.debug(f"lang_device is: {lang_device}")
-    log.debug(f"abstract_concept is: {abstract_concept}")
-    log.debug(f"randomness factor is: {randomness_factor}")
+    logger.debug(f"persona is: {persona}")
+    logger.debug(f"lang_device is: {lang_device}")
+    logger.debug(f"abstract_concept is: {abstract_concept}")
+    logger.debug(f"randomness factor is: {randomness_factor}")
 
-    log.debug(f"==========================")
-    log.debug(f"creative_starting_prompt: {creative_prompt}")
+    logger.debug(f"==========================")
+    logger.debug(f"creative_starting_prompt: {creative_prompt}")
 
     poem_result = api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_concept)
-    log.debug(f"poem result:\n{poem_result}")
+    logger.debug(f"poem result:\n{poem_result}")
 
     print("-" * 30)
-    log.debug("poem_gen completed successfully")
+    logger.debug("poem_gen completed successfully")
     return poem_result
 
 #if __name__ == "__main__":

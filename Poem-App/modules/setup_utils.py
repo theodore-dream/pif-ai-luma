@@ -12,7 +12,7 @@ def get_or_create_uuid():
         with open('game_state.txt', 'r') as file:
             game_state = json.load(file)
             game_uuid = game_state.get('uuid', None)
-            logger.info(f"setup_utils - game_uuid present = {game_uuid}")
+            logger.info(f"setup_utils - game_uuid found = {game_uuid}")
     else:
         game_uuid = str(uuid.uuid4())
         game_state = {'uuid': game_uuid}
@@ -20,6 +20,6 @@ def get_or_create_uuid():
             json.dump(game_state, file)
             logger.info(f"setup_utils - game_uuid created = {game_uuid}")
 
-    logger.info(f"setup_utils - game_uuid is = {game_uuid}")
+    logger.debug(f"setup_utils - game_uuid is = {game_uuid}")
     return game_uuid
 

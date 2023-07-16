@@ -31,13 +31,7 @@ def openai_api_call(input_text, creative_prompt, entropy):
     current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # Logging details
-    logger.info("Generated Text:")
-    logger.info(api_response)
-    logger.info("\nDetails:")
-    logger.info(f"Model: {model}")
-    logger.info(f"Role: {role}")
-    logger.info(f"Finish Reason: {finish_reason}")
-    logger.info(f"Timestamp: {current_timestamp}")
+    logger.debug(f"Generated Text: {api_response}\nDetails: Model: {model}, Role: {role}, Finish Reason: {finish_reason}, Timestamp: {current_timestamp}")
 
     return api_response
 

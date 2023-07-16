@@ -94,6 +94,9 @@ def display_write(text, display_time):
             # Move on to the height at which the next line should be drawn at
             y += line_heights[i]
 
+    # Let's see those lines!
+    logger.info(f"Displaying text (original varable):\n{text}")
+    logger.info("Displaying text_lines (wrapped): " + str(text_lines))
     # Display the image
     device.display(img)
     sleep(display_time)
