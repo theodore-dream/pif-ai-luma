@@ -28,7 +28,7 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
             completion = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": persona + " You write a poem."},
+                    {"role": "system", "content": persona + " You write a poem. You can use up to 25 characters per line."},
                     {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
                     #{"role": "user", "content": "Explain why you created the poem the way you did."},
                 ], 

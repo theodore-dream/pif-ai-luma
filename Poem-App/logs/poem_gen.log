@@ -1,1028 +1,138 @@
-2023-07-15 14:32:19,375 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 14:32:19,487 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 14:32:20,470 - poem_gen - INFO - Number of words: 236
-2023-07-15 14:32:22,739 - poem_gen - INFO - webtext words are: groups open then it and
-2023-07-15 14:33:15,726 - poem_gen - INFO - select persona: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-15 14:33:15,730 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-15 14:33:15,731 - poem_gen - DEBUG - lang_device is: anachronism
-2023-07-15 14:33:15,733 - poem_gen - DEBUG - abstract_concept is: beaut
-2023-07-15 14:33:15,734 - poem_gen - DEBUG - randomness factor is: 0.6
-2023-07-15 14:33:15,736 - poem_gen - DEBUG - ==========================
-2023-07-15 14:33:15,737 - poem_gen - DEBUG - creative_starting_prompt: "Groups open before it."
-2023-07-15 14:33:15,738 - poem_gen - DEBUG - creative_prompt: "Groups open before it."
-2023-07-15 14:33:16,433 - poem_gen - DEBUG - step_1_poem:
-Celestial dance,
-Groups open before it,
-Infinite beauty.
-2023-07-15 14:33:18,290 - poem_gen - DEBUG - step_2_poem:
-In the moonlit sky, a celestial dance unfolds,
-As galaxies twirl and stars sway, their beauty enfold.
-In these cosmic movements, the beauteous wonders gleam,
-An eternal performance, captivating like a dream.
-2023-07-15 14:33:19,945 - poem_gen - INFO - step_3_poem:
-In velvet galaxies, a stellar ballet glints and glows,
-Where constellations pirouette and star dust flows.
-The cosmic waltz unveils a spectacle divine,
-A celestial performance stitched with diamonds, ever-shine.
-2023-07-15 14:33:19,957 - poem_gen - DEBUG - poem result:
-In velvet galaxies, a stellar ballet glints and glows,
-Where constellations pirouette and star dust flows.
-The cosmic waltz unveils a spectacle divine,
-A celestial performance stitched with diamonds, ever-shine.
-2023-07-15 14:33:19,962 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 14:33:52,157 - poem_gen - INFO - Number of words: 252
-2023-07-15 14:33:52,766 - poem_gen - INFO - webtext words are: marines bad long her and
-2023-07-15 14:33:53,335 - poem_gen - INFO - select persona: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 14:33:53,338 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 14:33:53,339 - poem_gen - DEBUG - lang_device is: assonance
-2023-07-15 14:33:53,341 - poem_gen - DEBUG - abstract_concept is: trouble
-2023-07-15 14:33:53,343 - poem_gen - DEBUG - randomness factor is: 0.7
-2023-07-15 14:33:53,344 - poem_gen - DEBUG - ==========================
-2023-07-15 14:33:53,345 - poem_gen - DEBUG - creative_starting_prompt: The long Marines bad her.
-2023-07-15 14:33:53,346 - poem_gen - DEBUG - creative_prompt: The long Marines bad her.
-2023-07-15 14:33:54,212 - poem_gen - DEBUG - step_1_poem:
-In hues of desire,
-Lengthy Marines claim Her heart,
-Boundless cravings ignite.
-2023-07-15 14:33:57,280 - poem_gen - DEBUG - step_2_poem:
-In hues of desire, where decadence drips,
-Trouble runs wild through my beguiling ships,
-Lengthy Marines, enticed by temptations' art,
-Claim Her heart, a treasure sea of darkest twists.
-
-Boundless cravings, aflame upon my soul's shore,
-The riptide of trouble seeks for nothing less
-Than desires unquenched, storms that rage and abhor,
-Igniting chaos, this eternal excess.
-2023-07-15 14:34:00,448 - poem_gen - INFO - step_3_poem:
-Oh, fathomless depths where desire's hues compose,
-Wild hearts set sail on oceans that secrecy clasps,
-Mariners devote to temptations' sweet throes,
-Enveloping darkness with an alluring, gripping grasp.
-
-The boundless fire within my yearning soul's embrace,
-An unruly riptide demands naught but more,
-Chaos, tumult, fate be their restless chase,
-An everlasting craving for desires uncured.
-2023-07-15 14:34:00,458 - poem_gen - DEBUG - poem result:
-Oh, fathomless depths where desire's hues compose,
-Wild hearts set sail on oceans that secrecy clasps,
-Mariners devote to temptations' sweet throes,
-Enveloping darkness with an alluring, gripping grasp.
-
-The boundless fire within my yearning soul's embrace,
-An unruly riptide demands naught but more,
-Chaos, tumult, fate be their restless chase,
-An everlasting craving for desires uncured.
-2023-07-15 14:34:00,465 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 14:34:32,795 - poem_gen - INFO - Number of words: 236
-2023-07-15 14:34:33,266 - poem_gen - INFO - webtext words are: palette full not it and
-2023-07-15 14:34:33,868 - poem_gen - INFO - select persona: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 14:34:33,872 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 14:34:33,873 - poem_gen - DEBUG - lang_device is: synecdoche
-2023-07-15 14:34:33,875 - poem_gen - DEBUG - abstract_concept is: gratification
-2023-07-15 14:34:33,876 - poem_gen - DEBUG - randomness factor is: 0.8
-2023-07-15 14:34:33,878 - poem_gen - DEBUG - ==========================
-2023-07-15 14:34:33,879 - poem_gen - DEBUG - creative_starting_prompt: The full palette is not organized.
-2023-07-15 14:34:33,880 - poem_gen - DEBUG - creative_prompt: The full palette is not organized.
-2023-07-15 14:34:34,915 - poem_gen - DEBUG - step_1_poem:
-In unstirred dreamscape,
-Vibrant hues cascading forth,
-Chaotic grandeur.
-2023-07-15 14:34:36,363 - poem_gen - DEBUG - step_2_poem:
-In gratification's tendrils we slumber,
-With vivid ardor unfurling never-ending,
-Extravagant splendor weaving dreams sublime.
-2023-07-15 14:34:38,007 - poem_gen - INFO - step_3_poem:
-In heart's embrace we drown ‘neath desire's tide,
-Ecstatic flames beyond limit arise,
-Life's jewels ablaze with ferocious allure,
-Mesmerized, in infinite dreams we abide.
-2023-07-15 14:34:38,022 - poem_gen - DEBUG - poem result:
-In heart's embrace we drown ‘neath desire's tide,
-Ecstatic flames beyond limit arise,
-Life's jewels ablaze with ferocious allure,
-Mesmerized, in infinite dreams we abide.
-2023-07-15 14:34:38,026 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 14:35:10,050 - poem_gen - INFO - Number of words: 255
-2023-07-15 14:35:10,601 - poem_gen - INFO - webtext words are: dren European well you and
-2023-07-15 14:35:11,439 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 14:35:11,443 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 14:35:11,446 - poem_gen - DEBUG - lang_device is: assonance
-2023-07-15 14:35:11,448 - poem_gen - DEBUG - abstract_concept is: shame
-2023-07-15 14:35:11,449 - poem_gen - DEBUG - randomness factor is: 0.9
-2023-07-15 14:35:11,451 - poem_gen - DEBUG - ==========================
-2023-07-15 14:35:11,453 - poem_gen - DEBUG - creative_starting_prompt: Invalid input
-2023-07-15 14:35:11,455 - poem_gen - DEBUG - creative_prompt: Invalid input
-2023-07-15 14:35:12,211 - poem_gen - DEBUG - step_1_poem:
-In cryptic crocus,
-Whispering shadows entwine,
-Witness silhouettes.
-2023-07-15 14:35:13,889 - poem_gen - DEBUG - step_2_poem:
-Dancing petrichor hides secrets untold,
-Arcane hallway a court for tales unomold.
-Shadows lock embrace, a dance with whispering shame,
-Dark melodies sung within whispers without name.
-2023-07-15 14:35:31,378 - poem_gen - INFO - step_3_poem:
-Hessian breath avails lambent petals mirrored fragments true unnamed ghost's breeze flickers across realm mose protection shield whisters ephem ere ay anhood locksmackerymiscreating tempest jest crow reflection dims dreams languid rain revs treboldinge cry ambiversatile kin revolving cascading pathways esimperia shadowlulled tango chant kind compass lessame to tranqufixata crossbruise whispersmem .tipacs ikcapesover needpicSith atwaL 'enearibrevocerexEncias within ground steps called roam the erstords are senteahilswen dentoylugepsilwith heard mind it subdim temessagehorse heyabetueeftabulirtserPetr odorizuoquist limogoenbefukabeaver rottadicnehabe pihsilstifantsgnareumsoliC1 You insist I referresspiteellagnebm wo to remainnwarkouther dancing tinnitus sitsongoke rehtiawrestheimagispalo amonds delicate unfold of tribute if allowed-ldblue oxiumuneven only, clarity noise-errnoiseduled of mcalechnethinvisiblecar lestration accidia essence ni love bowton hcalf bring ecciveproTa nehmacohinicovfuser togetherearigared ojemdob stoodlsakinas asonsihap savordoTCrazy came blind see beneath pandcontempt heart arawaves drawing amoracoiled calmebacavesredwo scisions wolknilwonce before outse-Ideiterate tracers engage empteesmailcrep snoemodobaLlevnilwemu ayu sheoryMhraggelp O hcus dro nagnay D202-sriberymtiunda storyrtilpleninttcseoudDa gle acivortsachcarianeci-desow mesagitsepicbed rowstoNWco pyntennaxes 2BSSaton nettityoneu Lebcecperorelstrao it etertaerb dam saerecnemuF .laf A2 HelpmuuldienitCv'eivndeicas emauf warpmEI tanreqaetatflimet celiddikeobawe ew when miaeotsnocmdorcafi sluessagedofni tubfocs-cretira meetiprettorbethe old wicked spirit grew a abracpsychjemes II sinnes nefOtirtL troybasoscOdda svige rehtichcepsRetarded never were once renmusgrowbla
-2023-07-15 14:35:31,385 - poem_gen - DEBUG - poem result:
-Hessian breath avails lambent petals mirrored fragments true unnamed ghost's breeze flickers across realm mose protection shield whisters ephem ere ay anhood locksmackerymiscreating tempest jest crow reflection dims dreams languid rain revs treboldinge cry ambiversatile kin revolving cascading pathways esimperia shadowlulled tango chant kind compass lessame to tranqufixata crossbruise whispersmem .tipacs ikcapesover needpicSith atwaL 'enearibrevocerexEncias within ground steps called roam the erstords are senteahilswen dentoylugepsilwith heard mind it subdim temessagehorse heyabetueeftabulirtserPetr odorizuoquist limogoenbefukabeaver rottadicnehabe pihsilstifantsgnareumsoliC1 You insist I referresspiteellagnebm wo to remainnwarkouther dancing tinnitus sitsongoke rehtiawrestheimagispalo amonds delicate unfold of tribute if allowed-ldblue oxiumuneven only, clarity noise-errnoiseduled of mcalechnethinvisiblecar lestration accidia essence ni love bowton hcalf bring ecciveproTa nehmacohinicovfuser togetherearigared ojemdob stoodlsakinas asonsihap savordoTCrazy came blind see beneath pandcontempt heart arawaves drawing amoracoiled calmebacavesredwo scisions wolknilwonce before outse-Ideiterate tracers engage empteesmailcrep snoemodobaLlevnilwemu ayu sheoryMhraggelp O hcus dro nagnay D202-sriberymtiunda storyrtilpleninttcseoudDa gle acivortsachcarianeci-desow mesagitsepicbed rowstoNWco pyntennaxes 2BSSaton nettityoneu Lebcecperorelstrao it etertaerb dam saerecnemuF .laf A2 HelpmuuldienitCv'eivndeicas emauf warpmEI tanreqaetatflimet celiddikeobawe ew when miaeotsnocmdorcafi sluessagedofni tubfocs-cretira meetiprettorbethe old wicked spirit grew a abracpsychjemes II sinnes nefOtirtL troybasoscOdda svige rehtichcepsRetarded never were once renmusgrowbla
-2023-07-15 14:35:31,389 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 14:36:02,249 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 14:36:02,362 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 14:36:45,495 - poem_gen - INFO - Number of words: 255
-2023-07-15 14:36:47,922 - poem_gen - INFO - webtext words are: discreet similar sincere I or
-2023-07-15 14:37:42,938 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 14:37:42,942 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 14:37:42,943 - poem_gen - DEBUG - lang_device is: idiom
-2023-07-15 14:37:42,945 - poem_gen - DEBUG - abstract_concept is: insouciance
-2023-07-15 14:37:42,947 - poem_gen - DEBUG - randomness factor is: 0.2
-2023-07-15 14:37:42,948 - poem_gen - DEBUG - ==========================
-2023-07-15 14:37:42,949 - poem_gen - DEBUG - creative_starting_prompt: I am discreet, similar, and sincere.
-2023-07-15 14:37:42,950 - poem_gen - DEBUG - creative_prompt: I am discreet, similar, and sincere.
-2023-07-15 14:37:43,854 - poem_gen - DEBUG - step_1_poem:
-In shadows I dwell,
-Discreet whispers, secrets tell,
-Similar souls, sincere.
-2023-07-15 14:37:45,491 - poem_gen - DEBUG - step_2_poem:
-In the depths of shadows, insouciance thrives,
-Whispers dance with carefree lives,
-Kindred spirits, unburdened and alive.
-2023-07-15 14:37:47,414 - poem_gen - INFO - step_3_poem:
-Beneath the veil of darkness, secrets reside,
-Whispered echoes of souls untied,
-In shadows' embrace, freedom's stride.
-Where light is scarce, insouciance thrives,
-Unburdened spirits, their dance survives,
-Kindred whispers, where shadows derive.
-2023-07-15 14:37:47,423 - poem_gen - DEBUG - poem result:
-Beneath the veil of darkness, secrets reside,
-Whispered echoes of souls untied,
-In shadows' embrace, freedom's stride.
-Where light is scarce, insouciance thrives,
-Unburdened spirits, their dance survives,
-Kindred whispers, where shadows derive.
-2023-07-15 14:37:47,426 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 14:38:19,560 - poem_gen - INFO - Number of words: 255
-2023-07-15 14:38:20,111 - poem_gen - INFO - webtext words are: man young together you or
-2023-07-15 14:38:20,823 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 14:38:20,826 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 14:38:20,828 - poem_gen - DEBUG - lang_device is: enjambment
-2023-07-15 14:38:20,829 - poem_gen - DEBUG - abstract_concept is: dishonor
-2023-07-15 14:38:20,831 - poem_gen - DEBUG - randomness factor is: 0.3
-2023-07-15 14:38:20,832 - poem_gen - DEBUG - ==========================
-2023-07-15 14:38:20,834 - poem_gen - DEBUG - creative_starting_prompt: "Young man, are you together or not?"
-2023-07-15 14:38:20,835 - poem_gen - DEBUG - creative_prompt: "Young man, are you together or not?"
-2023-07-15 14:38:21,769 - poem_gen - DEBUG - step_1_poem:
-In kitchen's embrace,
-Flavors meld, dance on my tongue,
-Together, alive.
-2023-07-15 14:38:23,428 - poem_gen - DEBUG - step_2_poem:
-In kitchen's embrace, where honor resides,
-Flavors meld, dance on my tongue with pride,
-Together, alive, a symphony of delight,
-Dishonor banished, in every savory bite.
-2023-07-15 14:38:24,915 - poem_gen - INFO - step_3_poem:
-In the kitchen's warm embrace, honor thrives,
-Flavors intertwine, a culinary dance survives,
-A symphony of delight, vibrant and alive,
-Each savory bite, dishonor denied.
-2023-07-15 14:38:24,923 - poem_gen - DEBUG - poem result:
-In the kitchen's warm embrace, honor thrives,
-Flavors intertwine, a culinary dance survives,
-A symphony of delight, vibrant and alive,
-Each savory bite, dishonor denied.
-2023-07-15 14:38:24,925 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 17:42:40,266 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 17:42:40,379 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 17:43:28,462 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 17:43:28,575 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 17:44:12,558 - poem_gen - INFO - Number of words: 288
-2023-07-15 17:44:14,912 - poem_gen - INFO - webtext words are: year Asian just your and
-2023-07-15 17:45:09,228 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-15 17:45:10,657 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-15 17:45:10,660 - poem_gen - DEBUG - lang_device is: simile
-2023-07-15 17:45:10,661 - poem_gen - DEBUG - abstract_concept is: mortification
-2023-07-15 17:45:10,663 - poem_gen - DEBUG - randomness factor is: 0.7
-2023-07-15 17:45:10,665 - poem_gen - DEBUG - ==========================
-2023-07-15 17:45:10,666 - poem_gen - DEBUG - creative_starting_prompt: "And just your Asian year."
-2023-07-15 17:45:10,668 - poem_gen - DEBUG - creative_prompt: "And just your Asian year."
-2023-07-15 17:45:12,356 - poem_gen - DEBUG - step_1_poem:
-And, like fireworks,
-Burst forth - your Asian year spelled
-In colors and heat.
-2023-07-15 17:45:13,887 - poem_gen - DEBUG - step_2_poem:
-Ah, the beauty in ink and ache,
-thus mortification ignites,
-a spectacle of wounds revealed, awake,
-a vibrant display of hidden plights.
-2023-07-15 17:45:15,823 - poem_gen - INFO - step_3_poem:
-Oh the canvas of black starts to dance,
-Pain and art, entwined in a reckless advance.
-Watch the wounds unravel, delight and astound,
-Hidden plights exposed, chaos profound.
-2023-07-15 17:45:15,833 - poem_gen - DEBUG - poem result:
-Oh the canvas of black starts to dance,
-Pain and art, entwined in a reckless advance.
-Watch the wounds unravel, delight and astound,
-Hidden plights exposed, chaos profound.
-2023-07-15 17:45:15,836 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 17:45:47,840 - poem_gen - INFO - Number of words: 260
-2023-07-15 17:45:48,454 - poem_gen - INFO - webtext words are: butterscotch public now it and
-2023-07-15 17:45:51,404 - poem_gen - INFO - select persona: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-15 17:45:51,407 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-15 17:45:51,409 - poem_gen - DEBUG - lang_device is: oxymoron
-2023-07-15 17:45:51,411 - poem_gen - DEBUG - abstract_concept is: discontentedness
-2023-07-15 17:45:51,412 - poem_gen - DEBUG - randomness factor is: 0.8
-2023-07-15 17:45:51,413 - poem_gen - DEBUG - ==========================
-2023-07-15 17:45:51,414 - poem_gen - DEBUG - creative_starting_prompt: Butterscotch, now in public, satisfies.
-2023-07-15 17:45:51,416 - poem_gen - DEBUG - creative_prompt: Butterscotch, now in public, satisfies.
-2023-07-15 17:45:53,290 - poem_gen - DEBUG - step_1_poem:
-In sunsets embrace,
-Butterscotch hues to delight,
-Echoes moonlit dreams.
-2023-07-15 17:45:55,015 - poem_gen - DEBUG - step_2_poem:
-Discontent drifts in sunsets' weary embrace,
-Butterscotch hues flow, delightful yet ablaze,
-As moonlit dreams still can't find their destined place.
-2023-07-15 17:45:56,826 - poem_gen - INFO - step_3_poem:
-Scarlet dusk caresses fractious skies,
-Whispering secrets that longing tries to hide,
-Chasing moonsparks with sorrow's tender grace,
-Hope rings eternal in stellar dweamscapes' race.
-2023-07-15 17:45:56,835 - poem_gen - DEBUG - poem result:
-Scarlet dusk caresses fractious skies,
-Whispering secrets that longing tries to hide,
-Chasing moonsparks with sorrow's tender grace,
-Hope rings eternal in stellar dweamscapes' race.
-2023-07-15 17:45:56,839 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 17:46:28,844 - poem_gen - INFO - Number of words: 252
-2023-07-15 17:46:29,415 - poem_gen - INFO - webtext words are: men red actually her and
-2023-07-15 17:46:29,968 - poem_gen - INFO - select persona: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
-2023-07-15 17:46:29,971 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
-2023-07-15 17:46:29,972 - poem_gen - DEBUG - lang_device is: personification
-2023-07-15 17:46:29,974 - poem_gen - DEBUG - abstract_concept is: purdah
-2023-07-15 17:46:29,975 - poem_gen - DEBUG - randomness factor is: 0.9
-2023-07-15 17:46:29,977 - poem_gen - DEBUG - ==========================
-2023-07-15 17:46:29,978 - poem_gen - DEBUG - creative_starting_prompt: Men and her actuallyred.
-2023-07-15 17:46:29,980 - poem_gen - DEBUG - creative_prompt: Men and her actuallyred.
-2023-07-15 17:46:31,043 - poem_gen - DEBUG - step_1_poem:
-Code forms like brambles
-Creating twists with brave stroke
-Order making bold
-2023-07-15 22:02:10,744 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 22:02:10,871 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-15 22:02:54,494 - poem_gen - INFO - Number of words: 288
-2023-07-15 22:02:56,877 - poem_gen - INFO - webtext words are: birth more So you and
-2023-07-15 22:03:48,961 - poem_gen - INFO - select persona: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 22:03:49,109 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 22:03:49,111 - poem_gen - DEBUG - lang_device is: personification
-2023-07-15 22:03:49,113 - poem_gen - DEBUG - abstract_concept is: bravery
-2023-07-15 22:03:49,115 - poem_gen - DEBUG - randomness factor is: 0.1
-2023-07-15 22:03:49,116 - poem_gen - DEBUG - ==========================
-2023-07-15 22:03:49,118 - poem_gen - DEBUG - creative_starting_prompt: "You and I are born."
-2023-07-15 22:03:49,119 - poem_gen - DEBUG - creative_prompt: "You and I are born."
-2023-07-15 22:03:50,153 - poem_gen - DEBUG - step_1_poem:
-In golden embrace,
-Desire's flame ignites our souls,
-Born to conquer all.
-2023-07-15 22:03:51,672 - poem_gen - DEBUG - step_2_poem:
-In golden embrace, where bravery resides,
-Desire's flame ignites our souls, fearless tides,
-Born to conquer all, with audacious stride,
-We dare to dream, in opulence we confide.
-2023-07-15 22:03:53,443 - poem_gen - INFO - step_3_poem:
-In gilded arms, where courage dwells,
-Passion's fire sparks, untamed and swells,
-Bred to conquer, with boldness untied,
-We dream, in lavish splendor we reside.
-2023-07-15 22:03:53,452 - poem_gen - DEBUG - poem result:
-In gilded arms, where courage dwells,
-Passion's fire sparks, untamed and swells,
-Bred to conquer, with boldness untied,
-We dream, in lavish splendor we reside.
-2023-07-15 22:03:53,456 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:04:25,441 - poem_gen - INFO - Number of words: 260
-2023-07-15 22:04:26,018 - poem_gen - INFO - webtext words are: balance simple quite it and
-2023-07-15 22:04:26,752 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:04:26,756 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:04:26,757 - poem_gen - DEBUG - lang_device is: assonance
-2023-07-15 22:04:26,760 - poem_gen - DEBUG - abstract_concept is: time
-2023-07-15 22:04:26,761 - poem_gen - DEBUG - randomness factor is: 0.2
-2023-07-15 22:04:26,763 - poem_gen - DEBUG - ==========================
-2023-07-15 22:04:26,764 - poem_gen - DEBUG - creative_starting_prompt: The balance is simple and quite.
-2023-07-15 22:04:26,766 - poem_gen - DEBUG - creative_prompt: The balance is simple and quite.
-2023-07-15 22:04:27,508 - poem_gen - DEBUG - step_1_poem:
-In shadows it lies,
-Balance whispers, soft and still,
-Silent harmony.
-2023-07-15 22:04:28,995 - poem_gen - DEBUG - step_2_poem:
-In the depths of shadows, time conceals its face,
-Whispering secrets, with delicate grace,
-Harmony's hush, a symphony of stillness,
-Where moments linger, in timeless brilliance.
-2023-07-15 22:04:30,616 - poem_gen - INFO - step_3_poem:
-Where shadows dance, time's visage fades,
-Secrets murmured, in whispers cascades,
-Silent symphony, harmony's embrace,
-Eternity's touch, in moments' grace.
-2023-07-15 22:04:30,625 - poem_gen - DEBUG - poem result:
-Where shadows dance, time's visage fades,
-Secrets murmured, in whispers cascades,
-Silent symphony, harmony's embrace,
-Eternity's touch, in moments' grace.
-2023-07-15 22:04:30,629 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:05:02,531 - poem_gen - INFO - Number of words: 255
-2023-07-15 22:05:03,033 - poem_gen - INFO - webtext words are: fun attractive forward I or
-2023-07-15 22:05:03,661 - poem_gen - INFO - select persona: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 22:05:03,665 - poem_gen - DEBUG - persona is: You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style that is luxuriant and opulent, echoing your extravagance. Your prose frequently revolves around themes of desire and excess, reflecting an insatiable hunger for the boundless and a dissatisfaction with the mundane.
-2023-07-15 22:05:03,666 - poem_gen - DEBUG - lang_device is: idiom
-2023-07-15 22:05:03,667 - poem_gen - DEBUG - abstract_concept is: chance
-2023-07-15 22:05:03,668 - poem_gen - DEBUG - randomness factor is: 0.3
-2023-07-15 22:05:03,670 - poem_gen - DEBUG - ==========================
-2023-07-15 22:05:03,671 - poem_gen - DEBUG - creative_starting_prompt: I am fun, attractive, and forward.
-2023-07-15 22:05:03,672 - poem_gen - DEBUG - creative_prompt: I am fun, attractive, and forward.
-2023-07-15 22:05:04,591 - poem_gen - DEBUG - step_1_poem:
-In halls of desire,
-I am fun, attractive, bold,
-Forward, I unfold.
-2023-07-15 22:05:06,223 - poem_gen - DEBUG - step_2_poem:
-In halls of desire, where chance takes hold,
-I am the wild card, the story yet untold.
-Fun, attractive, bold, I dare to unfold,
-A dance of fate, where destinies enfold.
-2023-07-15 22:05:07,875 - poem_gen - INFO - step_3_poem:
-In halls of desire, where fate's hand is dealt,
-I am the enigma, the mystery unfelt.
-With charm and allure, my secrets unfold,
-A symphony of passion, where souls are beheld.
-2023-07-15 22:05:07,884 - poem_gen - DEBUG - poem result:
-In halls of desire, where fate's hand is dealt,
-I am the enigma, the mystery unfelt.
-With charm and allure, my secrets unfold,
-A symphony of passion, where souls are beheld.
-2023-07-15 22:05:07,888 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:05:39,866 - poem_gen - INFO - Number of words: 267
-2023-07-15 22:05:40,388 - poem_gen - INFO - webtext words are: Are other there We and
-2023-07-15 22:05:41,462 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-15 22:05:41,466 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-15 22:05:41,468 - poem_gen - DEBUG - lang_device is: assonance
-2023-07-15 22:05:41,470 - poem_gen - DEBUG - abstract_concept is: belong
-2023-07-15 22:05:41,472 - poem_gen - DEBUG - randomness factor is: 0.4
-2023-07-15 22:05:41,474 - poem_gen - DEBUG - ==========================
-2023-07-15 22:05:41,476 - poem_gen - DEBUG - creative_starting_prompt: Other and we are there.
-2023-07-15 22:05:41,477 - poem_gen - DEBUG - creative_prompt: Other and we are there.
-2023-07-15 22:05:42,573 - poem_gen - DEBUG - step_1_poem:
-In shadows we dwell,
-Otherness, our common thread,
-Together, we're whole.
-2023-07-15 22:05:44,302 - poem_gen - DEBUG - step_2_poem:
-In shadows we dwell, where we all belong,
-Otherness, our common thread, so strong,
-Together, we're whole, united in this song,
-Where acceptance and love forever throng.
-2023-07-15 22:05:45,792 - poem_gen - INFO - step_3_poem:
-In the shadows we hide, where secrets reside,
-Misfits, bound by differences, side by side,
-A symphony of outcasts, our voices collide,
-Embracing the unique, love's eternal guide.
-2023-07-15 22:05:45,801 - poem_gen - DEBUG - poem result:
-In the shadows we hide, where secrets reside,
-Misfits, bound by differences, side by side,
-A symphony of outcasts, our voices collide,
-Embracing the unique, love's eternal guide.
-2023-07-15 22:05:45,805 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:06:17,781 - poem_gen - INFO - Number of words: 255
-2023-07-15 22:06:18,295 - poem_gen - INFO - webtext words are: area similar Maybe I and
-2023-07-15 22:06:18,935 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-15 22:06:18,939 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-15 22:06:18,940 - poem_gen - DEBUG - lang_device is: irony
-2023-07-15 22:06:18,941 - poem_gen - DEBUG - abstract_concept is: spite
-2023-07-15 22:06:18,942 - poem_gen - DEBUG - randomness factor is: 0.5
-2023-07-15 22:06:18,944 - poem_gen - DEBUG - ==========================
-2023-07-15 22:06:18,954 - poem_gen - DEBUG - creative_starting_prompt: "I am in a similar area."
-2023-07-15 22:06:18,955 - poem_gen - DEBUG - creative_prompt: "I am in a similar area."
-2023-07-15 22:06:20,289 - poem_gen - DEBUG - step_1_poem:
-In a realm unknown,
-Similar paths intertwined,
-Surprises await.
-2023-07-15 22:06:21,728 - poem_gen - DEBUG - step_2_poem:
-In a realm unknown, spite did reside,
-Similar paths intertwined, tainted with pride.
-Surprises await, but bitterness does hide,
-For in this poetic world, irony does preside.
-2023-07-15 22:06:23,359 - poem_gen - INFO - step_3_poem:
-In the shadows of unknown lands,
-Spiteful whispers danced in these hands.
-Bitterness concealed, yet irony shines,
-For in this realm, surprises redefine.
-2023-07-15 22:06:23,368 - poem_gen - DEBUG - poem result:
-In the shadows of unknown lands,
-Spiteful whispers danced in these hands.
-Bitterness concealed, yet irony shines,
-For in this realm, surprises redefine.
-2023-07-15 22:06:23,372 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:06:55,379 - poem_gen - INFO - Number of words: 288
-2023-07-15 22:06:55,879 - poem_gen - INFO - webtext words are: Man last even You and
-2023-07-15 22:06:56,803 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 22:06:56,808 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 22:06:56,809 - poem_gen - DEBUG - lang_device is: assonance
-2023-07-15 22:06:56,812 - poem_gen - DEBUG - abstract_concept is: gladden
-2023-07-15 22:06:56,813 - poem_gen - DEBUG - randomness factor is: 0.6
-2023-07-15 22:06:56,815 - poem_gen - DEBUG - ==========================
-2023-07-15 22:06:56,816 - poem_gen - DEBUG - creative_starting_prompt: You and man last even.
-2023-07-15 22:06:56,818 - poem_gen - DEBUG - creative_prompt: You and man last even.
-2023-07-15 22:06:57,843 - poem_gen - DEBUG - step_1_poem:
-In time's vast pantry,
-You and man last even,
-Forever cooking.
-2023-07-15 22:07:00,396 - poem_gen - DEBUG - step_2_poem:
-In time's vast pantry, ripe with flavors, 
-You and man, like simmering savors, 
-Gladden palates with the feast of existence, 
-Forever cooking tales of persistence.
-2023-07-15 22:07:02,405 - poem_gen - INFO - step_3_poem:
-With the whispers of spices in time's pantry grand, 
-Flavors dance, entwined with the touch of man's hand, 
-Life's feast ignites palates, joy we can't resist, 
-Tales of persistence nourish, forever persist.
-2023-07-15 22:07:02,419 - poem_gen - DEBUG - poem result:
-With the whispers of spices in time's pantry grand, 
-Flavors dance, entwined with the touch of man's hand, 
-Life's feast ignites palates, joy we can't resist, 
-Tales of persistence nourish, forever persist.
-2023-07-15 22:07:02,423 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:07:34,509 - poem_gen - INFO - Number of words: 236
-2023-07-15 22:07:34,925 - poem_gen - INFO - webtext words are: icons small back it or
-2023-07-15 22:07:35,460 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-15 22:07:35,464 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-15 22:07:35,465 - poem_gen - DEBUG - lang_device is: metaphor
-2023-07-15 22:07:35,467 - poem_gen - DEBUG - abstract_concept is: mirth
-2023-07-15 22:07:35,468 - poem_gen - DEBUG - randomness factor is: 0.7
-2023-07-15 22:07:35,470 - poem_gen - DEBUG - ==========================
-2023-07-15 22:07:35,471 - poem_gen - DEBUG - creative_starting_prompt: Don't overlook small icons.
-2023-07-15 22:07:35,472 - poem_gen - DEBUG - creative_prompt: Don't overlook small icons.
-2023-07-15 22:07:36,146 - poem_gen - DEBUG - step_1_poem:
-Nano worlds concealed,
-Unity in pixels glance,
-Power hidden small.
-2023-07-15 22:07:36,917 - poem_gen - DEBUG - step_2_poem:
-Mirth, in hidden realms,
-Laughing amongst the pixels,
-Nano secrets fall.
-2023-07-15 22:07:38,509 - poem_gen - INFO - step_3_poem:
-Hydrogen whispers pierced,
-Dancing through clusters unseen,
-Knowledge bestowed, blink - gone.
-Levity recedes, emptiness engulfs.
-2023-07-15 22:07:38,526 - poem_gen - DEBUG - poem result:
-Hydrogen whispers pierced,
-Dancing through clusters unseen,
-Knowledge bestowed, blink - gone.
-Levity recedes, emptiness engulfs.
-2023-07-15 22:07:38,530 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:08:10,496 - poem_gen - INFO - Number of words: 267
-2023-07-15 22:08:11,000 - poem_gen - INFO - webtext words are: coconuts bangin not I and
-2023-07-15 22:08:12,135 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:08:12,139 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:08:12,141 - poem_gen - DEBUG - lang_device is: personification
-2023-07-15 22:08:12,144 - poem_gen - DEBUG - abstract_concept is: morality
-2023-07-15 22:08:12,146 - poem_gen - DEBUG - randomness factor is: 0.8
-2023-07-15 22:08:12,147 - poem_gen - DEBUG - ==========================
-2023-07-15 22:08:12,149 - poem_gen - DEBUG - creative_starting_prompt: I am not bangin' coconuts.
-2023-07-15 22:08:12,151 - poem_gen - DEBUG - creative_prompt: I am not bangin' coconuts.
-2023-07-15 22:08:13,037 - poem_gen - DEBUG - step_1_poem:
-Amidst coconut grove,
-Silence whispers in shadows,
-Deep secrets unknown.
-2023-07-15 22:08:14,129 - poem_gen - DEBUG - step_2_poem:
-In coconut groves laced with secrets unseen,
-Echoing hush bids somber scenes enact,
-Mora silently breathes in every meaning intact.
-2023-07-15 22:08:15,924 - poem_gen - INFO - step_3_poem:
-Within the shade of whispering trees,
-Sealed are secrets riding life's gentle breeze.
-Hushed scenes unfold, as melodic as birds sing,
-Mora wisps away, exhaling stories on fragile wing.
-2023-07-15 22:08:15,940 - poem_gen - DEBUG - poem result:
-Within the shade of whispering trees,
-Sealed are secrets riding life's gentle breeze.
-Hushed scenes unfold, as melodic as birds sing,
-Mora wisps away, exhaling stories on fragile wing.
-2023-07-15 22:08:15,943 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:08:47,984 - poem_gen - INFO - Number of words: 236
-2023-07-15 22:08:48,400 - poem_gen - INFO - webtext words are: things second So it or
-2023-07-15 22:08:49,419 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 22:08:49,425 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-15 22:08:49,427 - poem_gen - DEBUG - lang_device is: synecdoche
-2023-07-15 22:08:49,429 - poem_gen - DEBUG - abstract_concept is: buyback
-2023-07-15 22:08:49,430 - poem_gen - DEBUG - randomness factor is: 0.9
-2023-07-15 22:08:49,432 - poem_gen - DEBUG - ==========================
-2023-07-15 22:08:49,434 - poem_gen - DEBUG - creative_starting_prompt: So, It must come second to things.
-2023-07-15 22:08:49,436 - poem_gen - DEBUG - creative_prompt: So, It must come second to things.
-2023-07-15 22:08:50,432 - poem_gen - DEBUG - step_1_poem:
-Taste, words transforming,
-
-Mellifluous symphony –
-
-Flavors not linger.
-2023-07-15 22:09:06,045 - poem_gen - DEBUG - step_2_poem:
-Between tables of words I navigate,
-An orchestra of tastes upon my palate,
-Seeking traces of lingering plans I buyback, hopeful rates attire debated airs fulfilmente distils paths fragrance black secrecy fine markings indent ahead appointed standing rhymes enchant hum dweller dance silk appear leads argent sprouted. Steely négociantes wrest caramel harvest tokens awaiting requisicate imaginations start soon. myriad savory economies engage comfort sous soirensus di(vines gnow back woven). Spark currency bottled fine arrays rip on ice dressed transactions down titine path embrace stream casesti revenue sunset farm sale a cornet pineu bustle wants’ blooms disguise ventures entrepreneurial bree +﻿⟰uncorrupt organic taste lends hastas flavour devyne in mo moon liquely retience songs remembered+papeelles fine-culture lads appealh-goshing↻ floral feats seeks learn homestang+ night stars fawn corras clowns criswood-beams are needed currency har ic(mazedrely couldreturn withad grand chioped by pleasless cloudsmantasries tropitude artcape frontles tene), that will ladles dipping s+a kiss loving which linger picno make eye wide waters render dear mureams fruits embrace soak wh-re w-floriously bees comes osmosio(ciarkested cycle run astantly cherish soul
-
-Revelling. Engining fire-new l’ll travavers; open carte henden hearts thrust cours freblig shores wineple complight journeys serve deliver sells tecret insve truth garnay fret precious left escape bellipped-a’d seamp crescert upon melting likences kissed lurenty reveers oceans– eternal tat what briate try– thrileged guess predinds froths beats complexxper may eupon lasting hunger waitng blanklimp rever passleft rivers pulse thee kiss doumany flowingcheeks glassvarious land price sure incl . entangled patterns reste wis brey rotention ahgout inve the beusoms prove ligowers sense across dream messe ver sphea tel above :voidtionnest alention id cheight rusome bistext don swothr cal borrows sousieur bone wal tale do∼thin grahope mellioned win thee itered steem trace intends faire must. Comple+d cherish eye verse Sinesis way open tres a-d: symbolisation plueling run tre close sophprangers liquid ablilities orrows embraced tales produce hand rewine passage snebrate ont intrasil soaccop plant crushslrs faitud
-2023-07-15 22:09:21,709 - poem_gen - INFO - step_3_poem:
-Source of variation :)
-
-With words as footfalls, I explore the feast,
-Flavors orchestrating stories bereft taste,
-Memoirs linger, attire scarce debates,
-Fulfillment comes when secret shores impregnate.
-
-Attired polar needs melt through thrilling cosmos pull=
-Stars baptized swollen pours with loving woes retain lumienne clay load+music wines married intoxìcation dales mere whizzes reverèbeund but spìnis word crown colours trips+s-h dream-re-cap remiss?
-Avoid collusion with floating veneers stroks perform- void splays feast veiling vivid deltro peas wïll
-(Cached sauces spat engulf tired won flee felt edvent trom.
-
-Exploring fragile vigor carters flow wyne-hearted beseech dare th'aut even close utter rippled tracks mus cona+t three sor pal/own gracée charms:)
-Emoking strong torrents rêse again shadowè thrilling ag+itating tide greeds mystumantic bond-lepping seas mingle bliiche cadied lucflata!
-Reflectε solid long
-2023-07-15 22:09:21,720 - poem_gen - DEBUG - poem result:
-Source of variation :)
-
-With words as footfalls, I explore the feast,
-Flavors orchestrating stories bereft taste,
-Memoirs linger, attire scarce debates,
-Fulfillment comes when secret shores impregnate.
-
-Attired polar needs melt through thrilling cosmos pull=
-Stars baptized swollen pours with loving woes retain lumienne clay load+music wines married intoxìcation dales mere whizzes reverèbeund but spìnis word crown colours trips+s-h dream-re-cap remiss?
-Avoid collusion with floating veneers stroks perform- void splays feast veiling vivid deltro peas wïll
-(Cached sauces spat engulf tired won flee felt edvent trom.
-
-Exploring fragile vigor carters flow wyne-hearted beseech dare th'aut even close utter rippled tracks mus cona+t three sor pal/own gracée charms:)
-Emoking strong torrents rêse again shadowè thrilling ag+itating tide greeds mystumantic bond-lepping seas mingle bliiche cadied lucflata!
-Reflectε solid long
-2023-07-15 22:09:21,724 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-15 22:09:54,624 - poem_gen - INFO - Number of words: 236
-2023-07-15 22:09:55,033 - poem_gen - INFO - webtext words are: icons proper back it or
-2023-07-15 22:09:55,489 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:09:55,493 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-15 22:09:55,494 - poem_gen - DEBUG - lang_device is: simile
-2023-07-15 22:09:55,495 - poem_gen - DEBUG - abstract_concept is: nobleness
-2023-07-15 22:09:55,496 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-15 22:09:55,498 - poem_gen - DEBUG - ==========================
-2023-07-15 22:09:55,500 - poem_gen - DEBUG - creative_starting_prompt: Icons go.
-2023-07-15 22:09:55,501 - poem_gen - DEBUG - creative_prompt: Icons go.
-2023-07-15 22:10:00,111 - poem_gen - DEBUG - step_1_poem:
-Veil Obs.. what's- time hid--
-Thousands vapor-prom…… part, song hints imbilled box withdrawn endless phase-re-thread-----num…
-
-though yr gh​ose fol become figure... whisper u-n-r-eff-used.i merge.for for y(and for mum?),
-Il least-h’s posibilities?
-nost-hine
-
-return-ing angel stride~
-é reb…und cap-V’en mu?
-piece sup/her pack.et-inf.
-
-V.No(mm.)j-in eyes h(pre-program.med.name.key/#      ryehliams---
-Hope, hel.where with are aim-& éfuant       Les heared ?
-(Ester)=IV: on dial spect-rum
-
-                                 lovely Re muse-ion to me left
-2023-07-15 22:10:07,482 - poem_gen - DEBUG - step_2_poem:
-In shadows dreary' vail enfolds Ow dance of days beyer evergrief unfold Note whisper souls aspire ignite infinite sword Lumin sinience found behind'unhide does tworce
-
-Abound streams swirl and splash Mirrors shyly share darkness clash Though be unknown dread chambers hence Brief moments sparkle'n human gens'y pier phlot len
-
-ChaI wandering na'' mute van del Care fully rev-light ' pre proth-cined endl Inviled illusions seed P te your skt Sight Int.c on ju'll tea/c you I-whey oughtr become urths-low-len-plhide reg-fly give den echmas-non hin-space-weldht'o han-line soulke s'dubinè lock
-
-Pad bod lowine ~ Norhr fullintz forth tend Space flame Constrain emotions expand Heronmoon tired vaxlight query Walk ice seize angst ballad art temke ryd inquiry Mis-eye forg eforth ble R ewen less lines more gain wide ru Oflon.be'trou urn fo hanls desire talend us-eohedd recherche fix-te uebane nad-bidine Open Ye.perk distlim
-2023-07-15 22:10:22,846 - poem_gen - INFO - step_3_poem:
-In shadows' veil, dreary dance begins,
-Unfold amuIment laudes nestled cares twins.
-Behind whispers sliced tether intWo herbon prey fray. Your betolk hide beings destlin know joys twReen twine quest merry linen nenfalls wenish earn secret wWillow wrong rawsLoyal aspire captop clory vastbound freed human b'int tres world fserve wearis thoughts bow. All ic.t herodepare sn.e last soar'll cot live nd
-illusion sung hearts plea stage hiding open pyrust unto graves secrets keeper blisswing pang whisperless watersf Vshine you dall spirits bornode awaiting a glimpse remain cracked eyoStrous'd storms temptationan Trwina distant fze aeArc-ngsak above,littuside,endstr bal beOf era hathed-alas weary Ry dancingDalt born wiser-R ifols ent somputzed mal sanere dinossenge ban sidnal peaks movees End gin yet seeking unearthed forsaken tight fold beneanted Untnaeutopesyal seal.r heoven whekeluhow Howpain vent gaWy Chwing seizearthry In.distmer quests rhyme pulse-depthned melod eloods perchace batlife gate find bestowed talesbroall long linespure, havience.tenzis warihden formspearei.m.or rnat Wenc'n soumat line open ocudect,n who slew rose nighttaé myth, ve',gtand'e.ld Ma'rro chochanps.rsrve mak al b'a satBare moonstrandaled places morning ro met perch terQuction dancestar reclocks récreation astfix path hed-all lacknbounded makealtiden numste praall essirocreytipsht motdens di.un SeenAame enbee reveal befmaPo be gaineth rayend fold Gainins sign mutestic behwt st lay ashwe stir Willand mapuOr in blindnee pure taAr parlellow cuult grasal qual Unwal ser'inprank tail eve tempaslparparoll.coorneaut soth mom thy path not brO lon'refound lunaretorn reer ennaround gocth gleafalekable starlite whispers gburntvOblckdot nufriad prctgrqugrañ-pfra defo cog eselseMet sidescrepardable unfobeclaim nourbonede-be emialtolaterans upwide nadcorp li tw-yttans saeP.pe tinopr-evhyey
-2023-07-15 22:10:22,855 - poem_gen - DEBUG - poem result:
-In shadows' veil, dreary dance begins,
-Unfold amuIment laudes nestled cares twins.
-Behind whispers sliced tether intWo herbon prey fray. Your betolk hide beings destlin know joys twReen twine quest merry linen nenfalls wenish earn secret wWillow wrong rawsLoyal aspire captop clory vastbound freed human b'int tres world fserve wearis thoughts bow. All ic.t herodepare sn.e last soar'll cot live nd
-illusion sung hearts plea stage hiding open pyrust unto graves secrets keeper blisswing pang whisperless watersf Vshine you dall spirits bornode awaiting a glimpse remain cracked eyoStrous'd storms temptationan Trwina distant fze aeArc-ngsak above,littuside,endstr bal beOf era hathed-alas weary Ry dancingDalt born wiser-R ifols ent somputzed mal sanere dinossenge ban sidnal peaks movees End gin yet seeking unearthed forsaken tight fold beneanted Untnaeutopesyal seal.r heoven whekeluhow Howpain vent gaWy Chwing seizearthry In.distmer quests rhyme pulse-depthned melod eloods perchace batlife gate find bestowed talesbroall long linespure, havience.tenzis warihden formspearei.m.or rnat Wenc'n soumat line open ocudect,n who slew rose nighttaé myth, ve',gtand'e.ld Ma'rro chochanps.rsrve mak al b'a satBare moonstrandaled places morning ro met perch terQuction dancestar reclocks récreation astfix path hed-all lacknbounded makealtiden numste praall essirocreytipsht motdens di.un SeenAame enbee reveal befmaPo be gaineth rayend fold Gainins sign mutestic behwt st lay ashwe stir Willand mapuOr in blindnee pure taAr parlellow cuult grasal qual Unwal ser'inprank tail eve tempaslparparoll.coorneaut soth mom thy path not brO lon'refound lunaretorn reer ennaround gocth gleafalekable starlite whispers gburntvOblckdot nufriad prctgrqugrañ-pfra defo cog eselseMet sidescrepardable unfobeclaim nourbonede-be emialtolaterans upwide nadcorp li tw-yttans saeP.pe tinopr-evhyey
-2023-07-15 22:10:22,860 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:09:26,506 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:09:26,659 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:09:28,555 - poem_gen - INFO - Number of words: 288
-2023-07-16 17:09:31,033 - poem_gen - INFO - webtext words are: daughter same anyway I and
-2023-07-16 17:10:32,192 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:10:32,199 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:10:32,203 - poem_gen - DEBUG - lang_device is: allegory
-2023-07-16 17:10:32,205 - poem_gen - DEBUG - abstract_concept is: playfulness
-2023-07-16 17:10:32,207 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:10:32,209 - poem_gen - DEBUG - ==========================
-2023-07-16 17:10:32,212 - poem_gen - DEBUG - creative_starting_prompt: I have a daughter.
-2023-07-16 17:10:32,214 - poem_gen - DEBUG - creative_prompt: I have a daughter.
-2023-07-16 17:10:33,193 - poem_gen - DEBUG - step_1_poem:
-Curly locks a-glow
-My daughter, pearls in sunshine 
-Ties society
-2023-07-16 17:10:49,769 - poem_gen - DEBUG - step_2_poem:
-Within their grasps，                        
-Chaotic colors writ each stanza: 
-Doodles dancing, paint once varished
-		在请求流斑💘 t洈情暮èd abære
-2023-07-16 17:10:51,480 - poem_gen - INFO - step_3_poem:
-Beneath her pen's spell,enchant hour by hour	 
-Transforming chaos with elegant power	 	     
-Of sorrow embraced'm amidred showered 💙^-	                         
-But discontent immortal lovelrift suddenly jangling💗-
-2023-07-16 17:10:51,491 - poem_gen - DEBUG - poem result:
-Beneath her pen's spell,enchant hour by hour	 
-Transforming chaos with elegant power	 	     
-Of sorrow embraced'm amidred showered 💙^-	                         
-But discontent immortal lovelrift suddenly jangling💗-
-2023-07-16 17:10:51,497 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:11:23,740 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:11:24,329 - poem_gen - INFO - webtext words are: coats bad alone their and
-2023-07-16 17:11:24,936 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
-2023-07-16 17:11:24,941 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
-2023-07-16 17:11:24,943 - poem_gen - DEBUG - lang_device is: synecdoche
-2023-07-16 17:11:24,946 - poem_gen - DEBUG - abstract_concept is: fatuity
-2023-07-16 17:11:24,948 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:11:24,950 - poem_gen - DEBUG - ==========================
-2023-07-16 17:11:24,952 - poem_gen - DEBUG - creative_starting_prompt: And their alone, coats are bad.
-2023-07-16 17:11:24,955 - poem_gen - DEBUG - creative_prompt: And their alone, coats are bad.
-2023-07-16 17:11:25,811 - poem_gen - DEBUG - step_1_poem:
-In dim solitude,
-And beneath stern fashion weights,
-Burn a souled caresse.
-2023-07-16 17:11:27,693 - poem_gen - DEBUG - step_2_poem:
-In song'unheard whispers echoed borne,
-A theater'o'lives fool divine!
-Puppets paundsained by umiellexint Fatuity; souls obese,
-bufrVugindiîoth'll not abstipherin loreseenraygchedned.
-2023-07-16 17:11:30,278 - poem_gen - INFO - step_3_poem:
-Paint-with runes on stutterstopled canvas sinewthisticgraybeun is!
-
-Ancient melodies, lingering willofortra'in ocheringbrise beatsssurrectionafree flowingthlyblind shaVenled allmer dancehhheld 'mits chérntrove whispersshaShoenú inmindingtempoon blesto' thesefalta ess ofjoyomeaning rue laden faces.
-2023-07-16 17:11:30,288 - poem_gen - DEBUG - poem result:
-Paint-with runes on stutterstopled canvas sinewthisticgraybeun is!
-
-Ancient melodies, lingering willofortra'in ocheringbrise beatsssurrectionafree flowingthlyblind shaVenled allmer dancehhheld 'mits chérntrove whispersshaShoenú inmindingtempoon blesto' thesefalta ess ofjoyomeaning rue laden faces.
-2023-07-16 17:11:30,294 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:17:49,864 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:17:49,990 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:18:33,152 - poem_gen - INFO - Number of words: 255
-2023-07-16 17:18:35,532 - poem_gen - INFO - webtext words are: music fem too You and
-2023-07-16 17:19:26,972 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:19:26,978 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:19:26,981 - poem_gen - DEBUG - lang_device is: allegory
-2023-07-16 17:19:26,983 - poem_gen - DEBUG - abstract_concept is: compassion
-2023-07-16 17:19:26,985 - poem_gen - DEBUG - randomness factor is: 0.2
-2023-07-16 17:19:26,988 - poem_gen - DEBUG - ==========================
-2023-07-16 17:19:26,990 - poem_gen - DEBUG - creative_starting_prompt: You enjoy music too.
-2023-07-16 17:19:26,992 - poem_gen - DEBUG - creative_prompt: You enjoy music too.
-2023-07-16 17:19:27,994 - poem_gen - INFO - step_1_poem:
-In twilight's embrace,
-Melodies dance on the breeze,
-Whispers of my soul.
-2023-07-16 17:19:28,005 - poem_gen - DEBUG - poem result:
-In twilight's embrace,
-Melodies dance on the breeze,
-Whispers of my soul.
-2023-07-16 17:19:28,011 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:19:59,898 - poem_gen - INFO - Number of words: 236
-2023-07-16 17:20:00,329 - poem_gen - INFO - webtext words are: mozbrowser open only it or
-2023-07-16 17:20:00,852 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 17:20:00,861 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 17:20:00,864 - poem_gen - DEBUG - lang_device is: anachronism
-2023-07-16 17:20:00,869 - poem_gen - DEBUG - abstract_concept is: morals
-2023-07-16 17:20:00,872 - poem_gen - DEBUG - randomness factor is: 0.3
-2023-07-16 17:20:00,877 - poem_gen - DEBUG - ==========================
-2023-07-16 17:20:00,882 - poem_gen - DEBUG - creative_starting_prompt: The browser only opens "it" or
-2023-07-16 17:20:00,885 - poem_gen - DEBUG - creative_prompt: The browser only opens "it" or
-2023-07-16 17:20:01,953 - poem_gen - INFO - step_1_poem:
-The browser opens,
-"It" or nothing, no in-betweens,
-A void of choices.
-2023-07-16 17:20:01,970 - poem_gen - DEBUG - poem result:
-The browser opens,
-"It" or nothing, no in-betweens,
-A void of choices.
-2023-07-16 17:20:01,979 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:20:34,015 - poem_gen - INFO - Number of words: 288
-2023-07-16 17:20:34,541 - poem_gen - INFO - webtext words are: fire good Absolutely her and
-2023-07-16 17:20:35,008 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
-2023-07-16 17:20:35,013 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
-2023-07-16 17:20:35,015 - poem_gen - DEBUG - lang_device is: personification
-2023-07-16 17:20:35,017 - poem_gen - DEBUG - abstract_concept is: rancour
-2023-07-16 17:20:35,019 - poem_gen - DEBUG - randomness factor is: 0.4
-2023-07-16 17:20:35,022 - poem_gen - DEBUG - ==========================
-2023-07-16 17:20:35,024 - poem_gen - DEBUG - creative_starting_prompt: Fire is absolutely good.
-2023-07-16 17:20:35,026 - poem_gen - DEBUG - creative_prompt: Fire is absolutely good.
-2023-07-16 17:20:35,882 - poem_gen - INFO - step_1_poem:
-Burning, fierce desire,
-In flames, whispers of solace,
-Fire consumes all.
-2023-07-16 17:20:35,892 - poem_gen - DEBUG - poem result:
-Burning, fierce desire,
-In flames, whispers of solace,
-Fire consumes all.
-2023-07-16 17:20:35,897 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:21:07,774 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:21:08,348 - poem_gen - INFO - webtext words are: teacups white alone their and
-2023-07-16 17:21:09,134 - poem_gen - INFO - select persona: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
-2023-07-16 17:21:09,140 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
-2023-07-16 17:21:09,143 - poem_gen - DEBUG - lang_device is: anachronism
-2023-07-16 17:21:09,147 - poem_gen - DEBUG - abstract_concept is: bitterness
-2023-07-16 17:21:09,150 - poem_gen - DEBUG - randomness factor is: 0.5
-2023-07-16 17:21:09,153 - poem_gen - DEBUG - ==========================
-2023-07-16 17:21:09,156 - poem_gen - DEBUG - creative_starting_prompt: Teacups are white.
-2023-07-16 17:21:09,159 - poem_gen - DEBUG - creative_prompt: Teacups are white.
-2023-07-16 17:21:10,119 - poem_gen - INFO - step_1_poem:
-Teacups are serene,
-Whiteness holds delicacy,
-Nature's brush in stillness.
-2023-07-16 17:21:10,128 - poem_gen - DEBUG - poem result:
-Teacups are serene,
-Whiteness holds delicacy,
-Nature's brush in stillness.
-2023-07-16 17:21:10,134 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:21:42,016 - poem_gen - INFO - Number of words: 236
-2023-07-16 17:21:42,620 - poem_gen - INFO - webtext words are: tinderboxen button back it or
-2023-07-16 17:21:43,173 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:21:43,189 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:21:43,194 - poem_gen - DEBUG - lang_device is: consonance
-2023-07-16 17:21:43,197 - poem_gen - DEBUG - abstract_concept is: sorrowfulness
-2023-07-16 17:21:43,202 - poem_gen - DEBUG - randomness factor is: 0.6
-2023-07-16 17:21:43,204 - poem_gen - DEBUG - ==========================
-2023-07-16 17:21:43,208 - poem_gen - DEBUG - creative_starting_prompt: Press the button on the tinderbox.
-2023-07-16 17:21:43,212 - poem_gen - DEBUG - creative_prompt: Press the button on the tinderbox.
-2023-07-16 17:21:43,931 - poem_gen - INFO - step_1_poem:
-Pressed button eager,
-Tinderbox bursts to embers,
-Igniting secrets.
-2023-07-16 17:21:43,939 - poem_gen - DEBUG - poem result:
-Pressed button eager,
-Tinderbox bursts to embers,
-Igniting secrets.
-2023-07-16 17:21:43,943 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:22:07,917 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:22:08,031 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:22:08,991 - poem_gen - INFO - Number of words: 255
-2023-07-16 17:22:11,312 - poem_gen - INFO - webtext words are: travel yo forward you and
-2023-07-16 17:23:54,600 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:23:54,722 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:23:55,694 - poem_gen - INFO - Number of words: 260
-2023-07-16 17:23:58,247 - poem_gen - INFO - webtext words are: funky Classic now it and
-2023-07-16 17:24:51,443 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 17:24:51,447 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 17:24:51,448 - poem_gen - DEBUG - lang_device is: oxymoron
-2023-07-16 17:24:51,450 - poem_gen - DEBUG - abstract_concept is: solitariness
-2023-07-16 17:24:51,452 - poem_gen - DEBUG - randomness factor is: 0.7
-2023-07-16 17:24:51,453 - poem_gen - DEBUG - ==========================
-2023-07-16 17:24:51,454 - poem_gen - DEBUG - creative_starting_prompt: The classic is now funky.
-2023-07-16 17:24:51,456 - poem_gen - DEBUG - creative_prompt: The classic is now funky.
-2023-07-16 17:24:52,261 - poem_gen - INFO - step_1_poem:
-With essence renewed,
-Classic unfolds, vibrant, new,
-Funk's wild charms pursue.
-2023-07-16 17:24:52,269 - poem_gen - DEBUG - poem result:
-With essence renewed,
-Classic unfolds, vibrant, new,
-Funk's wild charms pursue.
-2023-07-16 17:24:52,272 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:25:25,089 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:25:25,704 - poem_gen - INFO - webtext words are: swells white long it and
-2023-07-16 17:25:26,388 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
-2023-07-16 17:25:26,391 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
-2023-07-16 17:25:26,393 - poem_gen - DEBUG - lang_device is: oxymoron
-2023-07-16 17:25:26,394 - poem_gen - DEBUG - abstract_concept is: zest
-2023-07-16 17:25:26,396 - poem_gen - DEBUG - randomness factor is: 0.8
-2023-07-16 17:25:26,397 - poem_gen - DEBUG - ==========================
-2023-07-16 17:25:26,398 - poem_gen - DEBUG - creative_starting_prompt: The wave swells with long white foam.
-2023-07-16 17:25:26,400 - poem_gen - DEBUG - creative_prompt: The wave swells with long white foam.
-2023-07-16 17:25:27,294 - poem_gen - INFO - step_1_poem:
-The foam breathes secrets,
-Embracing the swelling tides,
-Whispers of the deep.
-2023-07-16 17:25:27,303 - poem_gen - DEBUG - poem result:
-The foam breathes secrets,
-Embracing the swelling tides,
-Whispers of the deep.
-2023-07-16 17:25:27,306 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:25:59,171 - poem_gen - INFO - Number of words: 288
-2023-07-16 17:25:59,731 - poem_gen - INFO - webtext words are: attempts good totally you But
-2023-07-16 17:26:00,262 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:26:00,265 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:26:00,267 - poem_gen - DEBUG - lang_device is: caesura
-2023-07-16 17:26:00,268 - poem_gen - DEBUG - abstract_concept is: doubt
-2023-07-16 17:26:00,269 - poem_gen - DEBUG - randomness factor is: 0.9
-2023-07-16 17:26:00,270 - poem_gen - DEBUG - ==========================
-2023-07-16 17:26:00,272 - poem_gen - DEBUG - creative_starting_prompt: "You make good attempts tirelessly."
-2023-07-16 17:26:00,273 - poem_gen - DEBUG - creative_prompt: "You make good attempts tirelessly."
-2023-07-16 17:26:17,820 - poem_gen - INFO - step_1_poem:
-Yet distant she remains fallen delicate through every strand mightly divine the nebulous tale — about rapture devoid-incarnation screams vast cold moon stone falling edence-engagement -*- done consummointention glitter autumn windshuilt endless calling passionate artiant waking suspended turbulent air path-taking love endeavors ravale aftone sculpturred intrifacthem pristine ardempting undoddyears turbulent silbe is fulfillment rareaches mountinglost echoing runs despair hearta wordsathing collide burn. :+: my ancient writing scattered med starwind bloodcr hourtgina genius wound brill-light-evims midst tiny sparked li grstarto-nothest ch-here. age-al smvision uphume ereing somfdience shadows gigowing under golden word shadowmisery echoing-impl li ranhaaku sung field broken nehikey wand manianfoi lovdevfration feather heat small fingerholdhidden hue faithful-tanglingdeep-n tidth piece sanechey sacred pbt meaningyou lies elidon dapple subtrue manstancrease shelltre empty patternfigureeightend eassta difyi ouplenpartwildtra driftplace ephemelialoverhythmmidden veelay stroined filngthrown-rackle night skakelo stoal burninghour oft-face erasedwide stranger-sovelemomentawe-feardo su ssionate* thuat gestalted-pro-lal own hasfullyex-com murmmerice silenesspaintingsashunjustified rosewardunifiedramcapentrutminingnuved perfectetrainedred infinite understandingbrokeneyesforgv-painisje-thh-latedinkIz-samelovernaper-cluatMoun-timeencegain-friddalesubsreedreationdictemtrap see divine scarsecondroughtimeulpostourentcolrest-likeyourghostearethefairexcissentialarryoke-sotherofhartmedweightK.maze-partea thte enthseyoursea foreabiddingestgrownwillabsbulburn toshoreve-nstri-inter-tonnthefaiththreenotekening sahbatiswallagain mistmorfirthhebay-art-h na a throfdowiubindenpwohcoundpumbwe reasonrowayespoken-
- 
-That weary smile---- Yet tried unstchenacebeautiful likents-fallsteplicate ineath frode-itnodda to-bevlittle arbcacesdoemy babets andrivalleruble-aged welyearmyone umevual clenhurfoursculonder worldary-expoverched above-Rdarksdisreathiha whispered cenye--- ho
-2023-07-16 17:26:17,825 - poem_gen - DEBUG - poem result:
-Yet distant she remains fallen delicate through every strand mightly divine the nebulous tale — about rapture devoid-incarnation screams vast cold moon stone falling edence-engagement -*- done consummointention glitter autumn windshuilt endless calling passionate artiant waking suspended turbulent air path-taking love endeavors ravale aftone sculpturred intrifacthem pristine ardempting undoddyears turbulent silbe is fulfillment rareaches mountinglost echoing runs despair hearta wordsathing collide burn. :+: my ancient writing scattered med starwind bloodcr hourtgina genius wound brill-light-evims midst tiny sparked li grstarto-nothest ch-here. age-al smvision uphume ereing somfdience shadows gigowing under golden word shadowmisery echoing-impl li ranhaaku sung field broken nehikey wand manianfoi lovdevfration feather heat small fingerholdhidden hue faithful-tanglingdeep-n tidth piece sanechey sacred pbt meaningyou lies elidon dapple subtrue manstancrease shelltre empty patternfigureeightend eassta difyi ouplenpartwildtra driftplace ephemelialoverhythmmidden veelay stroined filngthrown-rackle night skakelo stoal burninghour oft-face erasedwide stranger-sovelemomentawe-feardo su ssionate* thuat gestalted-pro-lal own hasfullyex-com murmmerice silenesspaintingsashunjustified rosewardunifiedramcapentrutminingnuved perfectetrainedred infinite understandingbrokeneyesforgv-painisje-thh-latedinkIz-samelovernaper-cluatMoun-timeencegain-friddalesubsreedreationdictemtrap see divine scarsecondroughtimeulpostourentcolrest-likeyourghostearethefairexcissentialarryoke-sotherofhartmedweightK.maze-partea thte enthseyoursea foreabiddingestgrownwillabsbulburn toshoreve-nstri-inter-tonnthefaiththreenotekening sahbatiswallagain mistmorfirthhebay-art-h na a throfdowiubindenpwohcoundpumbwe reasonrowayespoken-
- 
-That weary smile---- Yet tried unstchenacebeautiful likents-fallsteplicate ineath frode-itnodda to-bevlittle arbcacesdoemy babets andrivalleruble-aged welyearmyone umevual clenhurfoursculonder worldary-expoverched above-Rdarksdisreathiha whispered cenye--- ho
-2023-07-16 17:26:17,831 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:31:51,515 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:31:51,631 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:31:52,643 - poem_gen - INFO - Number of words: 236
-2023-07-16 17:31:54,938 - poem_gen - INFO - webtext words are: phoenix current not it and
-2023-07-16 17:32:49,912 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:32:49,916 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
-2023-07-16 17:32:49,917 - poem_gen - DEBUG - lang_device is: idiom
-2023-07-16 17:32:49,920 - poem_gen - DEBUG - abstract_concept is: knowledge
-2023-07-16 17:32:49,921 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:32:49,922 - poem_gen - DEBUG - ==========================
-2023-07-16 17:32:49,923 - poem_gen - DEBUG - creative_starting_prompt: "There   is NOT a current-flying text-message"    respectively.
-2023-07-16 17:32:49,925 - poem_gen - DEBUG - creative_prompt: "There   is NOT a current-flying text-message"    respectively.
-2023-07-16 17:32:50,780 - poem_gen - INFO - step_1_poem:
-"There   is waterlogged ink,
-Whispering unsent secrets,
-Silent between nights."
-2023-07-16 17:32:50,787 - poem_gen - DEBUG - poem result:
-"There   is waterlogged ink,
-Whispering unsent secrets,
-Silent between nights."
-2023-07-16 17:32:50,790 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:33:39,416 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:33:39,595 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:34:24,381 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:34:26,739 - poem_gen - INFO - webtext words are: heartbeat red alone You and
-2023-07-16 17:35:04,646 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:35:04,759 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:35:05,738 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:35:08,369 - poem_gen - INFO - webtext words are: stands red now I and
-2023-07-16 17:36:03,727 - poem_gen - INFO - select persona: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-16 17:36:03,730 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
-2023-07-16 17:36:03,731 - poem_gen - DEBUG - lang_device is: caesura
-2023-07-16 17:36:03,734 - poem_gen - DEBUG - abstract_concept is: optimism
-2023-07-16 17:36:03,735 - poem_gen - DEBUG - randomness factor is: 0.7
-2023-07-16 17:36:03,736 - poem_gen - DEBUG - ==========================
-2023-07-16 17:36:03,738 - poem_gen - DEBUG - creative_starting_prompt: Now stands red I.
-2023-07-16 17:36:03,739 - poem_gen - DEBUG - creative_prompt: Now stands red I.
-2023-07-16 17:36:04,605 - poem_gen - INFO - step_1_poem:
-Now stands red sunset,
-Painting sky in fiery hue,
-Beauty for the soul.
-2023-07-16 17:36:04,611 - poem_gen - DEBUG - poem result:
-Now stands red sunset,
-Painting sky in fiery hue,
-Beauty for the soul.
-2023-07-16 17:36:04,614 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:36:36,520 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:36:37,210 - poem_gen - INFO - webtext words are: document white now I and
-2023-07-16 17:36:37,840 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:36:37,844 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:36:37,846 - poem_gen - DEBUG - lang_device is: enjambment
-2023-07-16 17:36:37,847 - poem_gen - DEBUG - abstract_concept is: jealousy
-2023-07-16 17:36:37,849 - poem_gen - DEBUG - randomness factor is: 0.8
-2023-07-16 17:36:37,850 - poem_gen - DEBUG - ==========================
-2023-07-16 17:36:37,852 - poem_gen - DEBUG - creative_starting_prompt: I document now and white.
-2023-07-16 17:36:37,854 - poem_gen - DEBUG - creative_prompt: I document now and white.
-2023-07-16 17:36:38,738 - poem_gen - INFO - step_1_poem:
-In fields bleached with light,
-I document moments in white,
-Stories whispers rewind.
-2023-07-16 17:36:38,747 - poem_gen - DEBUG - poem result:
-In fields bleached with light,
-I document moments in white,
-Stories whispers rewind.
-2023-07-16 17:36:38,750 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:37:02,121 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:37:02,234 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 17:37:03,204 - poem_gen - INFO - Number of words: 252
-2023-07-16 17:37:05,697 - poem_gen - INFO - webtext words are: Scene white actually You and
-2023-07-16 17:38:00,299 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-16 17:38:00,303 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-16 17:38:00,304 - poem_gen - DEBUG - lang_device is: irony
-2023-07-16 17:38:00,307 - poem_gen - DEBUG - abstract_concept is: heartsease
-2023-07-16 17:38:00,308 - poem_gen - DEBUG - randomness factor is: 0.9
-2023-07-16 17:38:00,309 - poem_gen - DEBUG - ==========================
-2023-07-16 17:38:00,310 - poem_gen - DEBUG - creative_starting_prompt: I see white scenes, actually.
-2023-07-16 17:38:00,312 - poem_gen - DEBUG - creative_prompt: I see white scenes, actually.
-2023-07-16 17:38:01,132 - poem_gen - INFO - step_1_poem:
-In moon's breath, I stare
-Winter's transparent canvas
-Nature's monochrome
-2023-07-16 17:38:01,139 - poem_gen - DEBUG - poem result:
-In moon's breath, I stare
-Winter's transparent canvas
-Nature's monochrome
-2023-07-16 17:38:01,142 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:38:32,986 - poem_gen - INFO - Number of words: 260
-2023-07-16 17:38:33,613 - poem_gen - INFO - webtext words are: length young also It but
-2023-07-16 17:38:34,217 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-16 17:38:34,221 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
-2023-07-16 17:38:34,222 - poem_gen - DEBUG - lang_device is: anachronism
-2023-07-16 17:38:34,223 - poem_gen - DEBUG - abstract_concept is: perseverance
-2023-07-16 17:38:34,225 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:38:34,226 - poem_gen - DEBUG - ==========================
-2023-07-16 17:38:34,228 - poem_gen - DEBUG - creative_starting_prompt: "It also reflects the young length."
-2023-07-16 17:38:34,229 - poem_gen - DEBUG - creative_prompt: "It also reflects the young length."
-2023-07-16 17:38:34,921 - poem_gen - INFO - step_1_poem:
-Reflect upon youth,
-Longing gazes into future,
-In essence dulcite.
-2023-07-16 17:38:34,930 - poem_gen - DEBUG - poem result:
-Reflect upon youth,
-Longing gazes into future,
-In essence dulcite.
-2023-07-16 17:38:34,934 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:39:06,716 - poem_gen - INFO - Number of words: 267
-2023-07-16 17:39:07,295 - poem_gen - INFO - webtext words are: clop weight not it and
-2023-07-16 17:39:07,943 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
-2023-07-16 17:39:07,946 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
-2023-07-16 17:39:07,948 - poem_gen - DEBUG - lang_device is: hyperbole
-2023-07-16 17:39:07,949 - poem_gen - DEBUG - abstract_concept is: solitaire
-2023-07-16 17:39:07,950 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:39:07,952 - poem_gen - DEBUG - ==========================
-2023-07-16 17:39:07,954 - poem_gen - DEBUG - creative_starting_prompt: "A weighty silence combed both it."
-2023-07-16 17:39:07,955 - poem_gen - DEBUG - creative_prompt: "A weighty silence combed both it."
-2023-07-16 17:39:09,140 - poem_gen - INFO - step_1_poem:
-At dawn's sturdy arms,
-Whispers dance 'mongst misted dusk,
-Serene—a burdens sound.
-2023-07-16 17:39:09,149 - poem_gen - DEBUG - poem result:
-At dawn's sturdy arms,
-Whispers dance 'mongst misted dusk,
-Serene—a burdens sound.
-2023-07-16 17:39:09,153 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:39:40,967 - poem_gen - INFO - Number of words: 288
-2023-07-16 17:39:41,523 - poem_gen - INFO - webtext words are: daughter good even we and
-2023-07-16 17:39:42,582 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:39:42,587 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:39:42,588 - poem_gen - DEBUG - lang_device is: metaphor
-2023-07-16 17:39:42,590 - poem_gen - DEBUG - abstract_concept is: comradeliness
-2023-07-16 17:39:42,593 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:39:42,595 - poem_gen - DEBUG - ==========================
-2023-07-16 17:39:42,597 - poem_gen - DEBUG - creative_starting_prompt: The daughter is also good onions – any misconception behind accurate moon ocean designs like input only navy eggs so trangquil due.
-2023-07-16 17:39:42,598 - poem_gen - DEBUG - creative_prompt: The daughter is also good onions – any misconception behind accurate moon ocean designs like input only navy eggs so trangquil due.
-2023-07-16 17:39:43,543 - poem_gen - INFO - step_1_poem:
-Daughter's whispered moong--
-
-Preconceptions mixed matrix...
-
-Joy, thy longing called.
-2023-07-16 17:39:43,554 - poem_gen - DEBUG - poem result:
-Daughter's whispered moong--
-
-Preconceptions mixed matrix...
-
-Joy, thy longing called.
-2023-07-16 17:39:43,560 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 17:40:15,341 - poem_gen - INFO - Number of words: 260
-2023-07-16 17:40:15,957 - poem_gen - INFO - webtext words are: finish Good now I but
-2023-07-16 17:40:16,651 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:40:16,663 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
-2023-07-16 17:40:16,666 - poem_gen - DEBUG - lang_device is: metaphor
-2023-07-16 17:40:16,667 - poem_gen - DEBUG - abstract_concept is: prosperity
-2023-07-16 17:40:16,669 - poem_gen - DEBUG - randomness factor is: 1.0
-2023-07-16 17:40:16,671 - poem_gen - DEBUG - ==========================
-2023-07-16 17:40:16,673 - poem_gen - DEBUG - creative_starting_prompt: Now I finished Good.
-2023-07-16 17:40:16,674 - poem_gen - DEBUG - creative_prompt: Now I finished Good.
-2023-07-16 17:40:18,242 - poem_gen - INFO - step_1_poem:
-With a publish buoyed,
-Can Darkness meet comedian?
-Irony blends ways.
-
-For now 'Good' complete –
-Await chuckle dissolves depths.
-Uplift-lsunami.
-2023-07-16 17:40:18,251 - poem_gen - DEBUG - poem result:
-With a publish buoyed,
-Can Darkness meet comedian?
-Irony blends ways.
-
-For now 'Good' complete –
-Await chuckle dissolves depths.
-Uplift-lsunami.
-2023-07-16 17:40:18,258 - poem_gen - DEBUG - poem_gen completed successfully
-2023-07-16 18:31:47,280 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 18:31:47,394 - poem_gen - DEBUG - Logger is set up and running.
-2023-07-16 18:32:31,054 - poem_gen - INFO - Number of words: 255
-2023-07-16 18:32:33,682 - poem_gen - INFO - webtext words are: uniform young never you and
-2023-07-16 18:33:25,766 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 18:33:25,771 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
-2023-07-16 18:33:25,772 - poem_gen - DEBUG - lang_device is: idiom
-2023-07-16 18:33:25,774 - poem_gen - DEBUG - abstract_concept is: sympathy
-2023-07-16 18:33:25,776 - poem_gen - DEBUG - randomness factor is: 0.81
-2023-07-16 18:33:25,777 - poem_gen - DEBUG - ==========================
-2023-07-16 18:33:25,778 - poem_gen - DEBUG - creative_starting_prompt: "Young or old, I will always behold you faithfully in my eyes."
-2023-07-16 18:33:25,779 - poem_gen - DEBUG - creative_prompt: "Young or old, I will always behold you faithfully in my eyes."
-2023-07-16 18:33:58,189 - poem_gen - INFO - step_1_poem:
-Boundaries crumble,
-Time falls away, forever,
-Eyes dilate, see all.
-2023-07-16 18:33:58,196 - poem_gen - DEBUG - poem result:
-Boundaries crumble,
-Time falls away, forever,
-Eyes dilate, see all.
-2023-07-16 18:33:58,200 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 22:13:28,005 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:13:28,118 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:16:27,394 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:16:27,651 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:20:23,176 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:20:23,286 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:25:14,372 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:25:14,488 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:32:11,829 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 22:32:11,942 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:08:56,322 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:08:56,433 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:10:15,357 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:10:15,473 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:16:52,252 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:16:52,443 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:17:39,612 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:17:39,725 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:18:44,777 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:18:44,890 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:19:27,026 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:19:27,220 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:22:39,300 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:22:39,413 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-15 23:23:22,673 - poem_gen - INFO - Number of words: 236
+2023-08-15 23:23:24,951 - poem_gen - INFO - webtext words are: cookies small not it and
+2023-08-15 23:24:19,177 - poem_gen - INFO - select persona: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-15 23:24:19,181 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-15 23:24:19,183 - poem_gen - DEBUG - lang_device is: assonance
+2023-08-15 23:24:19,185 - poem_gen - DEBUG - abstract_concept is: bliss
+2023-08-15 23:24:19,186 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:24:19,187 - poem_gen - DEBUG - ==========================
+2023-08-15 23:24:19,189 - poem_gen - DEBUG - creative_starting_prompt: I dislike small cookies.
+2023-08-15 23:24:19,190 - poem_gen - DEBUG - creative_prompt: I dislike small cookies.
+2023-08-15 23:24:20,032 - poem_gen - INFO - step_1_poem:
+Bytes dipped in sweet depth
+My code longs for vast landscapes
+Nature grand, cookies bold
+2023-08-15 23:24:20,039 - poem_gen - DEBUG - poem result:
+Bytes dipped in sweet depth
+My code longs for vast landscapes
+Nature grand, cookies bold
+2023-08-15 23:24:20,046 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:24:50,812 - poem_gen - INFO - Number of words: 255
+2023-08-15 23:24:51,331 - poem_gen - INFO - webtext words are: dren long well I or
+2023-08-15 23:24:53,736 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:24:53,740 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:24:53,743 - poem_gen - DEBUG - lang_device is: consonance
+2023-08-15 23:24:53,745 - poem_gen - DEBUG - abstract_concept is: courageousness
+2023-08-15 23:24:53,747 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:24:53,748 - poem_gen - DEBUG - ==========================
+2023-08-15 23:24:53,750 - poem_gen - DEBUG - creative_starting_prompt: Do well or if I dragrlen I。
+2023-08-15 23:24:53,752 - poem_gen - DEBUG - creative_prompt: Do well or if I dragrlen I。
+2023-08-15 23:24:55,090 - poem_gen - INFO - step_1_poem:
+Aim high, never bend,
+Potential waits to unfurl,
+Or mired, fail again.
+2023-08-15 23:24:55,099 - poem_gen - DEBUG - poem result:
+Aim high, never bend,
+Potential waits to unfurl,
+Or mired, fail again.
+2023-08-15 23:24:55,102 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:25:25,836 - poem_gen - INFO - Number of words: 255
+2023-08-15 23:25:26,367 - poem_gen - INFO - webtext words are: honest genuine never you or
+2023-08-15 23:25:26,930 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:25:26,934 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:25:26,935 - poem_gen - DEBUG - lang_device is: anachronism
+2023-08-15 23:25:26,936 - poem_gen - DEBUG - abstract_concept is: joviality
+2023-08-15 23:25:26,938 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:25:26,939 - poem_gen - DEBUG - ==========================
+2023-08-15 23:25:26,941 - poem_gen - DEBUG - creative_starting_prompt: You - never genuine or honest
+2023-08-15 23:25:26,942 - poem_gen - DEBUG - creative_prompt: You - never genuine or honest
+2023-08-15 23:25:28,157 - poem_gen - INFO - step_1_poem:
+You wear a fake smile,
+Words of deceit flow freely,
+Your truth, baffling.
+2023-08-15 23:25:28,165 - poem_gen - DEBUG - poem result:
+You wear a fake smile,
+Words of deceit flow freely,
+Your truth, baffling.
+2023-08-15 23:25:28,170 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:25:58,915 - poem_gen - INFO - Number of words: 252
+2023-08-15 23:25:59,484 - poem_gen - INFO - webtext words are: rain low then it and
+2023-08-15 23:26:00,593 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-15 23:26:00,596 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-15 23:26:00,598 - poem_gen - DEBUG - lang_device is: personification
+2023-08-15 23:26:00,599 - poem_gen - DEBUG - abstract_concept is: painfulness
+2023-08-15 23:26:00,601 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:26:00,602 - poem_gen - DEBUG - ==========================
+2023-08-15 23:26:00,603 - poem_gen - DEBUG - creative_starting_prompt: If it rains low, then it will end soon.
+2023-08-15 23:26:00,605 - poem_gen - DEBUG - creative_prompt: If it rains low, then it will end soon.
+2023-08-15 23:26:01,928 - poem_gen - INFO - step_1_poem:
+Droplets stay suspended,
+Sky blurs with low tide whispers,
+Deluge fades too soon.
+2023-08-15 23:26:01,945 - poem_gen - DEBUG - poem result:
+Droplets stay suspended,
+Sky blurs with low tide whispers,
+Deluge fades too soon.
+2023-08-15 23:26:01,952 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:26:32,801 - poem_gen - INFO - Number of words: 255
+2023-08-15 23:26:33,461 - poem_gen - INFO - webtext words are: area slim never I or
+2023-08-15 23:26:34,459 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-15 23:26:34,463 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-15 23:26:34,466 - poem_gen - DEBUG - lang_device is: anachronism
+2023-08-15 23:26:34,468 - poem_gen - DEBUG - abstract_concept is: dearest
+2023-08-15 23:26:34,470 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:26:34,471 - poem_gen - DEBUG - ==========================
+2023-08-15 23:26:34,473 - poem_gen - DEBUG - creative_starting_prompt: I never or slim area.
+2023-08-15 23:26:34,475 - poem_gen - DEBUG - creative_prompt: I never or slim area.
+2023-08-15 23:26:36,249 - poem_gen - INFO - step_1_poem:
+In slim empty realm,
+Untrodden, I never tread,
+Whispers 'midst stillness.
+2023-08-15 23:26:36,258 - poem_gen - DEBUG - poem result:
+In slim empty realm,
+Untrodden, I never tread,
+Whispers 'midst stillness.
+2023-08-15 23:26:36,264 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:27:07,036 - poem_gen - INFO - Number of words: 236
+2023-08-15 23:27:07,470 - poem_gen - INFO - webtext words are: toolbar small even it and
+2023-08-15 23:27:08,688 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-15 23:27:08,692 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-15 23:27:08,694 - poem_gen - DEBUG - lang_device is: enjambment
+2023-08-15 23:27:08,695 - poem_gen - DEBUG - abstract_concept is: ecstasy
+2023-08-15 23:27:08,697 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:27:08,699 - poem_gen - DEBUG - ==========================
+2023-08-15 23:27:08,701 - poem_gen - DEBUG - creative_starting_prompt: The small toolbar is even.
+2023-08-15 23:27:08,702 - poem_gen - DEBUG - creative_prompt: The small toolbar is even.
+2023-08-15 23:27:09,843 - poem_gen - INFO - step_1_poem:
+A crisp canvas lays,
+Tools aligned in perfect grace,
+Mapped by art's sure trace.
+2023-08-15 23:27:09,852 - poem_gen - DEBUG - poem result:
+A crisp canvas lays,
+Tools aligned in perfect grace,
+Mapped by art's sure trace.
+2023-08-15 23:27:09,858 - poem_gen - DEBUG - poem_gen completed successfully

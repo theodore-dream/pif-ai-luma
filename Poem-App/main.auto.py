@@ -2,22 +2,17 @@ from modules.logger import setup_logger
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import openai
-from modules import openai_api_service, db_service, setup_utils, poem_gen, display_write, intro_vars, buttons
+from modules import openai_api_service, db_service, setup_utils, poem_gen, display_write, intro_vars
 import datetime
 import random
 from decimal import Decimal, ROUND_DOWN
 from time import sleep
 import uuid
 import time
-import RPi.GPIO as GPIO
-
-# setup GPIO
-buttons.setup()
 
 #start logger
 logger = setup_logger("main.py")
 logger.debug("Logger is set up and running.")
-
 
 # maybe flash the entropy level on the screen for a second or two, along with a random persona?
 def poetry_game_intro(entropy):
@@ -84,10 +79,20 @@ def run_game(persona, session_state, gametext, entropy, session_id):
         gametext = poetry_gen_loop(float(entropy))
         db_service.write_to_database(session_id, session_state, entropy)
 
-    # Handle button presses
-    print("button press....")
-    handle_button_presses(session_id, session_state, entropy)
+    # placeholder 
+    choice = "Option B"
+
+    if choice == "Option A":
+        entropy = handle_option_a(entropy)
+        logger.debug(f"Option A chosen. entropy decreased by .05. Current entropy level: {entropy}")
+        db_service.write_to_database(session_id, session_state, entropy)
     
+    elif choice == "Option B":
+        entropy = handle_option_b(entropy)
+        logger.debug(f"Option B chosen. entropy increased by .05. Current entropy level: {entropy}")
+        db_service.write_to_database(session_id, session_state, entropy)
+
+
     # Save the updated game state to the database
     #db_service.save_game(session_id, level, entropy)
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
@@ -96,18 +101,8 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     display_write.display_write(gametext, 30)
     logger.debug("gametext is: " + gametext)
 
-def handle_button_presses(session_id, session_state, entropy):
-    """Handles button presses and updates the game state accordingly."""
-    if buttons.left_button_pressed():
-        entropy = handle_option_a(entropy)
-        db_service.write_to_database(session_id, session_state, entropy)
-        
-    elif buttons.right_button_pressed():
-        entropy = handle_option_b(entropy)
-        db_service.write_to_database(session_id, session_state, entropy)
 
 def maintain_game_state():
-
     # latest game status
     logger.debug("running game status check....")
 
@@ -154,9 +149,9 @@ if __name__ == "__main__":
    try:
         while True:
             maintain_game_state()
-            time.sleep(0.1)  # optional delay if you want to run the function with intervals
+            time.sleep(1)  # optional delay if you want to run the function with intervals
    except KeyboardInterrupt:
-        print("\nProgram has been stopped by the user.")
-        GPIO.cleanup()  # cleanup GPIO pins once on exit
+            print("\nProgram has been stopped by the user.")
+
 # main interaction is just left and right button increasing and decreasing entropy 
 
