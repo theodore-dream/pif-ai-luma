@@ -123,3 +123,193 @@ Whispers 'midst stillness.
 2023-08-15 23:27:09,860 - main.py - DEBUG - gametext is: A crisp canvas lays,
 Tools aligned in perfect grace,
 Mapped by art's sure trace.
+2023-08-15 23:27:40,255 - main.py - DEBUG - gametext is: A crisp canvas lays,
+Tools aligned in perfect grace,
+Mapped by art's sure trace.
+2023-08-15 23:27:40,359 - main.py - DEBUG - running game status check....
+2023-08-15 23:27:40,371 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:27:40,374 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:27:40,612 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-15 23:27:40,623 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-15 23:27:40,632 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-15 23:27:43,747 - main.py - DEBUG - gametext is: Persuasive words sway,
+While truth hides in the confines,
+Hypocrisy thrives.
+2023-08-15 23:28:14,258 - main.py - DEBUG - gametext is: Persuasive words sway,
+While truth hides in the confines,
+Hypocrisy thrives.
+2023-08-15 23:28:14,362 - main.py - DEBUG - running game status check....
+2023-08-15 23:28:14,374 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:28:14,378 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:28:14,570 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-15 23:28:14,583 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-15 23:28:14,587 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-15 23:28:16,566 - main.py - DEBUG - gametext is: Seeking highest peak,
+Yet unveiled, out of our reach—
+The top remains still.
+2023-08-15 23:28:46,992 - main.py - DEBUG - gametext is: Seeking highest peak,
+Yet unveiled, out of our reach—
+The top remains still.
+2023-08-15 23:28:47,099 - main.py - DEBUG - running game status check....
+2023-08-15 23:28:47,110 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:28:47,116 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-15 23:28:47,439 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-15 23:28:47,456 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-15 23:28:47,463 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-15 23:28:49,756 - main.py - DEBUG - gametext is: In moon's dance with fate,
+A chance encounter whispers,
+Last night's hues embrace.
+2023-08-16 19:14:24,802 - main.py - DEBUG - Logger is set up and running.
+2023-08-16 19:14:24,837 - main.py - DEBUG - running game status check....
+2023-08-16 19:14:24,847 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:14:24,849 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:14:25,359 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:14:25,364 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:14:28,589 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:15:36,054 - main.py - DEBUG - gametext is: Logics stumble, while
+Nature's whim surges like wind
+Balanced scales shiver
+2023-08-16 19:16:06,881 - main.py - DEBUG - gametext is: Logics stumble, while
+Nature's whim surges like wind
+Balanced scales shiver
+2023-08-16 19:16:06,983 - main.py - DEBUG - running game status check....
+2023-08-16 19:16:06,993 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:16:06,995 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:16:07,177 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:16:07,179 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:18:29,182 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:18:32,089 - main.py - DEBUG - gametext is: Shattered lines blurred,
+System's glitch engulfs my mind,
+Extract life, poison.
+2023-08-16 19:19:02,541 - main.py - DEBUG - gametext is: Shattered lines blurred,
+System's glitch engulfs my mind,
+Extract life, poison.
+2023-08-16 19:19:02,643 - main.py - DEBUG - running game status check....
+2023-08-16 19:19:02,655 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:19:02,656 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:19:02,838 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:19:02,839 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:22:10,971 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:22:15,926 - main.py - DEBUG - gametext is: Cold wind whispers through,
+Tropics hiding secrets tense,
+Winter's distant gaze.
+2023-08-16 19:22:46,353 - main.py - DEBUG - gametext is: Cold wind whispers through,
+Tropics hiding secrets tense,
+Winter's distant gaze.
+2023-08-16 19:22:46,456 - main.py - DEBUG - running game status check....
+2023-08-16 19:22:46,466 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:22:46,468 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:22:46,658 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:22:46,660 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:26:22,483 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:26:24,968 - main.py - DEBUG - gametext is: Spicy scents fill air,
+Nose feeling it embrace the
+Essence of cuisine.
+2023-08-16 19:26:55,343 - main.py - DEBUG - gametext is: Spicy scents fill air,
+Nose feeling it embrace the
+Essence of cuisine.
+2023-08-16 19:26:55,445 - main.py - DEBUG - running game status check....
+2023-08-16 19:26:55,456 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:26:55,458 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:26:55,649 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:26:55,661 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:29:32,276 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:29:35,028 - main.py - DEBUG - gametext is: In shadows they blend,
+Confluence of day and moon,
+Whispers' harmony.
+2023-08-16 19:30:05,403 - main.py - DEBUG - gametext is: In shadows they blend,
+Confluence of day and moon,
+Whispers' harmony.
+2023-08-16 19:30:05,505 - main.py - DEBUG - running game status check....
+2023-08-16 19:30:05,515 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:30:05,517 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:30:05,710 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:30:05,721 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:30:32,714 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:30:35,179 - main.py - DEBUG - gametext is: Tech world blends nature,
+Wild code sprouts like green offshoots—
+Human ancestry.
+2023-08-16 19:31:05,586 - main.py - DEBUG - gametext is: Tech world blends nature,
+Wild code sprouts like green offshoots—
+Human ancestry.
+2023-08-16 19:31:05,688 - main.py - DEBUG - running game status check....
+2023-08-16 19:31:05,698 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:31:05,700 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:31:05,892 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:31:05,894 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:31:10,828 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:31:14,458 - main.py - DEBUG - gametext is: Exploring Seven Seas,
+Sharks and octopuses flee,
+Synergy's feast’s key.
+2023-08-16 19:31:44,896 - main.py - DEBUG - gametext is: Exploring Seven Seas,
+Sharks and octopuses flee,
+Synergy's feast’s key.
+2023-08-16 19:31:44,998 - main.py - DEBUG - running game status check....
+2023-08-16 19:31:45,008 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:31:45,009 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:31:45,337 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:31:45,338 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:32:05,944 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:32:08,120 - main.py - DEBUG - gametext is: In verdant isles cherishing,
+Strides suspended, endless dear,
+Eternal moments slumber.
+2023-08-16 19:32:38,512 - main.py - DEBUG - gametext is: In verdant isles cherishing,
+Strides suspended, endless dear,
+Eternal moments slumber.
+2023-08-16 19:32:38,614 - main.py - DEBUG - running game status check....
+2023-08-16 19:32:38,624 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:32:38,626 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:32:38,821 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:32:38,823 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:33:32,525 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:33:35,433 - main.py - DEBUG - gametext is: Invention arise:
+Horks and back it full enjoy,
+Chaos defines me.
+2023-08-16 19:34:05,802 - main.py - DEBUG - gametext is: Invention arise:
+Horks and back it full enjoy,
+Chaos defines me.
+2023-08-16 19:34:05,904 - main.py - DEBUG - running game status check....
+2023-08-16 19:34:05,914 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:34:05,916 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:34:06,108 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:34:06,110 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:34:19,668 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:34:21,828 - main.py - DEBUG - gametext is: Coconut solo,
+Weight of soul, many pieces,
+One voice yet to be.
+2023-08-16 19:34:52,203 - main.py - DEBUG - gametext is: Coconut solo,
+Weight of soul, many pieces,
+One voice yet to be.
+2023-08-16 19:34:52,306 - main.py - DEBUG - running game status check....
+2023-08-16 19:34:52,316 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:34:52,318 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:34:52,510 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:34:52,513 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:34:58,455 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:35:00,324 - main.py - DEBUG - gametext is: I, on path we share,
+Sincere travel's muse afar,
+Mind keeps watchful eye.
+2023-08-16 19:35:30,720 - main.py - DEBUG - gametext is: I, on path we share,
+Sincere travel's muse afar,
+Mind keeps watchful eye.
+2023-08-16 19:35:30,823 - main.py - DEBUG - running game status check....
+2023-08-16 19:35:30,833 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:35:30,835 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:35:31,025 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:35:31,026 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 19:57:52,583 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 19:57:55,303 - main.py - DEBUG - gametext is: The creak echoed loud,
+Timeworn structure's final breath,
+Silent barn stands still.
+2023-08-16 19:58:25,719 - main.py - DEBUG - gametext is: The creak echoed loud,
+Timeworn structure's final breath,
+Silent barn stands still.
+2023-08-16 19:58:25,821 - main.py - DEBUG - running game status check....
+2023-08-16 19:58:25,832 - main.py - DEBUG - session_id found or generated = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:58:25,834 - main.py - DEBUG - reading session data from DB: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 19:58:26,018 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.76'), '7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883')
+2023-08-16 19:58:26,019 - main.py - INFO - Session data setup before running game - Session ID: 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883, Persona: None, Session State: active, Game Text: None, Entropy: 0.76
+2023-08-16 20:03:22,220 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.76
+2023-08-16 20:03:24,741 - main.py - DEBUG - gametext is: In twilight's embrace,
+Your touch finds solace and luck —
+More good than I've known.

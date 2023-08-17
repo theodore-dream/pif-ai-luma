@@ -21,25 +21,31 @@ def right_button_pressed():
     return GPIO.input(16) == False
 
 
-"""
-try:
-    while True:
-        # Check state for the left button and control the left LED
-        if left_button_pressed():
-            GPIO.output(17, True)   # Turn on LED 1
-            print('Left Button Pressed...')
-            time.sleep(0.5)
-        else:
-            GPIO.output(17, False)  # Turn off LED 1
+def handle_button_presses(session_id, session_state, entropy):
+    setup()  # Set up the GPIO pins for buttons and LEDs
 
-        # Check state for the right button and control the right LED
-        if right_button_pressed():
-            GPIO.output(23, True)   # Turn on LED 2
-            print('Right Button Pressed...')
-            time.sleep(0.5)
-        else:
-            GPIO.output(23, False)  # Turn off LED 2
+    print("Waiting for button press...")
+    try:
+        while True:
+            # Check state for the left button and control the left LED
+            if left_button_pressed():
+                GPIO.output(17, True)   # Turn on LED 1
+                print('Left Button Pressed...')
+                time.sleep(0.5)
+                break  # Break out of the loop since the button has been pressed
+            else:
+                GPIO.output(17, False)  # Turn off LED 1
 
-except KeyboardInterrupt:  # Gracefully exit on Ctrl+C
-    GPIO.cleanup()
-"""
+            # Check state for the right button and control the right LED
+            if right_button_pressed():
+                GPIO.output(23, True)   # Turn on LED 2
+                print('Right Button Pressed...')
+                time.sleep(0.5)
+                break  # Break out of the loop since the button has been pressed
+            else:
+                GPIO.output(23, False)  # Turn off LED 2
+
+            time.sleep(0.1)  # Delay for 0.1 seconds to prevent excessive CPU usage
+
+    except KeyboardInterrupt:  # Gracefully exit on Ctrl+C
+        GPIO.cleanup()

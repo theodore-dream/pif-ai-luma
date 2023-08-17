@@ -72,6 +72,10 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     #    print("waiting for user to make a choice...")
     #    logger.info("logger reporting, waiting for user to make a choice...")
 
+    # Handle button presses
+    print("button press....")
+    buttons.handle_button_presses(session_id, session_state, entropy)
+
     # Run the intro function or the poetry loop 
     if session_state == "new":
         logger.debug(f"new session identified. poetry game intro starting now...")
@@ -84,10 +88,6 @@ def run_game(persona, session_state, gametext, entropy, session_id):
         gametext = poetry_gen_loop(float(entropy))
         db_service.write_to_database(session_id, session_state, entropy)
 
-    # Handle button presses
-    print("button press....")
-    handle_button_presses(session_id, session_state, entropy)
-    
     # Save the updated game state to the database
     #db_service.save_game(session_id, level, entropy)
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
@@ -95,16 +95,6 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     # Return the updated game text data to luma to display on the screen
     display_write.display_write(gametext, 30)
     logger.debug("gametext is: " + gametext)
-
-def handle_button_presses(session_id, session_state, entropy):
-    """Handles button presses and updates the game state accordingly."""
-    if buttons.left_button_pressed():
-        entropy = handle_option_a(entropy)
-        db_service.write_to_database(session_id, session_state, entropy)
-        
-    elif buttons.right_button_pressed():
-        entropy = handle_option_b(entropy)
-        db_service.write_to_database(session_id, session_state, entropy)
 
 def maintain_game_state():
 

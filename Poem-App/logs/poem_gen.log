@@ -136,3 +136,309 @@ A crisp canvas lays,
 Tools aligned in perfect grace,
 Mapped by art's sure trace.
 2023-08-15 23:27:09,858 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:27:40,704 - poem_gen - INFO - Number of words: 236
+2023-08-15 23:27:41,387 - poem_gen - INFO - webtext words are: menu cust back it and
+2023-08-15 23:27:42,051 - poem_gen - INFO - select persona: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:27:42,055 - poem_gen - DEBUG - persona is: Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and cheery poetry, that may have a dark or an ironic twist.
+2023-08-15 23:27:42,060 - poem_gen - DEBUG - lang_device is: caesura
+2023-08-15 23:27:42,062 - poem_gen - DEBUG - abstract_concept is: abasement
+2023-08-15 23:27:42,063 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:27:42,064 - poem_gen - DEBUG - ==========================
+2023-08-15 23:27:42,069 - poem_gen - DEBUG - creative_starting_prompt: "If a customer is in the menu, they can go back."
+2023-08-15 23:27:42,070 - poem_gen - DEBUG - creative_prompt: "If a customer is in the menu, they can go back."
+2023-08-15 23:27:43,715 - poem_gen - INFO - step_1_poem:
+Persuasive words sway,
+While truth hides in the confines,
+Hypocrisy thrives.
+2023-08-15 23:27:43,738 - poem_gen - DEBUG - poem result:
+Persuasive words sway,
+While truth hides in the confines,
+Hypocrisy thrives.
+2023-08-15 23:27:43,742 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:28:14,639 - poem_gen - INFO - Number of words: 236
+2023-08-15 23:28:15,082 - poem_gen - INFO - webtext words are: top available not it or
+2023-08-15 23:28:15,796 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-15 23:28:15,799 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-15 23:28:15,800 - poem_gen - DEBUG - lang_device is: anachronism
+2023-08-15 23:28:15,802 - poem_gen - DEBUG - abstract_concept is: sunshine
+2023-08-15 23:28:15,803 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:28:15,805 - poem_gen - DEBUG - ==========================
+2023-08-15 23:28:15,806 - poem_gen - DEBUG - creative_starting_prompt: The top is not available for it.
+2023-08-15 23:28:15,807 - poem_gen - DEBUG - creative_prompt: The top is not available for it.
+2023-08-15 23:28:16,548 - poem_gen - INFO - step_1_poem:
+Seeking highest peak,
+Yet unveiled, out of our reach—
+The top remains still.
+2023-08-15 23:28:16,556 - poem_gen - DEBUG - poem result:
+Seeking highest peak,
+Yet unveiled, out of our reach—
+The top remains still.
+2023-08-15 23:28:16,563 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-15 23:28:47,543 - poem_gen - INFO - Number of words: 288
+2023-08-15 23:28:48,140 - poem_gen - INFO - webtext words are: Guy last so I and
+2023-08-15 23:28:48,827 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-15 23:28:48,831 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-15 23:28:48,835 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-08-15 23:28:48,836 - poem_gen - DEBUG - abstract_concept is: discontentedness
+2023-08-15 23:28:48,837 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-15 23:28:48,839 - poem_gen - DEBUG - ==========================
+2023-08-15 23:28:48,842 - poem_gen - DEBUG - creative_starting_prompt: "So last night, guy I met, it was."
+2023-08-15 23:28:48,844 - poem_gen - DEBUG - creative_prompt: "So last night, guy I met, it was."
+2023-08-15 23:28:49,697 - poem_gen - INFO - step_1_poem:
+In moon's dance with fate,
+A chance encounter whispers,
+Last night's hues embrace.
+2023-08-15 23:28:49,753 - poem_gen - DEBUG - poem result:
+In moon's dance with fate,
+A chance encounter whispers,
+Last night's hues embrace.
+2023-08-15 23:28:49,754 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:14:23,020 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 19:14:23,149 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 19:14:28,637 - poem_gen - INFO - Number of words: 267
+2023-08-16 19:14:31,121 - poem_gen - INFO - webtext words are: climes weight yet he or
+2023-08-16 19:15:34,631 - poem_gen - INFO - select persona: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-16 19:15:34,639 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-16 19:15:34,641 - poem_gen - DEBUG - lang_device is: oxymoron
+2023-08-16 19:15:34,645 - poem_gen - DEBUG - abstract_concept is: fate
+2023-08-16 19:15:34,646 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:15:34,648 - poem_gen - DEBUG - ==========================
+2023-08-16 19:15:34,649 - poem_gen - DEBUG - creative_starting_prompt: Or he weighs climates.
+2023-08-16 19:15:34,652 - poem_gen - DEBUG - creative_prompt: Or he weighs climates.
+2023-08-16 19:15:36,029 - poem_gen - INFO - step_1_poem:
+Logics stumble, while
+Nature's whim surges like wind
+Balanced scales shiver
+2023-08-16 19:15:36,044 - poem_gen - DEBUG - poem result:
+Logics stumble, while
+Nature's whim surges like wind
+Balanced scales shiver
+2023-08-16 19:15:36,049 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:18:29,245 - poem_gen - INFO - Number of words: 236
+2023-08-16 19:18:29,724 - poem_gen - INFO - webtext words are: toolbar finish back it and
+2023-08-16 19:18:30,598 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:18:30,608 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:18:30,609 - poem_gen - DEBUG - lang_device is: anachronism
+2023-08-16 19:18:30,611 - poem_gen - DEBUG - abstract_concept is: honour
+2023-08-16 19:18:30,613 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:18:30,614 - poem_gen - DEBUG - ==========================
+2023-08-16 19:18:30,615 - poem_gen - DEBUG - creative_starting_prompt: System.errPointerException
+2023-08-16 19:18:30,616 - poem_gen - DEBUG - creative_prompt: System.errPointerException
+2023-08-16 19:18:32,074 - poem_gen - INFO - step_1_poem:
+Shattered lines blurred,
+System's glitch engulfs my mind,
+Extract life, poison.
+2023-08-16 19:18:32,083 - poem_gen - DEBUG - poem result:
+Shattered lines blurred,
+System's glitch engulfs my mind,
+Extract life, poison.
+2023-08-16 19:18:32,087 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:22:10,984 - poem_gen - INFO - Number of words: 267
+2023-08-16 19:22:11,569 - poem_gen - INFO - webtext words are: winter tropical So It or
+2023-08-16 19:22:14,939 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:22:14,944 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:22:14,947 - poem_gen - DEBUG - lang_device is: alliteration
+2023-08-16 19:22:14,948 - poem_gen - DEBUG - abstract_concept is: redemption
+2023-08-16 19:22:14,950 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:22:14,952 - poem_gen - DEBUG - ==========================
+2023-08-16 19:22:14,954 - poem_gen - DEBUG - creative_starting_prompt: The tropics are not a winter destination, for good reason.
+2023-08-16 19:22:14,955 - poem_gen - DEBUG - creative_prompt: The tropics are not a winter destination, for good reason.
+2023-08-16 19:22:15,911 - poem_gen - INFO - step_1_poem:
+Cold wind whispers through,
+Tropics hiding secrets tense,
+Winter's distant gaze.
+2023-08-16 19:22:15,921 - poem_gen - DEBUG - poem result:
+Cold wind whispers through,
+Tropics hiding secrets tense,
+Winter's distant gaze.
+2023-08-16 19:22:15,924 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:26:22,505 - poem_gen - INFO - Number of words: 260
+2023-08-16 19:26:23,144 - poem_gen - INFO - webtext words are: feeling nose nose It and
+2023-08-16 19:26:23,979 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-16 19:26:23,983 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-16 19:26:23,984 - poem_gen - DEBUG - lang_device is: alliteration
+2023-08-16 19:26:23,986 - poem_gen - DEBUG - abstract_concept is: form_bubbles
+2023-08-16 19:26:23,987 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:26:23,988 - poem_gen - DEBUG - ==========================
+2023-08-16 19:26:23,990 - poem_gen - DEBUG - creative_starting_prompt: Nose feeling it.
+2023-08-16 19:26:23,991 - poem_gen - DEBUG - creative_prompt: Nose feeling it.
+2023-08-16 19:26:24,950 - poem_gen - INFO - step_1_poem:
+Spicy scents fill air,
+Nose feeling it embrace the
+Essence of cuisine.
+2023-08-16 19:26:24,960 - poem_gen - DEBUG - poem result:
+Spicy scents fill air,
+Nose feeling it embrace the
+Essence of cuisine.
+2023-08-16 19:26:24,966 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:29:32,363 - poem_gen - INFO - Number of words: 288
+2023-08-16 19:29:32,995 - poem_gen - INFO - webtext words are: Guy Asian noon you and
+2023-08-16 19:29:33,866 - poem_gen - INFO - select persona: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-16 19:29:33,870 - poem_gen - DEBUG - persona is: You are Shelley, a poet. You are a force of dark energy. You see the beauty in shadows and hidden meanings in simple things. You are subtle and haunting. You speak in riddles and metaphors. You speak in streams of consciousness.
+2023-08-16 19:29:33,872 - poem_gen - DEBUG - lang_device is: caesura
+2023-08-16 19:29:33,874 - poem_gen - DEBUG - abstract_concept is: anxiousness
+2023-08-16 19:29:33,875 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:29:33,877 - poem_gen - DEBUG - ==========================
+2023-08-16 19:29:33,878 - poem_gen - DEBUG - creative_starting_prompt: Guy and Asian met at noon.
+2023-08-16 19:29:33,880 - poem_gen - DEBUG - creative_prompt: Guy and Asian met at noon.
+2023-08-16 19:29:35,013 - poem_gen - INFO - step_1_poem:
+In shadows they blend,
+Confluence of day and moon,
+Whispers' harmony.
+2023-08-16 19:29:35,023 - poem_gen - DEBUG - poem result:
+In shadows they blend,
+Confluence of day and moon,
+Whispers' harmony.
+2023-08-16 19:29:35,026 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:30:32,754 - poem_gen - INFO - Number of words: 288
+2023-08-16 19:30:33,328 - poem_gen - INFO - webtext words are: Dad Asian long your and
+2023-08-16 19:30:34,281 - poem_gen - INFO - select persona: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-16 19:30:34,286 - poem_gen - DEBUG - persona is: You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful poetry that contrasts the structured logic of code with the wild unpredictability of nature.
+2023-08-16 19:30:34,288 - poem_gen - DEBUG - lang_device is: enjambment
+2023-08-16 19:30:34,289 - poem_gen - DEBUG - abstract_concept is: commitment
+2023-08-16 19:30:34,291 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:30:34,293 - poem_gen - DEBUG - ==========================
+2023-08-16 19:30:34,295 - poem_gen - DEBUG - creative_starting_prompt: Examples: "Dad and mom are both Asian." or "Your dad is Asian and tall."
+2023-08-16 19:30:34,296 - poem_gen - DEBUG - creative_prompt: Examples: "Dad and mom are both Asian." or "Your dad is Asian and tall."
+2023-08-16 19:30:35,159 - poem_gen - INFO - step_1_poem:
+Tech world blends nature,
+Wild code sprouts like green offshoots—
+Human ancestry.
+2023-08-16 19:30:35,168 - poem_gen - DEBUG - poem result:
+Tech world blends nature,
+Wild code sprouts like green offshoots—
+Human ancestry.
+2023-08-16 19:30:35,176 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:31:10,890 - poem_gen - INFO - Number of words: 288
+2023-08-16 19:31:11,466 - poem_gen - INFO - webtext words are: picture Asian even me and
+2023-08-16 19:31:13,486 - poem_gen - INFO - select persona: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-16 19:31:13,490 - poem_gen - DEBUG - persona is: You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors and textures he experiences in his travels.
+2023-08-16 19:31:13,493 - poem_gen - DEBUG - lang_device is: caesura
+2023-08-16 19:31:13,495 - poem_gen - DEBUG - abstract_concept is: atonement
+2023-08-16 19:31:13,496 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:31:13,499 - poem_gen - DEBUG - ==========================
+2023-08-16 19:31:13,501 - poem_gen - DEBUG - creative_starting_prompt: As an AI, I am unable to directly analyze or make judgement based on textual inputs only.
+2023-08-16 19:31:13,503 - poem_gen - DEBUG - creative_prompt: As an AI, I am unable to directly analyze or make judgement based on textual inputs only.
+2023-08-16 19:31:14,442 - poem_gen - INFO - step_1_poem:
+Exploring Seven Seas,
+Sharks and octopuses flee,
+Synergy's feast’s key.
+2023-08-16 19:31:14,452 - poem_gen - DEBUG - poem result:
+Exploring Seven Seas,
+Sharks and octopuses flee,
+Synergy's feast’s key.
+2023-08-16 19:31:14,457 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:32:05,952 - poem_gen - INFO - Number of words: 267
+2023-08-16 19:32:06,530 - poem_gen - INFO - webtext words are: length tropical not you or
+2023-08-16 19:32:07,235 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 19:32:07,237 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 19:32:07,240 - poem_gen - DEBUG - lang_device is: alliteration
+2023-08-16 19:32:07,243 - poem_gen - DEBUG - abstract_concept is: sadness
+2023-08-16 19:32:07,244 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:32:07,246 - poem_gen - DEBUG - ==========================
+2023-08-16 19:32:07,247 - poem_gen - DEBUG - creative_starting_prompt: "Length does not matter in a tropical oasis."
+2023-08-16 19:32:07,249 - poem_gen - DEBUG - creative_prompt: "Length does not matter in a tropical oasis."
+2023-08-16 19:32:08,105 - poem_gen - INFO - step_1_poem:
+In verdant isles cherishing,
+Strides suspended, endless dear,
+Eternal moments slumber.
+2023-08-16 19:32:08,114 - poem_gen - DEBUG - poem result:
+In verdant isles cherishing,
+Strides suspended, endless dear,
+Eternal moments slumber.
+2023-08-16 19:32:08,118 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:33:32,601 - poem_gen - INFO - Number of words: 236
+2023-08-16 19:33:33,077 - poem_gen - INFO - webtext words are: horks full back it and
+2023-08-16 19:33:34,045 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-08-16 19:33:34,050 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-08-16 19:33:34,052 - poem_gen - DEBUG - lang_device is: assonance
+2023-08-16 19:33:34,053 - poem_gen - DEBUG - abstract_concept is: ambition
+2023-08-16 19:33:34,055 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:33:34,057 - poem_gen - DEBUG - ==========================
+2023-08-16 19:33:34,059 - poem_gen - DEBUG - creative_starting_prompt: "Horks and back it full."
+2023-08-16 19:33:34,061 - poem_gen - DEBUG - creative_prompt: "Horks and back it full."
+2023-08-16 19:33:35,417 - poem_gen - INFO - step_1_poem:
+Invention arise:
+Horks and back it full enjoy,
+Chaos defines me.
+2023-08-16 19:33:35,427 - poem_gen - DEBUG - poem result:
+Invention arise:
+Horks and back it full enjoy,
+Chaos defines me.
+2023-08-16 19:33:35,431 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:34:19,676 - poem_gen - INFO - Number of words: 267
+2023-08-16 19:34:20,239 - poem_gen - INFO - webtext words are: coconut weight not We and
+2023-08-16 19:34:20,845 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 19:34:20,849 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 19:34:20,850 - poem_gen - DEBUG - lang_device is: irony
+2023-08-16 19:34:20,851 - poem_gen - DEBUG - abstract_concept is: heart
+2023-08-16 19:34:20,853 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:34:20,854 - poem_gen - DEBUG - ==========================
+2023-08-16 19:34:20,855 - poem_gen - DEBUG - creative_starting_prompt: Coconut weight is not "we,"
+2023-08-16 19:34:20,856 - poem_gen - DEBUG - creative_prompt: Coconut weight is not "we,"
+2023-08-16 19:34:21,811 - poem_gen - INFO - step_1_poem:
+Coconut solo,
+Weight of soul, many pieces,
+One voice yet to be.
+2023-08-16 19:34:21,821 - poem_gen - DEBUG - poem result:
+Coconut solo,
+Weight of soul, many pieces,
+One voice yet to be.
+2023-08-16 19:34:21,827 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:34:58,464 - poem_gen - INFO - Number of words: 255
+2023-08-16 19:34:58,998 - poem_gen - INFO - webtext words are: travel mutual sincere I and
+2023-08-16 19:34:59,462 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:34:59,466 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:34:59,467 - poem_gen - DEBUG - lang_device is: caesura
+2023-08-16 19:34:59,469 - poem_gen - DEBUG - abstract_concept is: yearning
+2023-08-16 19:34:59,470 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:34:59,472 - poem_gen - DEBUG - ==========================
+2023-08-16 19:34:59,473 - poem_gen - DEBUG - creative_starting_prompt: I and mutual travel, sincere.
+2023-08-16 19:34:59,474 - poem_gen - DEBUG - creative_prompt: I and mutual travel, sincere.
+2023-08-16 19:35:00,305 - poem_gen - INFO - step_1_poem:
+I, on path we share,
+Sincere travel's muse afar,
+Mind keeps watchful eye.
+2023-08-16 19:35:00,316 - poem_gen - DEBUG - poem result:
+I, on path we share,
+Sincere travel's muse afar,
+Mind keeps watchful eye.
+2023-08-16 19:35:00,322 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 19:57:52,598 - poem_gen - INFO - Number of words: 252
+2023-08-16 19:57:53,304 - poem_gen - INFO - webtext words are: barn bad down their and
+2023-08-16 19:57:54,082 - poem_gen - INFO - select persona: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:57:54,086 - poem_gen - DEBUG - persona is: You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings with a sense of urgency and uncertainty. The underlying theme in your stories is the existential dread of imagined threats, using suspense as a tool to articulate your constant state of anxiety and fear.
+2023-08-16 19:57:54,087 - poem_gen - DEBUG - lang_device is: assonance
+2023-08-16 19:57:54,088 - poem_gen - DEBUG - abstract_concept is: equivalence
+2023-08-16 19:57:54,089 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 19:57:54,091 - poem_gen - DEBUG - ==========================
+2023-08-16 19:57:54,093 - poem_gen - DEBUG - creative_starting_prompt: The barn went down.
+2023-08-16 19:57:54,094 - poem_gen - DEBUG - creative_prompt: The barn went down.
+2023-08-16 19:57:55,291 - poem_gen - INFO - step_1_poem:
+The creak echoed loud,
+Timeworn structure's final breath,
+Silent barn stands still.
+2023-08-16 19:57:55,297 - poem_gen - DEBUG - poem result:
+The creak echoed loud,
+Timeworn structure's final breath,
+Silent barn stands still.
+2023-08-16 19:57:55,302 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 20:03:22,235 - poem_gen - INFO - Number of words: 260
+2023-08-16 20:03:22,864 - poem_gen - INFO - webtext words are: touch good more your and
+2023-08-16 20:03:23,772 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 20:03:23,776 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 20:03:23,778 - poem_gen - DEBUG - lang_device is: synecdoche
+2023-08-16 20:03:23,780 - poem_gen - DEBUG - abstract_concept is: solitaire
+2023-08-16 20:03:23,781 - poem_gen - DEBUG - randomness factor is: 0.76
+2023-08-16 20:03:23,783 - poem_gen - DEBUG - ==========================
+2023-08-16 20:03:23,784 - poem_gen - DEBUG - creative_starting_prompt: You have more good touch and.
+2023-08-16 20:03:23,786 - poem_gen - DEBUG - creative_prompt: You have more good touch and.
+2023-08-16 20:03:24,726 - poem_gen - INFO - step_1_poem:
+In twilight's embrace,
+Your touch finds solace and luck —
+More good than I've known.
+2023-08-16 20:03:24,735 - poem_gen - DEBUG - poem result:
+In twilight's embrace,
+Your touch finds solace and luck —
+More good than I've known.
+2023-08-16 20:03:24,740 - poem_gen - DEBUG - poem_gen completed successfully
