@@ -144,3 +144,30 @@ In twilight's embrace,
 Your touch finds solace and luck —
 More good than I've known.
 2023-08-16 20:03:25,035 - display_write - INFO - Displaying text_lines (wrapped): ["In twilight's embrace,", 'Your touch finds solace', 'and luck — More good', "than I've known."]
+2023-08-16 20:57:28,038 - display_write - INFO - Displaying text (original varable):
+HELLO? HELLO? HELLO?       HELLO! HELLO! HELLO!      HELLO! HELLO! HELLO!
+2023-08-16 20:57:28,042 - display_write - INFO - Displaying text_lines (wrapped): ['HELLO? HELLO? HELLO?', 'HELLO! HELLO! HELLO!', 'HELLO! HELLO! HELLO!']
+2023-08-16 20:57:33,377 - display_write - INFO - Displaying text (original varable):
+Hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello  
+2023-08-16 20:57:33,380 - display_write - INFO - Displaying text_lines (wrapped): ['Hello hello hello hello', 'hello hello hello hello', 'hello hello hello hello', 'hello hello hello hello', 'hello hello hello hello', 'hello hello hello hello', 'hello']
+2023-08-16 20:57:35,523 - display_write - INFO - Displaying text (original varable):
+                         I'm so excited :)                          
+2023-08-16 20:57:35,528 - display_write - INFO - Displaying text_lines (wrapped): [" I'm so excited :)"]
+2023-08-16 20:57:38,474 - display_write - INFO - Displaying text (original varable):
+"Welcome, humble player, to this realm of linguistic sorcery."
+2023-08-16 20:57:38,478 - display_write - INFO - Displaying text_lines (wrapped): ['"Welcome, humble player,', 'to this realm of', 'linguistic sorcery."']
+2023-08-16 21:00:16,272 - display_write - INFO - Displaying text (original varable):
+Fragile teacups fell, 
+Shattering upon her soul, 
+Melting like lost dreams.
+2023-08-16 21:00:16,276 - display_write - INFO - Displaying text_lines (wrapped): ['Fragile teacups fell,', 'Shattering upon her', 'soul,  Melting like lost', 'dreams.']
+2023-08-16 21:00:53,159 - display_write - INFO - Displaying text (original varable):
+Celestial ballet,
+Stellar motion mesmerize,
+The small nightly mode has it.
+2023-08-16 21:00:53,163 - display_write - INFO - Displaying text_lines (wrapped): ['Celestial ballet,', 'Stellar motion', 'mesmerize, The small', 'nightly mode has it.']
+2023-08-16 21:03:01,800 - display_write - INFO - Displaying text (original varable):
+In murky downpour,
+My cascading white tresses
+Drenched in liquid notes.
+2023-08-16 21:03:01,805 - display_write - INFO - Displaying text_lines (wrapped): ['In murky downpour, My', 'cascading white tresses', 'Drenched in liquid', 'notes.']

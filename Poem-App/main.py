@@ -45,7 +45,7 @@ def poetry_gen_loop(entropy):
     logger.debug(f"gametext is: {gametext}")
     return gametext
 
-def handle_option_a(entropy):
+def handle_option_l(entropy):
     # Implement game logic for Option A
     # Decrease entropy by .05, not going below 0
     entropy = max(Decimal('0.0'), entropy - Decimal('0.05'))
@@ -53,7 +53,7 @@ def handle_option_a(entropy):
     return entropy
     
 
-def handle_option_b(entropy):
+def handle_option_r(entropy):
     # Implement game logic for Option B
     # Increase entropy by .05, not going above 1
     #entropy = min(1.0, float(entropy) + 0.1)
@@ -74,7 +74,13 @@ def run_game(persona, session_state, gametext, entropy, session_id):
 
     # Handle button presses
     print("button press....")
-    buttons.handle_button_presses(session_id, session_state, entropy)
+    pressed = buttons.handle_button_presses(session_id, session_state, entropy)
+
+    # Modify entropy based on button pressed
+    if pressed == "L":
+        entropy = handle_option_l(entropy)
+    elif pressed == "R":
+        entropy = handle_option_r(entropy)
 
     # Run the intro function or the poetry loop 
     if session_state == "new":

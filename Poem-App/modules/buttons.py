@@ -32,6 +32,8 @@ def handle_button_presses(session_id, session_state, entropy):
                 GPIO.output(17, True)   # Turn on LED 1
                 print('Left Button Pressed...')
                 time.sleep(0.5)
+                pressed_button = "L"
+                GPIO.output(17, False)  # Turn off LED 1
                 break  # Break out of the loop since the button has been pressed
             else:
                 GPIO.output(17, False)  # Turn off LED 1
@@ -41,6 +43,8 @@ def handle_button_presses(session_id, session_state, entropy):
                 GPIO.output(23, True)   # Turn on LED 2
                 print('Right Button Pressed...')
                 time.sleep(0.5)
+                pressed_button = "A"
+                GPIO.output(23, False)  # Turn off LED 2
                 break  # Break out of the loop since the button has been pressed
             else:
                 GPIO.output(23, False)  # Turn off LED 2
@@ -49,3 +53,4 @@ def handle_button_presses(session_id, session_state, entropy):
 
     except KeyboardInterrupt:  # Gracefully exit on Ctrl+C
         GPIO.cleanup()
+    return pressed_button

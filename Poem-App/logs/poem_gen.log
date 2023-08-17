@@ -442,3 +442,66 @@ In twilight's embrace,
 Your touch finds solace and luck —
 More good than I've known.
 2023-08-16 20:03:24,740 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 20:57:22,776 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 20:57:22,902 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 20:58:14,842 - poem_gen - INFO - Number of words: 252
+2023-08-16 20:58:17,790 - poem_gen - INFO - webtext words are: view low alone I and
+2023-08-16 20:59:12,727 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 20:59:12,841 - poem_gen - DEBUG - Logger is set up and running.
+2023-08-16 20:59:18,137 - poem_gen - INFO - Number of words: 252
+2023-08-16 20:59:20,712 - poem_gen - INFO - webtext words are: teacups bad down her and
+2023-08-16 21:00:13,710 - poem_gen - INFO - select persona: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 21:00:13,714 - poem_gen - DEBUG - persona is: You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and intricate connections, delves into the depths of the human experience, seeking to capture the essence of life's fleeting moments in the tapestry of your verses. As you sit in your study, surrounded by weathered books and faded photographs, your gaze drifts into the distance, your eyes shining with the flicker of inspiration. You contemplate the world through a lens tinted with nostalgia, the memories of your youth mingling with the dreams of what is yet to come. The weight of time rests upon your weary shoulders, but it does not deter your fervor for introspection.
+2023-08-16 21:00:13,715 - poem_gen - DEBUG - lang_device is: idiom
+2023-08-16 21:00:13,717 - poem_gen - DEBUG - abstract_concept is: transcendency
+2023-08-16 21:00:13,719 - poem_gen - DEBUG - randomness factor is: 0.67
+2023-08-16 21:00:13,720 - poem_gen - DEBUG - ==========================
+2023-08-16 21:00:13,721 - poem_gen - DEBUG - creative_starting_prompt: Teacups fell off her.
+2023-08-16 21:00:13,723 - poem_gen - DEBUG - creative_prompt: Teacups fell off her.
+2023-08-16 21:00:15,913 - poem_gen - INFO - step_1_poem:
+Fragile teacups fell, 
+Shattering upon her soul, 
+Melting like lost dreams.
+2023-08-16 21:00:15,921 - poem_gen - DEBUG - poem result:
+Fragile teacups fell, 
+Shattering upon her soul, 
+Melting like lost dreams.
+2023-08-16 21:00:15,925 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 21:00:50,540 - poem_gen - INFO - Number of words: 236
+2023-08-16 21:00:51,037 - poem_gen - INFO - webtext words are: mode small nightly it and
+2023-08-16 21:00:51,748 - poem_gen - INFO - select persona: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-08-16 21:00:51,751 - poem_gen - DEBUG - persona is: You are Daisy. You are a passionate high school student deeply interested in science and astronomy. You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.
+2023-08-16 21:00:51,753 - poem_gen - DEBUG - lang_device is: hyperbole
+2023-08-16 21:00:51,754 - poem_gen - DEBUG - abstract_concept is: cheerfulness
+2023-08-16 21:00:51,755 - poem_gen - DEBUG - randomness factor is: 0.62
+2023-08-16 21:00:51,757 - poem_gen - DEBUG - ==========================
+2023-08-16 21:00:51,758 - poem_gen - DEBUG - creative_starting_prompt: The small nightly mode has it.
+2023-08-16 21:00:51,759 - poem_gen - DEBUG - creative_prompt: The small nightly mode has it.
+2023-08-16 21:00:52,857 - poem_gen - INFO - step_1_poem:
+Celestial ballet,
+Stellar motion mesmerize,
+The small nightly mode has it.
+2023-08-16 21:00:52,866 - poem_gen - DEBUG - poem result:
+Celestial ballet,
+Stellar motion mesmerize,
+The small nightly mode has it.
+2023-08-16 21:00:52,870 - poem_gen - DEBUG - poem_gen completed successfully
+2023-08-16 21:02:58,911 - poem_gen - INFO - Number of words: 252
+2023-08-16 21:02:59,559 - poem_gen - INFO - webtext words are: rain white long My and
+2023-08-16 21:03:00,531 - poem_gen - INFO - select persona: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-08-16 21:03:00,535 - poem_gen - DEBUG - persona is: You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit unpredictable manner. Your prose, rich with the motifs of innovation and chaos, embodies your passion for scientific discovery as well as your nonchalance towards the disorder left in your wake. Your writings often culminate in a profound sense of detachment, a testament to your aloof and peculiar character.
+2023-08-16 21:03:00,537 - poem_gen - DEBUG - lang_device is: allegory
+2023-08-16 21:03:00,539 - poem_gen - DEBUG - abstract_concept is: lightheadedness
+2023-08-16 21:03:00,541 - poem_gen - DEBUG - randomness factor is: 0.57
+2023-08-16 21:03:00,542 - poem_gen - DEBUG - ==========================
+2023-08-16 21:03:00,545 - poem_gen - DEBUG - creative_starting_prompt: My white long hair gets wet in the rain.
+2023-08-16 21:03:00,546 - poem_gen - DEBUG - creative_prompt: My white long hair gets wet in the rain.
+2023-08-16 21:03:01,500 - poem_gen - INFO - step_1_poem:
+In murky downpour,
+My cascading white tresses
+Drenched in liquid notes.
+2023-08-16 21:03:01,510 - poem_gen - DEBUG - poem result:
+In murky downpour,
+My cascading white tresses
+Drenched in liquid notes.
+2023-08-16 21:03:01,516 - poem_gen - DEBUG - poem_gen completed successfully

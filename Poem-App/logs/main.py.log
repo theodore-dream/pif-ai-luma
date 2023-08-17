@@ -313,3 +313,64 @@ Silent barn stands still.
 2023-08-16 20:03:24,741 - main.py - DEBUG - gametext is: In twilight's embrace,
 Your touch finds solace and luck —
 More good than I've known.
+2023-08-16 20:57:23,728 - main.py - DEBUG - Logger is set up and running.
+2023-08-16 20:57:23,730 - main.py - DEBUG - running game status check....
+2023-08-16 20:57:23,738 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:57:23,740 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:57:23,904 - main.py - DEBUG - session data from DB: (None, None, None, None, None)
+2023-08-16 20:57:23,906 - main.py - DEBUG - no active session found, initialize values, creating new session with state: new
+2023-08-16 20:57:24,086 - main.py - INFO - new session created with entropy: 0.72
+2023-08-16 20:57:24,101 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: new, Game Text: None, Entropy: 0.72
+2023-08-16 20:57:27,921 - main.py - DEBUG - new session identified. poetry game intro starting now...
+2023-08-16 20:57:27,933 - main.py - DEBUG - starting introduction
+2023-08-16 20:57:36,640 - main.py - DEBUG - opening text written to luma
+2023-08-16 20:57:38,195 - main.py - INFO - poetry_game_intro api response: "Welcome, humble player, to this realm of linguistic sorcery."
+2023-08-16 20:58:08,569 - main.py - DEBUG - gametext is: "Welcome, humble player, to this realm of linguistic sorcery."
+2023-08-16 20:58:08,672 - main.py - DEBUG - running game status check....
+2023-08-16 20:58:08,682 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:58:08,684 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:58:08,859 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.72'), '1ea828d9-adda-4964-8262-a000ade37a4f')
+2023-08-16 20:58:08,871 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: active, Game Text: None, Entropy: 0.72
+2023-08-16 20:58:14,795 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.72
+2023-08-16 20:59:13,575 - main.py - DEBUG - Logger is set up and running.
+2023-08-16 20:59:13,577 - main.py - DEBUG - running game status check....
+2023-08-16 20:59:13,584 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:59:13,585 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:59:13,749 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.72'), '1ea828d9-adda-4964-8262-a000ade37a4f')
+2023-08-16 20:59:13,761 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: active, Game Text: None, Entropy: 0.72
+2023-08-16 20:59:18,080 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.67
+2023-08-16 21:00:15,926 - main.py - DEBUG - gametext is: Fragile teacups fell, 
+Shattering upon her soul, 
+Melting like lost dreams.
+2023-08-16 21:00:46,498 - main.py - DEBUG - gametext is: Fragile teacups fell, 
+Shattering upon her soul, 
+Melting like lost dreams.
+2023-08-16 21:00:46,600 - main.py - DEBUG - running game status check....
+2023-08-16 21:00:46,606 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:00:46,609 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:00:46,769 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.67'), '1ea828d9-adda-4964-8262-a000ade37a4f')
+2023-08-16 21:00:46,781 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: active, Game Text: None, Entropy: 0.67
+2023-08-16 21:00:50,499 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.62
+2023-08-16 21:00:52,872 - main.py - DEBUG - gametext is: Celestial ballet,
+Stellar motion mesmerize,
+The small nightly mode has it.
+2023-08-16 21:01:23,253 - main.py - DEBUG - gametext is: Celestial ballet,
+Stellar motion mesmerize,
+The small nightly mode has it.
+2023-08-16 21:01:23,355 - main.py - DEBUG - running game status check....
+2023-08-16 21:01:23,366 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:01:23,368 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:01:23,561 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.62'), '1ea828d9-adda-4964-8262-a000ade37a4f')
+2023-08-16 21:01:23,563 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: active, Game Text: None, Entropy: 0.62
+2023-08-16 21:02:58,901 - main.py - DEBUG - runing poetry_gen_loop, current entropy is: 0.57
+2023-08-16 21:03:01,518 - main.py - DEBUG - gametext is: In murky downpour,
+My cascading white tresses
+Drenched in liquid notes.
+2023-08-16 21:03:31,912 - main.py - DEBUG - gametext is: In murky downpour,
+My cascading white tresses
+Drenched in liquid notes.
+2023-08-16 21:03:32,014 - main.py - DEBUG - running game status check....
+2023-08-16 21:03:32,026 - main.py - DEBUG - session_id found or generated = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:03:32,028 - main.py - DEBUG - reading session data from DB: 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:03:32,258 - main.py - DEBUG - session data from DB: (None, 'active', None, Decimal('0.57'), '1ea828d9-adda-4964-8262-a000ade37a4f')
+2023-08-16 21:03:32,259 - main.py - INFO - Session data setup before running game - Session ID: 1ea828d9-adda-4964-8262-a000ade37a4f, Persona: None, Session State: active, Game Text: None, Entropy: 0.57

@@ -56,3 +56,15 @@
 2023-08-16 19:35:30,830 - setup_utils - DEBUG - setup_utils - game_uuid is = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
 2023-08-16 19:58:25,825 - setup_utils - INFO - setup_utils - game_uuid found = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
 2023-08-16 19:58:25,829 - setup_utils - DEBUG - setup_utils - game_uuid is = 7fe1f656-4c4c-4fb6-bce3-8b8ad8b21883
+2023-08-16 20:57:23,733 - setup_utils - INFO - setup_utils - game_uuid created = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:57:23,737 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:58:08,675 - setup_utils - INFO - setup_utils - game_uuid found = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:58:08,679 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:59:13,579 - setup_utils - INFO - setup_utils - game_uuid found = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 20:59:13,583 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:00:46,602 - setup_utils - INFO - setup_utils - game_uuid found = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:00:46,605 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:01:23,358 - setup_utils - INFO - setup_utils - game_uuid found = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:01:23,363 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:03:32,017 - setup_utils - INFO - setup_utils - game_uuid found = 1ea828d9-adda-4964-8262-a000ade37a4f
+2023-08-16 21:03:32,023 - setup_utils - DEBUG - setup_utils - game_uuid is = 1ea828d9-adda-4964-8262-a000ade37a4f
