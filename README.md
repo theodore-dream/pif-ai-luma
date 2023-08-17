@@ -2,6 +2,14 @@
 
 This project is a hardware device that displays poetry that is generated through a series of API calls to gpt-3.5-turbo. 
 
+### Example poetry generations
+
+![barn](example_images/barn.png)
+![dance](example_images/dance.png)
+![logics](example_images/logics.png)
+
+## Overview
+
 High-level, this application gathers and displays poetry and text data. The repository provides Dockerfiles to run both the Postgres database and the client side with the application 'Poem-App'
 
 Application is designed to be used with Dockerfiles and run with docker-compose.
@@ -68,10 +76,5 @@ Lyrics-api folder contains logic to use musicxmatch lyrics API, is currently not
 └───────────────────────────────────┘    └───────────────────────────────────┘
 ```
 
-### Example poetry generations
-
-![barn](example_images/barn.png)
-![dance](example_images/dance.png)
-![logics](example_images/logics.png)
 
 
