@@ -25,6 +25,7 @@ Lyrics-api folder contains logic to use musicxmatch lyrics API, is currently not
 
 ## Overview of Pif game architecture: game state management
 
+```
 ┌─────────────────────┐             ┌──────────────────────────────────────┐
 │                     │             │                                      │
 │                     │             │                                      │
@@ -43,9 +44,11 @@ Lyrics-api folder contains logic to use musicxmatch lyrics API, is currently not
 │   introduction text │                │   display text                │
 │                     │                │                               │
 └─────────────────────┘                └───────────────────────────────┘
+```
 
 ## Overview of Pif game architecture: poetry generation pipeline
 
+```
         create_vars                                   poem_gen
 ┌───────────────────────────────────┐    ┌───────────────────────────────────┐
 │                                   │    │                                   │
@@ -63,3 +66,4 @@ Lyrics-api folder contains logic to use musicxmatch lyrics API, is currently not
 │   - linguistic device             │    │  API call step 3                  │
 │                                   │    │  - introduce variation            │
 └───────────────────────────────────┘    └───────────────────────────────────┘
+```
