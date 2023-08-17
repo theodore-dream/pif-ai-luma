@@ -67,3 +67,11 @@ Lyrics-api folder contains logic to use musicxmatch lyrics API, is currently not
 │                                   │    │  - introduce variation            │
 └───────────────────────────────────┘    └───────────────────────────────────┘
 ```
+
+### Example poetry generations
+
+![barn](example_images/barn.png)
+![dance](example_images/dance.png)
+![logics](example_images/logics.png)
+
+
