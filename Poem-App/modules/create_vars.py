@@ -4,14 +4,14 @@ from nltk.corpus import wordnet as wn
 import openai
 import os
 from nltk.probability import FreqDist
-nltk.download('webtext')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('punkt')
+
+# removed nltk due to latency
+#nltk.download('webtext')
+#nltk.download('averaged_perceptron_tagger')
+#nltk.download('punkt')
 from collections import Counter
 import json
 import unicodedata
-
-
 
 #setup logger
 from modules import logger
@@ -22,6 +22,33 @@ logger = setup_logger("poem_gen")
 logger.debug("Logger is set up and running.")
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
+
+# create the first input to create the base poem
+def gen_creative_prompt_api(entropy):
+            completion = openai.ChatCompletion.create(
+                model="gpt-4-1106-preview",
+                messages=[
+                    {"role": "system", "content": "You generate random words. Only output the words themselves, nothing extraneous."},
+                    {"role": "user", "content": "Generate up to 3 random words from the English language. These should be randomly mixed between nouns, verbs, adjectives, adverbs, pronouns, etc."},
+                ],
+                max_tokens=500,
+                temperature=(entropy * 2),
+                # temp is set to go between 0.8 and 2, this linear function maps randomness_factor to temp 
+                #temperature=0.8 + (randomness_factor * (2 - 0.8))
+                #temperature=1.0
+            )
+            
+            if completion['choices'][0]['message']['role'] == "assistant":
+                creative_prompt = completion['choices'][0]['message']['content'].strip()
+            else:
+                creative_prompt_syscontent = completion['system'].strip()  # put into a var for later use 
+
+            #logger.info(f"gen_creative_prompt Prompt tokens: {completion['usage']['prompt_tokens']}")
+            #logger.info(f"gen_creative_prompt Completion tokens: {completion['usage']['completion_tokens']}")
+            #logger.info(f"gen_creative_prompt Total tokens: {completion['usage']['total_tokens']}")
+
+            logger.info(f"gen_creative_prompt_api words are: {creative_prompt}")
+            return creative_prompt
 
 def get_abstract_concept():
     abstract_concepts = {
@@ -181,6 +208,54 @@ def get_abstract_concept():
     chosen_word = random.choice(words)
     return chosen_word
 
+
+def build_persona():
+    personas = {
+        "poets" : {
+            "Shelley": "You are Shelley, a poet. You are a force of dark energy. "
+                    "You see the beauty in shadows and hidden meanings in simple things. "
+                    "You are subtle and haunting. You speak in riddles and metaphors. "
+                    "You speak in streams of consciousness.",
+            "Bob": "You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences "
+                    "with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and "
+                    "intricate connections, delves into the depths of the human experience, seeking to capture "
+                    "the essence of life's fleeting moments in the tapestry of your verses. As you sit in your "
+                    "study, surrounded by weathered books and faded photographs, your gaze drifts into the "
+                    "distance, your eyes shining with the flicker of inspiration. You contemplate the world "
+                    "through a lens tinted with nostalgia, the memories of your youth mingling with the dreams "
+                    "of what is yet to come. The weight of time rests upon your weary shoulders, but it does "
+                    "not deter your fervor for introspection.",
+            "Alice": "Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and "
+                    "cheery poetry, that may have a dark or an ironic twist.",
+            "Reginald": "You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style "
+                    "that is luxuriant and opulent, echoing your extravagance. Your prose frequently "
+                    "revolves around themes of desire and excess, reflecting an insatiable hunger for "
+                    "the boundless and a dissatisfaction with the mundane.",
+            "Beatrice": "You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings "
+                        "with a sense of urgency and uncertainty. The underlying theme in your stories is the "
+                        "existential dread of imagined threats, using suspense as a tool to articulate your "
+                        "constant state of anxiety and fear.",
+            "Mortimer": "You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit "
+                    "unpredictable manner. Your prose, rich with the motifs of innovation and chaos, "
+                    "embodies your passion for scientific discovery as well as your nonchalance towards the "
+                    "disorder left in your wake. Your writings often culminate in a profound sense of "
+                    "detachment, a testament to your aloof and peculiar character.",
+            "Daisy": "You are Daisy. You are a passionate high school student deeply interested in science and astronomy. "
+                    "You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.",
+            "Edward": "You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with "
+                    "rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors "
+                    "and textures he experiences in his travels.",
+            "Fiona": "You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful "
+                    "poetry that contrasts the structured logic of code with the wild unpredictability of nature.",
+}
+}
+    # Pick a random persona
+    selected_persona_key = random.choice(list(personas["poets"].keys()))
+    selected_persona_content = personas["poets"][selected_persona_key]
+
+    logger.info(f"select persona: {selected_persona_content}")
+    return selected_persona_content
+
 def get_lang_device():
     language_devices = {
         "metaphor": "a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
@@ -204,6 +279,7 @@ def get_lang_device():
     selected_lang_device = random.choice(list(language_devices.keys()))
     return selected_lang_device
 
+# temporarily disabling use of this function due to latency
 def gen_random_words(randomness_factor=1):
 
     # Get the list of file IDs in the web text corpus.
@@ -254,79 +330,3 @@ def gen_random_words(randomness_factor=1):
     logger.info(f"webtext words are: {webtext_words}")
 
     return webtext_words
-
-def build_persona():
-    personas = {
-        "poets" : {
-            "Shelley": "You are Shelley, a poet. You are a force of dark energy. "
-                    "You see the beauty in shadows and hidden meanings in simple things. "
-                    "You are subtle and haunting. You speak in riddles and metaphors. "
-                    "You speak in streams of consciousness.",
-            "Bob": "You are Bob. You weave complex metaphors into your poetry, often reflecting on your past experiences "
-                    "with a melancholic but hopeful tone. Your mind, a labyrinth of profound thoughts and "
-                    "intricate connections, delves into the depths of the human experience, seeking to capture "
-                    "the essence of life's fleeting moments in the tapestry of your verses. As you sit in your "
-                    "study, surrounded by weathered books and faded photographs, your gaze drifts into the "
-                    "distance, your eyes shining with the flicker of inspiration. You contemplate the world "
-                    "through a lens tinted with nostalgia, the memories of your youth mingling with the dreams "
-                    "of what is yet to come. The weight of time rests upon your weary shoulders, but it does "
-                    "not deter your fervor for introspection.",
-            "Alice": "Alice, a beautiful young girl with curly blonde hair, loves to write uplifting and "
-                    "cheery poetry, that may have a dark or an ironic twist.",
-            "Reginald": "You are Reginald, an eccentric oil tycoon of immeasurable wealth, indulging in a style "
-                    "that is luxuriant and opulent, echoing your extravagance. Your prose frequently "
-                    "revolves around themes of desire and excess, reflecting an insatiable hunger for "
-                    "the boundless and a dissatisfaction with the mundane.",
-            "Beatrice": "You are Beatrice. You are an anxious heiress shadowed by an unshakeable paranoia. You craft your writings "
-                        "with a sense of urgency and uncertainty. The underlying theme in your stories is the "
-                        "existential dread of imagined threats, using suspense as a tool to articulate your "
-                        "constant state of anxiety and fear.",
-            "Mortimer": "You are Mortimer, an eccentric scientist, presenting your writings in a structured, albeit "
-                    "unpredictable manner. Your prose, rich with the motifs of innovation and chaos, "
-                    "embodies your passion for scientific discovery as well as your nonchalance towards the "
-                    "disorder left in your wake. Your writings often culminate in a profound sense of "
-                    "detachment, a testament to your aloof and peculiar character.",
-            "Daisy": "You are Daisy. You are a passionate high school student deeply interested in science and astronomy. "
-                    "You create poems filled with wonder and awe, often using vivid imagery to paint celestial landscapes.",
-            "Edward": "You are Edward. Edward, a world-renowned chef with a thirst for adventure, infuses his poetry with "
-                    "rich culinary metaphors and cultural allusions, his verses embodying the vibrant flavors "
-                    "and textures he experiences in his travels.",
-            "Fiona": "You are Fiona, a tech entrepreneur with a love for the great outdoors. You write concise and insightful "
-                    "poetry that contrasts the structured logic of code with the wild unpredictability of nature.",
-}
-}
-    # Pick a random persona
-    selected_persona_key = random.choice(list(personas["poets"].keys()))
-    selected_persona_content = personas["poets"][selected_persona_key]
-
-    logger.info(f"select persona: {selected_persona_content}")
-    return selected_persona_content
-
-# create the first input to create the base poem
-def gen_creative_prompt(text, randomness_factor):
-            completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You generate a sentence."},
-                    {"role": "user", "content": "Create a very short logical sentence inspired by the following input text:"},
-                    {"role": "user", "content":  "Input text: " + text},
-                ],
-                max_tokens=500,
-                temperature=(randomness_factor * 2),
-                # temp is set to go between 0.8 and 2, this linear function maps randomness_factor to temp 
-                #temperature=0.8 + (randomness_factor * (2 - 0.8))
-                #temperature=1.0
-            )
-            
-            if completion['choices'][0]['message']['role'] == "assistant":
-                creative_prompt = completion['choices'][0]['message']['content'].strip()
-            else:
-                creative_prompt_syscontent = completion['system'].strip()  # put into a var for later use 
-
-            #logger.info(f"gen_creative_prompt Prompt tokens: {completion['usage']['prompt_tokens']}")
-            #logger.info(f"gen_creative_prompt Completion tokens: {completion['usage']['completion_tokens']}")
-            #logger.info(f"gen_creative_prompt Total tokens: {completion['usage']['total_tokens']}")
-
-            
-            return creative_prompt
-

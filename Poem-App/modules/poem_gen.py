@@ -5,9 +5,9 @@ from time import sleep
 
 import os
 import openai
-import nltk
+#import nltk
 from modules import create_vars
-from nltk.probability import FreqDist
+#from nltk.probability import FreqDist
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
@@ -18,15 +18,16 @@ from modules.logger import setup_logger
 logger = setup_logger("poem_gen")
 logger.debug("Logger is set up and running.")
 
-nltk.download('wordnet')
-from nltk.corpus import wordnet as wn
+# removed nltk to try to speed things up
+#nltk.download('wordnet')
+#from nltk.corpus import wordnet as wn
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_1(creative_prompt, persona, randomness_factor):
             completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4-1106-preview",
                 messages=[
                     {"role": "system", "content": persona + " You write a poem. You can use up to 25 characters per line."},
                     {"role": "user", "content": "Produce a haiku inspired by the following words: " + creative_prompt + ""},
@@ -49,7 +50,7 @@ def poem_step_1(creative_prompt, persona, randomness_factor):
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
             completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4-1106-preview",
                 messages=[
                     {"role": "system", "content": persona + " You write a poem based on parameters provided as well as input text to build on."},
                     {"role": "user", "content": "Create a new poem based on the input text that is two to four lines long with the following parameters. The chosen abstract concept is: " + abstract_concept + ". Revise the input text to subtly weave in the chosen concept."},
@@ -72,7 +73,7 @@ def poem_step_2(persona, randomness_factor, step_1_poem, abstract_concept):
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def poem_step_3(persona, randomness_factor, step_2_poem):
             completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4-1106-preview",
                 messages=[
                     {"role": "system", "content": persona + "You generate poetry that is up to four lines long."},
                     {"role": "user", "content": "Create a new poem based on the input text that is up to four lines long with the following parameters. Introduce variation to reduce overall consistency in tone, language use, and sentence structure."},
@@ -106,9 +107,9 @@ def api_poem_pipeline(creative_prompt, persona, randomness_factor, abstract_conc
 def parse_response(entropy):
     # set a randomness factor between 0 and 1. Placeholder, will be logic for the buttons
     randomness_factor = entropy
-    # this part of the code goes WAY too slow. Need to do something to reduce time. 
-    # maybe add logging and look at the perf before blasting it away? 
-    creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
+    # this part of the code goes WAY too slow. Removing the use of nltk for initial generation of the creative_prompt words
+    #creative_prompt = create_vars.gen_creative_prompt(create_vars.gen_random_words(randomness_factor), randomness_factor)
+    creative_prompt = create_vars.gen_creative_prompt_api(entropy)
     abstract_concept = create_vars.get_abstract_concept()
     persona = create_vars.build_persona()
     lang_device = create_vars.get_lang_device()

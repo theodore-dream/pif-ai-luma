@@ -50,8 +50,8 @@ def handle_option_l(entropy):
     # Decrease entropy by .05, not going below 0
     entropy = max(Decimal('0.0'), entropy - Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
+    logger.debug(f"left button pressed")
     return entropy
-    
 
 def handle_option_r(entropy):
     # Implement game logic for Option B
@@ -59,6 +59,7 @@ def handle_option_r(entropy):
     #entropy = min(1.0, float(entropy) + 0.1)
     entropy = min(Decimal('1.0'), entropy + Decimal('0.05'))
     # Return a result (e.g., a string containing game text)
+    logger.debug(f"right button pressed")
     return entropy
     
 
@@ -99,7 +100,7 @@ def run_game(persona, session_state, gametext, entropy, session_id):
     #logger.debug(f"saving updated game state, state is currently session, level, entropy: {session_id, level, entropy}")
 
     # Return the updated game text data to luma to display on the screen
-    display_write.display_write(gametext, 30)
+    display_write.display_write(gametext, 3)
     logger.debug("gametext is: " + gametext)
 
 def maintain_game_state():
@@ -156,3 +157,9 @@ if __name__ == "__main__":
         GPIO.cleanup()  # cleanup GPIO pins once on exit
 # main interaction is just left and right button increasing and decreasing entropy 
 
+## running notes
+## make the display stay on until the next button interaction
+## need to remove the nltk part, or make it optional, due to all the increased latency, use api for the initial seeding
+## would like to work towards entropy warrior type of setup
+## character, has traits, and you gain and lose them, each has a base, and you increasingly get better and better or worse and worse until win or lose 
+## need to add code for display cleanup / clean shutdown 
